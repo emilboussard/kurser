@@ -24,8 +24,22 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Testa källor
+        continue-on-error: true
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+          for u in \
+            "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d" \
+            "https://query2.finance.yahoo.com/v8/finance/chart/INVE-B.ST?range=5d&interval=1d" \
+            "https://stooq.com/q/d/l/?s=nvda.us&i=d" \
+            "https://www.google.com/finance/quote/INVE-B:STO" \
+            "https://www.avanza.se/_api/price-chart/stock/5247?timePeriod=one_week"; do
+            echo "== $u"
+            curl -sS -m 10 -A "$UA" -o /tmp/svar -w "status %{http_code} tid %{time_total}s\n" "$u" || echo "curl-fel"
+            head -c 300 /tmp/svar | tr -d '\n'; echo
+          done
       - name: Hämta kurser
-        run: python3 hamta.py
+        run: python3 -u hamta.py
       - name: Spara kurser.json
         run: |
           git config user.name "kurser-bot"
