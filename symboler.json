@@ -1,0 +1,22 @@
+{
+  "abbvie": "ABBV",
+  "applovin": "APP",
+  "broadcom": "AVGO",
+  "celestica": "CLS",
+  "coca-cola": "KO",
+  "crowdstrike": "CRWD",
+  "industrivarden-c": "INDU-C.ST",
+  "investor-b": "INVE-B.ST",
+  "lundberg-b": "LUND-B.ST",
+  "micron": "MU",
+  "nibe-b": "NIBE-B.ST",
+  "nvidia": "NVDA",
+  "palantir": "PLTR",
+  "smart-eye": "SEYE.ST",
+  "sofi": "SOFI",
+  "sysco": "SYY",
+  "assa-b": "ASSA-B.ST",
+  "omxs30": "^OMX",
+  "msci-world-urth": "URTH",
+  "usdsek": "USDSEK=X"
+}
