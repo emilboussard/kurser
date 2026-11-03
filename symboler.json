@@ -17,6 +17,7 @@
   "sysco": "SYY",
   "assa-b": "ASSA-B.ST",
   "volvo-cars": "VOLCAR-B.ST",
+  "hexagon-b": "HEXA-B.ST",
   "omxs30": "^OMX",
   "msci-world-urth": "URTH",
   "usdsek": "USDSEK=X"
