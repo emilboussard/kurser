@@ -73,18 +73,14 @@ def hamta_json(url, data=None, forsok=4):
     return None, fel
 
 
-def hamta_univers():
-    """Alla aktier i regionen Sverige med börsvärde över gränsen, största först."""
+def screener(villkor):
     crumb = skaffa_crumb()
     alla, offset, total = [], 0, None
     while total is None or offset < total:
         kropp = {
             "size": 250, "offset": offset, "sortField": "intradaymarketcap", "sortType": "DESC",
             "quoteType": "EQUITY", "userId": "", "userIdType": "guid",
-            "query": {"operator": "AND", "operands": [
-                {"operator": "eq", "operands": ["region", "se"]},
-                {"operator": "gt", "operands": ["intradaymarketcap", GRANS_SEK]},
-            ]},
+            "query": {"operator": "AND", "operands": [villkor, {"operator": "gt", "operands": ["intradaymarketcap", GRANS_SEK]}]},
         }
         url = "https://query2.finance.yahoo.com/v1/finance/screener?formatted=false&lang=en-US&region=SE&crumb=" + urllib.parse.quote(crumb)
         data, fel = hamta_json(url, json.dumps(kropp).encode())
@@ -99,6 +95,40 @@ def hamta_univers():
         offset += len(citat)
         time.sleep(1)
     return alla
+
+
+def hamta_citat(symboler):
+    """Kursdata för enstaka symboler (bevakade bolag som screenern missar)."""
+    if not symboler:
+        return []
+    url = ("https://query2.finance.yahoo.com/v7/finance/quote?symbols=%s&crumb=%s"
+           % (urllib.parse.quote(",".join(symboler)), urllib.parse.quote(skaffa_crumb())))
+    data, _ = hamta_json(url, forsok=2)
+    return ((data or {}).get("quoteResponse") or {}).get("result") or []
+
+
+def hamta_univers(extra):
+    """Alla svenska aktier med börsvärde över gränsen. Två frågor (region Sverige och Stockholmsbörsen),
+    eftersom Yahoo saknar region eller börs för vissa bolag, plus bevakade bolag som ändå saknas."""
+    per_sym, fel = {}, []
+    for villkor in ({"operator": "eq", "operands": ["region", "se"]}, {"operator": "eq", "operands": ["exchange", "STO"]}):
+        try:
+            for q in screener(villkor):
+                per_sym.setdefault(q.get("symbol"), q)
+        except Exception as e:  # noqa: BLE001
+            fel.append(str(e))
+    if not per_sym:
+        raise RuntimeError("; ".join(fel) or "screenern gav inga bolag")
+    saknas = [s for s in extra if s not in per_sym]
+    for q in hamta_citat(saknas):
+        if (q.get("marketCap") or 0) >= GRANS_SEK:
+            per_sym[q["symbol"]] = q
+    return list(per_sym.values())
+
+
+def rot(sym):
+    """Symbol utan aktieserie: INVE-A.ST och INVE-B.ST blir INVE."""
+    return re.sub(r"-[A-D]$", "", sym.upper().replace(".ST", ""))
 
 
 def rensa_univers(citat):
@@ -228,6 +258,7 @@ def rakna(b):
         if kap > 0:
             roic.append(e * SKATT / kap)
     n["roic"] = sum(roic) / len(roic) if roic else None
+    n["roicUppblast"] = bool(EK[-1]) and (SKULD[-1] or 0) - (KASSA[-1] or 0) < -0.5 * EK[-1]
     n["roicAr"] = len(roic)
 
     # Nettoskuld/EBITDA: senaste kvartalets balansräkning och rullande EBITDA (annars senaste året)
@@ -366,7 +397,7 @@ def main():
     redan = {}
     try:
         for bid, sym in json.load(open("symboler.json")).items():
-            redan[sym.upper()] = bid
+            redan[rot(sym)] = bid
     except Exception:  # noqa: BLE001
         pass
 
@@ -374,10 +405,10 @@ def main():
         "hamtad": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "system": "Masterguide v4.8", "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
         "regler": {"borsvardeMinSEK": GRANS_SEK, "minSnabbpoang": MIN_POANG, "maxSnabbpoang": 12},
-        "status": "ok", "fel": [], "antal": {}, "kandidater": [], "ovriga": [], "uteslutna": [], "dataSaknas": [],
+        "status": "ok", "fel": [], "antal": {}, "forslag": [], "kandidater": [], "ovriga": [], "uteslutna": [], "dataSaknas": [],
     }
     try:
-        univers = rensa_univers(hamta_univers())
+        univers = rensa_univers(hamta_univers([sym for sym in json.load(open("symboler.json")).values() if sym.endswith(".ST")]))
     except Exception as e:  # noqa: BLE001
         # Behåll förra listan och skriv bara in felet, så att en misslyckad körning inte tömmer filen.
         try:
@@ -397,7 +428,7 @@ def main():
             "symbol": sym, "namn": q.get("longName") or q.get("shortName"),
             "borsvardeMdr": round((q.get("marketCap") or 0) / 1e9, 1), "kurs": q.get("regularMarketPrice"),
             "valuta": q.get("currency"), "pe": round(q["trailingPE"], 1) if q.get("trailingPE") else None,
-            "finnsRedan": redan.get(sym.upper()),
+            "finnsRedan": redan.get(rot(sym)),
         }
         profil, pfel = hamta_profil(sym)
         bas["sektor"], bas["bransch"] = profil.get("sektor"), profil.get("bransch")
@@ -423,7 +454,10 @@ def main():
         v = veton(n)
         flaggor = []
         if n["ebitFall"] > 0.30:
-            flaggor.append("möjligen cykliskt: EBIT föll %d %% under åren %s–%s (cykeltestet kräver 15 år)" % (100 * n["ebitFall"], n["ar"][0], n["ar"][-1]))
+            hur = "gick från vinst till förlust" if n["ebitFall"] >= 1 else "föll %d %%" % (100 * n["ebitFall"])
+            flaggor.append("möjligen cykliskt: EBIT %s under åren %s–%s (cykeltestet kräver 15 år)" % (hur, n["ar"][0], n["ar"][-1]))
+        if n["roicUppblast"]:
+            flaggor.append("ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)")
         if pfel:
             flaggor.append("bransch och estimat saknas (%s)" % pfel)
         bas.update({
@@ -444,6 +478,7 @@ def main():
     nyckel = lambda x: (-x["snabbpoang"], -(x["roic"] or -999))  # noqa: E731
     ut["kandidater"].sort(key=nyckel)
     ut["ovriga"].sort(key=nyckel)
+    ut["forslag"] = [x["symbol"] for x in ut["kandidater"] if not x["finnsRedan"] and not x["veto"]][:5]
     ut["antal"] = {
         "univers": len(univers), "kandidater": len(ut["kandidater"]),
         "nyaKandidater": sum(1 for x in ut["kandidater"] if not x["finnsRedan"]),
