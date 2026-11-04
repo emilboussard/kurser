@@ -1,0 +1,50 @@
+name: Sallning
+
+on:
+  schedule:
+    # En gång i månaden, den 1:a. GitHub startar ibland sent eller hoppar över, därför ett andra försök den 2:a.
+    - cron: "17 5 1 * *"   # 06.17 svensk vintertid
+    - cron: "17 5 2 * *"   # reserv: körs bara om den 1:a misslyckades (se steget Behövs körningen)
+  workflow_dispatch:
+  push:
+    paths:
+      - "sallning.py"
+      - ".github/workflows/sallning.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sallning
+  cancel-in-progress: false
+
+jobs:
+  sall:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Behövs körningen
+        id: koll
+        run: |
+          # Reservkörningen den 2:a hoppas över om månadens sållning redan finns och gick bra.
+          if [ "${{ github.event.schedule }}" = "17 5 2 * *" ] && [ -f "arkiv/sallning-$(date -u +%Y-%m).json" ] \
+             && grep -q '"status": "ok"' sallning.json; then
+            echo "kor=nej" >> "$GITHUB_OUTPUT"
+          else
+            echo "kor=ja" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Sålla bolagen
+        if: steps.koll.outputs.kor == 'ja'
+        run: python3 -u sallning.py
+      - name: Spara sallning.json
+        if: steps.koll.outputs.kor == 'ja'
+        run: |
+          git config user.name "kurser-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sallning.json
+          if [ -d arkiv ]; then git add arkiv; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "Sållning $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
