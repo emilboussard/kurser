@@ -19,6 +19,11 @@
   "volvo-cars": "VOLCAR-B.ST",
   "hexagon-b": "HEXA-B.ST",
   "noba": "NOBA.ST",
+  "arista-networks": "ANET",
+  "harmony-biosciences": "HRMY",
+  "sandisk": "SNDK",
+  "bonesupport": "BONEX.ST",
+  "caris-life-sciences": "CAI",
   "omxs30": "^OMX",
   "msci-world-urth": "URTH",
   "usdsek": "USDSEK=X"

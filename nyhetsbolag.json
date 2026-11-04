@@ -24,5 +24,10 @@
  "noba": {"namn": "NOBA Bank Group", "sok": [["sv", "\"Noba Bank\" OR \"NOBA Bank Group\""], ["en", "\"Noba Bank\""]], "yahoo": "NOBA.ST", "mfn": "noba", "ord": ["Noba"]},
  "rocket-lab": {"namn": "Rocket Lab", "sok": [["en", "\"Rocket Lab\""]], "yahoo": "RKLB", "mfn": null, "ord": ["Rocket Lab", "RKLB"]},
  "sezzle": {"namn": "Sezzle", "sok": [["en", "Sezzle"]], "yahoo": "SEZL", "mfn": null, "ord": ["Sezzle"]},
- "volvo-cars": {"namn": "Volvo Cars", "sok": [["sv", "\"Volvo Cars\""], ["en", "\"Volvo Cars\""]], "yahoo": "VOLCAR-B.ST", "mfn": null, "ord": ["Volvo Car"]}
+ "volvo-cars": {"namn": "Volvo Cars", "sok": [["sv", "\"Volvo Cars\""], ["en", "\"Volvo Cars\""]], "yahoo": "VOLCAR-B.ST", "mfn": null, "ord": ["Volvo Car"]},
+ "arista-networks": {"namn": "Arista Networks", "sok": [["en", "\"Arista Networks\""]], "yahoo": "ANET", "mfn": null, "ord": ["Arista"]},
+ "harmony-biosciences": {"namn": "Harmony Biosciences", "sok": [["en", "\"Harmony Biosciences\""]], "yahoo": "HRMY", "mfn": null, "ord": ["Harmony Biosciences"]},
+ "sandisk": {"namn": "Sandisk", "sok": [["en", "Sandisk"]], "yahoo": "SNDK", "mfn": null, "ord": ["Sandisk"]},
+ "bonesupport": {"namn": "Bonesupport", "sok": [["sv", "Bonesupport"], ["en", "Bonesupport"]], "yahoo": "BONEX.ST", "mfn": "bonesupport", "ord": ["Bonesupport"]},
+ "caris-life-sciences": {"namn": "Caris Life Sciences", "sok": [["en", "\"Caris Life Sciences\""]], "yahoo": "CAI", "mfn": null, "ord": ["Caris"]}
 }
