@@ -65,26 +65,45 @@ def las_rss(data, fran):
     return ut
 
 
-def las_mfn(data, slug):
-    """Plockar pressmeddelanden (datum, titel, länk) ur MFN:s bolagssida."""
-    text = data.decode("utf-8", "replace")
-    ut = []
-    # Varje pressmeddelande har en länk /a/<slug>/<meddelande> och ett datum ÅÅÅÅ-MM-DD HH:MM i närheten.
-    for m in re.finditer(r'href="((?:https://(?:www\.)?mfn\.se)?/(?:all/)?a/%s/[^"#?]+)"[^>]*>(.*?)</a>' % re.escape(slug), text, re.S):
-        lank, titel = m.group(1), re.sub(r"<[^>]+>", " ", m.group(2))
-        titel = html.unescape(re.sub(r"\s+", " ", titel)).strip()
-        if len(titel) < 8:
+def tolka_tid(s):
+    if not s:
+        return None
+    s = str(s).strip().replace("Z", "+00:00")
+    try:
+        t = datetime.datetime.fromisoformat(s)
+    except ValueError:
+        try:
+            t = email.utils.parsedate_to_datetime(s)
+        except (TypeError, ValueError):
+            return None
+    return t if t.tzinfo else t.replace(tzinfo=datetime.timezone.utc)
+
+
+def hamta_mfn(slug):
+    """Pressmeddelanden från MFN:s JSON-flöde. Bolagets id (entity_id) står på bolagssidan mfn.se/all/a/<slug>."""
+    sida = hamta(MFN.format(slug=slug)).decode("utf-8", "replace")
+    m = re.search(r"subscribe-tray-v2-([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", sida) or \
+        re.search(r'"entity_id"\s*:\s*"([0-9a-f-]{36})"', sida)
+    if not m:
+        raise ValueError("hittade inget entity_id på mfn.se/all/a/%s" % slug)
+    flode = json.loads(hamta("https://feed.mfn.se/v1/feed/%s.json?limit=30" % m.group(1)))
+    per_grupp = {}
+    for it in flode.get("items", []):
+        c = it.get("content") or {}
+        p = it.get("properties") or {}
+        titel = (c.get("title") or it.get("title") or "").strip()
+        tid = tolka_tid(c.get("publish_date") or it.get("date_published") or it.get("publish_date"))
+        if not titel or not tid:
             continue
-        omrade = text[max(0, m.start() - 600): m.end() + 600]
-        d = re.search(r"(\d{4}-\d{2}-\d{2})[ T](\d{2}:\d{2})", omrade)
-        if not d:
-            continue
-        tid = datetime.datetime.strptime(d.group(1) + " " + d.group(2), "%Y-%m-%d %H:%M")
-        tid = tid.replace(tzinfo=datetime.timezone(datetime.timedelta(hours=1)))  # svensk tid, ungefär
-        if not lank.startswith("http"):
-            lank = "https://mfn.se" + lank
-        ut.append({"tid": tid, "titel": titel, "kalla": "MFN (pressmeddelande)", "lank": lank, "fran": "mfn"})
-    return ut
+        cslug = c.get("slug")
+        lank = "https://mfn.se/a/%s/%s" % (slug, cslug) if cslug else (it.get("url") or "")
+        sprak = p.get("lang") or c.get("lang") or ""
+        post = {"tid": tid, "titel": html.unescape(titel), "kalla": "MFN (pressmeddelande)", "lank": lank, "fran": "mfn", "sprak": sprak}
+        # Samma pressmeddelande på svenska och engelska har samma group_id: behåll den svenska.
+        g = it.get("group_id") or it.get("news_id") or lank
+        if g not in per_grupp or (sprak == "sv" and per_grupp[g].get("sprak") != "sv"):
+            per_grupp[g] = post
+    return list(per_grupp.values()), flode.get("items", [])[:1]
 
 
 def nyckel(titel):
@@ -97,25 +116,9 @@ def handlar_om(titel, ord_):
     return any(o.lower() in t for o in ord_)
 
 
-def mfn_felsok():
-    """Tillfällig felsökning: hur ser MFN:s sidor ut från GitHub? Skriver mfn_debug.json."""
-    ut = {}
-    try:
-        data = hamta("https://mfn.se/all/a/smart-eye").decode("utf-8", "replace")
-        d = re.search(r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}", data)
-        ut["datum_kring"] = data[max(0, d.start() - 1500): d.end() + 1500] if d else "inget datum"
-        ut["hrefs"] = re.findall(r'href="([^"]*smart-eye/[^"]*)"', data)[:25]
-        ut["uuid"] = re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", data)[:10]
-        ut["feed"] = re.findall(r'(https?://feed\.mfn\.se[^"\' <]*)', data)[:10]
-    except Exception as e:  # noqa: BLE001
-        ut["fel"] = str(e)[:200]
-    for uuid in dict.fromkeys(ut.get("uuid", [])):
-        for url in ("https://feed.mfn.se/v1/feed/%s.rss" % uuid, "https://feed.mfn.se/v1/feed/%s.json" % uuid):
-            try:
-                ut[url] = hamta(url).decode("utf-8", "replace")[:1500]
-            except Exception as e:  # noqa: BLE001
-                ut[url] = "fel: " + str(e)[:150]
-    json.dump(ut, open("mfn_debug.json", "w"), ensure_ascii=False, indent=1)
+def mfn_felsok(exempel):
+    """Tillfällig felsökning: sparar ett rått MFN-objekt i mfn_debug.json så att fälten kan kontrolleras."""
+    json.dump(exempel, open("mfn_debug.json", "w"), ensure_ascii=False, indent=1)
 
 
 def main():
@@ -124,20 +127,28 @@ def main():
     nu = datetime.datetime.now(datetime.timezone.utc)
     grans = nu - datetime.timedelta(days=DAGAR)
     ut = {"hamtad": iso(nu), "dagar": DAGAR, "kallor": "MFN, Yahoo Finance RSS, Google News RSS", "bolag": {}}
+    felsok = []
     for bid, cfg in bolag.items():
         poster, fel, antal = [], {}, {}
         kallor = []
         if cfg.get("mfn"):
-            kallor.append(("mfn", MFN.format(slug=cfg["mfn"]), lambda d, s=cfg["mfn"]: las_mfn(d, s)))
+            def fran_mfn(s=cfg["mfn"], bid=bid):
+                poster_mfn, exempel = hamta_mfn(s)
+                if bid == "smart-eye":
+                    felsok.extend(exempel)
+                return poster_mfn
+            kallor.append(("mfn", fran_mfn))
         if cfg.get("yahoo"):
-            kallor.append(("yahoo", YAHOO.format(s=urllib.parse.quote(cfg["yahoo"])), lambda d: las_rss(d, "yahoo")))
+            url = YAHOO.format(s=urllib.parse.quote(cfg["yahoo"]))
+            kallor.append(("yahoo", lambda u=url: las_rss(hamta(u), "yahoo")))
         for sprak, fras in cfg.get("sok", []):
             q = urllib.parse.quote("%s when:%dd" % (fras, DAGAR))
-            kallor.append(("google-" + sprak, GOOGLE[sprak].format(q=q), lambda d, f="google-" + sprak: las_rss(d, f)))
+            url = GOOGLE[sprak].format(q=q)
+            kallor.append(("google-" + sprak, lambda u=url, f="google-" + sprak: las_rss(hamta(u), f)))
         ord_ = cfg.get("ord") or [cfg.get("namn", bid)]
-        for namn, url, tolka in kallor:
+        for namn, hamtare in kallor:
             try:
-                p = [x for x in tolka(hamta(url)) if x["tid"] >= grans and (namn == "mfn" or handlar_om(x["titel"], ord_))]
+                p = [x for x in hamtare() if x["tid"] >= grans and (namn == "mfn" or handlar_om(x["titel"], ord_))]
                 antal[namn] = antal.get(namn, 0) + len(p)
                 poster += p
             except Exception as e:  # noqa: BLE001
@@ -155,10 +166,11 @@ def main():
         unika = unika[:MAX_PER_BOLAG]
         for x in unika:
             x["tid"] = iso(x["tid"])
+            x.pop("sprak", None)
         ut["bolag"][bid] = {"namn": cfg.get("namn", bid), "antal": antal, "fel": fel, "nyheter": unika}
         print(bid, len(unika), antal, fel or "")
     json.dump(ut, open("nyheter.json", "w"), ensure_ascii=False, indent=1)
-    mfn_felsok()
+    mfn_felsok(felsok)
 
 
 if __name__ == "__main__":
