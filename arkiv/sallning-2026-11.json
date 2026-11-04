@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-04T17:29:29Z",
+ "hamtad": "2026-11-04T17:46:02Z",
  "system": "Masterguide v4.8",
  "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
  "regler": {
@@ -17,6 +17,13 @@
   "uteslutna": 65,
   "dataSaknas": 4
  },
+ "forslag": [
+  "BONEX.ST",
+  "HACK.ST",
+  "SECT-B.ST",
+  "LUG.ST",
+  "RVRC.ST"
+ ],
  "kandidater": [
   {
    "symbol": "BONEX.ST",
@@ -112,7 +119,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -166,7 +175,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2023",
     "2024",
@@ -435,7 +446,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -489,7 +502,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -543,7 +558,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -982,7 +999,8 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 168 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)",
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
    ],
    "bokslutAr": [
     "2022",
@@ -1037,7 +1055,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -1856,7 +1876,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 543 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -3225,7 +3245,7 @@
     "veto 3 (villkorligt): aktierna ökar 5.7 % per år"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 833 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -3281,7 +3301,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 503 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -3614,7 +3634,9 @@
     }
    },
    "veto": [],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -3725,7 +3747,8 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 107 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)",
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
    ],
    "bokslutAr": [
     "2022",
@@ -4273,7 +4296,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 175 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -4715,7 +4738,7 @@
     "veto 1: nettoskuld/EBITDA 99.0"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 1793 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -4773,7 +4796,8 @@
     "veto 3 (villkorligt): aktierna ökar 34.8 % per år"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 63 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT föll 63 % under åren 2022–2025 (cykeltestet kräver 15 år)",
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
    ],
    "bokslutAr": [
     "2022",
@@ -5867,7 +5891,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 198 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -8355,7 +8379,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 492 % under åren 2023–2026 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2023–2026 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2023",
@@ -9201,7 +9225,7 @@
     "veto 1: nettoskuld/EBITDA 4.1"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 133 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -9650,7 +9674,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 115 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -9706,7 +9730,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 1715 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -9762,7 +9786,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 1195 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -9818,7 +9842,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 316 % under åren 2023–2026 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2023–2026 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2023",
@@ -9876,7 +9900,7 @@
     "veto 1: nettoskuld/EBITDA 99.0"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 929 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -9932,7 +9956,7 @@
    },
    "veto": [],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 1143 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -10105,7 +10129,7 @@
     "veto 2: kassan räcker 2 månader"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 112 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -10328,7 +10352,7 @@
     "veto 3 (villkorligt): aktierna ökar 13.5 % per år"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 394 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -10497,7 +10521,9 @@
    "veto": [
     "veto 3 (villkorligt): aktierna ökar 49.6 % per år"
    ],
-   "flaggor": [],
+   "flaggor": [
+    "ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)"
+   ],
    "bokslutAr": [
     "2022",
     "2023",
@@ -10613,7 +10639,7 @@
     "veto 3 (villkorligt): aktierna ökar 19.6 % per år"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 182 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -10672,7 +10698,7 @@
     "veto 3 (villkorligt): aktierna ökar 38.9 % per år"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 292 % under åren 2022–2026 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2026 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -10789,7 +10815,7 @@
     "veto 3 (villkorligt): aktierna ökar 160.7 % per år"
    ],
    "flaggor": [
-    "möjligen cykliskt: EBIT föll 2308 % under åren 2022–2025 (cykeltestet kräver 15 år)"
+    "möjligen cykliskt: EBIT gick från vinst till förlust under åren 2022–2025 (cykeltestet kräver 15 år)"
    ],
    "bokslutAr": [
     "2022",
@@ -10813,7 +10839,7 @@
    "kurs": 426.9,
    "valuta": "SEK",
    "pe": 6.1,
-   "finnsRedan": null,
+   "finnsRedan": "investor-b",
    "sektor": "Financial Services",
    "bransch": "Asset Management",
    "orsak": "bank, finans eller investmentbolag (egen modul i guiden)"
@@ -11637,5 +11663,5 @@
    "orsak": "för få års bokslut hos Yahoo (0)"
   }
  ],
- "sekunder": 154
+ "sekunder": 183
 }
