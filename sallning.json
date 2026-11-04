@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-04T17:46:02Z",
+ "hamtad": "2026-11-04T17:52:36Z",
  "system": "Masterguide v4.8",
  "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
  "regler": {
@@ -9,10 +9,20 @@
  },
  "status": "ok",
  "fel": [],
+ "diagnos": {
+  "region": 302,
+  "borsSTO": 302,
+  "bevakadeSomSaknades": [
+   "SEYE.ST"
+  ],
+  "bevakadeHittade": {
+   "SEYE.ST": 1911331456
+  }
+ },
  "antal": {
-  "univers": 264,
-  "kandidater": 65,
-  "nyaKandidater": 65,
+  "univers": 266,
+  "kandidater": 67,
+  "nyaKandidater": 66,
   "ovriga": 130,
   "uteslutna": 65,
   "dataSaknas": 4
@@ -141,7 +151,7 @@
    "borsvardeMdr": 63.0,
    "kurs": 326.8,
    "valuta": "SEK",
-   "pe": 99.6,
+   "pe": 101.5,
    "finnsRedan": null,
    "sektor": "Healthcare",
    "bransch": "Medical Devices",
@@ -248,7 +258,7 @@
   {
    "symbol": "RVRC.ST",
    "namn": "RVRC Holding AB (publ)",
-   "borsvardeMdr": 5.8,
+   "borsvardeMdr": 5.9,
    "kurs": 55.3,
    "valuta": "SEK",
    "pe": 17.9,
@@ -468,7 +478,7 @@
    "borsvardeMdr": 39.6,
    "kurs": 665.0,
    "valuta": "SEK",
-   "pe": 59.1,
+   "pe": 58.7,
    "finnsRedan": null,
    "sektor": "Healthcare",
    "bransch": "Biotechnology",
@@ -580,7 +590,7 @@
    "borsvardeMdr": 11.5,
    "kurs": 434.8,
    "valuta": "SEK",
-   "pe": 65.4,
+   "pe": 67.4,
    "finnsRedan": null,
    "sektor": "Consumer Cyclical",
    "bransch": "Leisure",
@@ -908,7 +918,7 @@
    "borsvardeMdr": 6.3,
    "kurs": 201.0,
    "valuta": "SEK",
-   "pe": 48.0,
+   "pe": 49.1,
    "finnsRedan": null,
    "sektor": "Healthcare",
    "bransch": "Medical Devices",
@@ -1293,7 +1303,7 @@
    "borsvardeMdr": 4.8,
    "kurs": 199.8,
    "valuta": "SEK",
-   "pe": 34.4,
+   "pe": 34.5,
    "finnsRedan": null,
    "sektor": "Healthcare",
    "bransch": "Medical Devices",
@@ -1513,7 +1523,7 @@
    "borsvardeMdr": 5.3,
    "kurs": 125.5,
    "valuta": "SEK",
-   "pe": 31.1,
+   "pe": 32.2,
    "finnsRedan": null,
    "sektor": "Industrials",
    "bransch": "Building Products & Equipment",
@@ -1616,6 +1626,60 @@
    "tillvaxt": 13.6,
    "nettoskuldEbitda": 2.82,
    "fcfKonvertering": 117.7
+  },
+  {
+   "symbol": "HPOL-B.ST",
+   "namn": "HEXPOL AB (publ)",
+   "borsvardeMdr": 32.3,
+   "kurs": 93.7,
+   "valuta": "SEK",
+   "pe": 17.8,
+   "finnsRedan": null,
+   "sektor": "Basic Materials",
+   "bransch": "Specialty Chemicals",
+   "profil": "A",
+   "snabbpoang": 9,
+   "mojligPoang": 9,
+   "kriterier": {
+    "1": {
+     "poang": 0,
+     "varde": "omsättning -4.6 % per år"
+    },
+    "2": {
+     "poang": 2,
+     "varde": "ROIC 15.1 % (snitt 4 år)"
+    },
+    "5": {
+     "poang": 2,
+     "varde": "nettoskuld/EBITDA 1.23"
+    },
+    "6": {
+     "poang": 1,
+     "varde": "EBIT-marginal 13.2 %"
+    },
+    "7": {
+     "poang": 2,
+     "varde": "FCF/nettovinst 95.3 %"
+    },
+    "10": {
+     "poang": 2,
+     "varde": "aktier 0.0 % per år"
+    }
+   },
+   "veto": [],
+   "flaggor": [],
+   "bokslutAr": [
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "redovisningsvaluta": "SEK",
+   "roic": 15.1,
+   "ebitMarginal": 13.2,
+   "tillvaxt": -4.6,
+   "nettoskuldEbitda": 1.23,
+   "fcfKonvertering": 95.3
   },
   {
    "symbol": "ALFA.ST",
@@ -1951,7 +2015,7 @@
    "borsvardeMdr": 4.4,
    "kurs": 39.2,
    "valuta": "SEK",
-   "pe": 17.8,
+   "pe": 17.7,
    "finnsRedan": null,
    "sektor": "Communication Services",
    "bransch": "Telecom Services",
@@ -2337,7 +2401,7 @@
    "borsvardeMdr": 87.5,
    "kurs": 1215.0,
    "valuta": "SEK",
-   "pe": 15.2,
+   "pe": 15.5,
    "finnsRedan": null,
    "sektor": "Consumer Cyclical",
    "bransch": "Auto Parts",
@@ -2500,7 +2564,7 @@
    "borsvardeMdr": 7.3,
    "kurs": 291.5,
    "valuta": "SEK",
-   "pe": 17.6,
+   "pe": 17.4,
    "finnsRedan": null,
    "sektor": "Consumer Cyclical",
    "bransch": "Auto Parts",
@@ -2931,12 +2995,66 @@
    "fcfKonvertering": 45.7
   },
   {
+   "symbol": "ASSA-B.ST",
+   "namn": "ASSA ABLOY AB (publ)",
+   "borsvardeMdr": 442.9,
+   "kurs": 398.7,
+   "valuta": "SEK",
+   "pe": 26.1,
+   "finnsRedan": "assa-b",
+   "sektor": "Industrials",
+   "bransch": "Security & Protection Services",
+   "profil": "A",
+   "snabbpoang": 8,
+   "mojligPoang": 8,
+   "kriterier": {
+    "1": {
+     "poang": 1,
+     "varde": "omsättning 8.1 % per år"
+    },
+    "2": {
+     "poang": 1,
+     "varde": "ROIC 11.4 % (snitt 4 år)"
+    },
+    "5": {
+     "poang": 1,
+     "varde": "nettoskuld/EBITDA 1.98"
+    },
+    "6": {
+     "poang": 1,
+     "varde": "EBIT-marginal 16.8 %, stigande"
+    },
+    "7": {
+     "poang": 2,
+     "varde": "FCF/nettovinst 119.6 %"
+    },
+    "10": {
+     "poang": 2,
+     "varde": "aktier 0.0 % per år"
+    }
+   },
+   "veto": [],
+   "flaggor": [],
+   "bokslutAr": [
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "redovisningsvaluta": "SEK",
+   "roic": 11.4,
+   "ebitMarginal": 16.8,
+   "tillvaxt": 8.1,
+   "nettoskuldEbitda": 1.98,
+   "fcfKonvertering": 119.6
+  },
+  {
    "symbol": "STIL.ST",
    "namn": "Stille AB",
    "borsvardeMdr": 2.3,
    "kurs": 254.5,
    "valuta": "SEK",
-   "pe": 23.9,
+   "pe": 23.7,
    "finnsRedan": null,
    "sektor": "Healthcare",
    "bransch": "Medical Instruments & Supplies",
@@ -4146,12 +4264,12 @@
    "fcfKonvertering": 78.1
   },
   {
-   "symbol": "SSAB-A.ST",
+   "symbol": "SSAB-B.ST",
    "namn": "SSAB AB (publ)",
-   "borsvardeMdr": 94.3,
-   "kurs": 94.58,
+   "borsvardeMdr": 95.4,
+   "kurs": 95.66,
    "valuta": "SEK",
-   "pe": 16.6,
+   "pe": 16.8,
    "finnsRedan": null,
    "sektor": "Basic Materials",
    "bransch": "Steel",
@@ -4371,7 +4489,7 @@
    "borsvardeMdr": 183.0,
    "kurs": 214.9,
    "valuta": "SEK",
-   "pe": 14.3,
+   "pe": 14.7,
    "finnsRedan": null,
    "sektor": "Basic Materials",
    "bransch": "Copper",
@@ -4589,7 +4707,7 @@
    "borsvardeMdr": 22.6,
    "kurs": 208.2,
    "valuta": "SEK",
-   "pe": 9.5,
+   "pe": 9.8,
    "finnsRedan": null,
    "sektor": "Technology",
    "bransch": "Information Technology Services",
@@ -5308,7 +5426,7 @@
    "borsvardeMdr": 2.1,
    "kurs": 23.2,
    "valuta": "SEK",
-   "pe": 58.0,
+   "pe": 61.1,
    "finnsRedan": null,
    "sektor": "Industrials",
    "bransch": "Conglomerates",
@@ -5575,7 +5693,7 @@
   {
    "symbol": "HOLM-B.ST",
    "namn": "Holmen AB (publ)",
-   "borsvardeMdr": 46.5,
+   "borsvardeMdr": 47.4,
    "kurs": 309.2,
    "valuta": "SEK",
    "pe": 22.4,
@@ -5688,7 +5806,7 @@
    "borsvardeMdr": 16.0,
    "kurs": 114.6,
    "valuta": "SEK",
-   "pe": 17.4,
+   "pe": 17.3,
    "finnsRedan": null,
    "sektor": "Healthcare",
    "bransch": "Medical Care Facilities",
@@ -6076,7 +6194,7 @@
    "borsvardeMdr": 28.4,
    "kurs": 254.6,
    "valuta": "SEK",
-   "pe": 39.5,
+   "pe": 143.0,
    "finnsRedan": null,
    "sektor": "Energy",
    "bransch": "Oil & Gas E&P",
@@ -6353,7 +6471,7 @@
    "borsvardeMdr": 2.7,
    "kurs": 295.0,
    "valuta": "SEK",
-   "pe": 18.3,
+   "pe": 19.8,
    "finnsRedan": null,
    "sektor": "Consumer Cyclical",
    "bransch": "Recreational Vehicles",
@@ -6851,7 +6969,7 @@
    "borsvardeMdr": 2.9,
    "kurs": 55.2,
    "valuta": "SEK",
-   "pe": 13.9,
+   "pe": 14.3,
    "finnsRedan": null,
    "sektor": "Industrials",
    "bransch": "Building Products & Equipment",
@@ -8456,7 +8574,7 @@
    "borsvardeMdr": 3.2,
    "kurs": 140.4,
    "valuta": "SEK",
-   "pe": 17.3,
+   "pe": 18.7,
    "finnsRedan": null,
    "sektor": "Industrials",
    "bransch": "Consulting Services",
@@ -8678,7 +8796,7 @@
    "borsvardeMdr": 4.7,
    "kurs": 49.7,
    "valuta": "SEK",
-   "pe": 18.0,
+   "pe": 18.1,
    "finnsRedan": null,
    "sektor": "Industrials",
    "bransch": "Specialty Business Services",
@@ -10255,7 +10373,7 @@
   {
    "symbol": "VISC.ST",
    "namn": "Gruvaktiebolaget Viscaria",
-   "borsvardeMdr": 6.4,
+   "borsvardeMdr": 4.8,
    "kurs": 16.66,
    "valuta": "SEK",
    "pe": null,
@@ -10370,7 +10488,7 @@
   {
    "symbol": "GSKR-SDB.ST",
    "namn": "Goldsky Resources Corp.",
-   "borsvardeMdr": 5.1,
+   "borsvardeMdr": 3.5,
    "kurs": 19.0,
    "valuta": "SEK",
    "pe": null,
@@ -10833,12 +10951,12 @@
  ],
  "uteslutna": [
   {
-   "symbol": "INVE-A.ST",
+   "symbol": "INVE-B.ST",
    "namn": "Investor AB (publ)",
-   "borsvardeMdr": 1307.8,
-   "kurs": 426.9,
+   "borsvardeMdr": 1330.9,
+   "kurs": 434.4,
    "valuta": "SEK",
-   "pe": 6.1,
+   "pe": 6.2,
    "finnsRedan": "investor-b",
    "sektor": "Financial Services",
    "bransch": "Asset Management",
@@ -10862,7 +10980,7 @@
    "borsvardeMdr": 452.0,
    "kurs": 402.2,
    "valuta": "SEK",
-   "pe": 14.8,
+   "pe": 14.7,
    "finnsRedan": null,
    "sektor": "Financial Services",
    "bransch": "Banks - Regional",
@@ -10982,7 +11100,7 @@
    "borsvardeMdr": 57.8,
    "kurs": 365.7,
    "valuta": "SEK",
-   "pe": 20.2,
+   "pe": 19.8,
    "finnsRedan": null,
    "sektor": "Financial Services",
    "bransch": "Banks - Regional",
@@ -11123,7 +11241,7 @@
   {
    "symbol": "HOFI.ST",
    "namn": "Hoist Finance AB (publ)",
-   "borsvardeMdr": 17.4,
+   "borsvardeMdr": 17.3,
    "kurs": 197.9,
    "valuta": "SEK",
    "pe": 11.9,
@@ -11234,7 +11352,7 @@
    "borsvardeMdr": 9.7,
    "kurs": 34.45,
    "valuta": "SEK",
-   "pe": 10.1,
+   "pe": 10.2,
    "finnsRedan": null,
    "sektor": "Real Estate",
    "bransch": "Real Estate Services",
@@ -11390,7 +11508,7 @@
    "borsvardeMdr": 4.5,
    "kurs": 27.8,
    "valuta": "SEK",
-   "pe": 5.2,
+   "pe": 5.3,
    "finnsRedan": null,
    "sektor": "Real Estate",
    "bransch": "Real Estate - Development",
@@ -11474,7 +11592,7 @@
    "borsvardeMdr": 3.9,
    "kurs": 78.0,
    "valuta": "SEK",
-   "pe": 7.9,
+   "pe": 7.7,
    "finnsRedan": null,
    "sektor": "Financial Services",
    "bransch": "Mortgage Finance",
@@ -11663,5 +11781,5 @@
    "orsak": "för få års bokslut hos Yahoo (0)"
   }
  ],
- "sekunder": 183
+ "sekunder": 143
 }
