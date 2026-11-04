@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-04T16:43:22Z",
+ "hamtad": "2026-11-04T16:47:02Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -7,7 +7,7 @@
    "namn": "AbbVie",
    "antal": {
     "yahoo": 6,
-    "google-en": 95
+    "google-en": 94
    },
    "fel": {},
    "nyheter": [
@@ -204,13 +204,6 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T05:30:21Z",
-     "titel": "Investor Notice: Robbins LLP Informs Investors of the AppLovin Corporation Class Action Lawsuit",
-     "kalla": "The National Law Review",
-     "lank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVNLVkdod0NlTGJfcHlFUlhsU2EwZnBIR2pUZ20zenRaQUxvR1VqNjN2Njd1NVh3RFNHSG1mV2xScXc0YWdWckxuNi1YWUNtSWM4TDhURXRobUEwNkZFVkNRZTRmMlNsQUhVVzBqUFVQN2MxMzNNVDdzMGVJWWpnb0dDYXFCR1NHaVBsNHlia1NWYWFjblh0UkhtZ05hSFdjdTVHdGlSWndWWkJ5a3pPZDlB?oc=5",
-     "fran": "google-en"
-    },
-    {
      "tid": "2026-11-03T20:25:10Z",
      "titel": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
      "kalla": "Yahoo! Finance Canada",
@@ -255,8 +248,8 @@
     {
      "tid": "2026-11-03T18:00:00Z",
      "titel": "Bronstein, Gewirtz & Grossman LLC Urges AppLovin Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
-     "kalla": "WBOC TV",
-     "lank": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOdXJxR1hGZk9iSGpQdnVEMlFzdWd5TTNkcXJ3QlBNNEhwWHRCUEk4NWlPTldsS0J4M2pWc0ttdnUxV0tsa2Y5Y0FGdW4yNEMzWmNtOUhLajNEUVpsZkVRZEZfc1ZCZVhLZ0pUaHBUZFBhdmF3a2lUSHVMenI3dE9NelUzdVU3MGxMQjBfNFpRdVhPQmJVbnVpQ1R2VnNSTmJDSGRvQTVhbjlkZmotdS1JZXAxVkRLS29jTDRpQ2ZDR000cVJnYU01UmhCSVdaX3d6amZLdk1lN0hLeERVbXppSzNUZndYYTYxd0poY2xVZWxpbWxfenNNbmxPMDExQ0plbGtsSWY0WmhRb3oydkZ4N3hVY00zc1Q0UWRfeFFnYVlnTVJ3SmVfblc1ZFF2LXNHSmFJc2pCeWI?oc=5",
+     "kalla": "mykxlg.com",
+     "lank": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPNjdQMnhSeHBTNTRrMjNGT2NteVkxWkdXbm1KV0J6bmdLTFhpYlgwRjE2NDBRVEV0TUM1MWhXMC0zbFlMYXFfV0VWYmp5S3FwdDdZSENxRUVTU05HMm5mRlNnLUhtRnlnVURJS1kxRU9kRHVoc2NFVnpFdlR4NFNsNUpmSm8wcVBJMEcwZFF1dEJ6S2lydXRhNGc5dnNWcHhDdHhhenlKYVBrUnhCTGZDbXo5ODFoY0taUFFwS094LXU4V3c3bUl5LUFHS0xidXQ5QlVlakNBNXgxc29TQUs0SkRMekpvR0tkUzZ0YWw0dTcxVEMzcUk0RUt1d0ktX3VWTE1rZ3VjVTFMX1k0QWJxSFZtWnh2M3BoT1pMTng3eERBYUdNY3FxTlNXUURPR1N4cFByeFJzSW82ZUU?oc=5",
      "fran": "google-en"
     },
     {
@@ -299,6 +292,13 @@
      "titel": "AppLovin's Rebound Masks a Busier Calendar: Form 4 Filings, a Lawsuit Clock, and Q3 on Deck",
      "kalla": "ad-hoc-news.de",
      "lank": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVnJYQzY4NlpIVUNyVTZXTEtyVUF1NVFDUG5iZTBDUlRnc0JjWFdjdi1vVG5mRHREVkZlNnBMby1CRS1tdzQ2V3RIdjU0RzV2Vl9FSGVpZVdlekpqaVZDNENGd20wdzU1RkYyeTdMRmtieWx0VGljQzV1NW5FTFZDWGR1ZG1NaGVOVnp3dHZPSHRyMkVHbWhFb3ZhV0xUa3hEaE5GUXRQN0JjX0s0bWNUMGZnMDhMLWI0Qmh1UjZBNGtkLVZlZHV0YXlRQXV0UVNibWota2FUbjZCQno4clRyWlFtNjdJc1UzM1ZvZW1KN2RmUQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-03T14:00:00Z",
+     "titel": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
+     "kalla": "GlobeNewswire",
+     "lank": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQZjl1MHFqSFczTGtWXzIzTEZmd1dSVV9WMmtxZkdseTFGaWNqUHpqZTZHTHVwMEZIeUM5d0RJbUoyc0pCd2FmUXdoWGJDS0l0QmMzTVJyX0F6NkZOblNUMnJVdXFWdEhKV1BLdW9BTFY5bXc1VjFhSm1HRW5xQ2tWRUpyUENkdHhtSWhBVzdzLUw1alpYZi1zY3I3M3NOOUhRUDFIcmNkeVNKcExTT2l3TkpvX0FINDMxNF9XcXd4VEpkVjVVRkd5cmoxMVp6TkhtaFR4OHBONkU3TjY2U0hXNWYtM2s2QldkQm5ZLUt3LTcxNDYtWXpOeDBvTjhTMjBiMXdiTU9IaUltOWM1ZGRvb2FpUGFlZGRXTTVDZlZwVWc1Y2tZMVpUWEtIUDZCMHczT2FjYVRHcjJrMjAweExqMVlmYjJUaU9wcXZIdmdMZ2dWZTZVR1hGMFA1anJtXzBWRm1R?oc=5",
      "fran": "google-en"
     }
    ]
@@ -445,10 +445,10 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-03T22:56:16Z",
+     "tid": "2026-11-03T22:46:00Z",
      "titel": "Form 4 Broadcom Inc For: 3 November By Investing.com",
-     "kalla": "Investing.com India",
-     "lank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVhITHJVUVJaN3drYnJqdHZPUl9HMmh2NmZJb3F3VVhpRFlyWmpUem5zREJ4WUZ1ZzBTNlVBc1Q3MkJrYjFuTXpUTGFHRXBWUi1HcTRUSGxnMEN2NGFHS2tPSU9LeWtsN1hOTVpNRVRuZ3hwbXlZVW9kaWVVM1EyQ2h4TnVQOFRONTI4Ry1NZXFhTzdSRUFrY1VXdw?oc=5",
+     "kalla": "Investing.com UK",
+     "lank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1VMVmxveHYtXzRaM1pVYWJ0SkhzZ3B1UFBtNWNJOFRPUjdhTVY3T0MwQXhNTzFXWFpQVmxYYTVmY0d1UGdqVmpOeEs2XzNTSnJwSmdPVnl6czA1c0RLUFBJbU9oM0FrcjZRcV94b00yWm8tMmpsZWFybnFYR2VoOXZsVkFhd2JKVG5NdFdVcjVwMWdsTGVQTVJMVQ?oc=5",
      "fran": "google-en"
     }
    ]
@@ -607,7 +607,7 @@
    "namn": "Coca-Cola",
    "antal": {
     "yahoo": 4,
-    "google-en": 72
+    "google-en": 71
    },
    "fel": {},
    "nyheter": [
@@ -996,6 +996,13 @@
    "fel": {},
    "nyheter": [
     {
+     "tid": "2026-11-04T16:37:09Z",
+     "titel": "Investor AB stock heads into strategy update",
+     "kalla": "ad-hoc-news.de",
+     "lank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRkdGb20wVG5sbkNWRUFQcFhFeDF2dElsUnhoUlk5THZpU1VHNGVkaUh1NkV0ZnlieDVBWFFKME96MmwyWHF5OXAyT0I2RGpLMXdBNVBSQktRVk5feXZFZEF5TmZuSEdfNi1xdF9sSzA5Z1BZQ2VMbGxRSVBLNmQyTXhwSjRVbHJXR1Z1cWFKQ09sUzBNVXhwdG9YMF9KZFhEX3VqbklCTnRDRG8?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T14:52:36Z",
      "titel": "Investor CEO points to five priority areas",
      "kalla": "www.marketscreener.com",
@@ -1021,13 +1028,6 @@
      "titel": "Investor AB (A) (SE0015811955.SG) Seasonal returns chart - Yahoo Finance",
      "kalla": "Yahoo Finance Singapore",
      "lank": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QQ2thRm41NDkwYVBfVzlNakQweU1BMEc0dlc4cTFOSmNDcUlUS2VIbVF4NG1tZkNwS3UxTUFORzFLOGJFOFp0Sk5EVm5xU0p6RkY5bW1IdTFIb1lPUmR0SUpBLTQtTVdpV3NiLXdMZUI?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T15:19:27Z",
-     "titel": "Investor AB (publ) (IVSBF) Seasonal returns chart - Yahoo Finance",
-     "kalla": "Yahoo Finance Singapore",
-     "lank": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qc3I2NUc0UGhaQi1HR3FFS1VLN2VNZm1SbnFOSGZYanhMVmo1X1FXN3BvYWFHSWotNjd2TkxJcG1CQTZ2WmdZMXNqSFZfS3BoMTlJekxXMnZidlJVR3F1ajhGTQ?oc=5",
      "fran": "google-en"
     },
     {
@@ -1125,15 +1125,15 @@
    "namn": "Micron Technology",
    "antal": {
     "yahoo": 8,
-    "google-en": 75
+    "google-en": 74
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-04T16:34:11Z",
+     "tid": "2026-11-04T16:44:12Z",
      "titel": "Micron, SK Hynix, SanDisk stocks fall: why Dems' Texas win is spooking investors",
      "kalla": "Invezz",
-     "lank": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjJZY3dnVVh1MTFTTmxXZGxHNjZRczRwRDNuQURvaEZCWEpsbUtYaGhLWU43MDg5V2JHSTZ4NnI5VVN5WFFFNjVKSVlqWnc1cWRCMndLTXh4aG9RLWlZXzZFVHhySFhpdkN4LWJuWXRqN0E2N0ZVMGZjQ3duUkVoRWZPbnJXTjVMZ3VDaGpzQndRejhLMk5KS3RuUDU4cGlHOU5YWFRQbXZ2QzhUR0N1MWMwVXBBdw?oc=5",
+     "lank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdzR0WmdTSGtnZUc0ZXVubjJaNHJIMG9BNjhNYzFsblNCU1ZxMzNEdzJ3amltbjRQc0RjMUF4NGk4ZzJhMFRhTWRwYzB5dGFxTWN4Z2lCczY4T056bzE5WkJkOFk3NDFXTWVyVHRUNkpjUjhOSjlwWXN4YW5aYkhTd0lnbVhid0ZfRXdoMU5ib2RIZzhXWW02b21nMWY4aTZ0dTlLVV9LS0tNS19Nck03T0RfTHhGMGVpR1E?oc=5",
      "fran": "google-en"
     },
     {
@@ -1355,6 +1355,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-04T13:30:20Z",
+     "titel": "Nvidia Stock News: NVDA Rises As $70 Billion China Chip Order Stuck In Queue",
+     "kalla": "Coinpedia",
+     "lank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTUFZbG0wU3hZMXZQMVhtaXZZTU1zZE5sMFB6TFVvUU9MNE9sRDhiUDdIdEpOOFkySE51cjdXYXF4VWg2b1M4R3ZSbmxPTVRGcHRWeTJPeHFBc0V1N1VGSW1UcnUwRnVCUjdsN2hQbmdaSDJxc05Sc2JLYzQyMzlDOFBoaFJVWWNBMEdHRVZJNVAydVJHSjRyMkNjWUdoSVlUU0JuSmdoa01XdXQ5ZldXUzNqeDHSAboBQVVfeXFMTVpuS1hhXzEzLXYwVGh2WE1oLWZRSmNnbVV0T1Q5Q0NjSVBqN3J4cEZqYms2RUVVSHF1SnFQZTRYbUpxVXl0dXg5ZGluSGtKVjM1UXRZekJjdENVRnAwX1hSa3F1a1VMQ3lvVnY1Vkd1cTBSNEtQejJuMjh4UlJoTHc0TXB4Z1Jwb3dna0hhUHBuNlozZm1mak1tMy12bGNZc1JpblZqMXRzQVhEc2ZTSXcwekcxTDA2Q1Z3?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T12:52:00Z",
      "titel": "Breakfast News: Did Nvidia Just Favor Marvell?",
      "kalla": "The Motley Fool",
@@ -1451,13 +1458,6 @@
      "kalla": "MarketBeat",
      "lank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVXhtWFozRTU0eUpuRUpsVVlKc2s5ZU1UQ1lJR1BhdUs5dzRYdk84c0R5dWRSNnZHV1N4RlJPWDNweHlJSnl2SUdoTkRMVVlBYjRWc0RacS0yc1RhUGFuOXd6TGpsUHZJTXRFRmJ3S3FnaWhvS0tEZUxrakpPcDdRa1RkVU1pMkN4a2FTeVlHUTJwT1lVM3BTb2otZUlWbWVXeDZXLUZyVU44SGd0OERJd2RtX1pSR3dVY18weFFrTjk?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T08:47:20Z",
-     "titel": "NVIDIA Corporation $NVDA Shares Sold by Baldwin Wealth Partners LLC MA",
-     "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUlc1UzVoTHVlN2cyMlVvU2pWU0tJdkd0N2I5RXBjWXExRlphY0g3NU5xV1R4bnU5MFhYb0ZfUHgyYjFRc1NjQnJnYXdRVEhVa1FvSWhfU2RuS29Va01oWDM0MjRxNkNKVk5xczJrWWF3cVVNLWd1bmFDeWlCYk54ZUtvWlBvSHNURTNNTTdCTFk0RFFLWVVxTW5vZ3R4QS1EcUZRanhBay1nZjh6UlprUkJLbVBHaUJsYjNsV1hCQ1M3Nkh0OXZwVWpB?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -1477,6 +1477,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-04T16:20:46Z",
+     "titel": "Palantir Blows Past Expectations In Q3 On Strong Commercial Sales, But Valuation Concerns Dampen Sentiment",
+     "kalla": "Stocktwits",
+     "lank": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWlpzeXRIT3dNdmNJRHZ6aEhDRk5fdFZjU3hmbFNRbW1pTGNtNE1Pd3o1UGh6QjFybmk5Q0U3M2dIZkFSSC1USmNBYVE2b0JEYl9HMFR4dnNYLWxWUmJCWF82WlFlb1NHeXc4S3hMbWVIZGxtMXRvaXJ6UDRiaS1IVnFJMWNJckRJa19DSE0tN3BoRzZxRkdoQ1pzWVpFYmRXbDdZM1VNTUNBQUJEN1dNNGlZWGxYSmRFY2t2eFMyMTFXQkU2bTJpU21iNS1xeWZzZXhaWldIN1ZpQk9BdURfcXVVVGI4YlkySGlDdFplZVgzbXJyM0tWV3QzSWRiUQ?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T16:17:17Z",
      "titel": "Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step",
      "kalla": "Yahoo Finance",
@@ -1489,13 +1496,6 @@
      "kalla": "Yahoo Finance",
      "lank": "https://www.tikr.com/blog/palantirs-revenue-grew-96-its-new-contract-value-grew-6-alex-karp-explains-why?ref=yahoofinance&tlnk=yf-261104-5j4xwxjj&.tsrc=rss",
      "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-04T15:55:49Z",
-     "titel": "Palantir Blows Past Expectations In Q3 On Strong Commercial Sales, But Valuation Concerns Dampen Sentiment",
-     "kalla": "Stocktwits",
-     "lank": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWlpzeXRIT3dNdmNJRHZ6aEhDRk5fdFZjU3hmbFNRbW1pTGNtNE1Pd3o1UGh6QjFybmk5Q0U3M2dIZkFSSC1USmNBYVE2b0JEYl9HMFR4dnNYLWxWUmJCWF82WlFlb1NHeXc4S3hMbWVIZGxtMXRvaXJ6UDRiaS1IVnFJMWNJckRJa19DSE0tN3BoRzZxRkdoQ1pzWVpFYmRXbDdZM1VNTUNBQUJEN1dNNGlZWGxYSmRFY2t2eFMyMTFXQkU2bTJpU21iNS1xeWZzZXhaWldIN1ZpQk9BdURfcXVVVGI4YlkySGlDdFplZVgzbXJyM0tWV3QzSWRiUQ?oc=5",
-     "fran": "google-en"
     },
     {
      "tid": "2026-11-04T15:35:24Z",
@@ -1634,7 +1634,7 @@
    "namn": "SoFi",
    "antal": {
     "yahoo": 5,
-    "google-en": 38
+    "google-en": 37
    },
    "fel": {},
    "nyheter": [
@@ -1716,10 +1716,10 @@
      "fran": "yahoo"
     },
     {
-     "tid": "2026-11-02T19:20:40Z",
+     "tid": "2026-11-02T19:23:50Z",
      "titel": "SoFi Added a Record 1.2 Million Members Last Quarter. Its Stock Is Still Down More Than 30% in 2026.",
      "kalla": "The Globe and Mail",
-     "lank": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNSTlBVXdYUnZDMjFGcjFlNGtJazZxeXhPcWpMODdwWGlGU2ZmcG5BbFdrSkpVUHc1VC16NDBFcXhXbXFkSXFoV1ZhNkxleURNZGxqTDktQlVNM1h4YWVvVzdQX3c0MDVvc2JZUUNDQlJVcDl5Y1ByV05XZ0s3N2h0ZFdWZ1JVNGhFRHo1cE9ETDgtWTBCX2FqNVJ6Tk92ODZ5TlBjQW5VSDRZbkp5V1FvTHhJOHl5clRUSEprYjFUbjZ6QWdDUFBUVENVMXY5QWNadzhXVXRJSGxWMnJhUDNROWNNOEtmR21WbDdZOENvVWd0TnREX2h6ZWVmbXZjeXFHWnZlODFoZEMwQzBuMHc?oc=5",
+     "lank": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNcEJjcE1lLVBpdWNpbk9lcllqSFJHdVkwSzNpVDhRVTFweGNtZmNvcktqeERwMlJsWHlLTVN0NElETHVEd2FaSlhEOXJWc1Nvc09PQ1BqLVI1aDNSbHJXYjV0QlRUR3loMFd6bkwyZ3cxcTVYUEQ1RTU2NklOQkxXS1ZxbkN5S2lBaHRXaGp1Tm82aVFWSXNiSV95MVh4V2Z1Z2lHaGJRd3hOSEg3VWgwWTdjTXhsX0tiR2w3Z2dQUzFjdDF2MU4zbTJObk1oNDBObEhNZTZkVmpSQ24yY3ZVMXB2NnM2bnJXRTlSSWxwUmN0MHVtNkltRk1OTFJ4TlA5SkxhWHphSmxRQjZSUzJraA?oc=5",
      "fran": "google-en"
     },
     {
@@ -1758,13 +1758,6 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-02T03:48:29Z",
-     "titel": "SoFi Technologies Options Spot-On: On October 28th, 561.31K Contracts Were Traded, With 4.19 Million Open Interest",
-     "kalla": "富途牛牛",
-     "lank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSy1xMFBGNHFlMV85UVVseUUtc3pSeFQ2RHI3WVFOYS1QMFBCZktLZjY2NWZvaGFhNC1paFVUbXVvOWVOSk9LY0VOc0duR1Z4dnZSY1R0TC1rSFRGeXJXaXlSVjB3cUZMR2RZUTRaQzdLWElNQmhTemtlckVZLWJtV0R2Z3hFaDhFWENYQ19lV0RGTE9sWENRU2dqX0dNM3JjdXc?oc=5",
-     "fran": "google-en"
-    },
-    {
      "tid": "2026-11-02T03:32:37Z",
      "titel": "SoFi Technologies: On The Brink Of A Major Profitability Breakout (NASDAQ:SOFI)",
      "kalla": "Seeking Alpha",
@@ -1777,6 +1770,13 @@
      "kalla": "Yahoo Finance",
      "lank": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMzNrUHl2RGJfVlRIS2J6akRtZHQ0aEpJMDltbW95TXM4VlRqT3hkSUJtVHh6ak9ya3pEbXBDQU1fNHZwcnc1cXFCamU3OEFPTGtfeHVlb0JqSkwtWDNuZ2VPTHBkODh4bkRSTTlyUGpEdGg4bzZaVTBaQklfOFdUZ2FsUWxtZkg0Mkc4WVJkUm5BeThWNllDQ1RYY2JMUQ?oc=5",
      "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-01T22:07:49Z",
+     "titel": "SoFi Technologies (SOFI) Shares Just Moved, So What Is Driving Attention Now?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcmZxYktXX093LWFqOUxGX09Dd3Vwajdyc3VreGlmaWE5LUhzdktzd0tfbVZFSENEcDZqLTdyX2sxdjJEQXg1VXQ4Q1c1MWtaQU82eUJ1OTh4ZDMtMGNjQkFQYkcxVUlzNk8ycGgzS3d2SXVUakNBOU40NU9RX2lyLUNpcE5vYlVnbWt6dVkzUFlBZ3p0VHdQNzJJbkhFOEZp?oc=5",
+     "fran": "google-en"
     }
    ]
   },
@@ -1784,7 +1784,7 @@
    "namn": "Sysco",
    "antal": {
     "yahoo": 14,
-    "google-en": 93
+    "google-en": 94
    },
    "fel": {},
    "nyheter": [
@@ -1934,7 +1934,7 @@
    "namn": "ASML",
    "antal": {
     "yahoo": 10,
-    "google-en": 51
+    "google-en": 50
    },
    "fel": {},
    "nyheter": [
@@ -2086,7 +2086,7 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 8
+    "google-en": 7
    },
    "fel": {},
    "nyheter": [
@@ -2095,13 +2095,6 @@
      "titel": "ASSA ABLOY showcases access control at ISC East 2026",
      "kalla": "SourceSecurity.com",
      "lank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZnA1emI5UHlCSHhnRUh3eDdWcFdMSG5qZHF2dzRWcHVLWnBjRVdBTzI4RUM1Rk5mY3dpeVZHd3dSUThHS1BldE92U3g3UTdzYkVFOGZrQUFIWHphTk5oZ2E4Qm5EWlRaV0RNZ0dneU1ZdDhkV0tRZlZMenRmQ1hLRWtUaE5BVW1iY3NGNHVtNnNpaWlDb211cWhSVjJJbW1teHFzU1hrRHFsam1HbmNmMnZMSQ?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T16:54:15Z",
-     "titel": "ASSA ABLOY AB (publ) (0R87N.MX) Seasonal returns chart - Yahoo Finance",
-     "kalla": "Yahoo Finance Singapore",
-     "lank": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83dkstTF9oSWE4OUFuaDljTkVNZHprVy1LQzJDODBZb0ZqX05CVGp5ejR2MldZSTcxQUlsMm1TdjhkTVQzX0xpSEdzMzFkZjBhTEhEX1VaczIweUVIbkV6RlREQnRoMVk?oc=5",
      "fran": "google-en"
     },
     {
@@ -2304,17 +2297,10 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 3
+    "google-en": 2
    },
    "fel": {},
    "nyheter": [
-    {
-     "tid": "2026-11-04T10:46:51Z",
-     "titel": "Hansa Biopharma AB (publ) (HNSAS.XC) balance sheet",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fS04wejh0LVRqLWVaNEp0c0Zqa0Y5VHFkTlhkYXhWVVFqLWItZHBrc2tPUEpFUE5pa0kzYXd0MnpkZFZiSnV5WDhRaU4tbnhiSnhrREdVR0Q3c2FDd0FKSlNNb01DbXdoUXc?oc=5",
-     "fran": "google-en"
-    },
     {
      "tid": "2026-11-04T09:32:50Z",
      "titel": "Hansa Biopharma to Join BIO-Europe Immunology Panel",
@@ -2337,7 +2323,7 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 12
+    "google-en": 13
    },
    "fel": {},
    "nyheter": [
@@ -2346,6 +2332,13 @@
      "titel": "Hexagon stock absorbs Waygate in USD 1.45 billion deal",
      "kalla": "ad-hoc-news.de",
      "lank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTm1jeGlIVE5ZRUZNR05XdFZNa2RHMGZsVlRFQVo1Ui1XdWFSc2RFc0tWbUx3djlXdTRLRk9ZVXN5NGZ0bTQ4eVpQQnNMSk5aRVVwQUZGRC1TQ2tEYUVicE9IUXVWLVRVLXMzUWN0OVhfUEoyeGZFWTBvNHlLd0ZGb1QwZkFzMEQ3eTM4VUZLZkd5UWEySlQ5eTQyMFlCaVpLblpTT2ZIM2NjUDRYOFpWYldfRGFFTGxa?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T06:58:13Z",
+     "titel": "Hexagon AB (publ) (0GRX.L) Seasonal returns chart",
+     "kalla": "Yahoo Finance Singapore",
+     "lank": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcjU5ZWRsUzBwbE9XRU1BQ255T0U4SDM0NGtoMml1bTRPb21JYW9ULUxTcjR4SF84UzROMWZZMkhSVXBBSlBFdjl1MmFuV0s1Z0hncEV6SmxfX05UMkNqVlVPTnA?oc=5",
      "fran": "google-en"
     },
     {
@@ -2419,7 +2412,7 @@
     "mfn": 0,
     "yahoo": 1,
     "google-sv": 10,
-    "google-en": 25
+    "google-en": 26
    },
    "fel": {},
    "nyheter": [
@@ -2445,10 +2438,24 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T10:05:37Z",
-     "titel": "NOBA Bank Group AB (publ) (ZR5.SG) Valuation Measures & Financial Statistics",
+     "tid": "2026-11-04T11:02:20Z",
+     "titel": "NOBA Bank Group AB (publ) (ZR5.SG) company profile and facts",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42OWtSUzVZaEtSWUw2Rnk0VmF5dHlicDRpY3ViYUhzYlRyQVJ2cXZQNjNKT3EtXy1zR2N5UzFTal9KNU12YThVVi1sMHNGb2JRTEowZFBBbzN0V0phbUxR?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T09:56:33Z",
+     "titel": "NOBA Bank Group AB (publ) (ZR5.SG)",
      "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yLWZaX1BhbFNYbk1fdUd5WDFkQ0JyN2QwX2FtNTFoZGxITFJqZC1hb1N0Q1NBM3dIZmxBV29ISF9KUlhYZVpmTHYxQXlNb0JKUENWVW5DM1B4RUhWZGxCeHZHeExWYlQ0?oc=5",
+     "lank": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YZTA2bHdUYlV5SUdkcEdZeVFqTmNnVUw5eVltQ3RvaWRjd3ZYazRoN1drSUVVVk9YemwzMGMtYmZ5NThUT0ZKNGpCZDBHTmIyeXRKSmliOEVaNm1ZSzlqdFJxQQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T09:52:26Z",
+     "titel": "NOBA Bank Group AB (publ) (STU:ZR5) Q3 2026 Earnings Call Highli",
+     "kalla": "GuruFocus",
+     "lank": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOSmR0TnFzOGtDWEdtV2JKaDlsUThWUkhObldfSHZ1aXJ2X1N0cnJpZnEyMFZkNzMxajAyclNvX0JlWlZROGZnQjdnMGJwdXpqeG9uZmswXy1udndTM3gxTmJfYUdlMGNncXo4OXh3eW1MaUJEbldUbG5ZcVRLVUtST0tJMjBNOFhTb2pJVWt5di1VRDFpV0JMVXFCb09oMU1EdXdBWExRdlZ2WkRidU9DdlVpcXNaVE1TUTdsS3BwYzdKYVJvYUVydWhFRWJjNUtrOGpBcmhpSC1mSWk4NUpZdUZoczJBMDU5N1dERUNuTXp1TElTeE4yR0RwTHJYS0ZyQ1ZFVE52WkQzd2lyYnpnUFhn?oc=5",
      "fran": "google-en"
     },
     {
@@ -2548,20 +2555,6 @@
      "kalla": "www.marketscreener.com",
      "lank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb2FMWUlrUi1mLWhwNW9NTzBsY2JNMVZST3loY1B1c0dTVXcwSzRBRlA0R1hNS2J5dkZkck9NR1doekhuTVJPcm5ZZFIwRGtDam1rVE51MmxtdFR6X1ZYb2I4bHFqQlRaMWg5bkVJX25mTGZpMTVqWGtoU2RtZlprbHItRHgyY3Q0N3dqdlotZVA1VXZ1UHJCS25OMTVTdEVrdGFHeU1nWQ?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T08:30:00Z",
-     "titel": "Notice of an extraordinary general meeting of NOBA Bank Group AB (publ)",
-     "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGpsMGpWeURHQzRIVDRTZVBlaHpUNE02XzV3dld0TmFQRmhWWTBRT1Rsel9jQUdJZkR4c1d0RGJyNTdEbm1xbkdrX1dzYjVnRzdYM2tMbU9RSVBWRlVOUWZETG95dmFVUU54dmxtQkE1TmJCTk40OEQ1OXFoMURxOV9JdVJibDNmcEJ6QWQ3dDhwNTJmYlhyNmtQMkFKQkFSdDlscE1lN0ZfMXp6V2JTNzUxWWlNM2JUMjJIdTRxYlJTd1BPM2drempxdXYxSTlm?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T08:25:17Z",
-     "titel": "Pareto ser Noba Bank som mycket attraktiv efter rapporten",
-     "kalla": "Börsvärlden",
-     "lank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTDQ2bHpkOXViWjlfbFF5WV8xeG9SOFRsano0dnpyMVBHSER4WHRQZm1QeTMxRjQ4NGdYVjlVekQzNVFQdGJxZEFKZGZRZU56UWRDUkl1dkloakpNbzRxMlIyNkFTdThOMTdRMEpkMzdmUTdoa0lkNjVFbjNGZ0hRX0h6YzVpdjJnZUoyckpnWC1TTmR1cVVvVkpB?oc=5",
-     "fran": "google-sv"
     }
    ]
   },
@@ -2836,7 +2829,7 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 17,
-    "google-en": 13
+    "google-en": 14
    },
    "fel": {},
    "nyheter": [
@@ -2932,6 +2925,13 @@
      "fran": "google-sv"
     },
     {
+     "tid": "2026-11-04T08:28:56Z",
+     "titel": "Volvo Cars Logs Lower Sales in Three Months to October",
+     "kalla": "www.marketscreener.com",
+     "lank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN0plWWM4YTRMUXc4TXBGdmFRempxMncxRk1JMFM5Ym1EdU1FOHp5OVl4S3NLRE1OeWZEcVhmMnhFVGJLd2NBYXIyMXdZLTJqZFpoTU5nYlJkcUl6b1lXbXI1ZkwyNlF0VEZxX1hpS2ZtMHpDV3czOWo3LUVYdXludE50ZmtRODRHY2dWUEZibEtVSWZvRmwzTXBRcXB2cFR3RjZkaGEtTmpNRTA?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T08:28:36Z",
      "titel": "Volvo Cars reports lower August-October sales volumes",
      "kalla": "Traders Union",
@@ -2969,15 +2969,8 @@
     {
      "tid": "2026-11-04T08:00:00Z",
      "titel": "Volvo Cars reports rolling three-month sales for the period ending October 2026",
-     "kalla": "Volvo",
-     "lank": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qbnQzNlFhNmZ3dzhoSklnekllb21nNzdpVE5rV2NmOVI3ZGF2dHJGZlBFM0hoZjZxcTJBOFBzSlAydUtCdnF5Y20xODdSMkdpazhQek9LQzExU2ZCZ2RLUHFaS3ZWSmVxbWYtTWxWU01Qc3FYdHNPQg?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T00:43:34Z",
-     "titel": "Volvo Cars and NVIDIA Expand Autonomous Driving Partnership, Plan Phased Rollout of “Mind-Off” Technology",
-     "kalla": "매일경제",
-     "lank": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kT3VXRG1pR2U1Z194dWthbGFDMzhBTmdZaXIwWmNpeThZQ21sS0pCRkNVNjdoclAyc3U1dE16MEJCWEdIRW8zcjJXMEhXQTFQV2s0?oc=5",
+     "kalla": "Cision News",
+     "lank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNUVRMWZkc3lxU3RiX0dremVIa2w1cW9UNWk1SDNwLVpHSWVsQk5UYWhIU3hfQXk5Z0pHQ0t6aGtkY3VxYjRualFKd3kwYmF0T2lONjFfWGhpZnl4VDMwOHBsbmVWcUsyeS1fbFlyMlB1S2FDaVQ4SmxjRmhscjVrdnRFMzlpY05oYUxqc3lsV0paaWNfN1VoTzRyOW0xbENpbzZhczV0SnN6SUhDWW1KUFNJQVZyTXRSWkZEWXdfVmtLUFFKWjBXdEFRNnFDcnM?oc=5",
      "fran": "google-en"
     }
    ]
