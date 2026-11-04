@@ -91,6 +91,27 @@ def nyckel(titel):
     return re.sub(r"[^a-z0-9åäö]+", "", titel.lower())[:70]
 
 
+def handlar_om(titel, ord_):
+    """Sant om rubriken nämner bolaget (något av orden). Sorterar bort allmänna marknadsnyheter."""
+    t = titel.lower()
+    return any(o.lower() in t for o in ord_)
+
+
+def mfn_felsok():
+    """Tillfällig felsökning: hur ser MFN:s sidor ut från GitHub? Skriver mfn_debug.json."""
+    ut = {}
+    for url in ("https://mfn.se/all/a/smart-eye", "https://mfn.se/a/smart-eye", "https://mfn.se/all/a/smart-eye.rss",
+                "https://mfn.se/all/a/smart-eye?type=rss", "https://mfn.se/all/a/smart-eye.json"):
+        try:
+            data = hamta(url).decode("utf-8", "replace")
+            i = data.find("/a/smart-eye/")
+            ut[url] = {"langd": len(data), "antal": data.count("/a/smart-eye/"), "borjan": data[:600],
+                       "kring": data[max(0, i - 900): i + 900] if i >= 0 else ""}
+        except Exception as e:  # noqa: BLE001
+            ut[url] = {"fel": str(e)[:200]}
+    json.dump(ut, open("mfn_debug.json", "w"), ensure_ascii=False, indent=1)
+
+
 def main():
     bolag = json.load(open("nyhetsbolag.json"))
     bolag.pop("_info", None)
@@ -107,9 +128,10 @@ def main():
         for sprak, fras in cfg.get("sok", []):
             q = urllib.parse.quote("%s when:%dd" % (fras, DAGAR))
             kallor.append(("google-" + sprak, GOOGLE[sprak].format(q=q), lambda d, f="google-" + sprak: las_rss(d, f)))
+        ord_ = cfg.get("ord") or [cfg.get("namn", bid)]
         for namn, url, tolka in kallor:
             try:
-                p = [x for x in tolka(hamta(url)) if x["tid"] >= grans]
+                p = [x for x in tolka(hamta(url)) if x["tid"] >= grans and (namn == "mfn" or handlar_om(x["titel"], ord_))]
                 antal[namn] = antal.get(namn, 0) + len(p)
                 poster += p
             except Exception as e:  # noqa: BLE001
@@ -130,6 +152,7 @@ def main():
         ut["bolag"][bid] = {"namn": cfg.get("namn", bid), "antal": antal, "fel": fel, "nyheter": unika}
         print(bid, len(unika), antal, fel or "")
     json.dump(ut, open("nyheter.json", "w"), ensure_ascii=False, indent=1)
+    mfn_felsok()
 
 
 if __name__ == "__main__":
