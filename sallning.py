@@ -103,25 +103,35 @@ def hamta_citat(symboler):
         return []
     url = ("https://query2.finance.yahoo.com/v7/finance/quote?symbols=%s&crumb=%s"
            % (urllib.parse.quote(",".join(symboler)), urllib.parse.quote(skaffa_crumb())))
-    data, _ = hamta_json(url, forsok=2)
+    data, fel = hamta_json(url, forsok=2)
+    if data is None:
+        print("quote-fel:", fel)
     return ((data or {}).get("quoteResponse") or {}).get("result") or []
 
 
-def hamta_univers(extra):
+def hamta_univers(extra, diagnos):
     """Alla svenska aktier med börsvärde över gränsen. Två frågor (region Sverige och Stockholmsbörsen),
     eftersom Yahoo saknar region eller börs för vissa bolag, plus bevakade bolag som ändå saknas."""
     per_sym, fel = {}, []
-    for villkor in ({"operator": "eq", "operands": ["region", "se"]}, {"operator": "eq", "operands": ["exchange", "STO"]}):
+    for namn, villkor in (("region", {"operator": "eq", "operands": ["region", "se"]}),
+                          ("borsSTO", {"operator": "eq", "operands": ["exchange", "STO"]})):
         try:
-            for q in screener(villkor):
+            svar = screener(villkor)
+            diagnos[namn] = len(svar)
+            for q in svar:
                 per_sym.setdefault(q.get("symbol"), q)
         except Exception as e:  # noqa: BLE001
+            diagnos[namn] = "fel: %s" % e
             fel.append(str(e))
     if not per_sym:
         raise RuntimeError("; ".join(fel) or "screenern gav inga bolag")
     saknas = [s for s in extra if s not in per_sym]
-    for q in hamta_citat(saknas):
-        if (q.get("marketCap") or 0) >= GRANS_SEK:
+    citat = hamta_citat(saknas)
+    diagnos["bevakadeSomSaknades"] = saknas
+    diagnos["bevakadeHittade"] = {q.get("symbol"): q.get("marketCap") for q in citat}
+    for q in citat:
+        # Bevakade bolag tas med även när Yahoo saknar börsvärde, så att de markeras som redan bevakade.
+        if (q.get("marketCap") or GRANS_SEK) >= GRANS_SEK:
             per_sym[q["symbol"]] = q
     return list(per_sym.values())
 
@@ -405,10 +415,10 @@ def main():
         "hamtad": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "system": "Masterguide v4.8", "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
         "regler": {"borsvardeMinSEK": GRANS_SEK, "minSnabbpoang": MIN_POANG, "maxSnabbpoang": 12},
-        "status": "ok", "fel": [], "antal": {}, "forslag": [], "kandidater": [], "ovriga": [], "uteslutna": [], "dataSaknas": [],
+        "status": "ok", "fel": [], "diagnos": {}, "antal": {}, "forslag": [], "kandidater": [], "ovriga": [], "uteslutna": [], "dataSaknas": [],
     }
     try:
-        univers = rensa_univers(hamta_univers([sym for sym in json.load(open("symboler.json")).values() if sym.endswith(".ST")]))
+        univers = rensa_univers(hamta_univers([sym for sym in json.load(open("symboler.json")).values() if sym.endswith(".ST")], ut["diagnos"]))
     except Exception as e:  # noqa: BLE001
         # Behåll förra listan och skriv bara in felet, så att en misslyckad körning inte tömmer filen.
         try:
