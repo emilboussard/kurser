@@ -1,57 +1,86 @@
-{
- "datum_kring": "inget datum",
- "hrefs": [
-  "https://borsdata.se/smart-eye/nyckeltal",
-  "https://borsdata.se/smart-eye/nyckeltal",
-  "/a/smart-eye/smart-eye-utokar-befintligt-dms-program-med-cabin-monitoring",
-  "/a/smart-eye/smart-eye-adds-cabin-monitoring-to-existing-dms-program",
-  "/a/smart-eye/nomination-committee-of-smart-eye-ab-appointed-ahead-of-the-2027-annual-general-meeting",
-  "/a/smart-eye/valberedning-utsedd-i-smart-eye-ab-infor-arsstamman-2027",
-  "/a/smart-eye/smart-eye-unveils-world-first-multimodal-automotive-ai-agent-combining-human-vehicle-and-environmental-context",
-  "/a/smart-eye/smart-eye-strengthens-management-team-with-new-leadership-appointments",
-  "/a/smart-eye/smart-eye-announces-additional-dms-design-win-with-existing-european-customer",
-  "/a/smart-eye/smart-eye-tillkannager-ytterligare-design-win-for-dms-med-befintlig-europeisk-kund",
-  "/a/smart-eye/interim-report-q2-january-june-2026",
-  "/a/smart-eye/delarsrapport-q2-januari-juni-2026",
-  "/a/smart-eye/smart-eye-secures-new-mirror-integrated-interior-sensing-program-with-global-oem",
-  "/a/smart-eye/smart-eye-sakrar-nytt-backspegelintegrerat-interior-sensing-program-med-global-oem",
-  "/a/smart-eye/smart-eye-secures-additional-interior-sensing-order-with-major-global-oem",
-  "/a/smart-eye/smart-eye-sakrar-ytterligare-order-pa-interior-sensing-med-stor-global-oem",
-  "/a/smart-eye/advanced-driver-distraction-warning-systems-now-mandatory-across-all-new-eu-vehicles",
-  "/a/smart-eye/smart-eye-announces-four-new-driver-monitoring-system-design-wins-with-leading-global-car-manufacturer-1",
-  "/a/smart-eye/smart-eye-tillkannager-fyra-nya-design-wins-for-dms-med-ledande-global-biltillverkare-1",
-  "/a/smart-eye/smart-eye-announces-four-new-driver-monitoring-system-design-wins-with-leading-global-car-manufacturer",
-  "/a/smart-eye/smart-eye-tillkannager-fyra-nya-design-wins-for-dms-med-ledande-global-biltillverkare",
-  "/a/smart-eye/bulletin-from-extraordinary-general-meeting-in-smart-eye-aktiebolag-publ-3",
-  "/a/smart-eye/kommunike-fran-extra-bolagsstamma-i-smart-eye-aktiebolag-publ-4",
-  "/a/smart-eye/smart-eye-introduces-remote-vital-signs-monitoring-for-driver-monitoring-systems",
-  "/a/smart-eye/notice-to-attend-extraordinary-general-meeting-in-smart-eye-aktiebolag-publ"
- ],
- "uuid": [
-  "dea5ea5f-42d3-4c83-9e64-c675eb341df3",
-  "dea5ea5f-42d3-4c83-9e64-c675eb341df3",
-  "509c9733-faba-4d42-a2d5-07b512ca53f9",
-  "509c9733-faba-4d42-a2d5-07b512ca53f9",
-  "509c9733-faba-4d42-a2d5-07b512ca53f9",
-  "010a557a-f8c5-4dfb-a7ae-1b0756f76d29",
-  "a1f995ce-0820-43fd-a4e0-d09a80242762",
-  "3ab28bd1-d5a4-45cc-8dd7-b0a0b1e4e5b0",
-  "de409bde-b5c9-4c45-877b-a3e4c904e261",
-  "c349d9a0-ffdc-49f5-84c4-d520ddcf2c7a"
- ],
- "feed": [],
- "https://feed.mfn.se/v1/feed/dea5ea5f-42d3-4c83-9e64-c675eb341df3.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/dea5ea5f-42d3-4c83-9e64-c675eb341df3.json": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9.json": "{\"version\":\"https://www.mfn.se/feed/version/1\",\"home_page_url\":\"https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9.json\",\"feed_url\":\"https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9.json\",\"next_url\":\"https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9.json?limit=48\\u0026offset=48\",\"items\":[{\"news_id\":\"010a557a-f8c5-4dfb-a7ae-1b0756f76d29\",\"group_id\":\"5918f52e-3ef0-4fad-9286-976932341bdc\",\"url\":\"https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9/item/010a557a-f8c5-4dfb-a7ae-1b0756f76d29.html\",\"author\":{\"entity_id\":\"509c9733-faba-4d42-a2d5-07b512ca53f9\",\"slug\":\"smart-eye\",\"slugs\":[\"smart-eye\"],\"name\":\"Smart Eye\",\"brand_image_url\":\"https://storage.mfn.se/934f1f79-89c1-4995-a0a5-f69fee8b83b1\",\"isins\":[\"SE0009268279\"],\"leis\":[\"549300BUD7ZPFPKM6856\"],\"local_refs\":[\"SE:556575-8371\"],\"tickers\":[\"FNSE:SEYE\",\"CAPA:SEYEs\"]},\"subjects\":[{\"entity_id\":\"509c9733-faba-4d42-a2d5-07b512ca53f9\",\"slug\":\"smart-eye\",\"slugs\":[\"smart-eye\"],\"name\":\"Smart Eye\",\"brand_image_url\":\"https://storage.mfn.se/934f1f79-89c1-4995-a0a5-f69fee8b83b1\",\"isins\":[\"SE0009268279\"],\"leis\":[\"549300BUD7ZPFPKM6856\"],\"local_refs\":[\"SE:556575-8371\"],\"tickers\":[\"FNSE:SEYE\",\"CAPA:SEYEs\"]}],\"properties\":{\"lang\":\"sv\",\"tags\":[\"ext:nq\",\"ext:nq:company-announcement\",\"sub:ci\",\"sub:ci:other\"],\"type\":\"ir\",\"scopes\":[\"SE\"]},\"content\":{\"title\":\"Smart Eye utökar befintligt DMS-program med cabin monitoring\",\"slug\":\"smart-eye-utokar-befintligt-dms-program-med-cabin-monitoring\",\"publis",
- "https://feed.mfn.se/v1/feed/010a557a-f8c5-4dfb-a7ae-1b0756f76d29.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/010a557a-f8c5-4dfb-a7ae-1b0756f76d29.json": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/a1f995ce-0820-43fd-a4e0-d09a80242762.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/a1f995ce-0820-43fd-a4e0-d09a80242762.json": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/3ab28bd1-d5a4-45cc-8dd7-b0a0b1e4e5b0.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/3ab28bd1-d5a4-45cc-8dd7-b0a0b1e4e5b0.json": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/de409bde-b5c9-4c45-877b-a3e4c904e261.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/de409bde-b5c9-4c45-877b-a3e4c904e261.json": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/c349d9a0-ffdc-49f5-84c4-d520ddcf2c7a.rss": "fel: HTTP Error 400: Bad Request",
- "https://feed.mfn.se/v1/feed/c349d9a0-ffdc-49f5-84c4-d520ddcf2c7a.json": "fel: HTTP Error 400: Bad Request"
-}
+[
+ {
+  "news_id": "010a557a-f8c5-4dfb-a7ae-1b0756f76d29",
+  "group_id": "5918f52e-3ef0-4fad-9286-976932341bdc",
+  "url": "https://feed.mfn.se/v1/feed/509c9733-faba-4d42-a2d5-07b512ca53f9/item/010a557a-f8c5-4dfb-a7ae-1b0756f76d29.html",
+  "author": {
+   "entity_id": "509c9733-faba-4d42-a2d5-07b512ca53f9",
+   "slug": "smart-eye",
+   "slugs": [
+    "smart-eye"
+   ],
+   "name": "Smart Eye",
+   "brand_image_url": "https://storage.mfn.se/934f1f79-89c1-4995-a0a5-f69fee8b83b1",
+   "isins": [
+    "SE0009268279"
+   ],
+   "leis": [
+    "549300BUD7ZPFPKM6856"
+   ],
+   "local_refs": [
+    "SE:556575-8371"
+   ],
+   "tickers": [
+    "FNSE:SEYE",
+    "CAPA:SEYEs"
+   ]
+  },
+  "subjects": [
+   {
+    "entity_id": "509c9733-faba-4d42-a2d5-07b512ca53f9",
+    "slug": "smart-eye",
+    "slugs": [
+     "smart-eye"
+    ],
+    "name": "Smart Eye",
+    "brand_image_url": "https://storage.mfn.se/934f1f79-89c1-4995-a0a5-f69fee8b83b1",
+    "isins": [
+     "SE0009268279"
+    ],
+    "leis": [
+     "549300BUD7ZPFPKM6856"
+    ],
+    "local_refs": [
+     "SE:556575-8371"
+    ],
+    "tickers": [
+     "FNSE:SEYE",
+     "CAPA:SEYEs"
+    ]
+   }
+  ],
+  "properties": {
+   "lang": "sv",
+   "tags": [
+    "ext:nq",
+    "ext:nq:company-announcement",
+    "sub:ci",
+    "sub:ci:other"
+   ],
+   "type": "ir",
+   "scopes": [
+    "SE"
+   ]
+  },
+  "content": {
+   "title": "Smart Eye utökar befintligt DMS-program med cabin monitoring",
+   "slug": "smart-eye-utokar-befintligt-dms-program-med-cabin-monitoring",
+   "publish_date": "2026-10-26T10:15:00Z",
+   "html": "<div class=\"mfn-preamble\"><p><strong>Smart Eye kommer att leverera sin mjukvara för cabin monitoring till ytterligare en bilmodell från en befintlig kund. Orderns uppskattade intäktsvärde uppgår till 20 miljoner kronor, baserat på prognoser över produktlivscykeln.</strong></p></div>\n<div class=\"mfn-body\"><p><strong>Göteborg, Sverige – 26 oktober 2026 –</strong> Smart Eye, en ledande utvecklare av teknik för driver monitoring och interior sensing inom fordonsindustrin, har valts som leverantör av cabin monitoring-mjukvara till en ny bilmodell från en stor europeisk fordonstillverkare. Bolaget har sedan tidigare fått uppdraget att förse samma modell med Driver Monitoring System (DMS)-mjukvara.</p><p>Cabin monitoring ger information om närvaro och aktivitet i kupén som underlag för fordonets säkerhets- och komfortfunktioner.</p><p>Produktionen av den nya modellen är planerad att starta under andra kvartalet 2027. Baserat på beräknade volymer över produktlivscykeln väntas ordern generera ytterligare intäkter om 20 miljoner kronor, utöver de tidigare avtalade licensintäkterna från DMS.</p><p>”När vi väl är etablerade på en plattform får vi ofta order på fler modeller och funktioner med mycket korta ledtider”, säger Martin Krantz, VD och grundare av Smart Eye. ”Det här är ett typiskt exempel: ordern är mindre, men produktionsstarten ligger nära i tid. Vi förväntar oss många fler sådana order när kunderna lägger till cabin monitoring i våra befintliga DMS-program.”</p><p>Eftersom modellen redan ingår bland Smart Eyes design wins för DMS ligger det totala antalet kvar på 380 från 24 fordonstillverkare. Med denna tilläggsorder har Smart Eyes Interior Sensing-teknik nu valts för totalt 19 bilmodeller av fyra fordonstillverkare.</p></div>\n<div class=\"mfn-footer mfn-contacts mfn-cc37b3ae977f\"><p><strong class=\"mfn-heading-1\">För mer information:</strong></p><hr/><p>Martin Krantz, VD Smart Eye AB<br/>+46 70-329 26 98<br/><a href=\"mailto:martin.krantz@smarteye.se\" rel=\"noopener\" target=\"_blank\">martin.krantz@smarteye.se</a></p></div>\n<div class=\"mfn-footer mfn-about mfn-2fd5b3603855\"><p><strong class=\"mfn-heading-1\">Om Smart Eye</strong></p><hr/><p>Smart Eye är den ledande leverantören av Human Insight AI – en teknik som förstår, stöder och förutspår mänskligt beteende i komplexa miljöer. Företaget har som mål att överbrygga avståndet mellan människor och maskiner för en säker och hållbar framtid. Med stöd av Affectiva och iMotions – företag som förvärvades 2021 – erbjuder Smart Eye multimodala mjukvaru- och hårdvarulösningar som ger oöverträffade insikter i mänskligt beteende.</p><p>Inom fordonsindustrin förbättrar Smart Eyes Driver Monitoring-system och Interior Sensing-lösningar både trafiksäkerheten och upplevelsen i fordonet. Företagets eyetracking-teknik och iMotions mjukvaruplattform för biosensorer används även inom beteendeforskning för att möjliggöra avancerad forskning inom akademi och näringsliv. Inom Media Analytics ger Affectivas Emotion AI världens största varumärken och marknadsanalytiker en djupare förståelse för hur konsumenter interagerar med medieinnehåll, produkter och tjänster.</p><p>Smart Eye grundades 1999 och är ett globalt företag med huvudkontor i Sverige. Bland kunderna finns NASA, Nissan, Boeing, Honeywell, Volvo, GM, BMW, Polestar, Geely, Harvard University, 28 procent av Fortune Global 500-företagen och mer än 1 300 forskningsorganisationer världen över.<br/> <br/>Besök <strong><a href=\"http://www.smarteye.ai/\" rel=\"noopener\" target=\"_blank\">www.smarteye.ai</a></strong><strong> </strong>för mer information. <br/><em><br/></em>Besök vår investerarweb för mer finansiell information: <strong><a href=\"https://smarteye.se/investors/\" rel=\"noopener\" target=\"_blank\">https://smarteye.se/investors/</a></strong></p><p><em>Smart Eye är noterade på Nasdaq First North Growth Market. Bolagets Certified Adviser är Bergs Securities AB.</em></p></div>\n<div class=\"mfn-footer mfn-attachment mfn-attachment-general\"><p><strong class=\"mfn-heading-1\">Bifogade filer</strong></p><hr/><p><a class=\"mfn-generated mfn-primary\" href=\"https://storage.mfn.se/a1f995ce-0820-43fd-a4e0-d09a80242762/smart-eye-utokar-befintligt-dms-program-med-cabin-monitoring.pdf\" rel=\"noopener\" target=\"_blank\">Smart Eye utökar befintligt DMS-program med cabin monitoring</a></p></div>",
+   "attachments": [
+    {
+     "file_title": "Smart Eye utökar befintligt DMS-program med cabin monitoring",
+     "content_type": "application/pdf",
+     "url": "https://storage.mfn.se/a1f995ce-0820-43fd-a4e0-d09a80242762/smart-eye-utokar-befintligt-dms-program-med-cabin-monitoring.pdf",
+     "tags": [
+      ":generated",
+      ":primary",
+      ":release"
+     ]
+    }
+   ]
+  },
+  "extensions": {},
+  "source": "mfn"
+ }
+]
