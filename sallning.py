@@ -1,23 +1,55 @@
 """Sållning: hittar nya kandidater till bevakningslistan (Masterguide v4.8, Steg 0 och Fas 1).
 
-Hämtar alla svenska aktier med börsvärde över GRANS_SEK från Yahoo Finance, räknar de
-kriterier i Fas 1 som går att räkna ur siffror och skriver sallning.json (och en kopia
-per månad i arkiv/). Poängen är en snabbpoäng för att välja vilka bolag som är värda en
-hel analys. Den ersätter aldrig analysen, som räknar om allt enligt guiden.
+Marknader: Sverige, Norge, Danmark och Finland (börsvärde över 2 mdr kr) och USA (NYSE och
+Nasdaq, börsvärde över 2 mdr USD). Hämtar bolagen från Yahoo Finance, räknar de kriterier i
+Fas 1 som går att räkna ur siffror och skriver sallning.json (och en kopia per månad i arkiv/).
+Snabbpoängen väljer vilka bolag som är värda en hel analys. Den ersätter aldrig analysen,
+som räknar om allt enligt guiden.
 
 Sifferkriterier (max 12 p): Profil A 1, 2, 5, 6, 7, 10. Profil B 1, 2, 3, 5, 7, 10.
 Kriterierna 3/6 (kundkoncentration), 8 (guidning) och 9 (insiders) kräver läsning (6 p).
 Ett bolag behöver minst 8 av 12 för att kunna nå 14 av 18 och grönt ljus.
-"""
-import json, os, re, sys, time, datetime, urllib.request, urllib.parse, urllib.error, http.cookiejar
 
-GRANS_SEK = 2e9          # minsta börsvärde i kronor
+Körning:
+  python3 sallning.py --marknad se     en marknad, skriver delar/se.json
+  python3 sallning.py --sla-ihop       slår ihop delar/*.json till sallning.json och arkiv/
+  python3 sallning.py                  alla marknader efter varandra och sedan ihopslagning
+"""
+import glob, json, os, re, sys, time, datetime, urllib.request, urllib.parse, urllib.error, http.cookiejar
+
 MIN_POANG = 8            # minsta möjliga snabbpoäng för att bli kandidat
 SKATT = 0.79             # ROIC = EBIT × 0,79 / (eget kapital + räntebärande nettoskuld)
-UTESLUTNA_SEKTORER = {
-    "Financial Services": "bank, finans eller investmentbolag (egen modul i guiden)",
-    "Real Estate": "fastighetsbolag (räknas inte med guidens nyckeltal)",
+GRANS_NORDEN_SEK = 2e9   # minsta börsvärde i Norden, i kronor
+ANTAL_FORSLAG = 5        # förslag per månad, de bästa oavsett marknad
+
+USA_BORSER = ["NYQ", "NMS", "NGM", "NCM", "ASE"]  # NYSE, Nasdaq (tre nivåer), NYSE American. Inte OTC.
+MARKNADER = {
+    "se": {"land": "Sverige", "region": "se", "borser": ["STO"], "suffix": ".ST", "valuta": "SEK"},
+    "no": {"land": "Norge", "region": "no", "borser": ["OSL"], "suffix": ".OL", "valuta": "NOK"},
+    "dk": {"land": "Danmark", "region": "dk", "borser": ["CPH"], "suffix": ".CO", "valuta": "DKK"},
+    "fi": {"land": "Finland", "region": "fi", "borser": ["HEL"], "suffix": ".HE", "valuta": "EUR"},
+    "us-stora": {"land": "USA", "region": "us", "borser": USA_BORSER, "suffix": "", "valuta": "USD", "min": 10e9},
+    "us-mellan": {"land": "USA", "region": "us", "borser": USA_BORSER, "suffix": "", "valuta": "USD", "min": 2e9, "max": 10e9},
 }
+ORDNING = ["se", "no", "dk", "fi", "us-stora", "us-mellan"]  # vid dubbelnotering behålls den första (lägre valutakostnad)
+VALUTA_RESERV = {"SEK": 1.0, "NOK": 0.93, "DKK": 1.47, "EUR": 11.0, "USD": 9.5}  # bara om kurserna inte går att hämta
+
+
+def uteslut(sektor, bransch):
+    """Bolag som guidens nyckeltal inte passar för. Returnerar orsaken eller None."""
+    bransch = bransch or ""
+    if sektor == "Real Estate":
+        return "fastighetsbolag (räknas inte med guidens nyckeltal)"
+    if bransch.startswith("Banks") or bransch == "Mortgage Finance":
+        return "bank (egen modul i guiden)"
+    if bransch.startswith("Insurance -"):
+        return "försäkringsbolag (guidens nyckeltal passar inte)"
+    if bransch == "Asset Management":
+        return "investmentbolag eller kapitalförvaltare (investmentbolag har egen modul)"
+    if bransch == "Shell Companies":
+        return "SPAC eller skalbolag"
+    return None
+
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 JAR = http.cookiejar.CookieJar()
@@ -73,16 +105,32 @@ def hamta_json(url, data=None, forsok=4):
     return None, fel
 
 
-def screener(villkor):
+def valutakurser():
+    """Kronor per enhet av varje valuta, från Yahoo (senaste stängning)."""
+    kurser, fel = dict(VALUTA_RESERV), []
+    for val in ("NOK", "DKK", "EUR", "USD"):
+        url = "https://query1.finance.yahoo.com/v8/finance/chart/%sSEK=X?range=5d&interval=1d" % val
+        data, f = hamta_json(url, forsok=2)
+        try:
+            kurser[val] = float(data["chart"]["result"][0]["meta"]["regularMarketPrice"])
+        except Exception:  # noqa: BLE001
+            fel.append("%s: %s" % (val, f or "saknas"))
+    return kurser, fel
+
+
+def screener(villkor, minsta, storsta=None):
     crumb = skaffa_crumb()
+    storlek = [{"operator": "gt", "operands": ["intradaymarketcap", minsta]}]
+    if storsta:
+        storlek.append({"operator": "lt", "operands": ["intradaymarketcap", storsta]})
     alla, offset, total = [], 0, None
     while total is None or offset < total:
         kropp = {
             "size": 250, "offset": offset, "sortField": "intradaymarketcap", "sortType": "DESC",
             "quoteType": "EQUITY", "userId": "", "userIdType": "guid",
-            "query": {"operator": "AND", "operands": [villkor, {"operator": "gt", "operands": ["intradaymarketcap", GRANS_SEK]}]},
+            "query": {"operator": "AND", "operands": [villkor] + storlek},
         }
-        url = "https://query2.finance.yahoo.com/v1/finance/screener?formatted=false&lang=en-US&region=SE&crumb=" + urllib.parse.quote(crumb)
+        url = "https://query2.finance.yahoo.com/v1/finance/screener?formatted=false&lang=en-US&region=US&crumb=" + urllib.parse.quote(crumb)
         data, fel = hamta_json(url, json.dumps(kropp).encode())
         if data is None:
             raise RuntimeError("screenern svarade inte: " + fel)
@@ -109,17 +157,30 @@ def hamta_citat(symboler):
     return ((data or {}).get("quoteResponse") or {}).get("result") or []
 
 
-def hamta_univers(extra, diagnos):
-    """Alla svenska aktier med börsvärde över gränsen. Två frågor (region Sverige och Stockholmsbörsen),
+def hor_till(m, q):
+    """Hör aktien till marknaden? Rätt börs, inga preferensaktier, warranter eller utländska noteringar."""
+    sym = q.get("symbol") or ""
+    namn = (q.get("longName") or q.get("shortName") or "").lower()
+    if "PREF" in sym.upper() or "pref" in namn:
+        return False
+    if m["suffix"]:
+        return sym.endswith(m["suffix"])
+    # USA: vanliga aktier (BRK-B går bra, BAC-PL och liknande gör det inte) på NYSE eller Nasdaq
+    return bool(re.fullmatch(r"[A-Z]{1,5}(-[A-D])?", sym)) and q.get("exchange") in m["borser"]
+
+
+def hamta_univers(m, minsta, storsta, extra, diagnos):
+    """Alla aktier på marknaden mellan minsta och största börsvärde. Två frågor (region och börs),
     eftersom Yahoo saknar region eller börs för vissa bolag, plus bevakade bolag som ändå saknas."""
     per_sym, fel = {}, []
-    for namn, villkor in (("region", {"operator": "eq", "operands": ["region", "se"]}),
-                          ("borsSTO", {"operator": "eq", "operands": ["exchange", "STO"]})):
+    borsvillkor = {"operator": "or", "operands": [{"operator": "eq", "operands": ["exchange", b]} for b in m["borser"]]}
+    for namn, villkor in (("region", {"operator": "eq", "operands": ["region", m["region"]]}), ("borser", borsvillkor)):
         try:
-            svar = screener(villkor)
+            svar = screener(villkor, minsta, storsta)
             diagnos[namn] = len(svar)
             for q in svar:
-                per_sym.setdefault(q.get("symbol"), q)
+                if hor_till(m, q):
+                    per_sym.setdefault(q.get("symbol"), q)
         except Exception as e:  # noqa: BLE001
             diagnos[namn] = "fel: %s" % e
             fel.append(str(e))
@@ -128,29 +189,40 @@ def hamta_univers(extra, diagnos):
     saknas = [s for s in extra if s not in per_sym]
     citat = hamta_citat(saknas)
     diagnos["bevakadeSomSaknades"] = saknas
-    diagnos["bevakadeHittade"] = {q.get("symbol"): q.get("marketCap") for q in citat}
     for q in citat:
         # Bevakade bolag tas med även när Yahoo saknar börsvärde, så att de markeras som redan bevakade.
-        if (q.get("marketCap") or GRANS_SEK) >= GRANS_SEK:
+        if q.get("quoteType") not in (None, "EQUITY"):
+            continue  # t.ex. indexfonden URTH
+        mc = q.get("marketCap")
+        if mc is None or (mc >= minsta and (storsta is None or mc < storsta)):
             per_sym[q["symbol"]] = q
     return list(per_sym.values())
 
 
+SUFFIX = re.compile(r"\b(publ|ab|asa|as|oyj|abp|inc|incorporated|corp|corporation|co|company|plc|ltd|limited|sa|nv|se|ag|"
+                    r"ser|class|sdb|adr|ads|the)\b")
+
+
+def namnnyckel(namn):
+    """Bolagsnamn utan bolagsform och aktieserie, för att hitta samma bolag på flera börser."""
+    s = (namn or "").lower().replace("a/s", " ").replace("&", " and ")
+    s = re.sub(r"[^a-z0-9åäöæø ]", " ", s)
+    s = SUFFIX.sub(" ", s)
+    s = re.sub(r"\s+[a-d]\s*$", " ", s)  # aktieserie sist (ser. B, Class A)
+    return re.sub(r"\s+", "", s)
+
+
 def rot(sym):
-    """Symbol utan aktieserie: INVE-A.ST och INVE-B.ST blir INVE."""
-    return re.sub(r"-[A-D]$", "", sym.upper().replace(".ST", ""))
+    """Symbol utan börs och aktieserie: INVE-A.ST och INVE-B.ST blir INVE, BRK-B blir BRK."""
+    s = re.sub(r"\.(ST|OL|CO|HE)$", "", sym.upper())
+    return re.sub(r"-[A-D]$", "", s)
 
 
 def rensa_univers(citat):
-    """Bara .ST-aktier, inga preferensaktier, och en aktieserie per bolag (den mest handlade)."""
+    """En aktieserie per bolag (den mest handlade), största bolaget först."""
     bast = {}
     for q in citat:
-        sym = q.get("symbol", "")
-        namn = q.get("longName") or q.get("shortName") or sym
-        if not sym.endswith(".ST") or "PREF" in sym.upper() or "pref" in namn.lower():
-            continue
-        nyckel = re.sub(r"\s+(ser\.?\s*[A-D]|class\s+[A-D]|[A-D])$", "", namn.strip(), flags=re.I).lower()
-        nyckel = re.sub(r"[^a-z0-9åäö]", "", nyckel)
+        nyckel = namnnyckel(q.get("longName") or q.get("shortName") or q.get("symbol"))
         vol = q.get("averageDailyVolume3Month") or 0
         if nyckel not in bast or vol > (bast[nyckel].get("averageDailyVolume3Month") or 0):
             bast[nyckel] = q
@@ -399,69 +471,82 @@ def veton(n):
     return v
 
 
-# ---------------------------------------------------------------- huvudprogram
+# ---------------------------------------------------------------- en marknad
 
-def main():
-    start = time.time()
-    idag = datetime.date.today()
-    redan = {}
+def bevakade():
+    """Bevakade bolag (symboler.json): rot → id, och Yahoo-symbolerna."""
     try:
-        for bid, sym in json.load(open("symboler.json")).items():
-            redan[rot(sym)] = bid
+        sym = json.load(open("symboler.json"))
     except Exception:  # noqa: BLE001
-        pass
+        sym = {}
+    sym = {bid: s for bid, s in sym.items() if not s.startswith("^") and "=" not in s}
+    return {rot(s): bid for bid, s in sym.items()}, list(sym.values())
 
-    ut = {
-        "hamtad": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "system": "Masterguide v4.8", "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
-        "regler": {"borsvardeMinSEK": GRANS_SEK, "minSnabbpoang": MIN_POANG, "maxSnabbpoang": 12},
-        "status": "ok", "fel": [], "diagnos": {}, "antal": {}, "forslag": [], "kandidater": [], "ovriga": [], "uteslutna": [], "dataSaknas": [],
-    }
+
+def sall_marknad(kod):
+    start = time.time()
+    m = MARKNADER[kod]
+    redan, bev_sym = bevakade()
+    del_ut = {"marknad": kod, "land": m["land"], "status": "ok", "fel": [], "diagnos": {},
+              "kandidater": [], "ovriga": [], "uteslutna": [], "dataSaknas": []}
+    fx, fxfel = valutakurser()
+    del_ut["diagnos"]["valutor"] = fx
+    if fxfel:
+        del_ut["diagnos"]["valutafel"] = fxfel
+    minsta = m.get("min") or GRANS_NORDEN_SEK / fx[m["valuta"]]
+    storsta = m.get("max")
+    del_ut["diagnos"]["borsvarde"] = {"min": round(minsta), "max": storsta, "valuta": m["valuta"]}
+    extra = [s for s in bev_sym if hor_till(m, {"symbol": s, "exchange": m["borser"][0]})]
     try:
-        univers = rensa_univers(hamta_univers([sym for sym in json.load(open("symboler.json")).values() if sym.endswith(".ST")], ut["diagnos"]))
+        univers = rensa_univers(hamta_univers(m, minsta, storsta, extra, del_ut["diagnos"]))
     except Exception as e:  # noqa: BLE001
-        # Behåll förra listan och skriv bara in felet, så att en misslyckad körning inte tömmer filen.
-        try:
-            ut = json.load(open("sallning.json"))
-        except Exception:  # noqa: BLE001
-            pass
-        ut["status"] = "fel"
-        ut["fel"] = ["%s: universum kunde inte hämtas: %s" % (idag.isoformat(), e)]
-        json.dump(ut, open("sallning.json", "w"), ensure_ascii=False, indent=1)
-        print("Universum kunde inte hämtas:", e)
-        return
-    print("Universum:", len(univers), "bolag")
+        del_ut["status"] = "fel"
+        del_ut["fel"].append("%s: urvalet kunde inte hämtas: %s" % (m["land"], e))
+        return del_ut
+    print(kod, "urval:", len(univers), "bolag")
 
     for q in univers:
         sym = q["symbol"]
+        mc, val = q.get("marketCap") or 0, q.get("currency")
         bas = {
-            "symbol": sym, "namn": q.get("longName") or q.get("shortName"),
-            "borsvardeMdr": round((q.get("marketCap") or 0) / 1e9, 1), "kurs": q.get("regularMarketPrice"),
-            "valuta": q.get("currency"), "pe": round(q["trailingPE"], 1) if q.get("trailingPE") else None,
-            "finnsRedan": redan.get(rot(sym)),
+            "symbol": sym, "namn": q.get("longName") or q.get("shortName"), "marknad": m["land"], "marknadKod": kod,
+            "borsvardeMdr": round(mc / 1e9, 1), "borsvardeMdrSEK": round(mc * fx[val] / 1e9, 1) if val in fx else None,
+            "kurs": q.get("regularMarketPrice"), "valuta": val,
+            "pe": round(q["trailingPE"], 1) if q.get("trailingPE") else None,
+            "finnsRedan": redan.get(rot(sym)), "sektor": None, "bransch": None,
         }
-        profil, pfel = hamta_profil(sym)
-        bas["sektor"], bas["bransch"] = profil.get("sektor"), profil.get("bransch")
-        if bas["sektor"] in UTESLUTNA_SEKTORER:
-            bas["orsak"] = UTESLUTNA_SEKTORER[bas["sektor"]]
-            ut["uteslutna"].append(bas)
-            time.sleep(0.4)
-            continue
         b, bfel = hamta_bokslut(sym)
         if b is None:
             bas["orsak"] = "bokslutet kunde inte hämtas: " + bfel
-            ut["dataSaknas"].append(bas)
+            del_ut["dataSaknas"].append(bas)
             continue
         n, orsak = rakna(b)
         if n is None:
             bas["orsak"] = orsak
-            ut["dataSaknas"].append(bas)
+            del_ut["dataSaknas"].append(bas)
+            time.sleep(0.2)
             continue
 
         profil_bokstav = "B" if (n["tillvaxt"] or 0) >= 0.15 else "A"
-        k, osakra = poang_a(n) if profil_bokstav == "A" else poang_b(n, profil)
-        poang = sum(p for p, _ in k.values())
+        k, osakra = poang_a(n) if profil_bokstav == "A" else poang_b(n, {})
         v = veton(n)
+        hart_veto = any(not x.startswith("veto 3") for x in v)
+        poang = sum(p for p, _ in k.values())
+        # Bransch och estimat hämtas bara för bolag som kan bli kandidater (estimatet kan ge Profil B 1p till).
+        pfel = ""
+        if poang + osakra + (1 if profil_bokstav == "B" else 0) >= MIN_POANG and not hart_veto:
+            profil, pfel = hamta_profil(sym)
+            bas["sektor"], bas["bransch"] = profil.get("sektor"), profil.get("bransch")
+            orsak = uteslut(bas["sektor"], bas["bransch"])
+            if orsak:
+                bas["orsak"] = orsak
+                del_ut["uteslutna"].append(bas)
+                time.sleep(0.2)
+                continue
+            if profil_bokstav == "B":
+                k, osakra = poang_b(n, profil)
+                poang = sum(p for p, _ in k.values())
+
         flaggor = []
         if n["ebitFall"] > 0.30:
             hur = "gick från vinst till förlust" if n["ebitFall"] >= 1 else "föll %d %%" % (100 * n["ebitFall"])
@@ -477,32 +562,110 @@ def main():
             "roic": pct(n["roic"]), "ebitMarginal": pct(n["ebitMarginal"]), "tillvaxt": pct(n["tillvaxt"]),
             "nettoskuldEbitda": n["nettoskuldEbitda"], "fcfKonvertering": pct(n["fcfKonvertering"]),
         })
-        ar_veto = any(not x.startswith("veto 3") for x in v)
-        if bas["mojligPoang"] >= MIN_POANG and not ar_veto:
-            ut["kandidater"].append(bas)
+        if bas["mojligPoang"] >= MIN_POANG and not hart_veto:
+            del_ut["kandidater"].append(bas)
         else:
-            ut["ovriga"].append(bas)
-        print("%-14s %s %2dp %s" % (sym, profil_bokstav, poang, "; ".join(v)))
-        time.sleep(0.4)
+            del_ut["ovriga"].append(bas)
+        print("%-12s %s %2dp %s" % (sym, profil_bokstav, poang, "; ".join(v)))
+        time.sleep(0.2)
 
-    nyckel = lambda x: (-x["snabbpoang"], -(x["roic"] or -999))  # noqa: E731
+    if len(del_ut["dataSaknas"]) > len(univers) / 2:
+        del_ut["status"] = "ofullständig"
+        del_ut["fel"].append("%s: bokslut saknas för mer än hälften av bolagen" % m["land"])
+    del_ut["antal"] = {"urval": len(univers), **{k: len(del_ut[k]) for k in ("kandidater", "ovriga", "uteslutna", "dataSaknas")}}
+    del_ut["sekunder"] = round(time.time() - start)
+    return del_ut
+
+
+# ---------------------------------------------------------------- ihopslagning
+
+LISTOR = ("kandidater", "ovriga", "uteslutna", "dataSaknas")
+
+
+def sla_ihop():
+    idag = datetime.date.today()
+    try:
+        forra = json.load(open("sallning.json"))
+    except Exception:  # noqa: BLE001
+        forra = {}
+    ut = {
+        "hamtad": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "system": "Masterguide v4.8", "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
+        "regler": {"borsvardeMinNordenSEK": GRANS_NORDEN_SEK, "borsvardeMinUSA_USD": MARKNADER["us-mellan"]["min"],
+                   "marknader": sorted({m["land"] for m in MARKNADER.values()}),
+                   "minSnabbpoang": MIN_POANG, "maxSnabbpoang": 12, "antalForslag": ANTAL_FORSLAG},
+        "status": "ok", "fel": [], "diagnos": {}, "antal": {}, "forslag": [], **{k: [] for k in LISTOR},
+    }
+    lyckade = 0
+    poster = []  # (lista, post) i ORDNING, så att dubbelnoterade bolag behåller den första marknaden
+    for kod in ORDNING:
+        try:
+            d = json.load(open("delar/%s.json" % kod))
+        except Exception:  # noqa: BLE001
+            d = {"status": "fel", "fel": ["%s: ingen körning hittades" % MARKNADER[kod]["land"]]}
+        ut["diagnos"][kod] = {"status": d.get("status"), "antal": d.get("antal"), "sekunder": d.get("sekunder"),
+                              **(d.get("diagnos") or {})}
+        ut["fel"] += d.get("fel") or []
+        if d.get("status") == "fel":
+            # Behåll marknadens bolag från förra körningen, så att ett tillfälligt fel inte tömmer listan.
+            for lista in LISTOR:
+                poster += [(lista, x) for x in forra.get(lista, []) if x.get("marknadKod") == kod]
+            continue
+        lyckade += 1
+        for lista in LISTOR:
+            poster += [(lista, x) for x in d.get(lista, [])]
+
+    if lyckade == 0:
+        forra["status"] = "fel"
+        forra["fel"] = ["%s: ingen marknad kunde hämtas" % idag.isoformat()] + ut["fel"]
+        json.dump(forra or ut, open("sallning.json", "w"), ensure_ascii=False, indent=1)
+        print("Ingen marknad kunde hämtas")
+        return
+    if lyckade < len(ORDNING):
+        ut["status"] = "delvis"
+
+    sedda_sym, sedda_namn = set(), {}
+    for lista, x in poster:
+        if x["symbol"] in sedda_sym:
+            continue
+        nyckel = namnnyckel(x.get("namn")) or x["symbol"]
+        if nyckel in sedda_namn:
+            sedda_namn[nyckel].setdefault("ocksaNoterad", []).append(x["symbol"])
+            if x.get("finnsRedan") and not sedda_namn[nyckel].get("finnsRedan"):
+                sedda_namn[nyckel]["finnsRedan"] = x["finnsRedan"]
+            continue
+        sedda_sym.add(x["symbol"])
+        sedda_namn[nyckel] = x
+        ut[lista].append(x)
+
+    nyckel = lambda x: (-x.get("snabbpoang", 0), -(x.get("roic") or -999))  # noqa: E731
     ut["kandidater"].sort(key=nyckel)
     ut["ovriga"].sort(key=nyckel)
-    ut["forslag"] = [x["symbol"] for x in ut["kandidater"] if not x["finnsRedan"] and not x["veto"]][:5]
-    ut["antal"] = {
-        "univers": len(univers), "kandidater": len(ut["kandidater"]),
-        "nyaKandidater": sum(1 for x in ut["kandidater"] if not x["finnsRedan"]),
-        "ovriga": len(ut["ovriga"]), "uteslutna": len(ut["uteslutna"]), "dataSaknas": len(ut["dataSaknas"]),
-    }
-    if len(ut["dataSaknas"]) > len(univers) / 2:
-        ut["status"] = "ofullständig"
-        ut["fel"].append("bokslut saknas för mer än hälften av bolagen")
-    ut["sekunder"] = round(time.time() - start)
+    ut["forslag"] = [x["symbol"] for x in ut["kandidater"] if not x["finnsRedan"] and not x["veto"]][:ANTAL_FORSLAG]
+    ut["antal"] = {k: len(ut[k]) for k in LISTOR}
+    ut["antal"]["nyaKandidater"] = sum(1 for x in ut["kandidater"] if not x["finnsRedan"])
+    ut["antal"]["kandidaterPerMarknad"] = {}
+    for x in ut["kandidater"]:
+        ut["antal"]["kandidaterPerMarknad"][x["marknad"]] = ut["antal"]["kandidaterPerMarknad"].get(x["marknad"], 0) + 1
     json.dump(ut, open("sallning.json", "w"), ensure_ascii=False, indent=1)
     os.makedirs("arkiv", exist_ok=True)
     json.dump(ut, open("arkiv/sallning-%s.json" % idag.strftime("%Y-%m"), "w"), ensure_ascii=False, indent=1)
-    print("Klart:", ut["antal"])
+    print("Klart:", ut["status"], ut["antal"], ut["forslag"])
+
+
+def main(argv):
+    if "--sla-ihop" in argv:
+        sla_ihop()
+        return
+    koder = [argv[argv.index("--marknad") + 1]] if "--marknad" in argv else ORDNING
+    os.makedirs("delar", exist_ok=True)
+    for kod in koder:
+        d = sall_marknad(kod)
+        json.dump(d, open("delar/%s.json" % kod, "w"), ensure_ascii=False, indent=1)
+        print(kod, d["status"], d.get("antal"), d["fel"])
+    if "--marknad" not in argv:
+        sla_ihop()
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main(sys.argv[1:])

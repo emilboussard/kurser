@@ -4,7 +4,7 @@ on:
   schedule:
     # En gång i månaden, den 1:a. GitHub startar ibland sent eller hoppar över, därför ett andra försök den 2:a.
     - cron: "17 5 1 * *"   # 06.17 svensk vintertid
-    - cron: "17 5 2 * *"   # reserv: körs bara om den 1:a misslyckades (se steget Behövs körningen)
+    - cron: "17 5 2 * *"   # reserv: körs bara om den 1:a misslyckades (se jobbet koll)
   workflow_dispatch:
   push:
     paths:
@@ -19,9 +19,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sall:
+  koll:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    outputs:
+      kor: ${{ steps.koll.outputs.kor }}
     steps:
       - uses: actions/checkout@v4
       - name: Behövs körningen
@@ -34,11 +35,45 @@ jobs:
           else
             echo "kor=ja" >> "$GITHUB_OUTPUT"
           fi
-      - name: Sålla bolagen
-        if: steps.koll.outputs.kor == 'ja'
-        run: python3 -u sallning.py
+
+  # En marknad per jobb: jobben körs samtidigt från olika maskiner, så att Yahoo inte stryper anropen
+  # och en marknad som strular inte stoppar de andra.
+  marknad:
+    needs: koll
+    if: needs.koll.outputs.kor == 'ja'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        marknad: [se, "no", dk, fi, us-stora, us-mellan]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sålla ${{ matrix.marknad }}
+        run: python3 -u sallning.py --marknad ${{ matrix.marknad }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: del-${{ matrix.marknad }}
+          path: delar/${{ matrix.marknad }}.json
+          if-no-files-found: ignore
+          retention-days: 7
+
+  ihop:
+    needs: [koll, marknad]
+    if: always() && needs.koll.outputs.kor == 'ja'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: del-*
+          path: delar
+          merge-multiple: true
+      - name: Slå ihop marknaderna
+        run: python3 -u sallning.py --sla-ihop
       - name: Spara sallning.json
-        if: steps.koll.outputs.kor == 'ja'
         run: |
           git config user.name "kurser-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
