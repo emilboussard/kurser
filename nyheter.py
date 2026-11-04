@@ -103,7 +103,7 @@ def hamta_mfn(slug):
         g = it.get("group_id") or it.get("news_id") or lank
         if g not in per_grupp or (sprak == "sv" and per_grupp[g].get("sprak") != "sv"):
             per_grupp[g] = post
-    return list(per_grupp.values()), flode.get("items", [])[:1]
+    return list(per_grupp.values())
 
 
 def nyckel(titel):
@@ -116,28 +116,17 @@ def handlar_om(titel, ord_):
     return any(o.lower() in t for o in ord_)
 
 
-def mfn_felsok(exempel):
-    """Tillfällig felsökning: sparar ett rått MFN-objekt i mfn_debug.json så att fälten kan kontrolleras."""
-    json.dump(exempel, open("mfn_debug.json", "w"), ensure_ascii=False, indent=1)
-
-
 def main():
     bolag = json.load(open("nyhetsbolag.json"))
     bolag.pop("_info", None)
     nu = datetime.datetime.now(datetime.timezone.utc)
     grans = nu - datetime.timedelta(days=DAGAR)
     ut = {"hamtad": iso(nu), "dagar": DAGAR, "kallor": "MFN, Yahoo Finance RSS, Google News RSS", "bolag": {}}
-    felsok = []
     for bid, cfg in bolag.items():
         poster, fel, antal = [], {}, {}
         kallor = []
         if cfg.get("mfn"):
-            def fran_mfn(s=cfg["mfn"], bid=bid):
-                poster_mfn, exempel = hamta_mfn(s)
-                if bid == "smart-eye":
-                    felsok.extend(exempel)
-                return poster_mfn
-            kallor.append(("mfn", fran_mfn))
+            kallor.append(("mfn", lambda s=cfg["mfn"]: hamta_mfn(s)))
         if cfg.get("yahoo"):
             url = YAHOO.format(s=urllib.parse.quote(cfg["yahoo"]))
             kallor.append(("yahoo", lambda u=url: las_rss(hamta(u), "yahoo")))
@@ -170,7 +159,6 @@ def main():
         ut["bolag"][bid] = {"namn": cfg.get("namn", bid), "antal": antal, "fel": fel, "nyheter": unika}
         print(bid, len(unika), antal, fel or "")
     json.dump(ut, open("nyheter.json", "w"), ensure_ascii=False, indent=1)
-    mfn_felsok(felsok)
 
 
 if __name__ == "__main__":

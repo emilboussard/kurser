@@ -1,5 +1,5 @@
 {
- "_info": "Bolag som nyheter.py hämtar nyheter för. id = samma id som i bevakningsdatabasen. sok = [[språk, sökfras], ...] för Google News (sv eller en). yahoo = Yahoo-symbol för Yahoo Finance-nyheter (null = ingen). ord = rubriken måste innehålla något av orden (skiftläge spelar ingen roll), annars sorteras nyheten bort (gäller inte MFN). mfn = bolagets sida på mfn.se (svenska bolag, null = ingen).",
+ "_info": "Bolag som nyheter.py hämtar nyheter för. id = samma id som i bevakningsdatabasen. sok = [[språk, sökfras], ...] för Google News (sv eller en). yahoo = Yahoo-symbol för Yahoo Finance-nyheter (null = ingen). ord = rubriken måste innehålla något av orden (skiftläge spelar ingen roll), annars sorteras nyheten bort (gäller inte MFN). mfn = bolagets sida på mfn.se (svenska bolag som publicerar via MFN, null = ingen; bolag som publicerar via Cision fångas av Google News).",
  "abbvie": {"namn": "AbbVie", "sok": [["en", "AbbVie"]], "yahoo": "ABBV", "mfn": null, "ord": ["AbbVie", "ABBV"]},
  "applovin": {"namn": "AppLovin", "sok": [["en", "AppLovin"]], "yahoo": "APP", "mfn": null, "ord": ["AppLovin"]},
  "broadcom": {"namn": "Broadcom", "sok": [["en", "Broadcom AVGO"]], "yahoo": "AVGO", "mfn": null, "ord": ["Broadcom", "AVGO"]},
@@ -7,8 +7,8 @@
  "coca-cola": {"namn": "Coca-Cola", "sok": [["en", "Coca-Cola stock"]], "yahoo": "KO", "mfn": null, "ord": ["Coca-Cola", "Coca Cola"]},
  "crowdstrike": {"namn": "CrowdStrike", "sok": [["en", "CrowdStrike"]], "yahoo": "CRWD", "mfn": null, "ord": ["CrowdStrike", "CRWD"]},
  "industrivarden-c": {"namn": "Industrivärden", "sok": [["sv", "Industrivärden"], ["en", "Industrivarden"]], "yahoo": "INDU-C.ST", "mfn": "industrivarden", "ord": ["Industrivärden", "Industrivarden"]},
- "investor-b": {"namn": "Investor", "sok": [["sv", "\"Investor AB\""], ["en", "\"Investor AB\""]], "yahoo": "INVE-B.ST", "mfn": "investor", "ord": ["Investor"]},
- "lundberg-b": {"namn": "Lundbergföretagen", "sok": [["sv", "Lundbergföretagen"], ["en", "Lundbergforetagen"]], "yahoo": "LUND-B.ST", "mfn": "lundbergforetagen", "ord": ["Lundberg"]},
+ "investor-b": {"namn": "Investor", "sok": [["sv", "\"Investor AB\""], ["en", "\"Investor AB\""]], "yahoo": "INVE-B.ST", "mfn": null, "ord": ["Investor"]},
+ "lundberg-b": {"namn": "Lundbergföretagen", "sok": [["sv", "Lundbergföretagen"], ["en", "Lundbergforetagen"]], "yahoo": "LUND-B.ST", "mfn": null, "ord": ["Lundberg"]},
  "micron": {"namn": "Micron Technology", "sok": [["en", "\"Micron Technology\""]], "yahoo": "MU", "mfn": null, "ord": ["Micron"]},
  "nibe-b": {"namn": "Nibe Industrier", "sok": [["sv", "Nibe aktie"], ["sv", "\"Nibe Industrier\""], ["en", "\"Nibe Industrier\""]], "yahoo": "NIBE-B.ST", "mfn": "nibe-industrier", "ord": ["Nibe"]},
  "nvidia": {"namn": "Nvidia", "sok": [["en", "Nvidia NVDA"]], "yahoo": "NVDA", "mfn": null, "ord": ["Nvidia", "NVDA"]},
@@ -17,12 +17,12 @@
  "sofi": {"namn": "SoFi", "sok": [["en", "\"SoFi Technologies\" OR \"SoFi stock\""]], "yahoo": "SOFI", "mfn": null, "ord": ["SoFi"]},
  "sysco": {"namn": "Sysco", "sok": [["en", "Sysco"]], "yahoo": "SYY", "mfn": null, "ord": ["Sysco", "SYY"]},
  "asml": {"namn": "ASML", "sok": [["en", "ASML"]], "yahoo": "ASML", "mfn": null, "ord": ["ASML"]},
- "assa-b": {"namn": "ASSA ABLOY", "sok": [["sv", "\"Assa Abloy\""], ["en", "\"Assa Abloy\""]], "yahoo": "ASSA-B.ST", "mfn": "assa-abloy", "ord": ["Assa Abloy"]},
+ "assa-b": {"namn": "ASSA ABLOY", "sok": [["sv", "\"Assa Abloy\""], ["en", "\"Assa Abloy\""]], "yahoo": "ASSA-B.ST", "mfn": null, "ord": ["Assa Abloy"]},
  "byd": {"namn": "BYD", "sok": [["en", "BYD"]], "yahoo": "1211.HK", "mfn": null, "ord": ["BYD"]},
- "hansa-biopharma": {"namn": "Hansa Biopharma", "sok": [["sv", "\"Hansa Biopharma\""], ["en", "\"Hansa Biopharma\""]], "yahoo": "HNSA.ST", "mfn": "hansa-biopharma", "ord": ["Hansa"]},
- "hexagon-b": {"namn": "Hexagon", "sok": [["sv", "Hexagon aktie"], ["en", "\"Hexagon AB\""]], "yahoo": "HEXA-B.ST", "mfn": "hexagon", "ord": ["Hexagon"]},
+ "hansa-biopharma": {"namn": "Hansa Biopharma", "sok": [["sv", "\"Hansa Biopharma\""], ["en", "\"Hansa Biopharma\""]], "yahoo": "HNSA.ST", "mfn": null, "ord": ["Hansa"]},
+ "hexagon-b": {"namn": "Hexagon", "sok": [["sv", "Hexagon aktie"], ["en", "\"Hexagon AB\""]], "yahoo": "HEXA-B.ST", "mfn": null, "ord": ["Hexagon"]},
  "noba": {"namn": "NOBA Bank Group", "sok": [["sv", "\"Noba Bank\" OR \"NOBA Bank Group\""], ["en", "\"Noba Bank\""]], "yahoo": "NOBA.ST", "mfn": "noba", "ord": ["Noba"]},
  "rocket-lab": {"namn": "Rocket Lab", "sok": [["en", "\"Rocket Lab\""]], "yahoo": "RKLB", "mfn": null, "ord": ["Rocket Lab", "RKLB"]},
  "sezzle": {"namn": "Sezzle", "sok": [["en", "Sezzle"]], "yahoo": "SEZL", "mfn": null, "ord": ["Sezzle"]},
- "volvo-cars": {"namn": "Volvo Cars", "sok": [["sv", "\"Volvo Cars\""], ["en", "\"Volvo Cars\""]], "yahoo": "VOLCAR-B.ST", "mfn": "volvo-cars", "ord": ["Volvo Car"]}
+ "volvo-cars": {"namn": "Volvo Cars", "sok": [["sv", "\"Volvo Cars\""], ["en", "\"Volvo Cars\""]], "yahoo": "VOLCAR-B.ST", "mfn": null, "ord": ["Volvo Car"]}
 }
