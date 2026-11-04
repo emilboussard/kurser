@@ -100,15 +100,21 @@ def handlar_om(titel, ord_):
 def mfn_felsok():
     """Tillfällig felsökning: hur ser MFN:s sidor ut från GitHub? Skriver mfn_debug.json."""
     ut = {}
-    for url in ("https://mfn.se/all/a/smart-eye", "https://mfn.se/a/smart-eye", "https://mfn.se/all/a/smart-eye.rss",
-                "https://mfn.se/all/a/smart-eye?type=rss", "https://mfn.se/all/a/smart-eye.json"):
-        try:
-            data = hamta(url).decode("utf-8", "replace")
-            i = data.find("/a/smart-eye/")
-            ut[url] = {"langd": len(data), "antal": data.count("/a/smart-eye/"), "borjan": data[:600],
-                       "kring": data[max(0, i - 900): i + 900] if i >= 0 else ""}
-        except Exception as e:  # noqa: BLE001
-            ut[url] = {"fel": str(e)[:200]}
+    try:
+        data = hamta("https://mfn.se/all/a/smart-eye").decode("utf-8", "replace")
+        d = re.search(r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}", data)
+        ut["datum_kring"] = data[max(0, d.start() - 1500): d.end() + 1500] if d else "inget datum"
+        ut["hrefs"] = re.findall(r'href="([^"]*smart-eye/[^"]*)"', data)[:25]
+        ut["uuid"] = re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", data)[:10]
+        ut["feed"] = re.findall(r'(https?://feed\.mfn\.se[^"\' <]*)', data)[:10]
+    except Exception as e:  # noqa: BLE001
+        ut["fel"] = str(e)[:200]
+    for uuid in dict.fromkeys(ut.get("uuid", [])):
+        for url in ("https://feed.mfn.se/v1/feed/%s.rss" % uuid, "https://feed.mfn.se/v1/feed/%s.json" % uuid):
+            try:
+                ut[url] = hamta(url).decode("utf-8", "replace")[:1500]
+            except Exception as e:  # noqa: BLE001
+                ut[url] = "fel: " + str(e)[:150]
     json.dump(ut, open("mfn_debug.json", "w"), ensure_ascii=False, indent=1)
 
 
