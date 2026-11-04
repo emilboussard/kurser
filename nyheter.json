@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-04T16:49:17Z",
+ "hamtad": "2026-11-04T16:51:18Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -7,7 +7,7 @@
    "namn": "AbbVie",
    "antal": {
     "yahoo": 6,
-    "google-en": 94
+    "google-en": 95
    },
    "fel": {},
    "nyheter": [
@@ -19,17 +19,17 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T14:59:19Z",
-     "titel": "Freedom Broker raises Abbvie stock price target on strong results By Investing.com",
-     "kalla": "Investing.com Canada",
-     "lank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMjBIbWVfeU5wVXBNazNUZnc0d3RjNTNhVEVTSFZKRTRzS0NIbWd2TW5HcEoyNy0tb05hb2F2bXl5M3c3TDU5bThFXzhLMmROMTJYN09wUk5sdC1WQ0F1cmdHekxvTFliTWwtWDN1M3cwSGJWV1htWlpaX2dCZ0RnMkxsOEc4SVc5R3pVMmdZVjFjY0dBdkZIakk3MEVwWG96cEdmakhVUGVqQVozSDVhTTFOSGM1aWFxcjlKSi1uSWFGcW94?oc=5",
-     "fran": "google-en"
-    },
-    {
      "tid": "2026-11-04T14:48:28Z",
      "titel": "Roundup: Boehringer Ingelheim Licenses Six Oncology Programs From Sino Biopharmaceutical, Nxera Licenses EP4 Agonist to AbbVie",
      "kalla": "Pharmaceutical Executive",
      "lank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUlhTNFJMcmVqYkJYa01odWhmWXpNUnIwLUtnUW1XeXZzaXY5VVBsNG1WVmsyYkFFekZmai1LYV9pemVVMXhPdDlmR1dEajZNLUwtZHBIbHZJQnVXTVZsUFh5TUFZTzdBWW0wTENfTmo3cUJuQjlHRHl1cXYtclhWSUdVWHBIclg0TmNIa1F6MlZCM1ctTEtDXzJubVJQR1FFYXd6d2FmZUg3LUZUbE9tMEFtTzl6N1dXc1B4UWVn?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T14:44:00Z",
+     "titel": "Freedom Broker raises Abbvie stock price target on strong results By Investing.com",
+     "kalla": "Investing.com UK",
+     "lank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR3dnRHB1RnhFbWpQZ2hPNVI0ZXN2MEszdkw1aHk3d2M4V3BZUkRGVHBZWkxlRHNIVUxYNnFicmhFNDFHVER4YTBmRUhJaE9HM1BOVkk4elFKRExXN2hDUV9yX19FRF9MNDVTV2tJUkNJcm5hZnpJUzFZM05tRDFOcTFDRDlQVUVyMGxfbUpqX09NODZhZ3REd1pfc1ZUR3YyUVNMRlRqT1dNLWZ1bVVIZy1JYXBDd2hLZmJLU0dOS3dWelVS?oc=5",
      "fran": "google-en"
     },
     {
@@ -204,13 +204,6 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T05:30:21Z",
-     "titel": "Investor Notice: Robbins LLP Informs Investors of the AppLovin Corporation Class Action Lawsuit",
-     "kalla": "The National Law Review",
-     "lank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVNLVkdod0NlTGJfcHlFUlhsU2EwZnBIR2pUZ20zenRaQUxvR1VqNjN2Njd1NVh3RFNHSG1mV2xScXc0YWdWckxuNi1YWUNtSWM4TDhURXRobUEwNkZFVkNRZTRmMlNsQUhVVzBqUFVQN2MxMzNNVDdzMGVJWWpnb0dDYXFCR1NHaVBsNHlia1NWYWFjblh0UkhtZ05hSFdjdTVHdGlSWndWWkJ5a3pPZDlB?oc=5",
-     "fran": "google-en"
-    },
-    {
      "tid": "2026-11-03T20:25:10Z",
      "titel": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
      "kalla": "Yahoo! Finance Canada",
@@ -300,6 +293,13 @@
      "kalla": "ad-hoc-news.de",
      "lank": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVnJYQzY4NlpIVUNyVTZXTEtyVUF1NVFDUG5iZTBDUlRnc0JjWFdjdi1vVG5mRHREVkZlNnBMby1CRS1tdzQ2V3RIdjU0RzV2Vl9FSGVpZVdlekpqaVZDNENGd20wdzU1RkYyeTdMRmtieWx0VGljQzV1NW5FTFZDWGR1ZG1NaGVOVnp3dHZPSHRyMkVHbWhFb3ZhV0xUa3hEaE5GUXRQN0JjX0s0bWNUMGZnMDhMLWI0Qmh1UjZBNGtkLVZlZHV0YXlRQXV0UVNibWota2FUbjZCQno4clRyWlFtNjdJc1UzM1ZvZW1KN2RmUQ?oc=5",
      "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-03T14:00:00Z",
+     "titel": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
+     "kalla": "GlobeNewswire",
+     "lank": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQZjl1MHFqSFczTGtWXzIzTEZmd1dSVV9WMmtxZkdseTFGaWNqUHpqZTZHTHVwMEZIeUM5d0RJbUoyc0pCd2FmUXdoWGJDS0l0QmMzTVJyX0F6NkZOblNUMnJVdXFWdEhKV1BLdW9BTFY5bXc1VjFhSm1HRW5xQ2tWRUpyUENkdHhtSWhBVzdzLUw1alpYZi1zY3I3M3NOOUhRUDFIcmNkeVNKcExTT2l3TkpvX0FINDMxNF9XcXd4VEpkVjVVRkd5cmoxMVp6TkhtaFR4OHBONkU3TjY2U0hXNWYtM2s2QldkQm5ZLUt3LTcxNDYtWXpOeDBvTjhTMjBiMXdiTU9IaUltOWM1ZGRvb2FpUGFlZGRXTTVDZlZwVWc1Y2tZMVpUWEtIUDZCMHczT2FjYVRHcjJrMjAweExqMVlmYjJUaU9wcXZIdmdMZ2dWZTZVR1hGMFA1anJtXzBWRm1R?oc=5",
+     "fran": "google-en"
     }
    ]
   },
@@ -307,7 +307,7 @@
    "namn": "Broadcom",
    "antal": {
     "yahoo": 4,
-    "google-en": 98
+    "google-en": 99
    },
    "fel": {},
    "nyheter": [
@@ -445,10 +445,10 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-03T22:46:00Z",
+     "tid": "2026-11-03T22:56:16Z",
      "titel": "Form 4 Broadcom Inc For: 3 November By Investing.com",
-     "kalla": "Investing.com UK",
-     "lank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1VMVmxveHYtXzRaM1pVYWJ0SkhzZ3B1UFBtNWNJOFRPUjdhTVY3T0MwQXhNTzFXWFpQVmxYYTVmY0d1UGdqVmpOeEs2XzNTSnJwSmdPVnl6czA1c0RLUFBJbU9oM0FrcjZRcV94b00yWm8tMmpsZWFybnFYR2VoOXZsVkFhd2JKVG5NdFdVcjVwMWdsTGVQTVJMVQ?oc=5",
+     "kalla": "Investing.com India",
+     "lank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVhITHJVUVJaN3drYnJqdHZPUl9HMmh2NmZJb3F3VVhpRFlyWmpUem5zREJ4WUZ1ZzBTNlVBc1Q3MkJrYjFuTXpUTGFHRXBWUi1HcTRUSGxnMEN2NGFHS2tPSU9LeWtsN1hOTVpNRVRuZ3hwbXlZVW9kaWVVM1EyQ2h4TnVQOFRONTI4Ry1NZXFhTzdSRUFrY1VXdw?oc=5",
      "fran": "google-en"
     }
    ]
@@ -607,7 +607,7 @@
    "namn": "Coca-Cola",
    "antal": {
     "yahoo": 4,
-    "google-en": 70
+    "google-en": 73
    },
    "fel": {},
    "nyheter": [
@@ -997,11 +997,9 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 1,
-    "google-en": 13
+    "google-en": 15
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/investor"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-11-04T16:37:09Z",
@@ -1029,6 +1027,13 @@
      "titel": "Investor AB Hosts Capital Markets Update on Strategy",
      "kalla": "TipRanks",
      "lank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX29MSUtvM3kyZjVZTEo4aFdYclhWMEl2OG1Mb1hKT1ZuVF9Ia19GRzZTSnZiUmN6a3huY3dqRTBQUVNZTG9QbVpFOUlpeDd2dXY0Q2JwUHNoRlRPUnFRNUw0WUpJQmlqZG54Q0FobmNjYVA4SEQ0S2Zsbi1yNzhnTkZZWm9xYVhqVml3WXNqdUFCNXkyX1c3QTdYN0NmeVBLRzUzYXZoaw?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T00:47:38Z",
+     "titel": "Investor AB (A) (SE0015811955.SG) Seasonal returns chart - Yahoo Finance",
+     "kalla": "Yahoo Finance Singapore",
+     "lank": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QQ2thRm41NDkwYVBfVzlNakQweU1BMEc0dlc4cTFOSmNDcUlUS2VIbVF4NG1tZkNwS3UxTUFORzFLOGJFOFp0Sk5EVm5xU0p6RkY5bW1IdTFIb1lPUmR0SUpBLTQtTVdpV3NiLXdMZUI?oc=5",
      "fran": "google-en"
     },
     {
@@ -1074,6 +1079,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-02T21:30:00Z",
+     "titel": "DBV Technologies to Participate in Upcoming November Investor Conferences",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ2NpTlNlT3ROcmpmU0pKRGMxcVdpbU5wT2JEZ3pkczM1TnZrYWhpQU5WLTAxZUFuT3ZtbFRTeU9zc2Qxc0JLbHBhTWY0cG5KUUFLR0gzVGV2dlFPTGwxNi1WUEVEeERwS2NiRy03UFNodjYzQUNtemhhUC14ckhtVUtfanlMSm9XdWZfMTdfVWpUM1YyRHkyZGtWOA?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-02T14:00:00Z",
      "titel": "Invitation to Tallinna Sadam Investor Conference Webinar for the unaudited results for Q3 and 9 months of 2026",
      "kalla": "Yahoo Finance UK",
@@ -1110,9 +1122,7 @@
     "google-sv": 0,
     "google-en": 1
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/lundbergforetagen"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-10-30T20:00:00Z",
@@ -1467,7 +1477,7 @@
    "namn": "Palantir",
    "antal": {
     "yahoo": 14,
-    "google-en": 100
+    "google-en": 99
    },
    "fel": {},
    "nyheter": [
@@ -1786,7 +1796,7 @@
    "namn": "Sysco",
    "antal": {
     "yahoo": 14,
-    "google-en": 94
+    "google-en": 93
    },
    "fel": {},
    "nyheter": [
@@ -2087,17 +2097,22 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 7
+    "google-en": 8
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/assa-abloy"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-11-04T10:35:11Z",
      "titel": "ASSA ABLOY showcases access control at ISC East 2026",
      "kalla": "SourceSecurity.com",
      "lank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZnA1emI5UHlCSHhnRUh3eDdWcFdMSG5qZHF2dzRWcHVLWnBjRVdBTzI4RUM1Rk5mY3dpeVZHd3dSUThHS1BldE92U3g3UTdzYkVFOGZrQUFIWHphTk5oZ2E4Qm5EWlRaV0RNZ0dneU1ZdDhkV0tRZlZMenRmQ1hLRWtUaE5BVW1iY3NGNHVtNnNpaWlDb211cWhSVjJJbW1teHFzU1hrRHFsam1HbmNmMnZMSQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-03T16:54:15Z",
+     "titel": "ASSA ABLOY AB (publ) (0R87N.MX) Seasonal returns chart - Yahoo Finance",
+     "kalla": "Yahoo Finance Singapore",
+     "lank": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83dkstTF9oSWE4OUFuaDljTkVNZHprVy1LQzJDODBZb0ZqX05CVGp5ejR2MldZSTcxQUlsMm1TdjhkTVQzX0xpSEdzMzFkZjBhTEhEX1VaczIweUVIbkV6RlREQnRoMVk?oc=5",
      "fran": "google-en"
     },
     {
@@ -2301,9 +2316,7 @@
     "google-sv": 0,
     "google-en": 3
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/hansa-biopharma"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-11-04T10:46:51Z",
@@ -2333,24 +2346,15 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 13
+    "google-en": 12
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/hexagon"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-11-04T11:37:30Z",
      "titel": "Hexagon stock absorbs Waygate in USD 1.45 billion deal",
      "kalla": "ad-hoc-news.de",
      "lank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTm1jeGlIVE5ZRUZNR05XdFZNa2RHMGZsVlRFQVo1Ui1XdWFSc2RFc0tWbUx3djlXdTRLRk9ZVXN5NGZ0bTQ4eVpQQnNMSk5aRVVwQUZGRC1TQ2tEYUVicE9IUXVWLVRVLXMzUWN0OVhfUEoyeGZFWTBvNHlLd0ZGb1QwZkFzMEQ3eTM4VUZLZkd5UWEySlQ5eTQyMFlCaVpLblpTT2ZIM2NjUDRYOFpWYldfRGFFTGxa?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T06:58:13Z",
-     "titel": "Hexagon AB (publ) (0GRX.L) Seasonal returns chart",
-     "kalla": "Yahoo Finance Singapore",
-     "lank": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcjU5ZWRsUzBwbE9XRU1BQ255T0U4SDM0NGtoMml1bTRPb21JYW9ULUxTcjR4SF84UzROMWZZMkhSVXBBSlBFdjl1MmFuV0s1Z0hncEV6SmxfX05UMkNqVlVPTnA?oc=5",
      "fran": "google-en"
     },
     {
@@ -2424,7 +2428,7 @@
     "mfn": 5,
     "yahoo": 1,
     "google-sv": 10,
-    "google-en": 27
+    "google-en": 25
    },
    "fel": {},
    "nyheter": [
@@ -2457,10 +2461,10 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T09:59:12Z",
-     "titel": "NOBA Bank Group AB (publ) (ZR5.SG) Interactive Stock Chart - Yahoo Finance",
+     "tid": "2026-11-04T10:05:37Z",
+     "titel": "NOBA Bank Group AB (publ) (ZR5.SG) Valuation Measures & Financial Statistics",
      "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uWVZ4dXhYNkUwYWdXSzZmU2lYMTcxMkpGVmJoQ1k2cUhvSDlId1liTFJxYmU3Z0dxN1VCbVZqa0k5dUlIdHdPbHZYMmdOQUpnU2VBSHNQUUt6RXI4?oc=5",
+     "lank": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yLWZaX1BhbFNYbk1fdUd5WDFkQ0JyN2QwX2FtNTFoZGxITFJqZC1hb1N0Q1NBM3dIZmxBV29ISF9KUlhYZVpmTHYxQXlNb0JKUENWVW5DM1B4RUhWZGxCeHZHeExWYlQ0?oc=5",
      "fran": "google-en"
     },
     {
@@ -2503,20 +2507,6 @@
      "titel": "Nordea raises price target for Noba Bank to 118 kronor (116), reiterates buy",
      "kalla": "www.marketscreener.com",
      "lank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY3V3SjFvUElqcExMSVRMcGlZbC1XOW5mbkJSNEtxWURhR09SbVZZbVRpQTIzOHZJaWQtdG4zUWZhZ0E1VVVMZl9Ib2IxWFJDMUNDN2M0QTZDQXdnd3BjUWp0TWNPWHRRRTIwMmJUMGh6NHNKU0FZd2pLai1QbnpmcVNheHc5eFgwZVltbTJYLTFRcjh6QUF3NHh3c19KZkhiNEEzVFJrcWlTdnJaeTR0QWZXYlR3NnBJU3l2V25YWmtqZ01n?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T05:42:44Z",
-     "titel": "NOBA Bank Group AB (publ) (NOBA.ST) Seasonal returns chart",
-     "kalla": "Yahoo Finance Singapore",
-     "lank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tMmVMV0xPY3RWM1Y4aExVNUk3bU9XaXpSRUhHd2tqekN5Mm8yZ0VzTGVydkJ4OFZuT1ZYYmhhVHVDZ1BsWUtZcWpSZVVzckRuT09CdTZPSmdZaExERmd5bnI4d1l5QQ?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T20:56:00Z",
-     "titel": "Noba Bank Group AB Financials | ZR5",
-     "kalla": "Barron's",
-     "lank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTEF6dlNjb3pBdWY5S25tODQyZ0lCNS1XMjdmSzJDSXBjU0paZnREWTcxUTkxUHpCR3A2eHNOSkZWN1g0R3Y1VzljeVc2UEFEcHNVeEItUTBBZ3J5V090LXo2MDZOVnExTVQ0eFB5YUsyZUhIVnRvX2t4Q3NOMHdveUNldG84NWU1bU1QbUhWYVVxb0pCTEM0?oc=5",
      "fran": "google-en"
     },
     {
@@ -2567,6 +2557,20 @@
      "kalla": "MFN (pressmeddelande)",
      "lank": "https://mfn.se/a/noba/saknad-bilaga-i-tidigare-pressmeddelande-kallelse-till-extra-bolagsstamma-i-noba-bank-group-ab-publ",
      "fran": "mfn"
+    },
+    {
+     "tid": "2026-11-03T10:45:08Z",
+     "titel": "Intervju | Noba Bank överväger förvärv",
+     "kalla": "Finanswatch.se",
+     "lank": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XZzRZM3NDN1Iwbm1TSjZyXzRxWUZXcFNTOFZrUjNRV2xvLXlrRlUzSTl0dU55aXNjRUIzNnJ6U3NVUW1mS2VfSGdfT1hKUlpBZXhfdHMwVXZNdkNoak5KdnRB?oc=5",
+     "fran": "google-sv"
+    },
+    {
+     "tid": "2026-11-03T09:08:10Z",
+     "titel": "NOBA Calls Extraordinary Meeting on Dividend and Share Repurchases",
+     "kalla": "TipRanks",
+     "lank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON0phR044NkxNS3BzN2FDb1p1NjVSOEtLQk9ndTF1ZVA1Zm50cGJ3cXR1cVZCNHVFcXlZbVM1UDlYT0RpQnZKMURaREc4NUtJRGdGczFpTGtDSU91YnA3cFhsbk05ZkVhZXJOVFNCNWRqRWQwM0dLdXVPakNqLTRNV0FNUERtYUtOYXVYY0NUaGlXVlpjYWwzTDNSanRuQzItS1lGZnEyNmk3S1lRbWI4M2lDVHByNUhfWmc?oc=5",
+     "fran": "google-en"
     }
    ]
   },
@@ -2574,7 +2578,7 @@
    "namn": "Rocket Lab",
    "antal": {
     "yahoo": 15,
-    "google-en": 85
+    "google-en": 86
    },
    "fel": {},
    "nyheter": [
@@ -2724,7 +2728,7 @@
    "namn": "Sezzle",
    "antal": {
     "yahoo": 1,
-    "google-en": 13
+    "google-en": 15
    },
    "fel": {},
    "nyheter": [
@@ -2740,6 +2744,13 @@
      "titel": "Sezzle Inc. (SEZL) stock price, news, quote and history",
      "kalla": "Yahoo Finance Australia",
      "lank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YV3VmQjZGb05yZVlWUlprMU04TkRFc2E4UUNUQlVCbHlub2xOa25Ec1hsUXhaWHdlRFhqRWZRMEcwNXlHa011ekJjOUJQOU0weUE?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T02:45:01Z",
+     "titel": "Sezzle Inc (SEZL) Shares Fall 4.6% -- GF Value Says Still Overva",
+     "kalla": "GuruFocus",
+     "lank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenAxcUdmQnI5b2RTM3JxUklJZE01MFVSWEJkSjkxQzg4ZmdoNWpfblk1UVFLSlc4a0lsN0h2U3FQaUdyQURfMWdvNW5DSG9iZ3NUZndCWFRNZlNGazg1MUNvOHByd3l0bU5tVVVtM1VXZVZVUVpKc19USVJmLTcyN3VBTUtxanV2UVZlWnc1cHZMWnJ3RmdUeDNkRHRtUF9iQWc?oc=5",
      "fran": "google-en"
     },
     {
@@ -2792,6 +2803,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-01T08:17:53Z",
+     "titel": "Sezzle Inc. News — GETTEX:0SE0",
+     "kalla": "TradingView",
+     "lank": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kN3plRlphSjBDVVBLS21HTWFwUldLc1lOMHAxcEtKQUR2MlEzSHNJVTIzTUcxdmhEelBpYUFlaVg1UldWQUs5SEZrNzU2RWpVaEk4VV9wVFMyeTB5d043TVlwLVM2U29MZ1p4eG5reHB6cTR4Vjl3TXdB?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-10-31T19:48:31Z",
      "titel": "Sezzle Inc (0SE0.MU) Seasonal returns chart",
      "kalla": "Yahoo Finance Australia",
@@ -2828,9 +2846,7 @@
     "google-sv": 17,
     "google-en": 13
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/volvo-cars"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-11-04T15:42:00Z",
@@ -2961,8 +2977,8 @@
     {
      "tid": "2026-11-04T08:00:00Z",
      "titel": "Volvo Cars reports rolling three-month sales for the period ending October 2026",
-     "kalla": "Volvo",
-     "lank": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qbnQzNlFhNmZ3dzhoSklnekllb21nNzdpVE5rV2NmOVI3ZGF2dHJGZlBFM0hoZjZxcTJBOFBzSlAydUtCdnF5Y20xODdSMkdpazhQek9LQzExU2ZCZ2RLUHFaS3ZWSmVxbWYtTWxWU01Qc3FYdHNPQg?oc=5",
+     "kalla": "Cision News",
+     "lank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNUVRMWZkc3lxU3RiX0dremVIa2w1cW9UNWk1SDNwLVpHSWVsQk5UYWhIU3hfQXk5Z0pHQ0t6aGtkY3VxYjRualFKd3kwYmF0T2lONjFfWGhpZnl4VDMwOHBsbmVWcUsyeS1fbFlyMlB1S2FDaVQ4SmxjRmhscjVrdnRFMzlpY05oYUxqc3lsV0paaWNfN1VoTzRyOW0xbENpbzZhczV0SnN6SUhDWW1KUFNJQVZyTXRSWkZEWXdfVmtLUFFKWjBXdEFRNnFDcnM?oc=5",
      "fran": "google-en"
     },
     {
