@@ -51,6 +51,16 @@ def uteslut(sektor, bransch):
     return None
 
 
+CYKLISKA = ("Semiconductor", "Gold", "Silver", "Copper", "Steel", "Aluminum", "Oil", "Gas", "Coal", "Uranium",
+            "Marine Shipping", "Chemicals", "Auto", "Building Materials", "Homebuilding", "Airlines", "Paper",
+            "Lumber", "Metals", "Mining", "Trucking", "Farm & Heavy Construction Machinery")
+
+
+def cyklisk_bransch(sektor, bransch):
+    """Branscher som ofta är cykliska. Bara en ledtråd: cykeltestet i Del 4 avgör."""
+    return sektor in ("Energy", "Basic Materials") or any(o in (bransch or "") for o in CYKLISKA)
+
+
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 JAR = http.cookiejar.CookieJar()
 OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
@@ -551,6 +561,8 @@ def sall_marknad(kod):
         if n["ebitFall"] > 0.30:
             hur = "gick från vinst till förlust" if n["ebitFall"] >= 1 else "föll %d %%" % (100 * n["ebitFall"])
             flaggor.append("möjligen cykliskt: EBIT %s under åren %s–%s (cykeltestet kräver 15 år)" % (hur, n["ar"][0], n["ar"][-1]))
+        if cyklisk_bransch(bas["sektor"], bas["bransch"]):
+            flaggor.append("bransch som ofta är cyklisk (%s): cykeltestet och P/S-regeln avgör" % (bas["bransch"] or bas["sektor"]))
         if n["roicUppblast"]:
             flaggor.append("ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)")
         if pfel:
@@ -638,7 +650,11 @@ def sla_ihop():
         sedda_namn[nyckel] = x
         ut[lista].append(x)
 
-    nyckel = lambda x: (-x.get("snabbpoang", 0), -(x.get("roic") or -999))  # noqa: E731
+    def nyckel(x):
+        # Högst snabbpoäng först. Vid lika poäng: möjligen cykliska sist (poängen kan vara en vinsttopp),
+        # sedan ROIC (högst 50 %, så att nettokassa inte avgör) och sist börsvärdet.
+        cyklisk = any(f.startswith(("möjligen cykliskt", "bransch som ofta")) for f in x.get("flaggor") or [])
+        return (-x.get("snabbpoang", 0), cyklisk, -min(x.get("roic") or -999, 50), -(x.get("borsvardeMdrSEK") or 0))
     ut["kandidater"].sort(key=nyckel)
     ut["ovriga"].sort(key=nyckel)
     ut["forslag"] = [x["symbol"] for x in ut["kandidater"] if not x["finnsRedan"] and not x["veto"]][:ANTAL_FORSLAG]
