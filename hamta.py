@@ -70,6 +70,16 @@ def tolka(data, nu):
         idag = datetime.datetime.fromtimestamp(slut + off, datetime.timezone.utc).date().isoformat()
         if dagar[-1]["d"] == idag:
             dagar.pop()
+    # Yahoo lägger ibland inte in dagsstapeln för senaste handelsdagen förrän långt efter stängning.
+    # Finns en nyare, avslutad handelsdag i meta (regularMarketTime/-Price): lägg till den som stängningskurs.
+    rmt, rmp = meta.get("regularMarketTime"), meta.get("regularMarketPrice")
+    if rmt and rmp is not None:
+        start = reg.get("start")
+        stangd = (slut is not None and nu >= slut + 300) or (start is not None and rmt < start)
+        d_rmt = datetime.datetime.fromtimestamp(rmt + off, datetime.timezone.utc).date().isoformat()
+        if stangd and (not dagar or d_rmt > dagar[-1]["d"]):
+            hh, ll = meta.get("regularMarketDayHigh"), meta.get("regularMarketDayLow")
+            dagar.append({"d": d_rmt, "h": round(hh, 4) if hh is not None else None, "l": round(ll, 4) if ll is not None else None, "k": round(rmp, 4)})
     # Samma datum två gånger (Yahoo lägger ibland till en extra rad): behåll den sista.
     unika = {}
     for x in dagar:

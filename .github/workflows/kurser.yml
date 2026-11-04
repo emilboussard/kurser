@@ -2,8 +2,12 @@ name: Kurser
 
 on:
   schedule:
+    # GitHub startar schemalagda körningar ibland flera timmar sent eller hoppar över dem, därför flera försök.
     - cron: "40 21 * * 1-5"   # 22.40 svensk vintertid: efter stängning i Stockholm och USA
-    - cron: "10 4 * * 2-6"    # 05.10 svensk vintertid: reserv före den dagliga körningen 06.39
+    - cron: "20 23 * * 1-5"   # 00.20
+    - cron: "35 1 * * 2-6"    # 02.35
+    - cron: "5 3 * * 2-6"     # 04.05
+    - cron: "55 3 * * 2-6"    # 04.55, sista försöket före den dagliga körningen 06.39
   workflow_dispatch:
   push:
     paths:
