@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-05T19:13:22Z",
+ "hamtad": "2026-11-05T19:14:42Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -124,13 +124,6 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T17:12:22Z",
-     "titel": "AbbVie Inc. (ABBV) Latest Press Releases & Corporate News",
-     "kalla": "Yahoo Finance",
-     "lank": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qMG1kU193Y3JQZmNKOFlrNFFpRXREd3JzTEs2eGU0Ui10dFJzcnlLOW5DaFhNOUNYTDVKaFJleG9HengzR0dHU3BEZE9XcTJDUV9sOW9SWEJFbXJGemVJUFl3?oc=5",
-     "fran": "google-en"
-    },
-    {
      "tid": "2026-11-04T16:18:31Z",
      "titel": "AbbVie bets up to $1.47B for Nxera’s discarded IBD program",
      "kalla": "BioSpace",
@@ -149,6 +142,13 @@
      "titel": "Roundup: Boehringer Ingelheim Licenses Six Oncology Programs From Sino Biopharmaceutical, Nxera Licenses EP4 Agonist to AbbVie",
      "kalla": "Pharmaceutical Executive",
      "lank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUlhTNFJMcmVqYkJYa01odWhmWXpNUnIwLUtnUW1XeXZzaXY5VVBsNG1WVmsyYkFFekZmai1LYV9pemVVMXhPdDlmR1dEajZNLUwtZHBIbHZJQnVXTVZsUFh5TUFZTzdBWW0wTENfTmo3cUJuQjlHRHl1cXYtclhWSUdVWHBIclg0TmNIa1F6MlZCM1ctTEtDXzJubVJQR1FFYXd6d2FmZUg3LUZUbE9tMEFtTzl6N1dXc1B4UWVn?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T14:40:33Z",
+     "titel": "Abbvie (ABBV) PT Raised to $315 at Freedom Broker",
+     "kalla": "StreetInsider",
+     "lank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGZKTjBfVk0xS2g5ZlBDNEtpZnl5NzZUVm1CNm9sZWlNU1Fqc2t3ejFPMGcwMHJvVmhkX09Qai1UYkVNTFV1T21wMjNITnpRTkdmRjA5OF9HZ0RWS3gzbkEtcGVMdXBOV0hocDhKOWFZTEdzb1ljZW1XYWxUSFNNT0RkVWJVNU51amRVci1kbnVnRHN1UzdNcmRtTVRGNnR1Y0Y0SFktUFE2M0hkYW12ZEZpSnZ3R2c?oc=5",
      "fran": "google-en"
     }
    ]
@@ -457,7 +457,7 @@
    "namn": "Celestica",
    "antal": {
     "yahoo": 5,
-    "google-en": 48
+    "google-en": 47
    },
    "fel": {},
    "nyheter": [
@@ -467,13 +467,6 @@
      "kalla": "Yahoo Finance",
      "lank": "https://www.tikr.com/blog/super-micro-sinks-10-ase-technology-holding-co-down-17-celestica-down-13-as-ai-hardware-selloff-deepens?ref=yahoofinance&tlnk=yf-261105-w9h82c47&.tsrc=rss",
      "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-05T16:52:30Z",
-     "titel": "Analysts Offer Insights on Technology Companies: Celestica (CLS), Arista Networks (ANET) and Dynatrace (DT)",
-     "kalla": "The Globe and Mail",
-     "lank": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZmJ3SEs3MHh1dTJvU3BGWlNpbmhRUFNVUUZPRElMVmNHRmFYTkdtdmRIaURESng3Z0xybDFadVlYdUZtSXhmcGhZQkZZdHV3cFA2OEUxcGtTZlpLR2RYUnJnSGE0U3ZHZnNGblUxWTRxVHgzUy1jRk1NakNmczU3cF9veDRZcE5tLWNid1M5Tlp5OWxjLWFBNGJHMFlZX3VJVDRvLThsTk96ZG5oTjVYOUpKSWEyMlRrMHZBbFZldVFYVnV6U1hiTnYzeF80ZHpvSEhBTFlCa3VJRl94bndTdWdUSVAzeGQ0SFFxRWhGTWVGVHd0LTFzaWgyd0U4c0tWQmFmY2RlZ3RHVEt4d2M3Zw?oc=5",
-     "fran": "google-en"
     },
     {
      "tid": "2026-11-05T16:30:00Z",
@@ -599,6 +592,13 @@
      "titel": "Celestica Inc. (CTW0.SG) Seasonal returns chart",
      "kalla": "Yahoo Finance Singapore",
      "lank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8ySURMbnJrOExGNnRnQjgtZ3ZGejBYWmVPVmdzN19CNmtWdmw3YWJ1a1FLM21kUEYtVjM1VVFUVEZvajJ6SkNMYWxPSEJfZk5uc1paMU1pRVpHYjRKalA4MkJrTmFVQQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T07:40:00Z",
+     "titel": "Celestica Inc. Shares Advance 4.32% as Investors Reassess Growth Potential",
+     "kalla": "kalkine.ca",
+     "lank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUE9oczdLbDZTdWp4bGVTeWxNeDdyc1pWVFdCM01Ob2ltSGlHSklnaVh3amxUZXlSVFRWWThaWXJaR3djbVlkNTN6akJVcWFLY2NtWXZ4Sm1lTzNPc3E3YmR5ME5fY3BCUmhibGYwcERobi10TjFTRTBiZnZJVGJFb1dBX2N6TG9NUlZfT0gxM0xKUjMxSnhQMFZBMVNDWU81eGJhSDJ2V1BLQQ?oc=5",
      "fran": "google-en"
     }
    ]
@@ -1687,11 +1687,18 @@
   "sofi": {
    "namn": "SoFi",
    "antal": {
-    "yahoo": 2,
+    "yahoo": 3,
     "google-en": 40
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T19:03:03Z",
+     "titel": "Robinhood Sinks 12%, SoFi Tumbles 9%, Affirm Drops 8% as Bitcoin Slides and Democratic Congress Weighs on Fintech",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/05/robinhood-sinks-12-sofi-tumbles-9-affirm-drops-8-as-bitcoin-slides-and-democratic-congress-weighs-on-fintech/?.tsrc=rss",
+     "fran": "yahoo"
+    },
     {
      "tid": "2026-11-05T16:32:00Z",
      "titel": "SOFI Stock Slips As Analyst Warns Of $1B Headwind",
@@ -1823,13 +1830,6 @@
      "titel": "SoFi Technologies Inc (6B0.SG) Seasonal returns chart",
      "kalla": "Yahoo Finance UK",
      "lank": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DWlZ4dWVfQUhibUNsWGwtMFhFN0tTT1dmWGp2eHdxdk9qMy1UX1NXS0EyTllkT01DQTl1X3l4YTUxTTN2NTJGNkdHWDQ4RGI1UDB2dXVTdExSdWhEbG1YRlhJUHk?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T12:50:44Z",
-     "titel": "SoFi Technologies stock gets stronger 2027 growth outlook",
-     "kalla": "ad-hoc-news.de",
-     "lank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzdLcmJrd2xDaGRnbUl6dGtNQmMxRnhZNEtHdzNnTmdNMG1QeTg3aXMzamFjY2dQWGE4bVdScjI1T0JlY01MLXNMU0tNemp3YkRFV04wc1M3Z0c2Y3NWZ2JRdFlHcXNELW1uamJsMGc5X2VKSm5nYzZpSmxhbHh3cUdFZWpTd3luY0laTkRfTHBQNm1NMElqWk51TE9tQ2hRaTZZN25XY3JwWjBFcXM5YXMxYlVoTWpUZ0o1Uw?oc=5",
      "fran": "google-en"
     }
    ]
@@ -1988,7 +1988,7 @@
    "namn": "ASML",
    "antal": {
     "yahoo": 12,
-    "google-en": 53
+    "google-en": 54
    },
    "fel": {},
    "nyheter": [
@@ -2510,7 +2510,7 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-04T16:58:56Z",
+     "tid": "2026-11-04T16:52:30Z",
      "titel": "Noba Bank emitterar obligationer för 600 miljoner kronor",
      "kalla": "Börsvärlden",
      "lank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZHN2ZDk5TWNuTEt6ODhYUWhwNTBTYU81Ul9oX2E0cTBMTXJ0dEJfS1I1NTFCSXFwVURRNVVhVU9YLXp6dHZBa05kWV80Mk11aUxLak1BOEFGRjZwUGNWTWpSSVhoejgzbkw5eDBTWFhDcEtzbjlUNFNQSTF1ZTNldnhmZy1rRFhlQVNkbHduWlBYaXdwbmF0Wg?oc=5",
@@ -3091,17 +3091,17 @@
   "arista-networks": {
    "namn": "Arista Networks",
    "antal": {
-    "yahoo": 12,
+    "yahoo": 13,
     "google-en": 98
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-05T19:03:00Z",
+     "tid": "2026-11-05T19:03:05Z",
      "titel": "Cisco Falls 7% on Morgan Stanley Downgrade; Ciena Plunges 15%, Arista Networks Tumbles 10%",
-     "kalla": "24/7 Wall St.",
-     "lank": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkRiZEVMc2tZVEdlRUtnTTlGTTRiSDcwdmVGSVFkREI3eXdabUlXdTNGek1yeFY3eDBCNHpza2RISlprSlZKa2gzWEJjNmpTZ01IZmI2NmxNdDJyeS1mRVZBbGR1bnhFZ3dtbGQzWngwOU0yZjNCRy1XY3lBUHU1RHpkTUx0Nll5SG9sUTFXUzlxX3hYX1ZPMlV0ZWhfS3E3bWJlTkdyQ2QzUDBmajZsVUlQdW4wSDVYRlRvWmM3RUtRUksxZlVHXw?oc=5",
-     "fran": "google-en"
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/05/cisco-falls-7-on-morgan-stanley-downgrade-ciena-plunges-15-arista-networks-tumbles-10/?.tsrc=rss",
+     "fran": "yahoo"
     },
     {
      "tid": "2026-11-05T17:30:52Z",
@@ -3678,17 +3678,17 @@
      "fran": "yahoo"
     },
     {
+     "tid": "2026-11-05T15:39:30Z",
+     "titel": "Caris Life Sciences, Inc. (CAI) Stock Price, News, Quote & History",
+     "kalla": "Yahoo! Finance Canada",
+     "lank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QUExzUlFBMkV6cG0xZ1I1V2RKYXRkYXlzcl80YlRxbW8zWUgwSDctWVBaWnluRzZaek9CVUpOcnBiblJhZDNCV29lMlpBY1BJ?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-05T13:30:16Z",
      "titel": "BTIG Research Reaffirms Buy Rating for Caris Life Sciences (NASDAQ:CAI)",
      "kalla": "MarketBeat",
      "lank": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWczS3N0QzJoSjNiMUs1ZVk5ZU43NkxIdU1VbjhyOWtILUl4dXdxb1lxTDVhN1pDQjVFVjlCV3A1QTFPYVhEMFg4ck1xN25RUHRSSE5GTVF2NGxDT0FSa2l0dER4c2xXcDluN3NoOGJBMHppSkoyZXgxLUlJLVNtYUNKNUZZa09XZ0lNOEZnZmo3WEltS1pTREFOcFh0dmx0ZXFzWnJKSDdxMnJod1R0TXNWZm1IbUVQblVBMTVSekxvSU5ocm5pdU9OVQ?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T12:22:00Z",
-     "titel": "Caris Life Sciences, Inc. (CAI) Stock Price, News, Quote & History",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QUExzUlFBMkV6cG0xZ1I1V2RKYXRkYXlzcl80YlRxbW8zWUgwSDctWVBaWnluRzZaek9CVUpOcnBiblJhZDNCV29lMlpBY1BJ?oc=5",
      "fran": "google-en"
     },
     {
