@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-05T11:12:19Z",
+ "hamtad": "2026-11-05T12:11:11Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -7,10 +7,17 @@
    "namn": "AbbVie",
    "antal": {
     "yahoo": 4,
-    "google-en": 96
+    "google-en": 98
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:41:05Z",
+     "titel": "Nxera's gut-targeted molecule nets $1.47bn from AbbVie",
+     "kalla": "BioXconomy",
+     "lank": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSXZDUFdYOHdnYmJ3bS0xUHZXSmRaOFdXNDZ1cm8zZ0hjbUE1cHVVSG16ckxfREhubm51QXhvZHVhcUxHMXUwOVRwQi1TMk9TbS1IN1A1WVEwQkFWR1RTbHR0LXlyY0FnbWNLTjY5aFFEMG1mQTdLNlNsN3NuSE9JRXIzaG9VR1RSdFRNcXpKRUZrUmpfWWc?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-05T10:15:40Z",
      "titel": "What AbbVie’s Oxford R&D Expansion Means for UK Pharma",
@@ -96,6 +103,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-04T15:23:50Z",
+     "titel": "Ichnos Glenmark Innovation (IGI) to Present Updated Clinical Data for ISB 2001 (ABBV-2001) in Relapsed/Refractory Multiple Myeloma at 68th ASH Annual Meeting",
+     "kalla": "Carroll County Mirror-Democrat",
+     "lank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVZra0VZSFJ2QllUY01nMTk5Y2F5aDFVUnlxTHZFekVRRWtBZEVHOWh2R0ZDbzRpTE9DWjZzVldmYzY4UHprbEZZVEJadktsNF9JVlJHeWx6UTlCUUp4TzBrYmZHUXZWd21UaVR1VDRkVk5WcnVHbFV2WVhXU0ZnZVNuRjIwSXNvMmMxanh1SDJ6eFM4ckZOSHMtWkhxcXRHU21nSkQ3WlpSd0xFQUs5d0llYjR0c2M?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T14:59:19Z",
      "titel": "Freedom Broker raises Abbvie stock price target on strong results By Investing.com",
      "kalla": "Investing.com Canada",
@@ -136,20 +150,6 @@
      "kalla": "The Pharma Letter",
      "lank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVjItWkVYS1dsUzFqNkU0Q2M2a1YxekZHb0V2ajE3dW8ydElGZ1U3Sjd0MHJhOVlXMDVMUWVvMkw2M3RjUUEyWk9qb3ZhZlExQUx5bEtTbTNsSzVtUFItRkxFMVVYdnZ5UEtBZHNWcFl6THpUZnRwVDhGSzNtUmdIMkQ5OE5FVVJYXzFKd3VDSEtpOFY5eko4QVpHeWRMb1pJU2FCRw?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T12:36:25Z",
-     "titel": "AbbVie bolsters UK R&D presence, inks $1.38bn IBD deal with Nxera",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.pharmaceutical-technology.com/news/abbvie-bolsters-uk-rd-presence-inks-ibd-deal-nxera/?.tsrc=rss",
-     "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-04T12:20:30Z",
-     "titel": "AbbVie pens $1.4B deal for deprioritized IBD drug from Nxera",
-     "kalla": "Fierce Biotech",
-     "lank": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOEh5MEtaeFQ5VmFkdFRjdVRQSHNWbGlROVdHVGpDeGhxc2U0X1E1V2hqb0plQWw4ZUFiMkVYNEVLZUNUTEhwVU5vSS0wdnFZWHk5SnZqZ0c3MG8xT0NhNkU3aW1RSnZWRUlSNks2eUI1LXdEckVlN2lWYS1ITllZS1V3ekhRSDkzUGFfQ1RLX1g?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -157,10 +157,38 @@
    "namn": "AppLovin",
    "antal": {
     "yahoo": 17,
-    "google-en": 90
+    "google-en": 88
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:46:55Z",
+     "titel": "Wedbush raises AppLovin stock price target to $600 on strong Q3",
+     "kalla": "Investing.com Canada",
+     "lank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc1RmRmRtWVplaFY4NVhHRnlGU2VhaWh1YVAwRFZSZFdOMHpUbDZVUlpfLVcxVFpsd2NaV092dzVnY1Q2TXhhNEgtMDU1UTVRYnFQN01DQ1NzNDRGVzdkbi03a2Y1Ym9NZ3dZVFFlVm05a1gzeXg2NHAyMXZSR2RtT0RXQmJBWUdVYTVIRTNicTFrN1VkaUtocGV4YUlpS0FPWkZUdVJZbWlZOFdSTFR2SXN5d0dqQ1VWb3VVVTBBUmQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:42:00Z",
+     "titel": "What Sits Behind AppLovin (NASDAQ:APP) Climbing 19% to 24% After Hours on a Revenue Beat?",
+     "kalla": "Kalkine",
+     "lank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaDRldmtHSW1JeTMtalJaZEZGMlRySGJjYTgyRmhfU1kzVUFFeHg5a3k5bEpRNFVZcm91bmhTTThISUUxWFNUdXRIbTJnTm9nemhlcEZhZGM3V21zNnpOYUZRc2hpejc2QXh1UWoxTHRCYll6eDVUNUIxV2dBRS1RSm1aMF9oWG9mSXMyQ1U1UTJ3WW5lc1QzeFFaV01NOHZyZUJ5UFNyRnFTekk5Zmxud1FKZVNyQWZvQkRtdl91cw?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:30:49Z",
+     "titel": "AppLovin Rallies 16% After Earnings, Revenue Beat and Strong Guidance",
+     "kalla": "Benzinga",
+     "lank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUXNLZEcxTkdoT2pZRmliV216TTgwXzJiNWRzX0wwdHJsTTU5YmdEQTlHSEZWNTdNVy1nSHJqejlPVkF6Q0dLQy1IS2dJUTliM1BWTjJmNk9JeHUzR0pqdDU2a055aThHUElzaE1kYU9tYWxrc0JlbmJNUUFaWGE3bU9fRDRhOVZfQVBtYU5DSTUtYWFraUpjTDQySmptTWplMzlzdDBUamkwa19STnk5RlZkZXotLWFYTnZES0Z1Vl95d2tqS1JF?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:25:00Z",
+     "titel": "Qualcomm, AppLovin, Snap, Arm, Sony, and More Stocks That Explain Today’s Market",
+     "kalla": "Barron's",
+     "lank": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2RFIzSjN6TkxHa19nekswVTh5TDlSRGJQYU41TUJGcEVFT0p3V1hMblppRDZFNUxqMWl6RzByOFRXRHNZX21EajJPMDR5Yi11T1o5eGRRdlJkMk1wNW0zTWl3YVM?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-05T11:07:37Z",
      "titel": "AppLovin Built a $90 Billion Company By Dominating Mobile Game Ads. Now It's Making Its Biggest Bet Yet",
@@ -174,6 +202,13 @@
      "kalla": "Moomoo",
      "lank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSmQ3YTM4Uk41TlNWamtKcTNHR2FkSzU2SkdlX0MyWEhic0N3TWN6SkRmSXkxcjVsSnk1emJkVGlQTnF0YmlFUXUxR3ZVNkxmOUhHQ0VnakhET0VsRmxMZDh2bUpxaUxfY2g1V1MtTVNVT0N6ZDVqajNuREFQenJzVGF5QUdaYnJRZ3FfZjdrSFVFZUNLaDREWXh4STEtbGkwdzBJTA?oc=5",
      "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:02:19Z",
+     "titel": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 3",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-applovin-app-110219681.html?.tsrc=rss",
+     "fran": "yahoo"
     },
     {
      "tid": "2026-11-05T10:51:00Z",
@@ -253,52 +288,17 @@
      "fran": "yahoo"
     },
     {
+     "tid": "2026-11-05T04:10:08Z",
+     "titel": "Applovin Corporation : Piper Sandler Raises T",
+     "kalla": "Moomoo",
+     "lank": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZW9iOWlZcWlEaEpOWHIxN0ZYTW12LUs5cnNHemhBZU9uSTlHRm1Ibk5YRmtwa0JMbndBZ09NTkpBV0ZJNkd6V1dDM1VVbGtJc3NhTWtXX3VVcDZYM2VkZ2VySlhUYi1mOWdOT0JOdGVvTUFZOEFON1RvTnpERl9OUzg4LXVNR2w5RFFzWHQtaFd6S0tzZjNGTmZFRUlCNzR1UlFtc1NCMV9lMXVIck9xcA?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-05T03:31:50Z",
      "titel": "AppLovin Q3 Earnings Call: CEO Refutes Claims of Competitive Squeeze; Partial Rollout of New Model Has Accelerated Advertising Growth",
      "kalla": "Moomoo",
      "lank": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd204SDJpbmpLVzRnQTNoQ1dQS0NyTnUxc3JUZm53ZjJZZzJnVm1uNjZlZFlzUmdWZFY4Z1JETDFBOVJsVWk3VXNWbThsX012U3FLX1Vlbk8zeVZyV2R6Z2RyVnIxNnFEcjVRTHY2eFlnYWNWVktDVXdsVWRZbm5rSjQ5X1dmTDZhWnZ0aTN1dXlxTHh2T0FSQUdQMldDU25lV09DblNWeTc2T3V1ZzdmWA?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T03:23:18Z",
-     "titel": "AppLovin Stock Rockets 23% After Hours as CEO Calls Last Quarter’s Miss ‘Our Own Foot Fault’",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/applovin-stock-rockets-23-hours-032318645.html?.tsrc=rss",
-     "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-05T03:11:16Z",
-     "titel": "AppLovin (APP.US) Q3 Earnings Call: CEO Refutes Claims of Competitive Squeeze; Partial Rollout of New Model Has Accelerated Ad Growth",
-     "kalla": "Moomoo",
-     "lank": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOV9KZjg1Q0JIdnBGalRFbmlNZWNPQVdEWVZWNzZuRG4xcGQyOWVYTThEQXV3QXMtNmthelBvajRnbHRWbXYwUzNwQnFIMlRPUm1TSHNvelFtWkllS20zUzl1bGtxTGc4QUdYaWJ4MXFrMzVudC0tV1FCeHo5NVJsZncydUdLU29RdnVpZHI5X2dkWURZV0ZHR3YxU0cycktITzZVN2s0YURjTzdVZWc?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T02:03:06Z",
-     "titel": "AppLovin (APP) Posts Record Q3 Revenue, Shares Trade at Deep Dis",
-     "kalla": "GuruFocus",
-     "lank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUE10b2RYVnZZQVNkeFBRUFV0QWhOdWxTclJOT3B4aTctcnVTYWlPaDUybzE1NVIwY3c3REFGM05CZm9qR1FrQktiN3dnRzNZSFBhSjBQSld0eGo0S0wzYnRrdU9EbkZiU0dwNy1NT0tNRTZiSXFsREdZbnhqeVcwdmQ1NEtSYXV6cW81ZVVtSFpuN2RTTzdtX0N3VzV1d2xyaUVIV1BBYlZRb1RSVERlZlVfRml1N1Nz?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T01:13:00Z",
-     "titel": "Qualcomm, AppLovin, MercadoLibre, Snap and Coherent: Why These 5 Stocks Are on Investors' Radars Today",
-     "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQemxIWUpJX2REMDJOdXdlTU1tM3FaR3FrR2FGTlpPVWJua25YekY5VFFDa2MzY0xoVG5VZEJERjQxeTRYbVpxeEpUTEFQN212eVoyakpsNnZReUR2YlpBZXdVZzBDZi1nQlM0Ymo0NzVhZm1EUTJfMlFqVUxLUmtiZFktcV9lTFFJSldLSTR3UnBwUUtzSUdrblB3VERidFBFRTJXWEUzb1BtT3B2WDEyaEk3Vk9OUkVYSmZJWWxLd3djZkQ1dXFsWDNFZWVzX2xTUnA4UkczazV3SUhhTmRscTNsektsWXZDaVFTSw?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T00:54:31Z",
-     "titel": "Why is AppLovin stock up? APP jumped after hours on a Q3 beat and a stronger forecast",
-     "kalla": "Nacionale",
-     "lank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbXM2eTdwaU4wV3dtUHhCR3BndDdCVDNZNlpPMllTeU85NEpRZ0YzTGlnR19ha3VEbFdIMDhRQ1B0cnBRVGRvbjdsNE1EWlEyS3Z5RkxQdnFiVy1BVmhzS296ektiRVQtZjNaLWk4SVJVS0w1bURkWjNjejQ4c0lMOGI0ekRlaC05VVlFTEZieTROWTF1ZUxNRmpGdHlnVjRER1BoX0Vtdw?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T00:28:35Z",
-     "titel": "AppLovin Surges 10.7%, Adding $8 Billion in a Single Session",
-     "kalla": "24/7 Wall St.",
-     "lank": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMHdpMHptMkp2X3c2alBlNTVuc19oWWE1ZkZZdFdiNmlPRE4zRVhyQTJxcWFIY2R3Y1JBalM0WDJDaWRXanBUeXRmVjJqYWZCRHVTbjZDaVNDeTktOHhMQlFGV2NIbFBxMEtUZWRNT1p1SVpocVVfWGE0MVQwOTRudFNfTkRVZw?oc=5",
      "fran": "google-en"
     }
    ]
@@ -317,6 +317,13 @@
      "kalla": "JournalArta",
      "lank": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcU5EeHJQS2R3NHNYekZzVFd1U2tUM1Rwa19CZ0JIUnlkUFRudGk3eFBmMmRpNFo4VDBZcmw3SkxyZVRRRnJnTDBkWjJ3dWVSODNjUDNESGJab09PazlmSXIzeEd0UnEtYndoMWkwcXhNWHlHV2NGWHdld2pnQlprWTc2SEptbHo0Sjk3ODBkcG5XSk5GOEE?oc=5",
      "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:01:00Z",
+     "titel": "ETFs Bought $104.3 Million of Broadcom (AVGO) on Nov. 3",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-104-3-million-110100871.html?.tsrc=rss",
+     "fran": "yahoo"
     },
     {
      "tid": "2026-11-05T10:33:20Z",
@@ -443,13 +450,6 @@
      "kalla": "Yahoo Finance",
      "lank": "https://finance.yahoo.com/technology/ai/articles/broadcom-stocks-decline-1-49-181830621.html?.tsrc=rss",
      "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-04T17:26:00Z",
-     "titel": "Broadcom (NASDAQ:AVGO): What Does the Chart Say Between Reports?",
-     "kalla": "Kalkine Media",
-     "lank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjZVdnU1clZEVDlMWW9VUFBnR09kMU15QzkxVWNDUUtEd1VvenNVVjRLRnV5WXhNQWxlcll5QlhEVHI3QWpCajJ5RjFaSDA1S0d6b3Byajd4ZG9waV9BUkhMRnItSjZxVUZLbHJ5WjBseFlCMHpkTEZvRHRteFplYWhPRE9RQWQtSFJaX1dBNlJJbm5qZjJ0cjZRcnBxbm9QamhwbGgtNS00a1hRMXVRallFbw?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -457,10 +457,17 @@
    "namn": "Celestica",
    "antal": {
     "yahoo": 4,
-    "google-en": 39
+    "google-en": 38
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:33:36Z",
+     "titel": "Celestica (NYSE:CLS) Stock Rating Upgraded by Zacks Research",
+     "kalla": "MarketBeat",
+     "lank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaTd4MVlzenh4bkFqbjRNVDZUU3JFMkE5dGwxOHRUSzNIWDFuaFg3RFV4NFF1bkFhNkRwSmJmb180VFVzSTBCc2RnV0xEaWNzblV0dEdQcW0wTVR6a200UzMzRTRDVEo2ZVRYSVhtVlREV1lsNnJVeGJSYnNneDdYZERuTEJfUUNTbUQzbHJfQXpvOHFjZlUtaEdpc0ZUcG41YVg5MlFCZmdkd3ZnWFpubjJERDJhZ2p3TnNmeQ?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-05T10:10:00Z",
      "titel": "Mirae Asset Global Investments Co. Ltd. Purchases 26,029 Shares of Celestica, Inc. $CLS",
@@ -593,13 +600,6 @@
      "kalla": "kalkine.ca",
      "lank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdTBFNUFaRHJkcGdBdFJkenB3WDFPVmVmekRub2RUNDVsODZCb2E2VFRNYjRPaEMxZTBneF9rd3djUFBYQzhDbEZnUHJYMjZHTDNGM2R1SS0xYk04d092d3NfZmUyOUgtSkJHc1BzSDNMdlZTU1Z1d1NNdzdnME1XUl8yY3BSMVJBM1BwUEUzWkZoQWhUQzNB?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T11:48:00Z",
-     "titel": "Why Is Celestica (CLS:TSX) Facing Selling Pressure as AI Infrastructure Valuations and Data Center Growth Expectations Come Under Scrutiny?",
-     "kalla": "kalkine.ca",
-     "lank": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa0VHVmhOTnlJMHFQZUxSbWdZdC11aEpLNlpial9wSmZJNzcyYmN2RmJwRWJTVW5rN0pxYUF1Z2hBXzh2cXFGekpYZHlFTUhMZGpJa0E0NGZnZ1podHZlZS16YXk4bm9KMlAtUDc0Z1lUVVJRRTJOZm9IWS1NUkhwakZQXzR0Z3I4c2h1cU8wTm5CaVJKNVhwZzBEQWpDeEVBMEplMW5EN3dIZE15SVhZUHFBTVAtS0U3UFN6QkRibmJmR2FveEdxSHZmRkNYdThETzJVcGk4UEdUckhrQ2ZzbGRmc0RUVjdLQlcwb2RwYk5BdUZlZzdhUXZOa3Ffd0U?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -607,7 +607,7 @@
    "namn": "Coca-Cola",
    "antal": {
     "yahoo": 10,
-    "google-en": 84
+    "google-en": 80
    },
    "fel": {},
    "nyheter": [
@@ -631,13 +631,6 @@
      "kalla": "Yahoo Finance",
      "lank": "https://www.fool.com/investing/2026/11/05/1-reason-to-hold-coca-cola-stock-for-10-years/?.tsrc=rss",
      "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-05T08:19:35Z",
-     "titel": "The Coca-Cola Company (KO) stock price, news, quote and history - Yahoo Finance",
-     "kalla": "Yahoo Finance Singapore",
-     "lank": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Pell4aTl4a2JVTURNRmxrdDhSMkJ0aXI0OWQ2TERZQ3JsM3o3Rk9JZXVRR0JsYWstYzJVc0k5eUpNaTNUanMybnNpcTYzQ0lKYWx5VWxYdC1sNW5SU1E4?oc=5",
-     "fran": "google-en"
     },
     {
      "tid": "2026-11-05T04:14:39Z",
@@ -750,6 +743,13 @@
      "kalla": "www.marketscreener.com",
      "lank": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSk85N0d1QnF5cElfenhwN3RpLUp1N2JVdWJhd1p6RjE0UU9xWTRaM3h6REItRVhyYW95OVBqNnBCalJ6ZXhqMmlkS2U3Z1RmRmhDYlBwbUx4Ynp2RUg3WW5FOFFIQjVmWkI1RTREVnoyT243YXB0TjR5MEdsMldHdlhrcjNrMU11ZE1pcmJfcUJEYVBnTl9sY2l4MXFfb3AwOU5WUDNPMHNKdEZTSnotS3ZlU2FwLUViUHAxZWptbzhCSFVLQWVSSksxQQ?oc=5",
      "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T16:57:30Z",
+     "titel": "Coca-Cola (KO) executive sells shares after exercising options priced as low as $45.435.",
+     "kalla": "Stock Titan",
+     "lank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNek45Qmo0Mk1vZ251U0JiZE5IakdpMWQ1dHh5NE5jeFhIMWRnYkpTMlJMTFhlNlhiSFEzR2VHNXJ4WEtRbWE3Ul9QczFDOXdHNENhWEpmMnN6WTNtQU5jNURQSFVvWk1tbE1IX0xkNnlCQ0hVZTBNRE8zV2wyUVMxOTRxQVZ3YnJKSEd3N2NBZ09UUjZTWTBzaS1pWVhYeDctYmFPc2dLdw?oc=5",
+     "fran": "google-en"
     }
    ]
   },
@@ -757,23 +757,23 @@
    "namn": "CrowdStrike",
    "antal": {
     "yahoo": 14,
-    "google-en": 98
+    "google-en": 97
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:31:10Z",
+     "titel": "Exclusive | CrowdStrike to Buy Two AI Security Startups for $495 Million",
+     "kalla": "WSJ",
+     "lank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBHYWpjdWxPUUszcVo2UmdxQ0UzUWpLZlh6TFdlZXhwWDRCWDM1S1V2eW0xODY4bFN4bzNmM3REWTlYTmpZdm1MYWFlZTdkY2pFZXhncGRfR2x5WjlYdVZoRW9YbUJhV1RxODR5NHhGLVYySlRVa0QwZ0pKMU4yUHd2RkQwWm8zV2pDaFU4VzI3NXhYN0tsVHY3ejV4dmE4YTZrUkNZTDlEUQ?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-05T10:35:22Z",
      "titel": "Can CrowdStrike Stock Rally 50% After This Dip?",
      "kalla": "Yahoo Finance",
      "lank": "https://www.trefis.com/stock/crwd/articles/622823/can-crowdstrike-stock-rally-50-after-this-dip/2026-11-05?.tsrc=rss",
      "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-05T10:00:20Z",
-     "titel": "Exclusive | CrowdStrike to Buy Two AI Security Startups for $495 Million",
-     "kalla": "WSJ",
-     "lank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBHYWpjdWxPUUszcVo2UmdxQ0UzUWpLZlh6TFdlZXhwWDRCWDM1S1V2eW0xODY4bFN4bzNmM3REWTlYTmpZdm1MYWFlZTdkY2pFZXhncGRfR2x5WjlYdVZoRW9YbUJhV1RxODR5NHhGLVYySlRVa0QwZ0pKMU4yUHd2RkQwWm8zV2pDaFU4VzI3NXhYN0tsVHY3ejV4dmE4YTZrUkNZTDlEUQ?oc=5",
-     "fran": "google-en"
     },
     {
      "tid": "2026-11-05T09:28:28Z",
@@ -815,13 +815,6 @@
      "titel": "CrowdStrike, Dynatrace aim to disrupt SIEM sector",
      "kalla": "Technology Decisions",
      "lank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTjZJRnE1NzN2WnVEVVFrR18tMmhjbk1BRnNsbDFCZFpfZVZCdi1lcEtYUEJYcG9qaExtVEFQOXZuRXB3aGYxZy1hWi1rbWZkTGhRNl9iY3NkVXNVcHI2UHYwbFFHalYwVjlqazYxNmdXMFlwbGhDc2NUY2JTUlBwOWRqUlJmMS1oRnF2b1hLQVZ1LXozWldlR3hUMk9OLUt3ODFiUUxTNWFLQ2ZJRHNjZkptcUN6YjI5SkFOZg?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T02:24:25Z",
-     "titel": "Form 4 CrowdStrike Holdings Inc: Burt W. Podbere (CFO) For: 2 November",
-     "kalla": "Investing.com India",
-     "lank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRl9lS3lSVWFKaDBBUW5qNGdGTEVuc2JRN1RoTnV1UkZMSDJlYm9EM0RQWDd6S01QSE1HRkFidHpPZEtxZjQtM09yWnBDWkVSRGg5UWluVnNuQWVXYjRSSWdPOXEzeEFOVjVDbHQtNE9KYUFURGxieV9UWTN4R0I0aGJKRk1rdVQtN1F5RlQ3QU5jcGt1UG1sVWRrdENSTE1zclV0cWwyd2xOTzVENWx5TW45VE5VQUwwcWFrSnk2b0EyLWRV?oc=5",
      "fran": "google-en"
     },
     {
@@ -900,6 +893,13 @@
      "kalla": "HPCwire",
      "lank": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQXBHTnUwdHJDVFRXVWNrbzFkRVB0SVdRMWhpV2N5aDBUS1hMQkwxT2c0SjF2cnd6aXQxM2doTEpKU1dpMHkxalpqZ0x0WjV3WjNnSlpGUVRqRzMtWWlVR2pVcGtjdzVjWHNQNmM3dEJ2RDZ6bFNINVVSQnQ2X3gzY21HczBYQnFsQ1FrNGhkVXNRQ0t5MEZEZmpZNmFYUVZxeGRhNDdZSF9LLWtZTmxRem45T2FkTkk0bWtsbkxmU0lJbUcxR2pyOHZmNA?oc=5",
      "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-04T18:33:27Z",
+     "titel": "CrowdStrike Extends Scope and Reach of AI Portfolio",
+     "kalla": "Security Boulevard",
+     "lank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQnZkQUhkVnhTb1cxVV90RzJRZTlKUXg2NGdnZXJBS0VOS0RJcjJtdll3eGE1azFvNHlFVUxmYmVRS1F5YUYyTl96U1g1QTJOQm1pRjVTUGsyS2s1YktjMmFkS0FXYWlraVRIaXBOMjFqckNxenYyVF9JbWFsbFl2UTV2WHNFY1FxUHN5cDk5bWJWQVIy?oc=5",
+     "fran": "google-en"
     }
    ]
   },
@@ -937,7 +937,7 @@
     {
      "tid": "2026-11-03T15:25:58Z",
      "titel": "Industrivärden tankar Essity för 196 miljoner",
-     "kalla": "DI",
+     "kalla": "Dagens industri",
      "lank": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJWEpBdXdFLWpYQkc4OFJnQ2xBbE9BLTlLS2p6VWtOX09oaG9JaGNjQW92b3EzMWp0cVA1UGNiSnJVX2tWUmM2alBfN2ttWVU5WE1LTV9vNXBRdFlkSVAycW9pYmQtRTJUZFdGRXoweVhzcGxyNzBnVg?oc=5",
      "fran": "google-sv"
     },
@@ -997,15 +997,15 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 1,
-    "google-en": 16
+    "google-en": 17
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-05T06:30:53Z",
-     "titel": "Investor AB (publ) (0NC5.L) Seasonal Returns Chart - Yahoo Finance",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02RXY1UkZhT0JiSmtGOHlMa1FNbU5Bb0JXS2Y2T2ZXMDVzMTZmRjlhUWs1WGdJQU5pZDNCR2JCb1prbVR6NjhVX1lTU29OcjZwSkNnS1UzMXF6Y3Q2TUJxbElyRGI?oc=5",
+     "tid": "2026-11-05T11:17:02Z",
+     "titel": "Investor AB stock targets more investment after strategy update",
+     "kalla": "ad-hoc-news.de",
+     "lank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG9sWm9PMXhIWGFyb0Q0UGFiZEU4NHhBbWhaT1VlU0JRN1MtclBNMTQySGpmTWpnYlR3UG1ORGR5TGNBLWd5VDVYdThXLVZLRk00d1RTM043SkYtT3RXdnMxTHcwNWFqQVQtWVBXQXd1eEFHUG5JanpZUDVKOGpaYWV6a09hb3pGN2J1ZDFQRWlOWXlUNlhoeEZhZUk3MGlrTjZxS0MzTnlzOUEtckcwQV81Q3lTNzJwTVJRV1U4Vy0zN0V3?oc=5",
      "fran": "google-en"
     },
     {
@@ -1013,6 +1013,13 @@
      "titel": "INVESTOR AB To Go Ex-Dividend On November 6th, 2026 With 0.18464 USD Dividend Per Share",
      "kalla": "富途牛牛",
      "lank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWUdKTWtVNmZEcndfN1BKalhsVU12Tlo3TUN4MEVPLWN6VWVaQ2Y2S1N6ZTh3dHB0VjR4NC1COXB1X1hRck52akdUTHNDN3l0a19TdWQxMWpzaHhpellodWo2TXM0NS1WRE9aRWRJMGpibV9wT1lRTldDblJQQ1ZUbTlocmh2anhmQ2wweVZpLXJYR3Y0bEE2TQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T06:17:17Z",
+     "titel": "Investor AB (IVSD.HM) Seasonal returns chart - Yahoo Finance",
+     "kalla": "Yahoo Finance Singapore",
+     "lank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JUVdOMlc3TFZSbnlRcE11Q19jNDZkMU1tTjBIOGR3ckFEaEd2NDVoNmsydUlrb2Q3VzBGX1lTeFJpbUNXWjRpWDRjR1JOZllBcjUzX2RmRGdUcVc0ZW0wTktJT3dxQQ?oc=5",
      "fran": "google-en"
     },
     {
@@ -1127,19 +1134,55 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 0
+    "google-en": 1
    },
    "fel": {},
-   "nyheter": []
+   "nyheter": [
+    {
+     "tid": "2026-11-04T20:39:59Z",
+     "titel": "L E Lundbergföretagen AB (publ) (0GWB.IL) Seasonal returns chart - Yahoo Finance",
+     "kalla": "Yahoo Finance Singapore",
+     "lank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vZVM4c29aXzlvaG9GelNJdkZsLUhVUmFYcVhMY1pZYlFVMkpxaV8yQXZTdzJBX3dCaVRYWEdyS05fZWtJa0VHN1picWNKMVpoZGwzNFFmSzNVMG8xVEZONnNYNnByQQ?oc=5",
+     "fran": "google-en"
+    }
+   ]
   },
   "micron": {
    "namn": "Micron Technology",
    "antal": {
     "yahoo": 6,
-    "google-en": 84
+    "google-en": 83
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:59:00Z",
+     "titel": "Micron Stock News: $4.5B Taiwan Plant Put on Hold amid Labor Dispute",
+     "kalla": "TipRanks",
+     "lank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWmFWcWdnN0dUUlNaUDlyRjFJWjBiR3ZERVY1ZmlpdDFSYVRxdEdlUzJxSXNmcXlVQ09yZ01qOGVuQUEyblExVU1RZGpQN2VwS3pxdkUwbVJTSm5zeFFuZ3pldURrVWRwYUVDSHhCaERxM3NQZzEwcGU4Z2xTZXhLTl84cmJnWnBMNFZJOUt1M2R1YzBteWh2N2l4a1k?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:29:22Z",
+     "titel": "Micron Stock Looks Cheap Despite 220% Rally. Is More Upside Coming?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-looks-cheap-despite-112922917.html?.tsrc=rss",
+     "fran": "yahoo"
+    },
+    {
+     "tid": "2026-11-05T11:17:55Z",
+     "titel": "Micron Taiwan Expansion: USD 4.5 Billion Plant Halted Over Pay Dispute",
+     "kalla": "Analytics Insight",
+     "lank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaGRmLXdQOVowRDRyS0IwbjdIUWgweE9EX1J0RWFocVJvdDlER192anIwT2FCVW02WE5wbExnUDBvcG5rQTlaNmUwU0o1TDdwTmsyWjRaYXpGdm5RMEpYT1BjM2VYYVhhY1RtWVFvRUl1WDE3LTdYbEl1MWpxdE9XS213MC1jcnNVUlIxWmdxRmFTV1AxWEN4emdibE15NzROY1otcko5akhjZ9IBtwFBVV95cUxPbHAzRTVzOHpPV2xHb1M3b2xEdW1qNEppY1pYRk1uTERkZFRETDhyMVNCc0RXbHliZ2hMbXpBeG1DTGxmY3VPME5PUFlDTzZpdmN3cDBNcDRxekk3YWNTRlQ3RXNPWk0xRkJVT1ZCZl9FcDNaMW9UVWxldy1TandoODJXaDM5Q05qSzZEQ2xkdVhwQ2dFdHI3MGFHU2dFS25WU3JyTjV3LURvQWdKaEtHaFlMcFRJVzg?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:01:31Z",
+     "titel": "ETFs Are Buying Micron Technology (MU) on Nov. 3",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-micron-technology-mu-110131010.html?.tsrc=rss",
+     "fran": "yahoo"
+    },
     {
      "tid": "2026-11-05T10:43:38Z",
      "titel": "Micron Technology Halts Taiwan Memory Chip Plant Amid Labor Disp",
@@ -1251,34 +1294,6 @@
      "kalla": "Yahoo Finance",
      "lank": "https://stocktwits.com/news-articles/markets/equity/micron-hits-3-month-low-amid-chip-rout-after-top-democratic-lawmaker-calls-for-ai-regulation-pause-in-development/cNG14kWR9Eh?.tsrc=rss",
      "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-05T05:01:34Z",
-     "titel": "Micron's Contracted Backlog Meets a Political Speed Bump",
-     "kalla": "ad-hoc-news.de",
-     "lank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWG82SlZDYy1lR3VjamdPZnNSU0J3QkFQSnU1LWpxOWlHX05xaC1ERW5TMWJhbGwwdzRqbk13YjVTZDNsUDNXdEtCc3JUcE5xRVlGbTBadHBmSjdFS2lxRi0wQjc1dzNndS1kY2I5aU5IMFdBT0N1X1pCMXZFNVFsUF8wbmZpUlh5bkRWbWM5X0hianREZDhNZTByb3ZFTXdnVlZnZnY0VVpiRjNmS19wTkhtWlRWSG1wUER6U3JJNFhxUThvTWtF?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T03:30:59Z",
-     "titel": "Micron's Triple Whammy: Election Jitters, CXMT Progress and Kioxia's Cautious Outlook",
-     "kalla": "ad-hoc-news.de",
-     "lank": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOHFNZ1VOWDVXcFU1SlZQRlZ3QVlvV2hPOTM4eUg4QW1ESTlBbnVianVNLUJHeWxycmVndDlJaVZQMmpKNFNnM0NCdllja01qdGtjMkZFVS00eEU3NmJNck40WUtpb2NLRGladEtraUVQVUZoY04wYlhfdWhqNVFKSm1JMkZTeWxYdDVKZERmYXFDeW1CaGtMNUc4RzkzMjZPNFVtMzczV3JlYk5vemJVQVcwOUdVQTdkY2pSaDV0T2NrYzAxNDdXWGNLbnNRM2RKUVVxeEIzQ1A3TWJabXNTelViVS1vQnRBRkdj?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T03:03:02Z",
-     "titel": "$Micron Technology (MU.US)$[Awkward][Awkward]",
-     "kalla": "Moomoo",
-     "lank": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUU1FbVBWMUp6Y21YM2V3RmthOGp4YzduZFpORDVYZzNvVkZLQmpfWWJrdW1xZGVBdy00ekFUUG5SekFFSnVpS3BlbHVuVXEwTHlnSlVHdDlSSkVJZ2dBSnNqQTFHVF8tdzN2bmxfckJFblE0c0x0c1ZmT1ZoUS1mUVJpaw?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T02:11:22Z",
-     "titel": "Micron (MU) Stock Looks Near Fair Value Despite AI Optimism",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-stock-looks-near-021122807.html?.tsrc=rss",
-     "fran": "yahoo"
     }
    ]
   },
@@ -1288,10 +1303,17 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 5
+    "google-en": 6
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:35:12Z",
+     "titel": "Nibe Industrier stock heads into report with split broker targets",
+     "kalla": "ad-hoc-news.de",
+     "lank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1BJYkJyQ3hVZGpmMFRHeF9UQmZuN3VWekNhLU9JSjBJNnNnYkNuMndMeENzaW1SQ003S0tXMzFKUkc4UkQ5Uml3ZU9OdENDbnhYQ1g5OEJpS1FwamgzZ1VJTURpa1BhVklmeVI2SUthX2hHazQtSk9rdVk2aHBhR1RrNDFjQndlY29iMlFSaF9vMmQ3Z3ZRSmt3UFdLWjFWSlR1SVB3WC16cEVNa2Fnb3RoVnZ6U1FNUDZ3WjJGaEo1ZjhfV3Jr?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-04T17:23:09Z",
      "titel": "Nibe Industrier stock trades below its latest Wednesday reference",
@@ -1333,10 +1355,38 @@
    "namn": "Nvidia",
    "antal": {
     "yahoo": 5,
-    "google-en": 98
+    "google-en": 99
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:43:00Z",
+     "titel": "What Caused Nvidia (NASDAQ:NVDA) to Slide 3.17% on a Day the Dow Climbed?",
+     "kalla": "Kalkine",
+     "lank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTWZNRkxiYzgwQktWN0pvN2hwNnBFX01qazNGdmlaT3NwNHpmcWFCQ3ZuM3RUT0R2UVFSdFpGMWpYUWJQeDNVRnFnY2N5LU5VNmJfcktZcDJzUXRHRjNKS2luUkc5UW8tM0FDOVpqNjlDVGFRNGdHRUNVZ2Y0MHR0WWFYTjdYSHVpcG9hdjNnWnMxSzJ0WWxIT0NFM0VlR0ZBdTd4Tk1VcGxYdw?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:43:00Z",
+     "titel": "Why Did Microsoft (NASDAQ:MSFT) Rise 6.68% to a Record While Apple (NASDAQ:AAPL), Amazon (NASDAQ:AMZN), Nvidia (NASDAQ:NVDA) and Tesla (NASDAQ:TSLA) Moved on November 4, 2026?",
+     "kalla": "Kalkine",
+     "lank": "https://news.google.com/rss/articles/CBMingJBVV95cUxNUUdRYXlmR3I0Z1p3U09IT2ZiNlRGZ0J0X0ZHNGNUMVF0cFUxUHQwR25wVFhCWWp2a25oZUhHc3ZBQVBTVEZZeXNITXFkQmZSajNSOXk5bEFTamVKS0FEd1A3UzNBMTNoX0hnT2JHTDlBRTkyNGEtcjRHWVFkd2RLcWJxSmVxSkMzbWg2c1l0R2lrTDVVbjJ4UjJrUjIxWDFxNzRaOEEteWdoRXJHcEFDQk9SOXhFM3RPNFhtUGIxVVZuNHltc0p2TzNxOUMzc0Y5cHV2X2JndW41NHdFVkE4U25HbWJZUHAwSXhqYTVXcFlDRWVERDhhd09uWkhFYzBsUF9XZFN4cFc1S2s3NG1kRVZrTnZlMWNyMzRsc3ln?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:37:44Z",
+     "titel": "NVDA, INTC Stocks Look Cheaper Than AMD Against Fair Value, Morningstar Says",
+     "kalla": "Stocktwits",
+     "lank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVhxYVFWRmpPMTE2Y293TXZVeTAzWmcycUZ1Z0lMNTVGZjc4MlV4ZmtlOWQ1NDJLOHJTaXMzZnlkQ0RfOUxyOVpzeWlqYm9LVGhfVkhnU2pIckxfU3YzVmVodUpXRWpKRW81S0hVSVhrQjZHUEJEYTFPTE1NRTBQNlBXc0lFOWRnclJGaHVKYmpldGRta0hNN1ZjMmFEc3N4VmxVTGZMc1ktLWRWSDhLd25yRkFVNGtVb2xKTG9B?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:34:36Z",
+     "titel": "AMD Faces Nvidia Software Hurdle, While Intel Could Reclaim PC Market Share, Morningstar Says",
+     "kalla": "Yahoo Finance",
+     "lank": "https://stocktwits.com/news-articles/markets/equity/nvda-intc-stocks-look-cheaper-than-amd-against-fair-value/cNG1iYXR9EM?.tsrc=rss",
+     "fran": "yahoo"
+    },
     {
      "tid": "2026-11-05T11:05:35Z",
      "titel": "Invesco QQQ (QQQ) Buys $19.6 Million More NVIDIA on Tuesday",
@@ -1352,6 +1402,13 @@
      "fran": "yahoo"
     },
     {
+     "tid": "2026-11-05T11:04:41Z",
+     "titel": "iShares PHLX SOX Semiconductor (SOXX) Sells AMD and NVDA on Nov. 3",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110441023.html?.tsrc=rss",
+     "fran": "yahoo"
+    },
+    {
      "tid": "2026-11-05T11:04:04Z",
      "titel": "ProShares Ultra QQQ (QLD) Sells $50.5 Million of NVIDIA on Nov. 3",
      "kalla": "Yahoo Finance",
@@ -1359,18 +1416,18 @@
      "fran": "yahoo"
     },
     {
-     "tid": "2026-11-05T10:36:03Z",
-     "titel": "Is NVIDIA Stock A Buy Right Now?",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.trefis.com/stock/nvda/articles/622831/is-nvidia-stock-a-buy-right-now/2026-11-05?.tsrc=rss",
-     "fran": "yahoo"
+     "tid": "2026-11-05T11:00:39Z",
+     "titel": "ETFs Bought $355.3 Million of NVIDIA (NVDA) on Nov. 3",
+     "kalla": "Yahoo Finance Singapore",
+     "lank": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNExPa1RnTVg1OWJreXl3TmxjS1pOZmZiWXR0Z21rTU8zOXpELW1RaGd6czNPOTd5M09wZVZyNktaZkJfRmQ1Zm40TkFDNndBSkJoYUdMTGdkSnV1Qm5jYTdnaU5JSmx0VFRSeUhLQk14Mk5MaEEyMnYzaTBmamc?oc=5",
+     "fran": "google-en"
     },
     {
-     "tid": "2026-11-05T10:10:26Z",
-     "titel": "US Futures Mixed After Rally On Wednesday — MU, TSLA, AAPL, MSFT, APP, NVDA, IREN In Focus",
-     "kalla": "Yahoo Finance",
-     "lank": "https://stocktwits.com/news-articles/markets/equity/us-futures-mixed-after-rally-on-wednesday-mu-tsla-aapl-msft-app-nvda-iren-in-focus/cNG1WKIR9EY?.tsrc=rss",
-     "fran": "yahoo"
+     "tid": "2026-11-05T09:53:47Z",
+     "titel": "Is NVIDIA Stock A Buy Right Now?",
+     "kalla": "Trefis",
+     "lank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNFFnRjNUS0pReENldVc2ZjV1M0Jvd1I2NjJDTmVrMWlDSFJVZGhWN1V4dW1pLVhzVmJqNFNwUkVzZFVGZ0NvU0txZ0F4UFZQblkwQzVBSHB1SjRWOFlhYWJoaUlpcEVfbkVJSWNqQ3FoY1ctamxzWVpreE4zVldQWW9TRWVaR1FNNTJPSFd4djNBMDUwVFpR?oc=5",
+     "fran": "google-en"
     },
     {
      "tid": "2026-11-05T09:33:31Z",
@@ -1441,41 +1498,6 @@
      "kalla": "MarketBeat",
      "lank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUmhlRWIxXzAtS3BjcVdHTmdEN0pYWTFOSy05Y3EzcWc1SDlDWWpQeFdZZ0tmT3dDR0JVMk9pdFc3UHJrZ2plZE1VZzNTdzExRE53UlZYOGd3ZlBEUGRVamMySVNPc0pTM3RZc0VzcGpQOUFzMDNGdkM1VThWU0c2TG5jTU4wX3JSUHltQWMxbFRsQVRmUVp5RTFYem1HNlYzak5LSHRBcFlrVFFNZmU2NGFyMGl3QXhyLVNnRzZxWGFmLThKMkNGN2NxUmlGbEE?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T08:10:40Z",
-     "titel": "7,519 NVIDIA Corporation $NVDA Shares Purchased by Copeland Capital Management LLC",
-     "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTZNdVl3V000M3EwRTF1b3ZKUWpHM3dZQlZxYzNRa2NPQnFJenhSa1ZKSzd1elhBTENHVXB2NHV0eTZwazk0S3pIOUxuZE9jMVI4V1NONk4zdzBVckJDLVRyeUoyc054UEt4V1pqQ1Vfb01tT0RxVVJfeWJsMlM3YjZ3YVBXa0hTZlk0dG9ySW5lZHktX2Zzc1lSLWk2Q1dRY0pFeVhtVGczVzJpWVFlNDgxd1RhWTBpWUxxVjlaaUNxbjl4bVFHZmhaVVAtQXRBQ0I0R1VVUGI?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T08:10:39Z",
-     "titel": "NVIDIA Corporation $NVDA Stock: Cooper Investors PTY Ltd. Trims Position",
-     "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQjRwWFhLNUJYUFZoaHlCVEt6YzFMOExtWnJyeGhweDVZd2xpWmlTbVRScmlOVzkyZFY0Q0VsbW1BNnNRWlpYaGx3blo3Z05uWmJFbEtleFJ5Ums3dDhyR1hLaGZheENLV2NxQXpuVG9Tb2h5eS1HUERVendEekItTG1PY2RfUm5mMGhKY0tnTm96U1VHSEdpdWl0V0ZLa0kxbEU2Q2FEb0RUcUx0RTJmSFFEamN4T2lXQUJMZmJRN1hYenJ5LVo3NHdn?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T07:48:16Z",
-     "titel": "Nvidia Stock Price Forecast: Shares Hit Nearly Three-Month Low Amid Seven-Day Losing Streak, Risking Drop Toward $165",
-     "kalla": "TradingKey",
-     "lank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeE15RjZPaGJYbVkycWczUU15MjFxV1FoYV9xclI1RVpOVGlHb1lESHlyYVV6LV9mRWpwdUJ3S1J5OFBLZ1NGS0JHanhoOEpzcG5PcW5ONGtZb25nVjNqaUtMQWVBYUtLTDZBaGpPT3BZVVFHYlFsaU9fYnFWX2tydGdVZ2E1RUtHdUFNYzU5OEx3TzlRSS1oLTd1T3VNMVl0WGlfeU5IbjZCaW5sc0laTFFoT0xfMVl2RlJHa083TXhBdw?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T07:10:00Z",
-     "titel": "Zacks Earnings Trends Highlights: Nvidia, Micron and Alphabet",
-     "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOazBKNkpZN3I3QWRWXy1WRnhCZTVvSThPdHFJN25mYVg5Y0lrV2czaWtMQnRHU1Q5QVVfNlQtTl82WkJXYWxuYzFQZDViN2swTkptcXpRanhELXFLa2tCVVgtbGhZWUZkbTBzT1g3SUY1VmVSUEZZQ01mMi1FTTVXS0c5YU5MWlZsRW5nNWtaZmg2c1BvX0pZcU5ZS3poT1lfYUZWZ2dINGJDTEJscFhGR2NLOWtMZw?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T00:29:00Z",
-     "titel": "Here's What $10,000 Invested in SpaceX and Nvidia Could Be Worth by 2030",
-     "kalla": "The Motley Fool",
-     "lank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSE4wSFl6RV9ydGswcmZMdldKSFVQVW1PajBXQVRuQVczblpzNXZqdGI2SG9qejBnU3A5bzU3QWRBc2RmYXlwUHhfTm9PX3o2UzExTXNlY0Z0MDhNTWN2T3doQmRyNU95azBmQ2RzamVaZzJDRzdIX0hfMlA3X0dDS09VTlZqcGg4SzNnNUx3clR5SGdrUGJCLQ?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -1483,22 +1505,43 @@
    "namn": "Palantir",
    "antal": {
     "yahoo": 14,
-    "google-en": 99
+    "google-en": 100
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T12:07:35Z",
+     "titel": "Marvell, Lumentum, Oracle, SpaceX, Rivian, Apple, Palantir, and More Stocks That Explain Today’s Market",
+     "kalla": "Barron's",
+     "lank": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96eHRnWkE3aFRPUGhWc2VaOEMzdzJveDBpeXBkbHNlaW5xQ0ZJdk9jUk16elRMM0UyNWRmMXYyX3kycGYyWERZNHNrTEVFYVk5R2VBVF83X2lRSzBFR1BZdFZ2Mk4?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:35:00Z",
+     "titel": "Palantir Just Made Company History. Is the Stock a Buy?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.fool.com/investing/2026/11/05/palantir-just-made-company-history-is-the-stock-a/?.tsrc=rss",
+     "fran": "yahoo"
+    },
+    {
+     "tid": "2026-11-05T11:34:51Z",
+     "titel": "Is Palantir Stock Ready For Slower Growth?",
+     "kalla": "Trefis",
+     "lank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLVdJZGtwWWJ5WEIxdmtrbmcyb1YxR2M0bkx1X0xfZ0pxVTNkWmhLZC1kd3RqQ3l2Wm41VmxIY1prVEhEMC1nX2FvWVJOelR4UlVicjRkdTZYVWlQSnIzU2w5Q29FZUNhLXU4YTh0V1luWUxVTHB0dnZ3SWNWWmg1VlJWcXo4cGRkR0NqendxbFNBckJYeXpzaTJYTTlRM3Jlb0hUQQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:14:38Z",
+     "titel": "Cathie Wood Snaps Up $11 Million of Palantir Stock in 'Buy-the-Dip' Move",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-snaps-11-million-111438826.html?.tsrc=rss",
+     "fran": "yahoo"
+    },
     {
      "tid": "2026-11-05T10:45:00Z",
      "titel": "Palantir Just Delivered a Monster Quarter, but the Stock Is Plummeting. The Reason Why Is Obvious.",
      "kalla": "The Motley Fool",
      "lank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODA3SHVyWWFVVzM5WHRKNHZkUW1jWVFBdWw4YUFla3lyVVVnNk1uOV9DaDZ3OEhVZU81YWZtcGhKQzlRMWYyZm9PeUhSbjNqWlVITkl0VnhuN2NxSmlUbzJRMDlVWlk0LTQxUVZReGgtUjZEbDJ1R3k0alg0Y3J1ejFHUmZCYUMwa182QjNLWnlZa19yRzBz?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T10:41:15Z",
-     "titel": "Form 4 Palantir Technologies Inc For: 5 November By Investing.com",
-     "kalla": "Investing.com India",
-     "lank": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUXBTOGNKMkhNakhDN3ZXWkdyMjczRnVTS0dzb19pb3c5Ul96Xy1Ea1ozd2dYVlk3U3Z1Si1aWEVSS2NENU0xOFBqM19WbWFmZFZ6N19qeXJndDlzcnp4Vkp4el9vd0ZxckRTYkRzN1o3Q0dUYXB0LUl6clpVaEJ4ekl5aWJtN3F6RFIxY1EyVGdLQVVvZWs1UjZackpENzhsVzExMlVNTEh1WGNU?oc=5",
      "fran": "google-en"
     },
     {
@@ -1534,13 +1577,6 @@
      "titel": "Palantir Posts Crushing Q3 Numbers, But Is There a Twist in the Tale?",
      "kalla": "CXOToday.com",
      "lank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQazNPZWFtYXRRdElsZHpzLU5lUTZuX1ZhZzZZM1RjQU12dVBfOC1rQjJJb0pZUHdEVW9QLXlkUDRBR2kwWk5aRVlmenpVTlptSHBnSFlVQXhnWF9fZndidlVUQ3l0Vi10dXZiTmdjMHdsUDZVa3hYWnh4OEJKUFVQTkJmX1A4RVlQNWRtanhhTXRGSFN1OGFJRkFFY3lubWM?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T08:34:24Z",
-     "titel": "Palantir Technologies Inc. (PLTR) stock price, news, quote and history",
-     "kalla": "Yahoo Finance Australia",
-     "lank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tb1k4RUVGYl9rNWlETlJGUjlXUHk0Ynprb0hocDJJZXNjUzl1ejNxVlFjZ0pqbGdjV1VtV1N5aXRwajNmUDVZaGZ5RUtld3hja3c?oc=5",
      "fran": "google-en"
     },
     {
@@ -1612,20 +1648,6 @@
      "kalla": "Seeking Alpha",
      "lank": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT2tMazF5LWZRTmMzT3hRaDhwV1Zld05DU1pmVDRsWnA1cGNQS2xsNjhPbTdSX2c0emxaQTBZeDA4R2E1V1QzdHgtUktqaVNGVGs4ZlFvd2dwUXRxdzU0YTJXUjFjNVNVRWgzanFlVXk5c0dzVWNYclpobVlVNlJaYzBBc0M2dFhHaDFnX05Pdw?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T18:41:32Z",
-     "titel": "Barclays maintains Palantir Technologies at Overweight, raises price target to $273 from $265",
-     "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVThMVVNHbnhaeU9yQ3hjVkZrQk1fYWwxSmFVNWpaYU10V0t4RXZsRGxfMExJWUItUnlNNTV0Umg4dzVuUXZ5U2M0U0hWZkZKMmdXakJLT19UNllVcEtXZnlCQ3FNbnVrTmdwRktUQzVwM3BsbEUtaTVJV1pLT3NuVkRQS1I0TnV2bTVCYXVocWJpMmFFbVphVWdNX0s2N1phWHJTUzhGSm1sNVI1LXNqd2hZcG9mZXg0dGxPYU9ja2JyMy1wcC1xWmtETWlDLTd6REJMenprMVJjaEFRUmtCU1dPRkR1VWc?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T17:06:23Z",
-     "titel": "Why Palantir Technologies Stock Dropped Today",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.fool.com/investing/2026/11/04/why-palantir-technologies-stock-dropped-today/?.tsrc=rss",
-     "fran": "yahoo"
     }
    ]
   },
@@ -1652,7 +1674,7 @@
    "namn": "SoFi",
    "antal": {
     "yahoo": 3,
-    "google-en": 38
+    "google-en": 36
    },
    "fel": {},
    "nyheter": [
@@ -1842,6 +1864,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-04T22:08:18Z",
+     "titel": "Sysco (SYY) Q3 2026 Earnings Call Transcript",
+     "kalla": "Fortune",
+     "lank": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1reVZsYlhyUGgzVlNjYU5ETjJtQXVFaHZTOUN5VlpWbkJrQnJiOGFhUXlwaXJUaG1ScExwMldlWmZkWkhzM3VxYjdjSkJ1ajhpUkg5bGZFMG0teEhSdVpmSA?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T21:54:00Z",
      "titel": "Sysco Corp. stock underperforms Wednesday when compared to competitors despite daily gains",
      "kalla": "MarketWatch",
@@ -1874,13 +1903,6 @@
      "titel": "Hydden Appoints Former Sysco CISO Charles Tango as Chief Strategy Officer",
      "kalla": "citybiz",
      "lank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcWR0ejFiZHRIb3B5cUhaU21vRlI0NjZfWXFKenYySGRHLW5PWkIwWmNaUVI5Nlp2NkpOdzBGYmp2LTBhd1RIRDAwOUo3MXJmQ1dwNUtTbktYMTdRSElVVEhpdXVYQ3ZVRG00dnp2cEJkSTd1Q3FyYV9Nek9nSmdGVXh2RDhTN2FnU2QtMUpPSFU2Zlhhdm4taERqMVRrU2ktWWVfMHJvOEdtMmJOdEc2ZDh3?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T18:34:09Z",
-     "titel": "JPMorgan Chase & Co. Issues Pessimistic Forecast for Sysco (NYSE:SYY) Stock Price",
-     "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVnNleVBxSU8xNjFqYkUzXzl3Rld5T2FCeG5hWGRkcnkyVDFMYmVNUnBpOXZtSk1KbG9sNklrYklvbEhicHBUQlREZ2xjSXdvMXJzQlk3TGR6ZE5nRnl5VmU0b1VMdUhpR0VJRXRiSjRWQjAySzZmXzBTS3g1WTNZdEk1dFRJLTFzRnNob25lZlZuU2t4aVlwZ3NwUloxcnV1LUhyN3VNamxJSXh0WjQ2WVR6bGotTmx6ZWIwY1N2VWJmVWNaSlNqeDRCWFhTcWVteTNwVQ?oc=5",
      "fran": "google-en"
     },
     {
@@ -1951,11 +1973,18 @@
   "asml": {
    "namn": "ASML",
    "antal": {
-    "yahoo": 9,
+    "yahoo": 10,
     "google-en": 51
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:01:28Z",
+     "titel": "ASML (ASML) Sees $65.7 Million in Net ETF Buying on Tuesday",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/asml-asml-sees-65-7-110128359.html?.tsrc=rss",
+     "fran": "yahoo"
+    },
     {
      "tid": "2026-11-05T10:13:55Z",
      "titel": "ASML Holding stock: AI demand stretches capacity outlook to 2030",
@@ -2088,13 +2117,6 @@
      "kalla": "ad-hoc-news.de",
      "lank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFpWRVBiV0pBVmRzNlF4N0p0X3RjZG1JTXlvWUc1MlREM2FtVHUtdVRUWGNZdlQzd1JUcExva2NoV3JYbVJaTFkwWUJCRlprQThFWm92UVNBb05vMG5VbjkwRXZZeTRZYlEzNTRTbV8zeG9wNUdVTW5nQVdWbTRSU3dsR2txVFpMRmVoZW9zb18zMEMxVmlWcENuZmQ1ei1Ia3dldV90U0R1TzFHM3NqMU1xSlJ5WWFaS0FaXy14bjBneW8?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-03T14:47:34Z",
-     "titel": "ASML Holding NV Stock (ASML) Opened Up by 3.10% on Nov 3: A Full Analysis",
-     "kalla": "TradingKey",
-     "lank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGpidnZXdlJpWV9qbmFtOE50Z055cGEwYUR0b1AxcGd4U2pCTlVocU5mS3ZFUmFWaTd2anRFVVJFS2p2ZV9FX1Vna0RNUWEtN2VsT3Iya1h2cGhJMzRKXzNTeXk5OXRhUnlRbzd2U2hMc3ZqTzk0aFdSOUlXbmVDVU8yV2l1cElPb1hF?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -2167,17 +2189,24 @@
    "fel": {},
    "nyheter": [
     {
+     "tid": "2026-11-05T11:45:56Z",
+     "titel": "World No. 1 in eco-friendly vehicles… BYD to showcase global dominance on the APEC stage",
+     "kalla": "스타뉴스",
+     "lank": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE1IRXdzNnAyUVduT1A2aHlvOGRCSFBDbnFTdXRLWmN1azJuUEFIX2xXLTRKSHlRZHJtR2VSR3duZWRoVFhrLUIySjFyejFjOU4yUjBmbFJBRjhUelJtcTBYMjRTNFhJLUdGNGlmN1dSNEMyNmljVWZWUnJJOXFoOHJ6Zw?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:36:40Z",
+     "titel": "BYD faces EU spying questions, but Norway's footage came from Deepals",
+     "kalla": "AutoNext.co",
+     "lank": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZRmdHS3lsVG4wSXp5c1JMV3l0T0ItQW1DWU5kM3g3VW5VeWo3Nmh3MFM2Y0ZqcXZUcmxJSWF4U2NjaUxjaklRY0dpYnVKaVVhTGN1a2gxa3hrcmNXWG15blNybDNTdWlGZXhvbU1EeVhfT2pkX0dmMGwzZjZKdw?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-05T10:50:14Z",
      "titel": "EU lawmakers urge restrictions on BYD vehicles over security concerns",
      "kalla": "Anadolu Ajansı",
      "lank": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVTM5SGFlWW1zY3dLZXkxV012TjVNMXdGVEdpR3BYdTZXWl9uS1RmRjJPMkdob2ZYTzNGZGIzR3J5bDk0ZG1LWVBVbjE3bGZhVmZ4VHI3LTF4eFBnbGJ5MEg3cV82SlJiSF9mNzQxMHp4cVpWVHZ1VXVwU3RPcWRqN0xOQ0N3ZDUyOU5ic0pUTl9taHJGRlY2WE53dmV0aEpnQzBvU00xQUM?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T10:04:03Z",
-     "titel": "BYD Denza Z9 GT Spied In India Before Launch - 1150 bhp, 1200 Nm",
-     "kalla": "RushLane",
-     "lank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeERTdWRQRmJwTDRyOTFpUjN4TjRna3czVXNYZ0ZRbkZzN1VxNUlJU2J2Tm5Ed3NZX0J5RVJzVG5MWGVFOEtnMnFCby1pVTRtb0VFbFpraVF2ejZyTDdQRDlwRDBpQ0dvSGlibTZ0Q240RkdPcV9sODk0d2U2SjNLOVhKN1JoeEdvQnJTNzhWZVBDNXNGLUZrQ1dBaUNUQlBUbmfSAaIBQVVfeXFMTXhEU3VkUEZicEw0cjkxaVIzeE40Z2t3M1VzWGdGUW5GczdVcTVJSVNidk5uRHdzWV9CeUVSc1RuTFhlRThLZzJxQm8taVU0bW9FRWxaa2lRdno2ckw3UEQ5cEQwaUNHb0hpYm02dENuNEZHT3FfbDg5NHdlNkozSzlYSjdSaHhHb0JyUzc4VmVQQzVzRi1Ga0NXQWlDVEJQVG5n?oc=5",
      "fran": "google-en"
     },
     {
@@ -2199,6 +2228,13 @@
      "titel": "BYD’s Yangwang Altior to debut in Abu Dhabi on November 8",
      "kalla": "CarNewsChina.com",
      "lank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU2h5RllONDIyQkQ0SmNuQkt4QmdGbnoxZVUwVnNhNVBuaXNob2pMRG1kaWdRRFJiVXpYVFpKUE9LX2UtdlVCRDdhbVUtbGFLREg0Wmo1ZmJ3MXJjZ2hrUHhkNmE3VWNXb2dqc3JMVDhOTjdSNjc2WUZhazdyVmRuQXhya3ZZZDdwa25Oc0EtWTRXS29Md0ZvMg?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T08:07:00Z",
+     "titel": "EU lawmakers push for bloc to assess security threat from BYD cars",
+     "kalla": "Automotive News",
+     "lank": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ESENYQXJ1OG9xVlNFQUU0MlJnSVVKWlQ0QldtX2lpVW1heHFvT0JhbHdEZUgwTmFhcmdkam9pcEtkS3dxZk10THQ3XzN6cm1UOFVEOUJmTnlDZmEyeUpYaDNKcEEtNlN5T3RId1ctQVA4Wm9vbnVNeA?oc=5",
      "fran": "google-en"
     },
     {
@@ -2291,20 +2327,6 @@
      "kalla": "Gadget Review",
      "lank": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYkFGV05TQ055MVlCSXlLOHNZOWRXOXRjUWJDdmh2bkt5RTN4QzRObkZTWEk2M2xHMjhkMjlOeVhiTzQzT3ZtcVBDWHBvNkNxUU93em5VOVRRa1M4bURUVHpvRWN1czVidnRlQ2Vzc2t0QXhHR0hJS1ZVeUJ2SFowbkxzd1YtTldJR2U2ZnhFSW9UYzdLd3c?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T17:51:07Z",
-     "titel": "BYD’s 280-MPH Hypercar Crashed and the Driver Escaped Unharmed",
-     "kalla": "Gadget Review",
-     "lank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3ZXQzIzeEpONUxhT3cyOFRIbnZVQkstc0VjdXRCOFB5Q3R0cVhQYkFWVjBtNWlnTHVNY1VDckQ1cVpSaV9vOE1TQ0tYZ2lwazhFckR1eDlSeHdFbFpidlBkX29kWlZRVFBlQlpnMXJPbWtpUlFuQ1kxZHpId3hGdFNrOUFEaFlFU1Qza0V3SUFjLVZM?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T17:42:24Z",
-     "titel": "BYD’s Denza N9 EV weighs over 8,200 lbs, above the standard EU category B limit",
-     "kalla": "Mezha.net",
-     "lank": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qZjgxVFU3NFNvb2JTbDhLSXMtbHhLcUc2TndRc29DTXlzY2dLTVZCWUNGZHlGem81SHhlVXNnWUNjbEpsalFFazBSZ1hTMVNDdFE5OTZtY2xYNGRDZzBqMU9BSDZydmJ4ZkFHSnY3b0lCajFYT2Y0UWpWcGN4UQ?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -2313,10 +2335,17 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 1
+    "google-en": 2
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-04T10:46:51Z",
+     "titel": "Hansa Biopharma AB (publ) (HNSAS.XC) balance sheet",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fS04wejh0LVRqLWVaNEp0c0Zqa0Y5VHFkTlhkYXhWVVFqLWItZHBrc2tPUEpFUE5pa0kzYXd0MnpkZFZiSnV5WDhRaU4tbnhiSnhrREdVR0Q3c2FDd0FKSlNNb01DbXdoUXc?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-04T09:32:50Z",
      "titel": "Hansa Biopharma to Join BIO-Europe Immunology Panel",
@@ -2336,17 +2365,10 @@
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-05T07:27:13Z",
-     "titel": "Hexagon AB (publ) (HXGBF) Seasonal Returns Chart - Yahoo Finance",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zcmJiNjZUVVpoRUFVc0ptT19wZEZBRU5XRUdnd1Z2dDBzdmhNVDUtVWxkQXc3X3JoUUh0ZFlpcldZTW5ueXBQMklxTWlvUGZQTXlJUHR0VVhFcE40YWo3ejgxVQ?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T11:37:30Z",
+     "tid": "2026-11-05T11:25:27Z",
      "titel": "Hexagon stock absorbs Waygate in USD 1.45 billion deal",
      "kalla": "ad-hoc-news.de",
-     "lank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTm1jeGlIVE5ZRUZNR05XdFZNa2RHMGZsVlRFQVo1Ui1XdWFSc2RFc0tWbUx3djlXdTRLRk9ZVXN5NGZ0bTQ4eVpQQnNMSk5aRVVwQUZGRC1TQ2tEYUVicE9IUXVWLVRVLXMzUWN0OVhfUEoyeGZFWTBvNHlLd0ZGb1QwZkFzMEQ3eTM4VUZLZkd5UWEySlQ5eTQyMFlCaVpLblpTT2ZIM2NjUDRYOFpWYldfRGFFTGxa?oc=5",
+     "lank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNE1TS1UxNWl6d3piR3dJYXJvVjY5enFjNWNBdERXX09jTDJUT2JXRy03Z2w4VldxY2djWmo2ckpodVVxRXpfY0dJekRjR3cxVFVDbnpfZnZIRGdzenI4UTd5U0hOWnBWczA3QWVvTmtNRnZIaFdoaGswSUdxcWpTenJJRGpFaDVFUnNSVEJLZVdCRlAtOTdtTFBENjE4R1l5aU41YjNPMElXOEMwUTV1XzFmcG42SWs2?oc=5",
      "fran": "google-en"
     },
     {
@@ -2426,8 +2448,8 @@
    "antal": {
     "mfn": 5,
     "yahoo": 1,
-    "google-sv": 9,
-    "google-en": 35
+    "google-sv": 8,
+    "google-en": 33
    },
    "fel": {},
    "nyheter": [
@@ -2444,13 +2466,6 @@
      "kalla": "www.marketscreener.com",
      "lank": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObEVFTmN0UXVseGgzNzB2MXZpRlY3eUNtS3ZDV2t3WlNJUlhmaDlrbm8wbmIyMjVVdjBFdjNMUjF2V3l3dFhjcG9feURxcjBFRzdiVnY4Q0pNUkJTYk51NDlfUm5mQXUtdjV5STlvWnZGZ1BMeTV4djVLWDVqQzVobjlPTzJMaDRHQVFtbU5uYkFRUnJ0d1RFemI4QW95RHhxZVhkX1RnSXd4SkJoQ19WTG9Xb1FfT3E5M1MtR29lTXJtWU9teV9hcGtzR2JmUQ?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T16:52:30Z",
-     "titel": "Noba Bank emitterar obligationer för 600 miljoner kronor",
-     "kalla": "Börsvärlden",
-     "lank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZHN2ZDk5TWNuTEt6ODhYUWhwNTBTYU81Ul9oX2E0cTBMTXJ0dEJfS1I1NTFCSXFwVURRNVVhVU9YLXp6dHZBa05kWV80Mk11aUxLak1BOEFGRjZwUGNWTWpSSVhoejgzbkw5eDBTWFhDcEtzbjlUNFNQSTF1ZTNldnhmZy1rRFhlQVNkbHduWlBYaXdwbmF0Wg?oc=5",
-     "fran": "google-sv"
     },
     {
      "tid": "2026-11-04T16:09:24Z",
@@ -2544,6 +2559,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-04T09:52:26Z",
+     "titel": "NOBA Bank Group AB (publ) (STU:ZR5) Q3 2026 Earnings Call Highli",
+     "kalla": "GuruFocus",
+     "lank": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOSmR0TnFzOGtDWEdtV2JKaDlsUThWUkhObldfSHZ1aXJ2X1N0cnJpZnEyMFZkNzMxajAyclNvX0JlWlZROGZnQjdnMGJwdXpqeG9uZmswXy1udndTM3gxTmJfYUdlMGNncXo4OXh3eW1MaUJEbldUbG5ZcVRLVUtST0tJMjBNOFhTb2pJVWt5di1VRDFpV0JMVXFCb09oMU1EdXdBWExRdlZ2WkRidU9DdlVpcXNaVE1TUTdsS3BwYzdKYVJvYUVydWhFRWJjNUtrOGpBcmhpSC1mSWk4NUpZdUZoczJBMDU5N1dERUNuTXp1TElTeE4yR0RwTHJYS0ZyQ1ZFVE52WkQzd2lyYnpnUFhn?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T09:03:14Z",
      "titel": "NOBA Bank Group AB (publ) (ZR5.SG) stock price, news, quote and history",
      "kalla": "Yahoo Finance Singapore",
@@ -2581,6 +2603,13 @@
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:15:00Z",
+     "titel": "Rocket Lab Earnings Preview: Space Systems vs. Launch Services",
+     "kalla": "TipRanks",
+     "lank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXE4aGtUMC1odndRTnZvTXV1MmRUR3VjdXlnRF8zTHM1TlhiQ2lUQnBqX1VhWTNHa2d6SUxWTHQtVy00bGlmNmhobDE2OFJEQ3lrbExkZ0xwV29teThhZkxLdlFCU2c5VHAwS1ZsMWxPN3pEVWZGTUhyS1B3R0RIWEZOMDNYZ2VqV1k2MS14NndGRkk5?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-05T10:20:22Z",
      "titel": "SpaceX (SPCX.US) ventures into telecommunications and AI, while Rocket Lab (RKLB.US) approaches its 100th launch. Amid stock price volatility, is the commercial space sector poised for a new upward cycle?",
@@ -2713,13 +2742,6 @@
      "kalla": "TipRanks",
      "lank": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNck52ZUQtbmRwRWd5LTBWZWpRdmRXMkhqeWhDRmFiLXI2SzVTbmVPbTVYM3JWZUxoX1BIWVdwZC0ySmJGem0ybXIweksyNGRJZHlTZkhabGRmUkxwY3o2aWh2LWFwN2piUnJzRnE4bWxNZkpnbFplWnhPZ1NGeGd4OUV0WHdCUmR0U25ndmc0QkFPNGJweWFqQ3Zod3M3c0RXWWNNcGRMNGZBeTgzbHJublM2ZWpQRmpZaW5xbUt2ZlRCZjd6N292cjRzSlZ6UQ?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T13:47:56Z",
-     "titel": "Prediction: Rocket Lab Could Be Building the Space Company of the Future",
-     "kalla": "Yahoo Finance",
-     "lank": "https://247wallst.com/investing/2026/11/04/prediction-rocket-lab-could-be-building-the-space-company-of-the-future/?.tsrc=rss",
-     "fran": "yahoo"
     }
    ]
   },
@@ -2727,10 +2749,31 @@
    "namn": "Sezzle",
    "antal": {
     "yahoo": 6,
-    "google-en": 30
+    "google-en": 33
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-05T11:44:27Z",
+     "titel": "Needham raises Sezzle stock price target to $220 on strong Q3 beat",
+     "kalla": "Investing.com",
+     "lank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkxNaGJZWHIwRmpCWnZyNzFMdmxISmlZalBDMGF4cHR3WDVrcGhRdm1VVy1LTEtSLUdWNGxtQkQ0cmJWYkRpTnMwUXAtZzBZRnlnRk0xSUt6YWtpZ1diS3FaZXRaZk9HYm5UUmZKTlB2ZU5Tdnp0VklTMGpDNi1RczZGY3JZdGNtZFdaSFBOazMxWWZkY2M4V1dtSEp2c1JUbmFDTXJrVHM5M1pyZmp2MlNKMzZ5LWU0RTNkZHRyTW84NXM?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:16:38Z",
+     "titel": "Sezzle (SEZL) Shares Surge 24% Following Strong Q3 Results",
+     "kalla": "GuruFocus",
+     "lank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVV9vdFJGMFJMTXNDTDQxWm0wYUFTOFlaaTVkRHZWX1E0YXd3X2ZrWHV1ZjVwaHVlMG1zQW1XOFdncEFIRG5mdmJiZmJVb25sSDFWTnA3NkNuTnVERjVKMTJqOVBiWmtoMlFxY1dsVlNFaGlpTFhpYWdSSGtBbjNSV1pzMFNWRGZPd2Z3cGxvREo5bHRqcDV3ZjhR?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:11:00Z",
+     "titel": "Sezzle 3Q 2026: Revenue $166.5M, EPS $1.38 — 10-Q Summary",
+     "kalla": "TradingView",
+     "lank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQODk0LVNTQklkZmZxS05xekVKZU5meW0yZ2YxS0RrUzB2bW9JWWthYWZKcEw3R3JKcTlBd1ZzUTJrdThsRl8zQ0IxeVRqeVM5d3hVTjlJdWRSQzdWY2UxY2JxczJYVDhSQ0VjRTRtTlVpN2ZNMy01aXc2MGU1dFMzazZTbXBlbVduZG5BVDNQazhGVENUNUo1bi1YSFcxQ3NfazYzcDd0OW4yeUtfVDZIcWw2aw?oc=5",
+     "fran": "google-en"
+    },
     {
      "tid": "2026-11-05T06:48:23Z",
      "titel": "Is Sezzle (SEZL) Undervalued Following Strong Q3 Results And Its Bank Charter Bid?",
@@ -2739,7 +2782,7 @@
      "fran": "google-en"
     },
     {
-     "tid": "2026-11-05T05:37:16Z",
+     "tid": "2026-11-05T05:52:41Z",
      "titel": "Sezzle Inc. (SEZL) Reports Q3 EPS of $1.37 ; Offers Guidance",
      "kalla": "StreetInsider",
      "lank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMXdGYzYxcmZLTFg1RUFqbmhFaGdJZ2g0a1BIVlBndHV0ckh5dFRheWhuclVPRUhJOEFyajJwNnlkRzZ2NFN5VHY0dUJINFBzVVUtNktJRHplTVY3aDBOUnJZZVFSRWl2bmRncGRwVXlLa2lPTkh6SnJGTzlCbmpGNV95eGVoc0RVbFdNR2NqUnVVS0N0QTBRNzVscnRFZUVlcVRXX3p2QlRxdWlxY1ZCRll4Rk80dS03UEpFcVB3?oc=5",
@@ -2849,27 +2892,6 @@
      "kalla": "Traders Union",
      "lank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmJuaUk2MkxETzdURlhwZGgzZFlnMU4zak1yd0pFTzRRdE9kRU50Y0NaVmJPYV9sd2tjMFhOb0ttaWhJWDVPMU16RHo0T3FnaUV6NWhXMFZYLUNGejB6bFZJSnhrQWVHRzUxYWJLM3YxMGdpLWhtN3hVdWR6NDJqVElkdmc?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T21:01:00Z",
-     "titel": "Sezzle Reports Third Quarter 2026 Results",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/sezzle-reports-third-quarter-2026-210100293.html?.tsrc=rss",
-     "fran": "yahoo"
-    },
-    {
-     "tid": "2026-11-04T12:18:13Z",
-     "titel": "Sezzle Inc. (SEZL) stock price, news, quote and history",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WN0o0Z1ZEV2wxX3RDcGpyOFJVWUwzQ045VHhjdWJ5b29rUUJ5UkxZVWJDcTViajVqaEdkYlEyOVVXSWZNMUxEQ19mQmV0SGhaSEE?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T09:44:47Z",
-     "titel": "Sezzle: The Most Profitable BNPL At The Lowest Multiple (NASDAQ:SEZL)",
-     "kalla": "Seeking Alpha",
-     "lank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUC0zOWF1SE1NLXVuT0ZfeUxWd3lSNERzUS1ReDNyVXl4Q1A5dVRhN0JqaURGcmlCWDhmdzFaTGRqSVRTVzV5cEdXMUNVN0cwczhWMkZtbk1HVnBGRlNzeWItR0NUbkMxY3o0T0wzWEtpUURPNHFFOEg3Z3VwTnZLWDdMY29sM056UGE0SkhtS3hSNjhfREVsSw?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -2883,7 +2905,7 @@
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-05T09:45:15Z",
+     "tid": "2026-11-05T11:43:02Z",
      "titel": "Volvo Car Sales Drop on Continued China, U.S. Weakness",
      "kalla": "WSJ",
      "lank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM25YZVlNWFZnOUI1eUtsVEw3M0RrMUMtYWxMcEIzYVdpa3htb1pBUXZYTl90SUdsd1ZhVVhZc1Z0Wm5SSTBQRnlrQU9BTmlreks3b084UnlTUFVLUUhLdzBXSGtDZ3lhNGdmWU5iQXZwMFdqbHZDR0RnTFpxbEtZZ3VEaW1feVN0UkhJZl91M1k?oc=5",
@@ -3054,10 +3076,17 @@
      "fran": "yahoo"
     },
     {
-     "tid": "2026-11-05T04:50:54Z",
+     "tid": "2026-11-05T05:19:11Z",
      "titel": "Wall Street’s Top 10 Analyst Updates for Nov 4th: Apple, AMD, Adobe and Arista Networks Lead Market Focus",
      "kalla": "The Globe and Mail",
-     "lank": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPVnREUWFaUzQxbnozTTF6OVBaMFZvbzI1TTkwRlItOEV4Vy1kemhEV281amtxR2dhQWpkSDkzaHBOaE9VX0p3QVZ5OVg1cnFocDV3U0owb3lOS1lSd3ZROS1NUW13Q3dzRlNhcm5tamN2UF9Ua3BjTVJjZUNqQnhOWG9mbkhNa3pLVllvd3RrTlBJZmVoNlpIc3daTHF5b2E2S0NNeFR0UTZnQmlLbU5uTGFsdXhyb0hpUWFESTAtTkRTOHZTTXNOcDluTVdBQUdKNzR3QllVRHNwclRyc3MxTmlCdXpYU2lDaW53MmpWd1ZYb05oOUZvTVM4amVNTU9EX3g3cmdlQkwyZHRfc05leGFqQQ?oc=5",
+     "lank": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQNkNoY3JYZ1pmY0I3Q0gxdTg5ZUg1WExSYi1Tdnl0T29Tc3NQRGRuYldXUVZua0dCVzdHMEJyR0hhZ1c4MjB4VHpqTlh5RG1QOXA5eERzWmF6cG53Z1RHbnlPbkVqYUtxdENteDF1emFZbTBmejlJZHZZUGk0a1M4V0NqbWc4blVMbk9yekRqTElIRTJoSlMxeUgyZ0pMOWYtTDZabjhrX3RXM0toNFcyMjNQenBvN05la1JycDUxc3M1d1RBQ2tlRENwbUppSFB6YldZMGk3RU1naU80a2E5UGktTlJQV2ViNG15UFJTWHg1MG9lQ3hZRWhMUjBDbDdGNXRLMWhiOXVLWlV6aWxjdXFZMA?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T04:13:07Z",
+     "titel": "Form 4 Arista Networks: Mark B. Templeton (Director) For: 2 November",
+     "kalla": "Investing.com India",
+     "lank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVjk2WFlZVnVLU1JhNVBWNUlHTHNQd2JEVk44V21yOHNPV3ROU3JwelBvRElvd0RxTjc3SUFQVWVtLThQZ1N6UnNKV3BzajRVWXNfbldNRzJHMXU4ZGFzSWJqcmI1VTBWMU1UUWlXVnA1X3RoOEREVG1OZDZfQlRUY2hTcWVESkZXNC1sbUF0a0xZT0htaGJNZDdOYnl2RkYtVWd2cnZhN1NoSVZQeGg2WnF5MW5SWTIzQk42aEJhS3hLQQ?oc=5",
      "fran": "google-en"
     },
     {
@@ -3065,13 +3094,6 @@
      "titel": "Arista Networks director Mark Templeton sells $829,255 in shares",
      "kalla": "Investing.com",
      "lank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRDRiQ0w4ZFREeExqeF9waUQ2cHdDLUhnaDlQXzM4UWZzVVVjV3RDMmhiLVc5YzQyZDRyWVNFSXFVVWQ1NWdKM3NPLUdwMXhLLTNfUmstOWFqZndSUm95Y1M0N2IzZU91MjdOd29mN0p2NnpvZGpMdUZZQmVSRWN4ZzFvcmY4eG1zWndUdHBORVhOZUwxZzZqbVlZdm1mQ0hDcU9ST1pEMTJMTW5PVFQ2UzBYYmNMYnRSVjRPVGdnU3BZbVQwWnc?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-05T04:09:11Z",
-     "titel": "Form 4 Arista Networks: Mark B. Templeton (Director) For: 2 November",
-     "kalla": "Investing.com Nigeria",
-     "lank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY3d1WE1RTGZJOTJfcnRKRnZTSS10aWR1UkhpRHk5VzNvM2t5RFREYzZiM3B0Tzd0ZDd4anA4cl9lR0tpRXFUSXAzMFNoMWU1WkxmQWZIX2p5MGttZFRQRXo1azNZRVNNalNZNDBsemZhYk5HaGFvTFVhdHhoR0FHTFlqczdxdm5ieDlMU1E3alZRUlN0cGY2cDNSdmVoN3hMU0cyTWxHS0pMRmpQRmVzZFVsRmVKQWhWSGtCMXplRF9VUQ?oc=5",
      "fran": "google-en"
     },
     {
@@ -3178,7 +3200,7 @@
    "namn": "Harmony Biosciences",
    "antal": {
     "yahoo": 5,
-    "google-en": 28
+    "google-en": 29
    },
    "fel": {},
    "nyheter": [
@@ -3253,6 +3275,13 @@
      "fran": "google-en"
     },
     {
+     "tid": "2026-11-04T16:34:24Z",
+     "titel": "Harmony Biosciences Reports Q3 2026 Earnings: Revenue of $268.9",
+     "kalla": "GuruFocus",
+     "lank": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPX1RZSUYyWnRFdlhIeVR5U2JWOXh1bFg2ZjJSQXBWV1FQN1JaMnRXZFJfZXprQl81UmFzc1lHTGh5R3ZTUEJ4VEFULS1HZlJickt0Y281d2ZqdmkzVGd4WXc2VjBJQXQ2TjU4Zzl3Vi1NdUpBYkVXUV9lU08ySi00eE1SSTJLZDl6NXFrVFlKaXJIaUNBS0ZrOTZKcW81d01RU0FiTTM1ajJzTzJ6cGotSWFBd3ZVQUJoRGkwMmVFb2treEt6RldpcGU1VVU3bGxDUlF6VkpjVExfZEUybnVVSURkZVlBNXpEQmNPSHRyWjRmOEE?oc=5",
+     "fran": "google-en"
+    },
+    {
      "tid": "2026-11-04T15:38:05Z",
      "titel": "Harmony Biosciences Shares Fall After Q3 Earnings, Revenue Miss Estimates",
      "kalla": "www.marketscreener.com",
@@ -3314,13 +3343,6 @@
      "kalla": "Investing.com",
      "lank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTmh5ckFTN3Jib1NfOURPU0E0bHFDZGFaaUR4UnhvTXQyT1NFeGFhQ1BBZ3d5RjJfdjV6NkpwSkY4WlM3clZZdWVrR1R3RkpLU0RMeUcwVlBqSzhYN0xKUTVHRW1JLWszNy1NOXVJTGVrLU5YdkhvQTd5amo2R3VGNl9IVm1qY1MyVFpUc054Vzc0bm1hRkV2WmduNHdkMl9kMy1aNG1HeTdpRWx6OTNEUzJraEJ4Vm1CRmRmLUFuaw?oc=5",
      "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-04T12:55:06Z",
-     "titel": "Harmony Biosciences (HRMY) Misses Q3 EPS by 30c; Offers Guidance",
-     "kalla": "StreetInsider",
-     "lank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTm5MWUVEamVVU05VNm5TZjE3blVhR2ttTWdvU0xkd2lXV0NmbTRhRDJBRTBUcEExWmRScmVIcnNiWnhGdGNaTXl4dURYT09FTkpCekl5UXhsdkNFOTE5ci1UWWxNeVVPWld2ZUJtbl9uVDZhcDRHbzRETUhlMUpkTGVOYWFKcmhyNk9XUlljZjFwWEMwWkdERFdYN0xFRk1SejdwaVBCMnU5WlkzcUdtVlp4UGdxN3VvRENVc3hwTnI?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -3328,7 +3350,7 @@
    "namn": "Sandisk",
    "antal": {
     "yahoo": 6,
-    "google-en": 93
+    "google-en": 91
    },
    "fel": {},
    "nyheter": [
@@ -3553,15 +3575,29 @@
    "namn": "Caris Life Sciences",
    "antal": {
     "yahoo": 4,
-    "google-en": 17
+    "google-en": 19
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-05T09:17:37Z",
+     "tid": "2026-11-05T11:44:27Z",
+     "titel": "Caris Life Sciences stock falls after hours despite Q3 beat, BTIG maintains buy",
+     "kalla": "Investing.com",
+     "lank": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPemFfS29oeUNZQTUxRjdjaGhkRjJFYlFJNElXLWhBMmpLZlR2akZ6RzBMbGVoNmxsRnZ3MnVkaHF4aXJjdlBNNmZhTGhzYmNSYWpIY2NuY1dqRTRiM2tzR3RJV0hzcjZhT1VrV0VlWmlkMVZlRl9vTDR3VGQ4aFhnWHhPa19rQU91ZnNwMlMxLVRFYklfSFNaMXd5VjhXMU56Uk9SdDNYZ1J1d1BlbEpXWl8tYUZRYXJ4aDNOREdkUy1SYndvamdXcFpENEN0UWFOaFprWQ?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T11:05:02Z",
+     "titel": "BTIG maintains Caris Life Sciences at Buy, keeps price target at $38",
+     "kalla": "TradingView",
+     "lank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV0FGeVgxQlFCWTh3SHZnVHZWa1ZEQ2dRanlfdlJFaTZhRHotekl6QkxZQTlsbWlMaTl2eWx2ZmRlMGVqTEVJc2pUcjhycVAwa0t0UlFYWVdBcmR5ZmI4TE1EWVRUbFZiUUN1NzF1SUlQUDdtTU5WQ2xVVWZTU2VXLUROcWIxNUFvM0hXYVhDNnp2Z0RyVVpOLXI3cVlseThkNnFFbF9tV0d0S1NuZ09RSU4tQVNCdHFnWWlhX1ZfY1lYemRhODg4?oc=5",
+     "fran": "google-en"
+    },
+    {
+     "tid": "2026-11-05T09:29:34Z",
      "titel": "TD Cowen raises Caris Life Sciences stock price target on pipeline",
-     "kalla": "Investing.com India",
-     "lank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTG9hbER6TGpjdkQ0QTMtVzdfWFp6Yjh4VFhUVm56aGJ2cTZ3STRPSTRVS1pPc2JCTFVidmlma1I4Vkh3clpONEJxWE9ka0pGSVc0a2hNNEpVMkV4LVkzYm9wNzF1MklEblM2MzRHeHExem9ZZHZDZUNNaDRReDRGNGVEZGllX2ZGaV9iQ2xjbjlRX0Z6RkRzYXlhZkxuYjdCZGphZ1ZCUDdIdXBfVXFIMWlVSFQwRmZnRUFqVTl3eTd4dzNsZnc?oc=5",
+     "kalla": "Investing.com",
+     "lank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWG9BZDlxbTdEWFlubE5OS3RVNXRpVjhxYV9wTlhCd2dxTnJrc0ZacXFnQ0o3SDItWXJLd0tMdlc4Z3BYQmZiLVFqU1hKT0ItM184U3k4LWlJSWdBcGV0N0FMLWExdU40ajVhTUJLRXBCYzNxVzdhUjVYMVBKTVZLR2taTzFSV20xZFY1QXlZM0g3UVVtelAySTl4VjhLamdFNEQzQmRBTnI4ZktlWUNsSkl2OG8wMDRPNDJyc3ZuQXBiMTBn?oc=5",
      "fran": "google-en"
     },
     {
