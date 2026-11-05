@@ -6,12 +6,16 @@ on:
     - cron: "20 3 * * 1-5"   # 04.20 svensk vintertid
     - cron: "5 4 * * 1-5"    # 05.05
     - cron: "50 4 * * 1-5"   # 05.50
+    # Efter stängning i USA, så att kvällens rapporter finns i filen även om morgonkörningarna startar sent (4–5 nov startade de 7–8 timmar sent).
+    - cron: "35 22 * * 1-5"  # 23.35
   workflow_dispatch:
   push:
     paths:
       - "nyhetsbolag.json"
       - "nyheter.py"
       - ".github/workflows/nyheter.yml"
+      # Den dagliga körningen skriver hit när nyhetsfilen är gammal, så att en hämtning startar direkt i stället för att vänta på GitHubs schema.
+      - "trigger/nyheter.txt"
 
 permissions:
   contents: write

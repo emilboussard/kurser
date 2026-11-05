@@ -14,6 +14,8 @@ on:
       - "symboler.json"
       - "hamta.py"
       - ".github/workflows/kurser.yml"
+      # Den dagliga körningen skriver hit när kursfilen är gammal, så att en hämtning startar direkt.
+      - "trigger/kurser.txt"
 
 permissions:
   contents: write
