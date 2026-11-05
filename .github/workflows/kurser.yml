@@ -30,6 +30,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # senaste main när jobbet startar, inte committen som startade det
       - name: Hämta kurser
         run: python3 -u hamta.py
       - name: Spara kurser.json
@@ -39,5 +41,6 @@ jobs:
           git add kurser.json
           git diff --cached --quiet && exit 0
           git commit -m "Kurser $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
-          git push
+          # Två körningar efter varandra ändrar samma fil: behåll den nyss hämtade (-X theirs är den egna committen vid rebase).
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
+          exit 1
