@@ -1,6 +1,11 @@
 """Hämtar dagliga stängningskurser från Yahoo Finance för symbolerna i symboler.json
-och skriver kurser.json. Bara avslutade handelsdagar sparas (pågående dag tas bort)."""
+och skriver kurser.json. Bara avslutade handelsdagar sparas (pågående dag tas bort).
+Sedan 2026-11-06 hämtas ett år, så att MA200 (snittet av de 200 senaste stängningarna,
+Masterguide Steg 3) kan räknas här. Filen sparar fortfarande bara de senaste dagarna."""
 import json, time, datetime, urllib.request, urllib.parse, urllib.error, http.cookiejar
+
+DAGAR_SPARA = 23   # så många handelsdagar sparas i kurser.json (stopp, topp och ATR14 räcker med 16)
+MA_DAGAR = 200
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 JAR = http.cookiejar.CookieJar()
@@ -32,7 +37,7 @@ def skaffa_crumb():
 
 def hamta_json(symbol):
     fel = []
-    bas = "https://%s.finance.yahoo.com/v8/finance/chart/%s?range=1mo&interval=1d"
+    bas = "https://%s.finance.yahoo.com/v8/finance/chart/%s?range=1y&interval=1d"
     for forsok in range(2):
         for vard in ("query1", "query2"):
             url = bas % (vard, urllib.parse.quote(symbol))
@@ -85,7 +90,12 @@ def tolka(data, nu):
     for x in dagar:
         unika[x["d"]] = x
     dagar = [unika[d] for d in sorted(unika)]
-    return {"valuta": meta.get("currency"), "borsTidszon": meta.get("exchangeTimezoneName"), "dagar": dagar}
+    # MA200: snittet av de 200 senaste stängningarna. Färre än 200 dagar (t.ex. nyligen noterat): null.
+    ma200 = None
+    if len(dagar) >= MA_DAGAR:
+        sista = dagar[-MA_DAGAR:]
+        ma200 = {"varde": round(sum(x["k"] for x in sista) / MA_DAGAR, 4), "datum": sista[-1]["d"]}
+    return {"valuta": meta.get("currency"), "borsTidszon": meta.get("exchangeTimezoneName"), "dagar": dagar[-DAGAR_SPARA:], "ma200": ma200}
 
 
 def main():
