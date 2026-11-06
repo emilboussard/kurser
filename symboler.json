@@ -27,5 +27,8 @@
   "asml": "ASML.AS",
   "omxs30": "^OMX",
   "msci-world-urth": "URTH",
-  "usdsek": "USDSEK=X"
+  "usdsek": "USDSEK=X",
+  "eursek": "EURSEK=X",
+  "noksek": "NOKSEK=X",
+  "dkksek": "DKKSEK=X"
 }
