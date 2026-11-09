@@ -27,7 +27,7 @@ concurrency:
 jobs:
   hamta:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15   # avkodningen av Google-länkar tar några minuter extra
     steps:
       - uses: actions/checkout@v4
         with:

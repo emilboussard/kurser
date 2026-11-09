@@ -6,8 +6,12 @@ Källor per bolag (alla är frivilliga, ett fel i en källa stoppar inte de andr
 - MFN (pressmeddelanden för svenska bolag)
 
 Bara nyheter från de senaste DAGAR dagarna sparas, nyast först, högst MAX_PER_BOLAG per bolag.
-Den dagliga aktiebevakningen läser filen via raw.githubusercontent.com.
+Google News-länkar (news.google.com/rss/articles/...) avkodas till artikelns riktiga adress (kortare och utan
+Googles samtyckessida på telefonen). Den riktiga adressen står i lank och Google-länken i glank. Redan avkodade
+länkar återanvänds från förra nyheter.json; högst MAX_AVKODA nya per körning, nyast först.
+Den dagliga aktiebevakningen läser filen ur sin klon av repot.
 """
+import base64
 import datetime
 import email.utils
 import html
@@ -106,6 +110,90 @@ def hamta_mfn(slug):
     return list(per_grupp.values())
 
 
+MAX_AVKODA = 120
+GN_RE = re.compile(r"^https://news\.google\.com/(?:rss/)?articles/([A-Za-z0-9_-]+)")
+GN_BATCH = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+
+
+def gn_id(lank):
+    m = GN_RE.match(lank or "")
+    return m.group(1) if m else None
+
+
+def gn_gammalt_format(gid):
+    """Äldre Google-id:n har adressen direkt i base64. Nya (AU_yqL...) kräver ett anrop."""
+    try:
+        b = base64.urlsafe_b64decode(gid + "=" * (-len(gid) % 4))
+    except (ValueError, TypeError):
+        return None
+    if b"AU_yqL" in b:
+        return None
+    m = re.search(rb"https?://[\x21-\x7e]+", b)
+    return m.group(0).decode() if m else None
+
+
+def gn_avkoda(gid):
+    """Artikelns riktiga adress för ett Google News-id, eller None."""
+    url = gn_gammalt_format(gid)
+    if url:
+        return url
+    sida = hamta("https://news.google.com/rss/articles/%s" % gid).decode("utf-8", "replace")
+    sg = re.search(r'data-n-a-sg="([^"]+)"', sida)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', sida)
+    if not sg or not ts:
+        raise ValueError("ingen signatur på artikelsidan")
+    inre = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
+            '"X","X",1,[1,1,1],1,1,null,0,0,null,0],"%s",%s,"%s"]' % (gid, ts.group(1), sg.group(1)))
+    data = ("f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", inre]]]))).encode()
+    req = urllib.request.Request(GN_BATCH, data=data, headers={
+        "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        svar = r.read().decode("utf-8", "replace")
+    for rad in json.loads(svar.split("\n\n", 1)[1]):
+        if isinstance(rad, list) and len(rad) > 2 and rad[0] == "wrb.fr" and rad[2]:
+            res = json.loads(rad[2])
+            if isinstance(res, list) and len(res) > 1 and str(res[1]).startswith("http"):
+                return res[1]
+    raise ValueError("inget svar från Google")
+
+
+def avkoda_lankar(ut):
+    """Byter Google News-länkar mot riktiga adresser. Återanvänder förra filens avkodningar."""
+    cache = {}
+    try:
+        for b in json.load(open("nyheter.json")).get("bolag", {}).values():
+            for x in b.get("nyheter", []):
+                g = gn_id(x.get("glank"))
+                if g and x.get("lank") and not gn_id(x["lank"]):
+                    cache[g] = x["lank"]
+    except (OSError, ValueError):
+        pass
+    alla = [x for b in ut["bolag"].values() for x in b["nyheter"] if gn_id(x["lank"])]
+    alla.sort(key=lambda x: x["tid"], reverse=True)
+    nya = fel_i_rad = fran_cache = 0
+    for x in alla:
+        gid = gn_id(x["lank"])
+        url = cache.get(gid)
+        if url:
+            fran_cache += 1
+        elif nya < MAX_AVKODA and fel_i_rad < 5:
+            nya += 1
+            try:
+                url = gn_avkoda(gid)
+                cache[gid] = url
+                fel_i_rad = 0
+            except Exception as e:  # noqa: BLE001
+                fel_i_rad += 1
+                print("avkodning misslyckades:", str(e)[:120])
+            time.sleep(0.3)
+        if url:
+            x["glank"] = x["lank"]
+            x["lank"] = url
+    kvar = sum(1 for x in alla if gn_id(x["lank"]))
+    print("Google-länkar: %d från förra filen, %d nya försök, %d kvar som Google-länk" % (fran_cache, nya, kvar))
+    ut["googleKvar"] = kvar
+
+
 def nyckel(titel):
     return re.sub(r"[^a-z0-9åäö]+", "", titel.lower())[:70]
 
@@ -158,6 +246,10 @@ def main():
             x.pop("sprak", None)
         ut["bolag"][bid] = {"namn": cfg.get("namn", bid), "antal": antal, "fel": fel, "nyheter": unika}
         print(bid, len(unika), antal, fel or "")
+    try:
+        avkoda_lankar(ut)
+    except Exception as e:  # noqa: BLE001  Länkarna är en bonus; filen sparas ändå.
+        print("avkodningen avbröts:", str(e)[:200])
     json.dump(ut, open("nyheter.json", "w"), ensure_ascii=False, indent=1)
 
 

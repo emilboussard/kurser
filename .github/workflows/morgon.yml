@@ -1,0 +1,99 @@
+name: Morgon
+
+# GitHub startar schemalagda körningar 4–9 timmar sent och hoppar ibland över dem (3–9 nov 2026: 04.20-körningen
+# startade 12.51). Därför startar den här workflowen redan på kvällen eller natten och väntar sedan till 06.10
+# svensk tid innan den hämtar kurser och nyheter, så att filerna är färska när den dagliga aktiebevakningen
+# startar 06.39. Den första körningen som startar högst 5 h 35 min före 06.10 väntar och hämtar; körningar som
+# startar tidigare eller efter 06.10 hoppar över (en senare eller tidigare körning tar det).
+on:
+  schedule:
+    # Kvällen före (söndag–torsdag UTC) och natten (måndag–fredag UTC), flera försök eftersom GitHub hoppar över körningar.
+    - cron: "10 20 * * 0-4"
+    - cron: "40 21 * * 0-4"
+    - cron: "50 22 * * 0-4"
+    - cron: "25 0 * * 1-5"
+    - cron: "45 1 * * 1-5"
+    - cron: "55 2 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mal:
+        description: "Hämta kl. (HH:MM svensk tid, i dag eller nästa vardag)"
+        required: false
+        default: "06:10"
+  push:
+    paths:
+      - ".github/workflows/morgon.yml"
+      # Test eller hämtning vid en viss tid: skriv HH:MM (svensk tid) i filen och pusha.
+      - "trigger/morgon.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morgon
+  cancel-in-progress: false
+
+jobs:
+  vanta-och-hamta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Läs måltid
+        id: mal
+        run: |
+          MAL="${{ github.event.inputs.mal }}"
+          if [ "${{ github.event_name }}" = "push" ] && [ -z "$MAL" ]; then
+            MAL=$(curl -sSf "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/trigger/morgon.txt" 2>/dev/null | tr -d '[:space:]' || true)
+          fi
+          echo "mal=${MAL:-06:10}" >> "$GITHUB_OUTPUT"
+      - name: Vänta till måltiden
+        id: vanta
+        env:
+          MAL: ${{ steps.mal.outputs.mal }}
+        run: |
+          python3 - <<'PY'
+          import datetime as dt, os, re, time
+          from zoneinfo import ZoneInfo
+          SE = ZoneInfo("Europe/Stockholm")
+          MAX_VANTA = 335 * 60  # GitHub stoppar jobb efter 6 timmar
+          mal_txt = os.environ.get("MAL") or "06:10"
+          if not re.fullmatch(r"\d{1,2}:\d{2}", mal_txt):
+              mal_txt = "06:10"
+          h, m = map(int, mal_txt.split(":"))
+          nu = dt.datetime.now(SE)
+          mal = nu.replace(hour=h, minute=m, second=0, microsecond=0)
+          if mal <= nu:
+              mal += dt.timedelta(days=1)
+          while mal.weekday() >= 5:  # bara vardagar
+              mal += dt.timedelta(days=1)
+          vanta = (mal - nu).total_seconds()
+          ut = open(os.environ["GITHUB_OUTPUT"], "a")
+          if vanta > MAX_VANTA:
+              print(f"Nu {nu:%a %H:%M}, nästa hämtning {mal:%a %H:%M} ({vanta/3600:.1f} h kvar): för tidigt, en senare körning tar den.")
+              ut.write("hoppa=1\n")
+          else:
+              print(f"Nu {nu:%a %H:%M}, väntar {vanta/60:.0f} min till {mal:%a %H:%M}.", flush=True)
+              time.sleep(vanta)
+              ut.write("hoppa=0\n")
+          PY
+      - uses: actions/checkout@v4
+        if: steps.vanta.outputs.hoppa == '0'
+        with:
+          ref: main   # senaste main efter väntan
+      - name: Hämta kurser
+        if: steps.vanta.outputs.hoppa == '0'
+        run: python3 -u hamta.py
+      - name: Hämta nyheter
+        if: steps.vanta.outputs.hoppa == '0'
+        run: python3 -u nyheter.py
+      - name: Spara kurser.json och nyheter.json
+        if: steps.vanta.outputs.hoppa == '0'
+        run: |
+          git config user.name "kurser-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kurser.json nyheter.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Morgon $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Andra workflows kan ha sparat samma filer under tiden: behåll de nyss hämtade.
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
+          exit 1
