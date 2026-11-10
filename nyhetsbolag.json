@@ -29,5 +29,6 @@
  "harmony-biosciences": {"namn": "Harmony Biosciences", "sok": [["en", "\"Harmony Biosciences\""]], "yahoo": "HRMY", "mfn": null, "ord": ["Harmony Biosciences"]},
  "sandisk": {"namn": "Sandisk", "sok": [["en", "Sandisk"]], "yahoo": "SNDK", "mfn": null, "ord": ["Sandisk"]},
  "bonesupport": {"namn": "Bonesupport", "sok": [["sv", "Bonesupport"], ["en", "Bonesupport"]], "yahoo": "BONEX.ST", "mfn": "bonesupport", "ord": ["Bonesupport"]},
- "caris-life-sciences": {"namn": "Caris Life Sciences", "sok": [["en", "\"Caris Life Sciences\""]], "yahoo": "CAI", "mfn": null, "ord": ["Caris"]}
+ "caris-life-sciences": {"namn": "Caris Life Sciences", "sok": [["en", "\"Caris Life Sciences\""]], "yahoo": "CAI", "mfn": null, "ord": ["Caris"]},
+ "avanza": {"namn": "Avanza", "sok": [["sv", "\"Avanza Bank\""], ["sv", "Avanza Gustaf Unger"], ["en", "\"Avanza Bank\""]], "yahoo": "AZA.ST", "mfn": "avanza-bank-holding", "ord": ["Avanza"]}
 }
