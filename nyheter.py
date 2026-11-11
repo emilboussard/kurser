@@ -9,6 +9,8 @@ Bara nyheter från de senaste DAGAR dagarna sparas, nyast först, högst MAX_PER
 Google News-länkar (news.google.com/rss/articles/...) avkodas till artikelns riktiga adress (kortare och utan
 Googles samtyckessida på telefonen). Den riktiga adressen står i lank och Google-länken i glank. Redan avkodade
 länkar återanvänds från förra nyheter.json; högst MAX_AVKODA nya per körning, nyast först.
+Varje nyhet får fältet utdrag: artikelns första meningar (högst UTDRAG_TECKEN tecken), så att den dagliga körningen
+kan säga vad nyheten handlar om utan att öppna artikeln. "" = sidan gick inte att läsa (betalvägg, blockering).
 Den dagliga aktiebevakningen läser filen ur sin klon av repot.
 """
 import base64
@@ -21,6 +23,8 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, TimeoutError, as_completed
+from html.parser import HTMLParser
 
 DAGAR = 5
 MAX_PER_BOLAG = 20
@@ -194,6 +198,159 @@ def avkoda_lankar(ut):
     ut["googleKvar"] = kvar
 
 
+MAX_UTDRAG = 250      # nya artiklar per körning (nyast först); resten tas nästa körning
+UTDRAG_TECKEN = 700   # så att den dagliga körningen drar lite tokens
+UTDRAG_TID = 300      # högst 5 minuter för alla utdrag
+SKRAP = re.compile(r"cookie|subscribe|sign up|sign in|log in|javascript|newsletter|all rights reserved|©|"
+                   r"prenumerera|logga in|annons|advertisement|click here|read more|läs mer", re.I)
+
+
+class _Text(HTMLParser):
+    """Plockar ut meta-beskrivningar, articleBody i JSON-LD och textstycken (<p>) ur en artikelsida."""
+
+    HOPPA = {"script", "style", "nav", "footer", "header", "aside", "form", "noscript", "figure", "button"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.meta, self.ld, self.stycken = {}, [], []
+        self._djup = 0       # inne i en tagg som ska hoppas över
+        self._p = None       # text i pågående <p>
+        self._ld = None      # text i pågående JSON-LD-skript
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "meta":
+            k = (a.get("property") or a.get("name") or "").lower()
+            if k in ("og:description", "description", "twitter:description") and a.get("content"):
+                self.meta.setdefault(k, a["content"].strip())
+        elif tag == "script" and (a.get("type") or "").lower() == "application/ld+json":
+            self._ld = []
+        elif tag in self.HOPPA:
+            self._djup += 1
+        elif tag == "p" and not self._djup:
+            self._p = []
+        elif tag == "br" and self._p is not None:
+            self._p.append(" ")
+
+    def handle_endtag(self, tag):
+        if tag == "script" and self._ld is not None:
+            self.ld.append("".join(self._ld))
+            self._ld = None
+        elif tag in self.HOPPA:
+            self._djup = max(0, self._djup - 1)
+        elif tag == "p" and self._p is not None:
+            t = re.sub(r"\s+", " ", "".join(self._p)).strip()
+            if len(t) >= 60 and not SKRAP.search(t):
+                self.stycken.append(t)
+            self._p = None
+
+    def handle_data(self, data):
+        if self._ld is not None:
+            self._ld.append(data)
+        elif self._p is not None and not self._djup:
+            self._p.append(data)
+
+
+def _article_body(ld_texter):
+    def leta(o):
+        if isinstance(o, dict):
+            if isinstance(o.get("articleBody"), str) and len(o["articleBody"]) > 100:
+                return o["articleBody"]
+            for v in o.values():
+                r = leta(v)
+                if r:
+                    return r
+        elif isinstance(o, list):
+            for v in o:
+                r = leta(v)
+                if r:
+                    return r
+        return None
+    for t in ld_texter:
+        try:
+            r = leta(json.loads(t))
+        except ValueError:
+            continue
+        if r:
+            return html.unescape(re.sub(r"<[^>]+>", " ", r))
+    return None
+
+
+def _kapa(t, n=UTDRAG_TECKEN):
+    t = re.sub(r"\s+", " ", t).strip()
+    if len(t) <= n:
+        return t
+    kort = t[:n]
+    slut = max(kort.rfind(". "), kort.rfind("! "), kort.rfind("? "))
+    return kort[: slut + 1] if slut > n // 2 else kort.rstrip() + " …"
+
+
+def utdrag_for(url):
+    """De första meningarna i artikeln (högst UTDRAG_TECKEN tecken), eller "" om sidan inte gick att läsa."""
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml",
+                                               "Accept-Language": "sv-SE,sv;q=0.9,en;q=0.8"})
+    with urllib.request.urlopen(req, timeout=10) as r:
+        if "html" not in (r.headers.get("Content-Type") or "html").lower():
+            return ""
+        data = r.read(2_000_000)
+        kod = r.headers.get_content_charset() or "utf-8"
+    p = _Text()
+    try:
+        p.feed(data.decode(kod, "replace"))
+    except Exception:  # noqa: BLE001  Trasig HTML: använd det som hann läsas.
+        pass
+    brodtext = _article_body(p.ld) or " ".join(p.stycken[:6])
+    beskr = p.meta.get("og:description") or p.meta.get("description") or p.meta.get("twitter:description") or ""
+    beskr = html.unescape(beskr).strip()
+    if beskr and SKRAP.search(beskr):
+        beskr = ""
+    if beskr and brodtext and nyckel(beskr)[:40] not in nyckel(brodtext):
+        text = beskr + " " + brodtext
+    else:
+        text = brodtext or beskr
+    return _kapa(text) if len(text) >= 60 else ""
+
+
+def hamta_utdrag(ut):
+    """Lägger till fältet utdrag (artikelns början) på varje nyhet. Återanvänder förra filens utdrag.
+    utdrag = "" betyder att sidan inte gick att läsa (betalvägg, blockering); den provas inte igen."""
+    cache = {}
+    try:
+        for b in json.load(open("nyheter.json")).get("bolag", {}).values():
+            for x in b.get("nyheter", []):
+                if "utdrag" in x and x.get("lank"):
+                    cache[x["lank"]] = x["utdrag"]
+    except (OSError, ValueError):
+        pass
+    alla = [x for b in ut["bolag"].values() for x in b["nyheter"]]
+    nya = []
+    for x in alla:
+        if x["lank"] in cache:
+            x["utdrag"] = cache[x["lank"]]
+        elif not gn_id(x["lank"]):
+            nya.append(x)
+    nya.sort(key=lambda x: x["tid"], reverse=True)
+    nya = nya[:MAX_UTDRAG]
+    start, klara, tomma = time.time(), 0, 0
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        framtid = {pool.submit(utdrag_for, x["lank"]): x for x in nya}
+        try:
+            for f in as_completed(framtid, timeout=UTDRAG_TID):
+                x = framtid[f]
+                try:
+                    x["utdrag"] = f.result()
+                except Exception:  # noqa: BLE001
+                    x["utdrag"] = ""
+                klara += 1
+                tomma += not x["utdrag"]
+        except TimeoutError:
+            print("utdrag: tiden tog slut, resten tas nästa körning")
+        for f in framtid:
+            f.cancel()
+    print("Utdrag: %d från förra filen, %d nya (%d utan text), %.0f s" %
+          (sum(1 for x in alla if x["lank"] in cache), klara, tomma, time.time() - start))
+
+
 def nyckel(titel):
     return re.sub(r"[^a-z0-9åäö]+", "", titel.lower())[:70]
 
@@ -250,6 +407,10 @@ def main():
         avkoda_lankar(ut)
     except Exception as e:  # noqa: BLE001  Länkarna är en bonus; filen sparas ändå.
         print("avkodningen avbröts:", str(e)[:200])
+    try:
+        hamta_utdrag(ut)
+    except Exception as e:  # noqa: BLE001  Utdragen är en bonus; filen sparas ändå.
+        print("utdragen avbröts:", str(e)[:200])
     json.dump(ut, open("nyheter.json", "w"), ensure_ascii=False, indent=1)
 
 
