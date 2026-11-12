@@ -34,5 +34,5 @@
  "berkshire-b": {"namn": "Berkshire Hathaway", "sok": [["en", "\"Berkshire Hathaway\""]], "yahoo": "BRK-B", "mfn": null, "ord": ["Berkshire"]},
  "abb": {"namn": "ABB", "sok": [["sv", "\"ABB\" aktie"], ["en", "\"ABB Ltd\""]], "yahoo": "ABB.ST", "mfn": null, "ord": ["ABB ", "ABB:", "ABB'", "ABB’", "ABB-", "ABB,", "ABB."]},
  "visa": {"namn": "Visa", "sok": [["en", "\"Visa Inc\""]], "yahoo": "V", "mfn": null, "ord": ["Visa"]},
- "sinch": {"namn": "Sinch", "sok": [["sv", "Sinch aktie"], ["en", "\"Sinch AB\""]], "yahoo": "SINCH.ST", "mfn": "sinch", "ord": ["Sinch"]}
+ "sinch": {"namn": "Sinch", "sok": [["sv", "Sinch"], ["en", "\"Sinch AB\""]], "yahoo": "SINCH.ST", "mfn": null, "ord": ["Sinch"]}
 }
