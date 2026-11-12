@@ -33,5 +33,6 @@
  "avanza": {"namn": "Avanza", "sok": [["sv", "\"Avanza Bank\""], ["sv", "Avanza Gustaf Unger"], ["en", "\"Avanza Bank\""]], "yahoo": "AZA.ST", "mfn": "avanza-bank-holding", "ord": ["Avanza"]},
  "berkshire-b": {"namn": "Berkshire Hathaway", "sok": [["en", "\"Berkshire Hathaway\""]], "yahoo": "BRK-B", "mfn": null, "ord": ["Berkshire"]},
  "abb": {"namn": "ABB", "sok": [["sv", "\"ABB\" aktie"], ["en", "\"ABB Ltd\""]], "yahoo": "ABB.ST", "mfn": null, "ord": ["ABB ", "ABB:", "ABB'", "ABB’", "ABB-", "ABB,", "ABB."]},
- "visa": {"namn": "Visa", "sok": [["en", "\"Visa Inc\""]], "yahoo": "V", "mfn": null, "ord": ["Visa"]}
+ "visa": {"namn": "Visa", "sok": [["en", "\"Visa Inc\""]], "yahoo": "V", "mfn": null, "ord": ["Visa"]},
+ "sinch": {"namn": "Sinch", "sok": [["sv", "Sinch aktie"], ["en", "\"Sinch AB\""]], "yahoo": "SINCH.ST", "mfn": "sinch", "ord": ["Sinch"]}
 }
