@@ -31,5 +31,6 @@
  "bonesupport": {"namn": "Bonesupport", "sok": [["sv", "Bonesupport"], ["en", "Bonesupport"]], "yahoo": "BONEX.ST", "mfn": "bonesupport", "ord": ["Bonesupport"]},
  "caris-life-sciences": {"namn": "Caris Life Sciences", "sok": [["en", "\"Caris Life Sciences\""]], "yahoo": "CAI", "mfn": null, "ord": ["Caris"]},
  "avanza": {"namn": "Avanza", "sok": [["sv", "\"Avanza Bank\""], ["sv", "Avanza Gustaf Unger"], ["en", "\"Avanza Bank\""]], "yahoo": "AZA.ST", "mfn": "avanza-bank-holding", "ord": ["Avanza"]},
- "berkshire-b": {"namn": "Berkshire Hathaway", "sok": [["en", "\"Berkshire Hathaway\""]], "yahoo": "BRK-B", "mfn": null, "ord": ["Berkshire"]}
+ "berkshire-b": {"namn": "Berkshire Hathaway", "sok": [["en", "\"Berkshire Hathaway\""]], "yahoo": "BRK-B", "mfn": null, "ord": ["Berkshire"]},
+ "abb": {"namn": "ABB", "sok": [["sv", "\"ABB\" aktie"], ["en", "\"ABB Ltd\""]], "yahoo": "ABB.ST", "mfn": null, "ord": ["ABB ", "ABB:", "ABB'", "ABB’", "ABB-", "ABB,", "ABB."]}
 }
