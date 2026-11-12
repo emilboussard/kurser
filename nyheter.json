@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-12T20:13:49Z",
+ "hamtad": "2026-11-12T20:16:18Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -189,7 +189,7 @@
    "namn": "AppLovin",
    "antal": {
     "yahoo": 11,
-    "google-en": 58
+    "google-en": 57
    },
    "fel": {},
    "nyheter": [
@@ -336,15 +336,6 @@
      "utdrag": "SAN FRANCISCO, Nov. 11, 2026 /PRNewswire/ -- Hagens Berman, a leading securities litigation law firm, is actively investigating alleged federal securities law violations by AppLovin Corporation (NASDAQ: APP) in a pending securities class action. The suit alleges AppLovin executive leadership issued materially false or misleading statements regarding the readiness, integration, and adoption of its artificial intelligence (AI) models and self-service ad tools. Investors who suffered substantial financial losses in AppLovin (NASDAQ: APP) securities are encouraged to contact Hagens Berman attorneys directly. Class Period: Feb. 12, 2026 – Aug. 5, 2026 Lead Plaintiff Deadline: Nov."
     },
     {
-     "tid": "2026-11-11T12:19:02Z",
-     "titel": "AppLovin stock faces securities suit over AI advertising claims",
-     "kalla": "ad-hoc-news.de",
-     "lank": "https://www.ad-hoc-news.de/boerse/news/corporate-news/applovin-stock-faces-securities-suit-over-ai-advertising-claims/70491910",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTmNWNGxyaDd2QkNwblhmenVLZTBfNWc4VVY1VGVTV0s3VWtzZVBYbGh5R051WjJ5RWVOakZKWnNRNlZXcnlia0ZHc3lfT1pCaGZyNERQZUpXNi13WEpFQUE3Vm4teDdCblp4azJXRFpaYWFwQ2NRaDljTVdJdkFwaG5vSHpKRkxGRzRYcFhkaW9CaHU2bXBzUnBLMGNvcDI4NzV3YjFmYWxGRmREXzhLR3gtOXRVbUdHcElfano5NlZBNGZN?oc=5",
-     "utdrag": "AppLovin stock faces a new securities case over claims tied to its AI advertising rollout. The filin AppLovin faces a new securities lawsuit after Kaplan Fox & Kilsheimer said on Wednesday, November 11, 2026, that a class action had been filed on behalf of investors who bought the company’s securities between February 12 and August 5. The announcement gives investors until November 16 to seek appointment as lead plaintiff. The allegations remain claims in litigation, not established findings."
-    },
-    {
      "tid": "2026-11-11T12:13:23Z",
      "titel": "AppLovin stock prediction: $552.64 bull, $257.44 bear",
      "kalla": "FinanceFeeds",
@@ -369,6 +360,15 @@
      "lank": "https://www.tikr.com/blog/applovin-soars-61-in-a-week-its-ceo-gains-wont-land-on-a-perfect-quarterly-schedule?ref=yahoofinance&tlnk=yf-261111-f3c28v9g&.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "A huge quarter, and a fair warning about the next few AppLovin (APP) stock is up 61% in the past week, after its third-quarter report showed none of the slowdown investors feared. (Even so, it’s still down 41% in 2026.) Investors had sent it to a 52-week closing low on Oct. 30, a day after Roblox (RBLX) said its daily active users fell 9% from a year earlier. But Unity Software (U), a rival for game makers’ ad budgets, said on Nov. 5 that its Vector ad platform grew revenue 126%. Revenue rose 55% to $2.18 billion, against about $2.07 billion expected. The fourth-quarter guide of $2.365 billion to $2.395 billion topped the roughly $2.25 billion analysts were looking for."
+    },
+    {
+     "tid": "2026-11-10T23:34:00Z",
+     "titel": "APP Deadline: APP Investors Have Opportunity to Lead AppLovin Corporation Securities Fraud Lawsuit",
+     "kalla": "Morningstar",
+     "lank": "https://www.morningstar.com/news/pr-newswire/20261110dc94561/app-deadline-app-investors-have-opportunity-to-lead-applovin-corporation-securities-fraud-lawsuit",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV2RsUHFIcmswRC1CT2QzUjd0UXBDQnhlT3R5b1hnbHV5MEZhVmtKSkFKVkVweWlIeXdJN0RXUkJZS19JYlFFRENEbVRDZkRRVkRsVzUxbDRpM25mVzByYVk1NW04bC1fTGN4aVBIMWdMb05vb19lWFdDSHZ5Vkg3R2ozdXUtUmtlX2s5clZCMjNkQjZKZ1RIZVNvVkhXRHlBZm5PWmJUY1l2QkZveExaTGVRc2RzdGFadFNHLThiZXU4UlN6WjZjX21YUGFEUEpIMXJfa19hNklfWnVYOTBrR2g4cFNnZXVBNWFmRm41TQ?oc=5",
+     "utdrag": "Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of AppLovin Corporation (NASDAQ: APP) between February 12, 2026 and August 5, 2026, inclusive (the \"Class Period\"), of the important November 16, 2026 lead plaintiff deadline. So what: If you purchased AppLovin securities during the Class Period you may be entitled to compensation without payment of any out of pocket fees or costs through a contingency fee arrangement. What to do next: To join the AppLovin class action, go to https://rosenlegal.com/cases/applovin-corporation-2026/join or call Phillip Kim, Esq. toll-free at 866-767-3653 or email case@rosenlegal.com for information on the class action."
     }
    ]
   },
@@ -376,7 +376,7 @@
    "namn": "Broadcom",
    "antal": {
     "yahoo": 9,
-    "google-en": 95
+    "google-en": 96
    },
    "fel": {},
    "nyheter": [
@@ -557,7 +557,7 @@
    "namn": "Celestica",
    "antal": {
     "yahoo": 4,
-    "google-en": 43
+    "google-en": 42
    },
    "fel": {},
    "nyheter": [
@@ -607,6 +607,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-12T04:58:00Z",
+     "titel": "Celestica Tokenized Stock (Ondo) Price Today | CLSon to ZAR Live Price, Market Cap & Chart",
+     "kalla": "Binance",
+     "lank": "https://www.binance.com/en-ZA/price/celestica-tokenized-stock-ondo",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XWDAtQzFfdGNzakJmalBUMVN1elcyZ0FQTFduMEFmYkpuWHJfNzlCZkJ5RC1uUjdKNWt0akFtLThUSjhMNml0VzdLZEp1YVlMbGNsVGUzcVFYRjFldUcwUm9WQ2l6TVpsYTNsb3pwTDloWjZM?oc=5",
+     "utdrag": ""
+    },
+    {
      "tid": "2026-11-12T01:30:04Z",
      "titel": "Celestica Stock Gains Attention After Raised AI Revenue Guidance",
      "kalla": "Simply Wall St",
@@ -643,13 +652,13 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-11T16:18:23Z",
-     "titel": "Celestica Jumps as Investors Refocus on Strong AI Infrastructure Outlook and Recent Guidance",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/news/post/1004360269/celestica-jumps-as-investors-refocus-on-strong-ai-infrastructure-outlook",
+     "tid": "2026-11-11T16:18:00Z",
+     "titel": "Celestica jumps as investors refocus on strong AI infrastructure outlook and recent guidance",
+     "kalla": "Quiver Quantitative",
+     "lank": "https://www.quiverquant.com/news/Celestica+jumps+as+investors+refocus+on+strong+AI+infrastructure+outlook+and+recent+guidance",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORGJONm1LbjdIODBZYXBXT1hNeTN1Qzc4NF9KM1dRNDNsbVkwcFhCZG5vS21fX0twVGlQTkNrRnRuUnN6cjh1V0VLeGNqYmZ4a3Y3VUF4aVVUOGMyZ1Jrdy16Y081YTFnSDczSDhfaVRZR3RvSklrSzBzdkd1WlZVZWh1blBoQVBtTFY3RUdmREN0eDA4ekM2Wm9DcGZ2cFI5cnI1ZF9hYXhJRUk4SWx0RTZ0TFlGcTg?oc=5",
-     "utdrag": ""
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX1d6TnQwbWtPdDNrNnlqSVU2ZE1La3ZDTW0xY2ZGQUdmeUgtcjlLak1PX2FFbF9zQjJBRHNRUzBkR3lwQ2RfcnpkM0RkRVhYYVNlZHBZcTFLTFNNODNSakNRbDBwZHJESUpfME9jd3dhZ3RhR2pQWkd1VlY3MW5rZXhXZ2ZvejFDcTdiUldzUTVQQ0RCQlV4TUhqR0ZzUV9sTG9iXzNNSjRHcHE1VUNnVC1RbkFhZmoyeFVqZFhkMklLVGs?oc=5",
+     "utdrag": "Celestica (CLS) is up 9.2% today. Here is some analysis on what might have caused this price movement. ([massive.com](https://massive.com/quote/cls?utm_source=openai)) Analysis: The move appears tied to renewed investor confidence in Celestica’s AI infrastructure growth story after the company’s recent investor-day commentary and strong third-quarter results. The rally also looks consistent with a rebound from a sharp earlier selloff, as investors revisit management’s outlook for higher fourth-quarter revenue, improving margins, and very aggressive 2027 growth targets."
     },
     {
      "tid": "2026-11-11T15:16:14Z",
@@ -730,15 +739,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM0YwSFVmOWlzZ3VqbU5xMkFNNnBPQi1UX1pBemE2VWpNUkZIS3ZLa053RU13NkVTOUdOcmI3Vktma3B6REJjWllCX1dCMU53dFMyYjhNTjJGaDM1MDhybl9CV1p5TzZjanVVeU9YdHlJaUZkb0RoZEY1eGdXaGJVQ3pyTFZWbzJpc2JSU1BQX2ZETXVkM2xBNmF4emI?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-10T12:14:56Z",
-     "titel": "Celestica: Why I See The Recent Crash As A Bullish Opportunity (NYSE:CLS)",
-     "kalla": "Seeking Alpha",
-     "lank": "https://seekingalpha.com/article/4965669-celestica-why-i-see-the-recent-crash-as-a-bullish-opportunity",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbldpTFFQbnl5ZFNMVFdQYkZlNEwyRERmX1ZCT3MwMnZjSmxHMkpYY3VSOWJjeXZlRl8zZDV0WThEeVJLVktXT25LUVM2MThxUTgyNmxXbE9PQUl3XzhvNWdoV1hUNVF4RXFGcFVHaFpxZGdfLVpjWUlqZVVVSUcwWlBQRzZJVGMyWHU1WkFDemNvZGd4Tno2VVg0eW1kQ0EwSkVPTg?oc=5",
-     "utdrag": "Celestica trades at just 9.6x management's projected 2027 adjusted EPS after a sharp sell-off, creating a compelling value opportunity. Learn more about CLS stock here. The brutal repricing that Celestica Inc. (CLS) shareholders have had to endure over the last month or so has likely created a lot of unease among those investors. Here is what the price chart Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha)."
     }
    ]
   },
@@ -746,7 +746,7 @@
    "namn": "Coca-Cola",
    "antal": {
     "yahoo": 8,
-    "google-en": 47
+    "google-en": 48
    },
    "fel": {},
    "nyheter": [
@@ -929,7 +929,7 @@
    "namn": "CrowdStrike",
    "antal": {
     "yahoo": 10,
-    "google-en": 68
+    "google-en": 69
    },
    "fel": {},
    "nyheter": [
@@ -1309,13 +1309,13 @@
      "utdrag": "FRANKFURT, Nov 9 (Reuters) - Investor morale in the euro zone edged ‌lower in November, underscoring expectations for ‌economic stagnation, a survey showed on Monday. • ​The Sentix index for the euro zone fell to 2.4 points in November from 2.7 points in ‌October, compared with ⁠an analyst forecast for 2.1 points. • The current situation ⁠subindex remained stable at -3.3 points in November, while economic expectations fell ​by 0.5 ​point on ​the month to ‌8.3 points. • \"Hopes for a sustained recovery have been dealt a further blow,\" said Sentix, citing rising interest rates, high fuel prices and political ‌uncertainty as drags on ​the economy."
     },
     {
-     "tid": "2026-11-08T07:00:25Z",
-     "titel": "Investor AB (IVS.HA) interactive stock chart – Yahoo Finance",
+     "tid": "2026-11-08T05:29:46Z",
+     "titel": "Investor AB (publ) (IVSD.DE) stock price, news, quote and history",
      "kalla": "Yahoo Finance Singapore",
-     "lank": "https://sg.finance.yahoo.com/quote/IVS.HA/chart/",
+     "lank": "https://sg.finance.yahoo.com/quote/IVSD.DE/",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rRE1NRm5zOThmRFdTYWlQMzdheHFxWkxoWlFYdm52Ql8wMmVnakFRbzBUeUhKRlVYbzBPTmtvenZqdnBVdE55QjFraXBJLTBHQXA0RXdIaGE3Rjlf?oc=5",
-     "utdrag": "Interactive chart for Investor AB (IVS.HA) – analyse all of the data with a huge range of indicators."
+     "glank": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FaHR1ZEtjMmxVSmQ2UnZzOWpDNmV0M2l3Y2JYODNoczRoQzRhV0JiaWtNQ0hvb1lBaVFvTzFNRXZ1RzNmXzZPUnlGSDNZdEc0all2OTVn?oc=5",
+     "utdrag": "Find the latest Investor AB (publ) (IVSD.DE) stock quote, history, news and other vital information to help you with your stock trading and investing. Investor AB (publ) is a private equity firm specializing in mature, middle market, buyouts and growth capital investments. For core investments, the firm invests in health care, financial services, IT and fintech sectors, life sciences, mathematics, data, materials science, AI, quantum technology and considers investments in listed companies in leading minority positions. The firm seeks to invest globally. For its operating investments, the firm seeks to focus on medium-sized to large companies headquartered in Northern Europe."
     },
     {
      "tid": "2026-11-08T04:28:30Z",
@@ -2169,7 +2169,7 @@
    "namn": "SoFi",
    "antal": {
     "yahoo": 6,
-    "google-en": 30
+    "google-en": 28
    },
    "fel": {},
    "nyheter": [
@@ -2330,15 +2330,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-11T01:23:07Z",
-     "titel": "SOFI Stock Surges To Its Best Day Of 2026 After Record Q2 Revenue — Why Is Wall Street Slashing Price Targets?",
-     "kalla": "Stocktwits",
-     "lank": "https://stocktwits.com/news-articles/markets/equity/sofi-stock-surges-to-its-best-day-of-2026-after-record-q2-revenue-why-is-wall-street-slashing-price-targets/cZNEM4zRJ2S",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOajYtRUZfa21vd3NLSzlUcTJKbzFOZnZKeEpxZFhaRmpadGhQbzVnTmduc1hVbWdmWWE4amY4WlVWcFBSSXNBTVdoa2xRU2sxSDFFWTI1UEVQV2t2bUhYQXFEdUl2Y0YtQlNIMUVXbEZ0Q3V4SlNkT1gxeEQ4VVFGaHhEU3k2YXJ0M3l6Nm5GcU9IeDRhTVBHMXNLOWNkQXpxeVZhVVhGdERfSmdKRmJvU0xOSkpDY3RfX0RZbFp6ZjhRSDhMNHZqMHMzS3NXRnhMZkI5YzNGUEZVR3ZsOVRTbFNWWGl0c0hvX1NSTjBhb2dpaURFdUJGWXN1UHd3eWlH?oc=5",
-     "utdrag": "Morgan Stanley lowered the price target on SoFi to $15 from $16 and maintained an ‘Underweight’ rating on the shares, saying that while the Q2 revenue beat by 7%, growth is becoming more capital intensive. BofA analyst Mihir Bhatia lowered the price target on SoFi to $16 from $17 and kept an ‘Underperform’ rating on the shares, as per TheFly. Needham lowered the firm's price target on SoFi Technologies to $24, citing muted loan platform volumes even as the company continues to put more loans on its own balance sheet.SoFi reported Q2 earnings on Wednesday, posting record revenues of $1.21 billion."
-    },
-    {
      "tid": "2026-11-10T22:31:54Z",
      "titel": "SoFi Technologies (NASDAQ:SOFI) Shares Down 2.3% - Should You Sell?",
      "kalla": "MarketBeat",
@@ -2346,6 +2337,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmZacHlFbEMxRmNKS2kzYVZDTGRDcktQRXB0cjZ1RnRqazJoVEh1ZVlwQWo2M0N0RkllbDd3dUl4a045U0NzZ0tobUp3RHhfZ2dhTEFpTXN0Rjk5ZE5pY2JxMWFETXpGQk5DRnFRcHJscmpvS0tpcWY3Z1NaOUR6Z1ZWLVJJTkdudk9OZUUySDFDSHlxRTV6ZDkzZU1GVUZEYW8xblJTM3BWR0p1MzY1OW9KYXl2UVhlQ09iYQ?oc=5",
      "utdrag": "SoFi Technologies (NASDAQ:SOFI) Shares Down 2.3% - Here's What Happened"
+    },
+    {
+     "tid": "2026-11-10T19:14:43Z",
+     "titel": "SoFi stock falls around 4.5% as institutional buying meets broader selling pressure",
+     "kalla": "Traders Union",
+     "lank": "https://tradersunion.com/news/stocks/show/4186939-sofi-slides-4-51percent-today-to/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUXBOSUV3Y1RvZWFXQTFxRDhNdVBKN1hIMlJ1TnpKOWY0WWV4eE5TQVpLaFF1OEdmeG01ekd5TlJZYUtxUjkzMDBvUXZ6TEdDTFQ4UFFqN1p4UjZCdjdKNjRDeXlCRkNZYjU4eG1tS2YybTFld3k5YmozanQyY3VIcG1lQko1RzRnd3Vn?oc=5",
+     "utdrag": ""
     }
    ]
   },
@@ -2353,7 +2353,7 @@
    "namn": "Sysco",
    "antal": {
     "yahoo": 0,
-    "google-en": 19
+    "google-en": 20
    },
    "fel": {},
    "nyheter": [
@@ -2457,12 +2457,12 @@
      "utdrag": "Pictet Asset Management Holding SA decreased its position in shares of Sysco Corporation (NYSE:SYY - Free Report) by 33.7% during the 3rd quarter, according to the company in its most recent disclosure with the Securities & Exchange Commission. The firm owned 825,482 shares of the company's stoc"
     },
     {
-     "tid": "2026-11-10T04:31:15Z",
+     "tid": "2026-11-10T08:22:57Z",
      "titel": "Sysco Corporation (SYY) stock price, news, quote and history",
-     "kalla": "Yahoo Finance Singapore",
-     "lank": "https://sg.finance.yahoo.com/quote/SYY/",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/SYY/",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JV1M2OWNjQnVpRDJ6WHZLeExyaW0xdGc2dG5sZ196STY5WE1nNFltbmVwdmNWN0FNUGRxaXlpYngxQnJDQ2hqT3c3eFl4RVJ1?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lYUJsajFVY0pRWDdwLTNoTlFUaU5YNy11cHRvTVVpcjZYRUFGNU9pbWw1YU90ZnB2MnR3TDBnUy1oSThMNzh2bWN4VGhnc05i?oc=5",
      "utdrag": "Find the latest Sysco Corporation (SYY) stock quote, history, news and other vital information to help you with your stock trading and investing. Sysco Corporation, through its subsidiaries, engages in the sale, marketing, and distribution of food and related products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. It operates through U.S. Foodservice Operations, International Foodservice Operations, SYGMA, and Other segments."
     },
     {
@@ -2715,7 +2715,7 @@
    "antal": {
     "yahoo": 1,
     "google-sv": 5,
-    "google-en": 15
+    "google-en": 16
    },
    "fel": {},
    "nyheter": [
@@ -2789,6 +2789,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUklxTkxLZ3czZWlvbWxJRDllQ3pjYjFDbkM1aUJQYTdrVnR3dWFYVFNpOE5yT1lNZHByck1MeVk5RzE4cUVQcVIzUHktWFRmWEhiUVJjVVpHSENuazh0TmlkMXZJVzJBdEJCZTFOV3VhME9fMUtWUnNUUndCdV9IMkhkdUNZTlplZkZQQWlISEpXcFRycjNyV3FISlV4OTVWajlKOXY3SVRhODVxN19QV082cWFkWnlsRnZHcnU3R2N6NEIwWm1zTy1Wd2Q?oc=5",
      "utdrag": "ASSA ABLOY signed an agreement to acquire Brazil-based Rometal, which had 2025 sales of about BRL 332M (approximately MSEK 580) and a strong EBIT margin. The acquisition is expected to be accretive to EPS from the start and close in Q4 2026, subject to regulatory approval and customary conditions. This is a strategic expansion into Brazil, with the release identifying complementary products and channels but providing no purchase price. Closing remains subject to regulatory approval and customary conditions; subsequent disclosure of deal terms and financial contribution would clarify the scale of the impact. Based on the original press release from ASSA ABLOY distributed by PR Newswire."
+    },
+    {
+     "tid": "2026-11-12T07:07:21Z",
+     "titel": "Assa Abloy acquires Brazil's Rometal",
+     "kalla": "marketscreener.com",
+     "lank": "https://www.marketscreener.com/news/assa-abloy-acquires-brazil-s-rometal-ce785ed8d88cf422",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGlNeDNsZ0xTMXhqWXpHcWp3aVJEbXVfZXJrV0NLTDNRcDZ3a01OZUdrOWpRbkVwSk9WVmNWYWxZSmVHbmtUZlZDZ3BRSURWNWFxYnIxY2pIM0JvUDBpenBjSDNDTFJZSUNIMTQ2T2xKMFlVRFdqVS1iU2ZYYUx3bjQ4M3ladFBJSVJFRTRmVElPckU?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-12T07:07:08Z",
@@ -3605,7 +3614,7 @@
    "namn": "Sezzle",
    "antal": {
     "yahoo": 3,
-    "google-en": 17
+    "google-en": 18
    },
    "fel": {},
    "nyheter": [
@@ -3654,12 +3663,21 @@
      "utdrag": "Sezzle is growing fast and getting more profitable, but it takes on credit risk by lending to shoppers. Robinhood has expanded beyond trading, but its results swing with the market. As digital finance evolves, retail investors are weighing high-growth platforms against nimble credit innovators. Choosing between Robinhood Markets (HOOD +4.00%) and Sezzle (SEZL +2.26%) depends on your preferred path within the sector. Robinhood serves as a comprehensive financial gateway for retail traders, while Sezzle dominates a niche in interest-free installment payments for younger shoppers."
     },
     {
-     "tid": "2026-11-11T04:45:12Z",
+     "tid": "2026-11-11T04:39:28Z",
      "titel": "Form 4 Sezzle Inc: Justin Krause (SVP FINANCE AND CONTROLLER) For: 6 November",
-     "kalla": "Investing.com Canada",
-     "lank": "https://ca.investing.com/news/stock-market-news/form-4-sezzle-inc-justin-krause-svp-finance-and-controller-for-6-november-93CH-4948755",
+     "kalla": "Investing.com Nigeria",
+     "lank": "https://ng.investing.com/news/stock-market-news/form-4-sezzle-inc-justin-krause-svp-finance-and-controller-for-6-november-93CH-2799034",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ3RJWHp4QkQtSUE5NHQ1dE1hSkhKdXF4d0FLQU5SUkJFbVdWdUkzd2ZLZ0otczRYcnZvZ2xtVUxyOXNhbTdVU0lvRG50ci15aHRZUHN2MzB6R0hSeGFmdVdib1JVbzVoY2lNaHVRN0FIXzNpeUFmY1FBODVGczJrYjVvMGp1bkRhZjl3VThBZGZvS2Rhc0FNakttaFpZZzVkTFdHeHkzZUY5RWJpQWxaOUFJemhTQ0tkRjF5QmlpbFZTc0lmZVY0eV80b0F3eVU?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbjc0clU5S3JBREh2VVhic05pVG5rdkV1M1V6X2xlbkRVa2tNWGFJQUVaX2hMRXkyNkhOZXBCRWpvaHducXBOM0Z1RkQ5NjNmbVlyX1R2T296ZzVUWXhHbkxvRmFiUjA5M2ladTFZNDdOV0dUNGVfMTZnaDIwbGRCYVJXSUw4VmtPMlhvSkwxX2hseFNORE05ai1NU0Q0T2VKWlptcmNkZ09PelFqZHMydVdyY0l0Rkx0SXNfcG40enlBSVFBYlAzeDlHa3lGUVU?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-11T04:36:00Z",
+     "titel": "Form 4 Sezzle Inc: Paul Paradis (Director, Director & President) For: 6 November",
+     "kalla": "Investing.com UK",
+     "lank": "https://uk.investing.com/news/stock-market-news/form-4-sezzle-inc-paul-paradis-director-director--president-for-6-november-93CH-4973617",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbXUwTk4wSkVJdlVsUmVWN0o0Vko5VXlkWEFBam83MS0wclJsVTBKMFR4RjlYTE9YX1Z4aDFnakFNeHVwaDA2cl9BUDlwNXBWaGNydG9XMnlpRkk4MmdMOTFQWG9ZbHJJZ2d2UE9xUTBybG0tSDgxZ2JkdllPRTVQTC1Sc3hlZFhYOGRtVFl6SUZydWxadWsyZ0JxQW9hZURmN1JlaThOMldoUXhLUDYwZFJKVTVBeXZxbTgxNlVtTlhkd1ltajM4VGlWNDJhcjR0?oc=5",
      "utdrag": ""
     },
     {
@@ -3708,6 +3726,15 @@
      "utdrag": "Sezzle may begin using its November investor presentation with investors and analysts, highlighting third-quarter results and higher FY2026 guidance. Original SEC Filing: Sezzle Inc. [ SEZL ] - 8-K - Nov. 09, 2026"
     },
     {
+     "tid": "2026-11-10T08:00:00Z",
+     "titel": "Sezzle (NasdaqCM:SEZL) Stock Forecast & Analyst Predictions",
+     "kalla": "Simply Wall St",
+     "lank": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-sezl/sezzle/future",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTnp6d2pMUzhfdnZNZ1FraHJkMk0wbU1uVDRfZTBZQWxCZHhyQXVKZDVJcXZNNERyZF9pVkdvWVBmZWJ2NDEta05wa0JtTUJGSjctRDZaRm11QXM5bzh6VWhfbjFfQ2hhVDBEU0hkTC1pS2lvc2RzT21qS29IQkNlUjI5T25UbFE?oc=5",
+     "utdrag": ""
+    },
+    {
      "tid": "2026-11-10T01:09:18Z",
      "titel": "Sezzle Earnings Call Signals Strong Growth and 2027 Momentum",
      "kalla": "TipRanks",
@@ -3749,15 +3776,6 @@
      "lank": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-222136548.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Is now the time to buy SEZL? Find out in our full research report (it's free). Revenue $166.5 million vs S&P analysts' estimates of $155.7 million (42.6% year-on-year growth, 6.9% beat) Adjusted EPS $1.37 vs S&P analysts' estimates of $1.29 (6.3% beat) Adjusted EPS guidance Management raised its full-year adjusted EPS guidance to $7.20 at the midpoint, a 37.1% increase Operating margin 38.6%, up from 30.4% in the same quarter last year While we enjoy listening to the management's commentary, our favorite part of earnings calls is the analyst questions. Those are unscripted and can often highlight topics that management teams would rather avoid or topics where the answer is complicated."
-    },
-    {
-     "tid": "2026-11-08T06:44:18Z",
-     "titel": "Sezzle Inc (0SE0.HA) Stock Forum & Discussion - Yahoo Finance",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://ca.finance.yahoo.com/quote/0SE0.HA/community/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LV3VBcFZVNWVWemNfb2x6SUd4Y3RLWk8yODBwOGlyWDBqYXc4SFpaNjlfckdXYW8yYk93MzgtV01Eb2UwV0V2UDhhMHRTdUZtRWZ0cEdtZ2JkTXBkdWpCYnpwNA?oc=5",
-     "utdrag": "Find the latest Sezzle Inc (0SE0.HA) stock discussion in Yahoo Finance's forum. Share your opinion and gain insight from other stock traders and investors."
     }
    ]
   },
@@ -3807,15 +3825,6 @@
      "utdrag": "The Autobarn Volvo Cars of Oak Park has updated its new vehicle inventory to feature 2027 Volvo models, giving luxury vehicle shoppers across Oak Park and Greater Chicago more opportunities to explore the latest Volvo SUVs, compare available configurations and find their preferred vehicle. Oak Park, Illinois, United States, November 11, 2026 -- The Autobarn Volvo Cars of Oak Park is announcing an update to its new vehicle inventory featuring 2027 Volvo models."
     },
     {
-     "tid": "2026-11-11T18:57:17Z",
-     "titel": "Varslet: Tretusen tjänster ska bort på Volvo Cars",
-     "kalla": "TV4 Nyheterna",
-     "lank": "https://www.tv4.se/klipp/va/7669ff6f5b463f22ac23/varslet-tretusen-tjanster-ska-bort-pa-volvo-cars",
-     "fran": "google-sv",
-     "glank": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeTV3MWloYXJLRlZRb1V5WGh0X1p1V1VIQkJGVURqOVh1eHpCSkR6aWhMc3lqTXUtY3hQNVY5MVlPODVscnh2bkxhUWo3RFdZUE5FcTFCdkFzOEN2VHRocGhURy03Q0xLWGhiN2NCVUpSbXBya2ZYS1lpcEREOE1FM1NPUkRtaEZyejBBcGdBbnZtMjdUdU5FNGw3Q0x6UQ?oc=5",
-     "utdrag": "Oron är stor bland personalen på Volvo cars, som på måndagen kom med ett av de största varslen i företagets historia. 3 000 jobb ska bort - och merparten av dem finns i Sverige. Muf hade propagandatävling – betalade 32 000 kronor i priser"
-    },
-    {
      "tid": "2026-11-11T09:48:30Z",
      "titel": "Norska miljardären köpte aktier i Volvo Cars – förlorade hundratals miljoner i raset",
      "kalla": "EFN",
@@ -3823,6 +3832,15 @@
      "fran": "google-sv",
      "glank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUHktbUxmU0RNUkVaeUNFUF9RbjlzYkZId3VfSHdjdVFCM3NFdlA4VXhDY0xBRXppVlBxUG1wNHpyLUQ0cWNWTnljb24wNTJ1Ykx2WFpvZUNsVXBfUmlvZUlfUm5xMXRCYWtHdlZGYUxRTU5hWEhpWVhGX2U4M3ZXblRtTGJGdUpxS1JiQkk4OFN5UVRTbGNF?oc=5",
      "utdrag": "Den norskcypriotiska affärsmannen och shippingmiljardären John Fredriksen ligger bakom Jerseybolaget Ithaki Limited som köpte aktier i Volvo Cars för 700 miljoner kronor den sista december i fjol. Det skriver Affärsvärlden med hänvisning till en kartläggning av Jerseyregistret, Ithakis bolagsordning och amerikanska börsanmälningar. Det cypriotiska bolaget Geveran Investments Limited äger enligt tidningen samtliga vinstandelsaktier i Ithaki. Geveran ägs i sin tur indirekt av av två truster bildade av John Fredriksen där förmånstagarna är medlemmar i hans familj. Ithaki Limiteds ägarandel i Volvo Cars uppgår till 0,72 procent av röster och kapital, enligt ägardatatjänsten Holdings."
+    },
+    {
+     "tid": "2026-11-10T22:46:30Z",
+     "titel": "Volvo Cars skär ned med 2 500 anställda",
+     "kalla": "TV4 Nyheterna",
+     "lank": "https://www.tv4.se/klipp/va/03e4a9ec5ebbdef0af39/volvo-cars-skar-ned-med-2-500-anstallda",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa2tpb0tCSHcxZV96dkRzWlhFUHE2djVXclFQN1N5T3VHY29hOUpfNlQxUFhnYUlOUFJnWVoyWHAtanV1cTJwclByY01IV1h5RXM3YXlkcVZqX1Fqc3R1dUs0UGFueHU4cUFhdF8xVklyaG5lc3pxX1RkS19PdkFDZFcxbVRXMXM3SGxabXgySTY0QQ?oc=5",
+     "utdrag": "Volvo Cars kvartalsrapport visar på kraftigt minskad omsättning och minskat rörelseresultat. Under fredagen presenterade bolaget ett nytt sparpaket där totalt 2 500 tjänster försvinner. Muf hade propagandatävling – betalade 32 000 kronor i priser"
     },
     {
      "tid": "2026-11-10T10:54:05Z",
@@ -3875,7 +3893,7 @@
    "namn": "Arista Networks",
    "antal": {
     "yahoo": 10,
-    "google-en": 66
+    "google-en": 67
    },
    "fel": {},
    "nyheter": [
@@ -4106,7 +4124,7 @@
    "namn": "Sandisk",
    "antal": {
     "yahoo": 10,
-    "google-en": 92
+    "google-en": 93
    },
    "fel": {},
    "nyheter": [
@@ -4291,7 +4309,7 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 6,
-    "google-en": 6
+    "google-en": 7
    },
    "fel": {},
    "nyheter": [
@@ -4402,6 +4420,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQnI3QkRYb2lIS20zQ3RMYlE3Z2VZbHUwZjYtSXJmYlpaeEI3enJ0SkNLcnRucFh3eExfYVlRSzdqVUFHeE04V3ZUbElMa0NlcXY4Q2JQSEZkYnpSV1RqNkYzZ3NYOWFSaDI0RXp1VXQ0SkZrRUs3aXRmRlJYQU9ZdWR0WEh1NER3NzMtVVFNR3Y3Y2pZcnNVN3J5Y0o1TjF5Ny1ObGZaMHlhWTRDdk1QZTUzdmpBTnZiVmV6U1JCQzFXc05nVFE?oc=5",
      "utdrag": ""
+    },
+    {
+     "tid": "2026-11-08T03:36:10Z",
+     "titel": "Bonesupport Holding AB (2B4.HA) stock price, news, quote and history",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/2B4.HA/sec-filing/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kajFKS1pnYTd5eWM0LXNyTlRyQXN0ZDBYT0J5NVpOOXpJYWRvU1lDZnlKOUp4dkowcTBOVWVYUFFnTHV3R1p6TnRFN3dEVXYzQ1Jjb2VVTGRHdG5fdU9mQTVXSQ?oc=5",
+     "utdrag": "Find the latest Bonesupport Holding AB (2B4.HA) stock quote, history, news and other vital information to help you with your stock trading and investing."
     }
    ]
   },
@@ -4409,7 +4436,7 @@
    "namn": "Caris Life Sciences",
    "antal": {
     "yahoo": 1,
-    "google-en": 13
+    "google-en": 14
    },
    "fel": {},
    "nyheter": [
@@ -4423,6 +4450,15 @@
      "utdrag": "Caris Life Sciences, Inc. (NASDAQ:CAI - Get Free Report) has received a consensus rating of \"Moderate Buy\" from the fourteen research firms that are presently covering the firm, Marketbeat Ratings reports. One investment analyst has rated the stock with a sell rating, five have given a hold rating a"
     },
     {
+     "tid": "2026-11-12T06:58:00Z",
+     "titel": "Caris Life Sciences, Inc. - Common Stock (CAI) Stock Price, News, Quote & History",
+     "kalla": "FinancialContent",
+     "lank": "https://www.financialcontent.com/quote/NQ:CAI",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96aTFlN0x1LXFPOUtDbHI0MGR0bmR3dVp1UE1fWGhjZGk0Rk84Q0VnbDN0ZVpEcDFaUUplLU1ZeGUyVlZTOXlTNXh3WVBIOVI4WURIcmZxbW4?oc=5",
+     "utdrag": "The current price of Caris Life Sciences, Inc. - Common Stock (CAI) is 23.92 — it has gone down by -0.57 (-2.35%) today."
+    },
+    {
      "tid": "2026-11-11T13:30:00Z",
      "titel": "Caris Launches Landmark Study to Challenge Fragmented Testing in Myeloid Malignancies",
      "kalla": "Star Local Media",
@@ -4430,6 +4466,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNc1FlcEZ1NkNPTFQ2ZzI5c2FIbl94SWxyZXpHaTBZVEl2bndtaUVPc0pwRlpfSDFRWTNKb3BkMlliSFBPV3VBclhXLVhIXy12V1F4dk45TnlmdlMxdFFKcnRfSThBZTdVZ3ZybDlMZWhhcXNJd0laNl9hQTZKeXNtYUpPWXN3VUlEaHV1UDYzQmRDUGkwMlNIMThWNUVMOWhXU3RNNWdrVnczc0IxbDd6YnNDVFFaOENXckhHVjZ3LTU3czV1bnB0M2p3MGkzcS03R1p2ajhteHg2cGVfUUNLY2QxZlZhNVQ5OVg4REVQQk5iUmZRcFRncHZ4Zmk5a1A4WjhtQzY3bG5HU1haOEdnSnJKZTZMNmNp?oc=5",
      "utdrag": "First patients enrolled in prospective, multi-institutional study evaluating whether a single Whole Genome Sequencing workflow can replace conventional cytogenetics, FISH and targeted NGS testing IRVING, Texas, Nov. 11, 2026 /PRNewswire/ -- Caris Life Sciences® (Caris), a leading next-generation AI TechBio company, today announced that the first patients have been enrolled in a prospective, real-world observational study evaluating Caris ChromoSeq™, a Whole Genome Sequencing (WGS) assay designed to provide comprehensive genomic characterization of myeloid malignancies through a single integrated workflow."
+    },
+    {
+     "tid": "2026-11-11T12:50:03Z",
+     "titel": "Investors Shouldn't Be Too Comfortable With Caris Life Sciences' (NASDAQ:CAI) Earnings",
+     "kalla": "Moomoo",
+     "lank": "https://www.moomoo.com/news/post/1004297555/investors-shouldn-t-be-too-comfortable-with-caris-life-sciences",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU0dUQjAtUWJjT013WUNjUm5ubkFyTUE0TWlybldJWk4zTGdQWGhoYlNqcXlNTVhTNDJ3S3ZYT0RSZ2sxVnhaR3lnZzRsTGpOcGJDV3BjQTk2LWM1ZXJPaFJrTDFHbTlkenJ3WTNuYTJlS2FYdWRFUkt6a2lOS2QxcDFQYVlsa0tsSjBDZkxyVkFwQ2tNSWVnZkFDd2xvOVVMdnFSRTBucG9VUEU?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-11T10:20:38Z",
@@ -4493,15 +4538,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QUExzUlFBMkV6cG0xZ1I1V2RKYXRkYXlzcl80YlRxbW8zWUgwSDctWVBaWnluRzZaek9CVUpOcnBiblJhZDNCV29lMlpBY1BJ?oc=5",
      "utdrag": "Find the latest Caris Life Sciences, Inc. (CAI) stock quote, history, news and other vital information to help you with your stock trading and investing. Caris Life Sciences, Inc., an artificial intelligence TechBio company, provides molecular profiling services in the United States and internationally. It develops and commercializes solutions to transform healthcare using molecular information, and artificial intelligence/machine learning algorithms."
-    },
-    {
-     "tid": "2026-11-10T08:00:00Z",
-     "titel": "Caris Life Sciences (NasdaqGS:CAI) Stock Forecast & Analyst Predictions",
-     "kalla": "Simply Wall St",
-     "lank": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cai/caris-life-sciences/future",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGd6SlE1bEUwNmJCd2ZZTzk4cF8tRG0zTWkzeUVSdURDaFRGVnNFU0k0MUdycjVpdUhLWjFZVXJFVmJrTXJtUjVGUHQxR0pOaHQwc0tjT1dzVFk5Q2hWOWphNUpxM0V0SjE3VUZ3VEwyRzZlR3ZTR3VWVTloaEF0TTFXZ0djMDhUalg3MkFBZHhTN1hyVGRXOA?oc=5",
-     "utdrag": ""
     },
     {
      "tid": "2026-11-09T13:30:00Z",
@@ -4596,13 +4632,13 @@
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-12T19:45:00Z",
+     "tid": "2026-11-12T20:11:13Z",
      "titel": "Berkshire Hathaway Stock Trades at Record Levels. CEO Greg Abel Clearly Sees More Room to Run.",
-     "kalla": "The Motley Fool",
-     "lank": "https://www.fool.com/investing/2026/11/12/berkshire-hathaway-stock-trades-at-record-levels-ceo-greg-abel-clearly-sees-more-room-to-run/",
+     "kalla": "The Globe and Mail",
+     "lank": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA-Q/pressreleases/8808406/berkshire-hathaway-stock-trades-at-record-levels-ceo-greg-abel-clearly-sees-more-room-to-run/",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdWxNZHVCTnhVUE84a1R5MGtQdVZ6WkxDb0tfMTN6aUR3WklyM2RROC1wTU5EYS1xR0FfanBuYkFncmdPQlNKcXNkM0ZZRklzWERSTkVqMWt1RUdqUHBYRE5IQ2tPdXY4VktzNUFQbnNVWHBNbUVGdG9fb3FrVExnY252bkk1MjBmVTlvek5nSjVSX0dadi1sQnJ5c2ctaXdpaVd6WnFjX1k2dnRJM0lZSjR1bG5ZWHRUY1c5Z0F2R1hnS3FjU0ZUUDNaVHExMEE3?oc=5",
-     "utdrag": "Berkshire Hathaway recently reported its third-quarter earnings. In its first year without Warren Buffett at the helm, Berkshire Hathaway (BRKA +0.21%)(BRKB +0.50%) is having a good year, with its stock up nearly 16% (as of Nov. 9). It took some time for the stock to find its footing, but ultimately investors have come around to new CEO Greg Abel and also purchased Berkshire because the stock is one of the few $1 trillion market-cap companies that does not live and die with the artificial intelligence trade. Berkshire stock is now trading near record levels, but it's clear that Abel thinks there is more room to run."
+     "glank": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQbnJQcEZ1czc2LXVQcV9PRWNESEJvdDZBR01uWnRkTk9RcFFOSmRUYjZjS0V5RnBJU0tXWVVoTjRnUWdvN1pQSm9PLXU1X3gzZElnRVYzeWhwSF93QUJKTXd3SmFVWm95MEM2UmJPejJJamVXQldCS3cybFhJYjZXcndSODZJUXpFRTNBS28xdkMwMlRXOURJVUFfVkwwcE11bXN4WkwtNHZuN1hyeGJkTjgwMW5pN2piU1hRMkNwcUFaelM0Z1NuYzFXSWRmRGdUQUVSX1cxQmZjc1pqLVBTbU45alM3SUhEaVlfby0yb29MaW1KZUt4RGhPNVYwdXFhTndheGJwbU40Uzg?oc=5",
+     "utdrag": "Detailed price information for Nvidia Corp (NVDA-Q) from The Globe and Mail including charting and trades. Berkshire's stock has soared as investors have rotated out of AI stocks. The conglomerate's operating earnings fell nearly 6% in the third quarter. However, Berkshire repurchased a record amount of stock in the quarter. In its first year without Warren Buffett at the helm, Berkshire Hathaway(NYSE:BRKA)(NYSE:BRKB) is having a good year, with its stock up nearly 16% (as of Nov. 9)."
     },
     {
      "tid": "2026-11-12T19:37:00Z",
@@ -4963,7 +4999,7 @@
    "namn": "Visa",
    "antal": {
     "yahoo": 8,
-    "google-en": 34
+    "google-en": 33
    },
    "fel": {},
    "nyheter": [
@@ -5113,15 +5149,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-10T11:58:22Z",
-     "titel": "Visa Inc. (V) Stock Price, News, Quote & History",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://ca.finance.yahoo.com/quote/V/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KNUpWQTlkUUZVZWR3Q2NHVmZpWEZhaUhfTnFSSU9CYXlLQW1MblItdGZrd0I2NGx5c3QyX1c4ZzY2ekdUTHRZa2h5RlItZw?oc=5",
-     "utdrag": "Find the latest Visa Inc. (V) stock quote, history, news and other vital information to help you with your stock trading and investing. Visa Inc. operates as a payments technology company in the United States and internationally. It operates VisaNet, a transaction processing network that enables authorization, clearing, and settlement of payment transactions."
-    },
-    {
      "tid": "2026-11-10T11:41:51Z",
      "titel": "5,409 Visa Inc. $V Shares Sold by Villere ST Denis J & Co. LLC",
      "kalla": "MarketBeat",
@@ -5138,6 +5165,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOUhoa1dScThIeXZNY0t6NTF2RXJZcHVmUmdoa1RFTlhRSFluOWpFZmxkVURNSlljc2xwemw1MHdvVEVVT1B0cWZGQnBmSG81bFdUN1JvR2NNcXhCVmY3Rnd6RUtScnBFcWRkZW5acWxadUVBWnhfMDVBb2E0RHFHOFhzWFdLRmgxbnhSR1E2cW9ZSDRIX0ZXZDFaTm9MWTlFSi1YQlJlR2RmVjRIbUNLMzY1REo?oc=5",
      "utdrag": "Welch & Forbes LLC lessened its stake in shares of Visa Inc. (NYSE:V - Free Report) by 0.9% during the 3rd quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The fund owned 698,473 shares of the credit-card processor's stock after selling 6,633 s"
+    },
+    {
+     "tid": "2026-11-10T11:41:50Z",
+     "titel": "Visa Inc. $V Stock: M&G PLC Reduces Position",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-visa-inc-v-stock-mg-plc-reduces-position-2026-11-10/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQU5wU1JKQi1KdlpnY3FVcnpRMWlSX3lQZEFZdzM1c1JqN1cyNGN5dXJjRFpKZzFsTUxCSVFsaTJjWGJWUjdKSWZhMkk2OWZaT0hqRkltRlREeVVYdWFmenFZU1BtNG93MERpUHZWMElER0N6S1BpQV9fVjVkT2VEZ25tZmRXb3lwandxM2praFExSVpEeEJpb2pRTWJpY1hlN3g4?oc=5",
+     "utdrag": "M&G PLC lowered its holdings in Visa Inc. (NYSE:V - Free Report) by 13.4% during the third quarter, according to the company in its most recent filing with the SEC. The fund owned 731,272 shares of the credit-card processor's stock after selling 112,717 shares during the quarter. Visa comprises 1.3%"
     }
    ]
   },
@@ -5148,10 +5184,17 @@
     "google-sv": 0,
     "google-en": 3
    },
-   "fel": {
-    "mfn": "hittade inget entity_id på mfn.se/all/a/sinch"
-   },
+   "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-08T18:31:39Z",
+     "titel": "Sinch AB (publ) (1SINC.MI) stock price, news, quote and history",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/1SINC.MI/sec-filing/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3bFFTczNBWXkxYjVHZy1NMko3TVp0a1FtM29WMXUwV1FjTmxFQ1B1YXg5amJHUHNwUGhmcENEZHl4RVZvRFpRVTRWc1ZnNkgxTDNrcW1WdTJTcXN6WFF5SndqNVlKdw?oc=5",
+     "utdrag": "Find the latest Sinch AB (publ) (1SINC.MI) stock quote, history, news and other vital information to help you with your stock trading and investing."
+    },
     {
      "tid": "2026-11-08T14:38:47Z",
      "titel": "Sinch adds RCS channel to SAP Engagement Cloud integration",
@@ -5160,15 +5203,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSDBzeVptUFlEcHdLQnVBRUo1Ykt3bFAyQ3VIM3dZUFd4MW0wYmpIWlZvVzZuQWI0cGFsOTBLU1RkRkVyMVBUVms5X2V6SzdyLTZSV09kRXgzRVBZZ2JSczJxcWhmeDUweVk5UGxnTVUyQVV2NVJhdXNvSlZFdjdhdVZVUUx6ZEN5RDJ4YkI3ZmZNVzZkWVhDTGh1czJ0b0hvT0ZJT0x6ZXNQYW9OWGRNU093?oc=5",
      "utdrag": "Sinch integrates RCS into SAP Engagement Cloud for AI-driven messaging. New channel joins SMS, WhatsApp, Viber, LINE, and KakaoTalk in the suite. Integration supports branded senders and interactive buttons in native apps. Sinch reported net sales of USD 3 billion in 2025. Sinch AB (publ) announced on October 13, 2026, that Rich Communication Services (RCS) is now available within its native integration with SAP Engagement Cloud. This expansion introduces a new messaging channel designed to support AI-driven, conversational customer experiences directly from the existing marketing environment."
-    },
-    {
-     "tid": "2026-11-08T13:55:32Z",
-     "titel": "Sinch AB (publ) (SINCHS.XC) Seasonal Returns Chart - Yahoo Finance",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://ca.finance.yahoo.com/quote/SINCHS.XC/seasonality/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15UGV3TDkxbzN4QXJORHJpMm0zYXBuRGNLMWZzeUhiVXdVZEJEVFcxLU5kLTZsMzJNUEFZLVhCa2xUdUQ3TlV4Sk9hRzhrNDJLak1VWUg5MEszNE0tMVJ2c3I0MWpLWmZH?oc=5",
-     "utdrag": "Sinch AB (publ) (SINCHS.XC) seasonal returns chart provides the mean and median returns by month to inform your investment strategy."
     },
     {
      "tid": "2026-11-07T23:27:00Z",
