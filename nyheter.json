@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-18T12:56:34Z",
+ "hamtad": "2026-11-18T13:28:11Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -7,10 +7,19 @@
    "namn": "AbbVie",
    "antal": {
     "yahoo": 5,
-    "google-en": 26
+    "google-en": 31
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-18T13:18:20Z",
+     "titel": "Abbvie (ABBV) PT Raised to $349 at Piper Sandler",
+     "kalla": "StreetInsider",
+     "lank": "https://www.streetinsider.com/Analyst+Comments/Abbvie+%28ABBV%29+PT+Raised+to+%24349+at+Piper+Sandler/27367137.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGlvT0FqWGVRU2ZlbWtzRkdVb3VPQUNWMXg0ZUtsenRQTUlfcF9DMW1OaFdQbk8tbkV2SXNLN19tc01mZnFPNEV1WFhsWjk1OXJDUTFPWi1GZUtVNDRPX3ZoODVldDlON1F5UHY3X0V4WnJnZ2VTbXJLc0ExZzZoYUppUklfYkNySFEtaUdLSGd2Ym1rekEyaU04MmdrcldHZ1Nya3dkYjF4Nld0blBjUU1EYkRYZw?oc=5",
+     "utdrag": ""
+    },
     {
      "tid": "2026-11-18T07:57:42Z",
      "titel": "AbbVie Tokenized gStocks Price: Live ABBVG/USD Rate, Market Cap & ABBVG Price Chart",
@@ -107,6 +116,15 @@
      "utdrag": "Barclays maintained its Buy rating on AbbVie stock in a Monday research report. The call adds an ana On Monday, November 16, Barclays maintained its Buy rating on AbbVie and set a USD 335 price target, according to Markets Insider. The report identified Emily Field as the Barclays analyst covering the company. AbbVie stock traded at 266.85 euros on Lang & Schwarz at 12:36 CET on Tuesday, November 17. The quote provides a live trading reference for the European listing while the analyst target is expressed in US dollars for AbbVie's primary US market. The analyst view arrives as AbbVie works to extend growth beyond its established immunology franchise."
     },
     {
+     "tid": "2026-11-17T09:52:53Z",
+     "titel": "Barclays Reaffirms Their Buy Rating on AbbVie (ABBV)",
+     "kalla": "The Globe and Mail",
+     "lank": "https://www.theglobeandmail.com/investing/markets/stocks/ABBV-N/pressreleases/8869866/barclays-reaffirms-their-buy-rating-on-abbvie-abbv/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOG1nZHlBZHc4RlJVMmFzTFlxc3dSVlM3N3BZTDJacE9wNlg4MGRGRHZkcmY4QWw5N2REaEZ3ZXJieWlMOWJDN1BxZlhWT2x6OGRFa2xJajhndUIzUDRNTGFDbHRTQXhVTzlaVFpYSXAzT3VXVXVENXg0YUM1VUwyRlJjYXJuTE5zbEowclJEeXNtTjRlSmpqemZES0NGOC1EazNLTm5mRWZzQU5vUFlKUlo0U0I0SWVVR2lXc0FUV1h0OHJyZjF6c3BtaldmRDF0dEI0?oc=5",
+     "utdrag": "Detailed price information for Abbvie Inc (ABBV-N) from The Globe and Mail including charting and trades. In a report released today, Emily Field from Barclays maintained a Buy rating on AbbVie, with a price target of $335.00. According to TipRanks, Field is a 3-star analyst with an average return of 2.5% and a 46.13% success rate. Field covers the Healthcare sector, focusing on stocks such as Eli Lilly & Co, Merck & Company, and Amgen. In addition to Barclays, AbbVie also received a Buy from RBC Capital’s Trung Huynh in a report issued on November 5. However, on November 2, Goldman Sachs maintained a Hold rating on AbbVie (NYSE: ABBV)."
+    },
+    {
      "tid": "2026-11-16T18:18:35Z",
      "titel": "Is AbbVie (ABBV) Undervalued On Its Humira Transition And Board Change?",
      "kalla": "Simply Wall St",
@@ -131,6 +149,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQajNuWWpjTHBSQnlVTzk1cS1CbndTSFp1NDcxc3JKZUYzRzBQRXFDYXFiTlFReWRONFpRbmZUVG44ek1MNEU3TGRiTkhsMFdfUXlrQVZDYzJ2YzFrSW11Y05LSnZhVURrMEluX0hDc05zQTdOWFN1dnM3bjdDckNfSzRRUDAyM3dXeDhMeS1SN19QWE8tZWJ6ZlBHOTNkVWlLLThVaExTcHB5dmxxZWFxWC1INVl3c19FN3ROX1Q5cmhCQlo4UWxSTmlqZzUxWlJVTzFnWHhoM3ZsZ18zNEU0SE9FRzJGdG1QVkwzS2NVcnBvT2Zwd2VlM3dvQzA5eUR5WXlBQ2V2ZnlSQQ?oc=5",
      "utdrag": "2027 could bring phase III data for direclidine and progress on cleminorexton, while the AbbVie deal and Japan portfolio support profitable growth. NEXAQ’s first AI-designed molecules are targeted for lab testing in Q1 2027. Based on Nxera Pharma Co., Ltd. [4565] Jefferies Global Healthcare Conference Audio Transcript — Nov. 16 2026"
+    },
+    {
+     "tid": "2026-11-16T15:51:02Z",
+     "titel": "ABBV Maintained by Barclays -- Price Target Raised to $335",
+     "kalla": "GuruFocus",
+     "lank": "https://www.gurufocus.com/news/9201926/abbv-maintained-by-barclays-price-target-raised-to-335",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM21fc0pMR0pUaWZCcHFsY0kyQlpZS1JuR3F6NHhjYkhHZWN2b3BiUlNyUmRua1F5NnFRd0ZvcU15aXlGSXZ5aUUzX0Z2eG5rU0lSeDhMbFRDaUZVWTkzZFg3YVJNUWgxNjQ4STRqUWJneEtlVFNVNVlzV0ZMWXdZVV9CZU1rbl8tYnYzbGo1TWMwNDNNVTJrUQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-16T14:59:18Z",
@@ -158,33 +185,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR05KdjJGbHRGYUpoMnU2RGVicElBTVRrcUgwUUQ4ZGRQdkxtcnZucGJqWEJGNGMzMXVWVVZ0SWpIcTR3QnE1MzdRSDU2VXQ2MFVwQXM4NVZ2c3A0MU5QVVdPYzVTSEVDZDJLa0VELTR6UERwZGtEU0ExM1g0MnIwWExuTW0zdlppaFFrdg?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-15T23:18:24Z",
-     "titel": "Genmab and AbbVie Announce Epcoritamab in Combination with R-CHOP",
-     "kalla": "The National Law Review",
-     "lank": "https://natlawreview.com/press-releases/genmab-and-abbvie-announce-epcoritamab-combination-r-chop-demonstrates",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORndla1BLblhycVJvby11NmV0aXljZ3lKbnk4UWx3clI0Qks5TTJzQVNpQWRvUzZyTkVCQ2p5SzJ1eGxMNlJwVE43RUFmTy1rOGZCOUZCSWhpUlFsZnR2dFJSZDFMOXNPVlNPc2hCcWpuNmdad09qNjA2RG1wMjhiUE9ESzBBblJfN1NTbnQxaEthRjFBaEtvTEZRd1NxclNId1QwRWJIT1ZzVkhBeHRz?oc=5",
-     "utdrag": "EPCORE DLBCL-2 is the first Phase 3 study of a bispecific antibody combination therapy to demonstrate statistically significant and clinically meaningful improvement in progression-free survival (PFS) in frontline diagnosed diffuse large B-cell lymphoma (DLBCL) patients Based on the topline results, Genmab and AbbVie will engage global regulatory authorities COPENHAGEN, Denmark & NORTH CHICAGO, Ill.--(BUSINESS WIRE)--Genmab A/S (Nasdaq: GMAB) and AbbVie (NYSE: ABBV) announced today positive topline results from the Phase 3 EPCORE DLBCL-2 trial evaluating fixed treatment duration epcoritamab, a T-cell engaging bispecific antibody administered subcutaneously, in combination with standard of ca …"
-    },
-    {
-     "tid": "2026-11-15T12:06:00Z",
-     "titel": "How Are Skyrizi and Rinvoq Powering a Bigger Dividend at ABBV (NYSE:ABBV)?",
-     "kalla": "Kalkine Media",
-     "lank": "https://kalkinemedia.com/us/stocks/dividend/how-are-skyrizi-and-rinvoq-powering-a-bigger-dividend-at-abbv-nyseabbv",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWk1TUk1qbExQcXVYN3huT0NCcjNkYm1iUG9kOGhlZEhxMWMtMGhOTGtEd1AzZ2ZOVW1DODllNTN5VFZHZDMyZEpVZmZGaXZXcFVHS29BQVQzb2x6SVpKMWdFQmNCZk0xUjViXzlrYXVYcFNBbnRYdFA3VjdoaURHZVZmYnFveHRheURZVjU5SENGNFVxRWpaODVrOE5JcEozYWN2c0JSTGN3YWJVWnhWME9QWi0?oc=5",
-     "utdrag": "AbbVie (NYSE:ABBV) grows revenue at a double-digit pace on Skyrizi and Rinvoq, raises its earnings outlook and lifts its quarterly dividend for next year. Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder Can Flotek Industries (NYSE:FTK) Expand Its Energy Operations? AbbVie Inc. (NYSE:ABBV) Healthcare AbbVie Inc (NYSE:ABBV) 292.36 USD -2.190 ↓ 0.744% Last Updated at: 2026-11-17T20:58:00Z reported third-quarter results with double-digit revenue growth, led by its immunology medicines Skyrizi and Rinvoq."
-    },
-    {
-     "tid": "2026-11-15T11:10:05Z",
-     "titel": "ABBVIE INC. (ABBV.SN) stock price, news, quote and history",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://uk.finance.yahoo.com/quote/ABBV.SN/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56S2pMYy13NXNKME9IYm0yR3R3aXpGa1dlN0pUVFNGeS1qWHBqSS1DN0lRM0tiSGJwellpVV9scXBZR3RObzgxMmJOajVhbGVPaWVyNk5R?oc=5",
-     "utdrag": "Find the latest ABBVIE INC. (ABBV.SN) stock quote, history, news and other vital information to help you with your stock trading and investing. AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer."
     }
    ]
   },
@@ -192,10 +192,28 @@
    "namn": "AppLovin",
    "antal": {
     "yahoo": 7,
-    "google-en": 55
+    "google-en": 57
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-18T13:03:24Z",
+     "titel": "JPMorgan Maintains Neutral on AppLovin (APP) Amid Potential Crit",
+     "kalla": "GuruFocus",
+     "lank": "https://www.gurufocus.com/news/9207428/jpmorgan-maintains-neutral-on-applovin-app-amid-potential-criteo-acquisition-talks",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSm1xTkhVV2p5SmlTTERRR040bmdJSmJ2X1BETVhIYzBLNEVuZ2VFQWNkNVc3dFNMcjJwN2FjX0hmZHhnQjNUMVBjTFM4WS1CUVBtZmtiTmg3cFlla2txRjBuWUJZRThINzR0MnpkOTJiSDE0TFpWMXpReVhyWFA2bWVjUF9DZ3MwVlhMWVpqZk42UTdSMnlNb0RfQzlWOGxBVmxEOGZycTVnYUdWXzVpcUc3elFmb18tSExZM2VB?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T13:03:00Z",
+     "titel": "AppLovin (APP) Stock Price Prediction: Rally tests resistance after strong earnings, but momentum is stretched",
+     "kalla": "blockchain.news",
+     "lank": "https://blockchain.news/news/20261118-price-prediction-app-rally-tests-resistance-after-strong-earnings",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcVNjbkpEVnA4V3h1cmJmQmt3N1E4YS1ZNmdPbTI5Y0ltcEJOQlNwaU40aXI5Uks3UFhodDJ5eGVvSU03aFF4cEstUndfMkRUT0NfN1QwbWNyaWUzODJBS3ZkZFNtNjhLanNhTWJya3lnSXNITFV0SFVGZ2l1djFXU19TYm40MC1FOUYwZVlBZl9zR2VQUjB3NV94OXRaeHhONFcwUkFB?oc=5",
+     "utdrag": "AppLovin (APP) is trading at $402.07 after a 2.6% 24-hour decline, even after the stock’s post-earnings surge and a wave of higher analyst targets. The... AppLovin (APP) remains anchored by the market’s reaction to its recent quarterly update. On Nov. 5, the stock surged 31.04% to $356.10 after better-than-expected quarterly results and a strong outlook, while Nov. 16 brought another bullish read-through when Jefferies lifted its price target to $500 from $430 and kept a Buy rating. Jefferies said fourth-quarter revenue guidance looked conservative versus prior holiday quarters and pointed to valuation support relative to its 2028 EBITDA estimate."
+    },
     {
      "tid": "2026-11-18T12:28:00Z",
      "titel": "JPMorgan reiterates AppLovin stock rating on M&A potential By Investing.com",
@@ -355,35 +373,26 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdlNaS0NMTUZ6QzVndC1zS3hYTGxXRlZZbUotZFF0bUNGcWtGc2dUSEFGazEwbkxaSm5MOXhQUGdzaHV0X0dGSGFDaUx0RTE4YmNscjlfZVEtNXpMZ2tZM3lMV0tJMWlkRUR5MGdwd3ROS0gzTUt3RnVfU0Q4WlRqaTRZR3ZBdlZXYXItZldqcnZqNG8?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T20:39:16Z",
-     "titel": "Criteo gets takeover interest from AppLovin, others - Reuters (CRTO:NASDAQ)",
-     "kalla": "Seeking Alpha",
-     "lank": "https://seekingalpha.com/news/4673876-criteo-jumps-on-report-of-takeover-interest-from-applovin-others",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONGxlb3JvREtlaTZIVWI0dTd6dlJQT3JJckxIdG5hRDM5Rmo0NmNQbWtiTmpleFN0NWNpdXFhRDktdHRSbkV0dEhjUXBLYXFCTU1BeWZnaENmTkVDYVhZUm8tRUJKblJwb3JsNkI4eHQ1ZzhHVWFBMmVaT0xZNHlYX1lsTHgwLWhTeFQxZjJhcXdBeDI5YnppQ2N2cFF2M1l1OUMxSg?oc=5",
-     "utdrag": "Criteo ADRs rise 4.8% on a report that AppLovin is among companies in talks to buy the Paris-based adtech firm; no deal is guaranteed. AppLovin (APP) is among companies in talks to buy the Paris-based adtech firm Criteo (CRTO). Shares of Criteo finished down 5.2% after climbing as much as 10%. AppLovin fell 3.9%."
-    },
-    {
-     "tid": "2026-11-17T20:39:16Z",
-     "titel": "Criteo gets takeover interest from AppLovin, others - Reuters",
-     "kalla": "TradingView",
-     "lank": "https://www.tradingview.com/news/seekingalpha:7b98fc86f094b:0-criteo-gets-takeover-interest-from-applovin-others-reuters/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQXzhzVWF2cVRJYURYN1hSR3pWV055YjQtbG5IOVVLSlFOY05iRnFxUmkyZkx6aFNlM2QyaFlKa082a1VSV2tOb1NtZFdDY0xoYmNYeVIzT3gzVE5WY0o1Rk5rNFd2MkFDNEJFUTNrOGowVklFdW5pUDlLQVRSdXBnekhxYnNnRTkya0tFeEtkMUJWR0xJTjhYWXNSeW5LLTBlM2dCSmh1OVVCcWFpdDl6cHRfbUkxZVd6QVhrSGhn?oc=5",
-     "utdrag": "AppLovin NASDAQ:APP is among companies in talks to buy the Paris-based adtech firm Criteo NASDAQ:CRTO. Shares of Criteo finished down 5.2% after climbing as much as 10%. AppLovin fell 3.9%.A transaction involving Criteo NASDAQ:CRTO could come before the end of ‌the ⁠year, although no deal is guaran… AppLovin APP is among companies in talks to buy the Paris-based adtech firm Criteo CRTO. Shares of Criteo finished down 5.2% after climbing as much as 10%. AppLovin fell 3.9%."
     }
    ]
   },
   "broadcom": {
    "namn": "Broadcom",
    "antal": {
-    "yahoo": 8,
-    "google-en": 98
+    "yahoo": 7,
+    "google-en": 99
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-18T13:17:00Z",
+     "titel": "Broadcom Stock Has Another Growth Driver. Here’s Where I See It Going in 2027",
+     "kalla": "24/7 Wall St.",
+     "lank": "https://247wallst.com/investing/2026/11/18/broadcom-stock-has-another-growth-driver-heres-where-i-see-it-going-in-2027/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaFRLMlBoaXBxZVVKa3MwcXJwbTVGS3o2Vl9manJwVWFmbUphYTN0TDJfZDFac0I1RmdkN2RMYlFxb3AyX2tUSDQ5WHpRQ01ZRkpiejFuWXh5RnpMRXFmS0pWZWFleHhBYm9ET01ETkplbXFoT1lGcTZHbVBhbDVaNXlTLUs3bDFzck1zV2xNSjFyQWlYejBKSURMWXZFMmVmS1FReVdCaUc2SVRjdXRONG9QRmUwcGZCWm5J?oc=5",
+     "utdrag": "Broadcom's business is booming, yet its shares are lagging this year. A new software engine inside enterprise data centers could change that, and the earnings math behind a bold 2027 target may surprise skeptics. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. Chip designer Broadcom (NASDAQ:AVGO | AVGO Price Prediction) makes the custom silicon behind TPUs for Alphabet (NASDAQ:GOOGL), OpenAI’s first-generation Jalapeno accelerator and MTIA chips for Meta Platforms (NASDAQ:META)."
+    },
     {
      "tid": "2026-11-18T12:53:43Z",
      "titel": "Why Is Broadcom Stock Gaining Wednesday?",
@@ -400,6 +409,15 @@
      "lank": "https://investorshub.advfn.com/market-news/article/40277/why-is-broadcom-stock-rising-today?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Broadcom shares rise 2.2% to $349 after Nvidia's strong earnings spark a semiconductor rally, while AI revenue forecasts and custom chip demand support the outlook. Broadcom Inc. (NASDAQ:AVGO) shares climbed 2.2% in US premarket trading to $349, supported by a broader recovery in semiconductor stocks following stronger-than-expected earnings from Nvidia and renewed investor interest in Broadcom’s artificial intelligence business. The advance followed Nvidia’s quarterly earnings announcement after Tuesday’s market close, which helped reverse a five-session decline in technology shares and improved sentiment towards companies involved in AI infrastructure."
+    },
+    {
+     "tid": "2026-11-18T12:15:58Z",
+     "titel": "Broadcom(AVGO) Stock Price Today | Quotes & News",
+     "kalla": "Moomoo",
+     "lank": "https://www.moomoo.com/stock/AVGO-US?chain_id=Name1K9-3FXPhg.1lfr4q0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FENPH-US%22%7D",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMingJBVV95cUxOaVdxX2thNWN1X2ZYUTRBUGFTd0JmaWVfS0dxSmZnY1NDVmtVa3FYRFNGWGRPVl9QcnJndTNpTFQ1cm1lUVJJaFZGNk0wcU9vbEhCUFNWWk9pbnBmTm0xWnNiTzIxT1p1VnBjZHBDemM0ZXE1ZE1SUS1EbDI4Zy14X0RQdUpqTTd2UjhCWHV2QXNZZFh6TUZWQ2RzUEN1bkV4bE5RSHNvN0pPeEVXR3JpbUxIRjJFa0VnNVVKenVfai1wTzNHNXUxVnd3d1JLcVlfZ3Zwb1l2MldDRkNsaUpQM19LN1B0VENXdGdzc3NNRk1vZTA1VHJ5bVZUbGw4dGcyTUV3OXRlYUNoYndJUVRKeEZIaHZocEQ4MDhJQ0l3?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-18T12:15:35Z",
@@ -540,32 +558,14 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRjVUWFBUS3NBU2JkOElicER5Si16a1RlNUtOODZ4bVRZcVBhSkRJRWRQUlJQMEg5Nm1rR0NLa25IZHY2Z2VBYmJ6SnpvQ0VyUWpqZ29BekphT1ZMSmFfQTRCcUFQaDRwcHJJU0phX0p4MjRwWWFiUmtuTDA3YVM5cFBMdzNxN3VKLWNaMmlOQWxlZEx4a0hUMTVncXBadDhobXVkWnR2b09GN0xBUXhfaG91OEhvMGVfWWdEUWpqdkthTWVl?oc=5",
      "utdrag": "Goodman Financial Corp increased its holdings in shares of Broadcom Inc. (NASDAQ:AVGO - Free Report) by 2,194.1% in the 3rd quarter, according to its most recent disclosure with the Securities and Exchange Commission (SEC). The firm owned 28,974 shares of the semiconductor manufacturer's stock after"
-    },
-    {
-     "tid": "2026-11-18T09:00:01Z",
-     "titel": "First Financial Bankshares Inc Buys 7,548 Shares of Broadcom Inc. $AVGO",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/filing-first-financial-bankshares-inc-buys-7548-shares-of-broadcom-inc-avgo-2026-11-18/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNREV0cTN4ZGxfOGdMeldYZ1NNT1l2ZmR4bnZ1QjM5X2NyX1oyZ3l5UWY0OFhSX3VURFhURGNyWWNqYjlTMTl1dXRfZXZwU1hTUmpFeVk5UGVSRjVWdGplV081SWVzSU9ncDhDTTBsYnpEdEVrUWZWZUlocERPRlhwejRjSGlWQnMyVUhtNjBITDlsUWFRS2ZCTW5qSVVxbThIbjNLUzhqVm9HUnU3LV9Ed3VoQlNsQ1RUSWJSWWhqdE1CbDktMy1wUQ?oc=5",
-     "utdrag": "First Financial Bankshares Inc grew its stake in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 1.1% in the 3rd quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The firm owned 698,872 shares of the semiconductor manufacturer's stock after buy"
-    },
-    {
-     "tid": "2026-11-18T08:30:24Z",
-     "titel": "Broadcom Inc. $AVGO Stock Position Trimmed by Banco Santander S.A.",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-position-trimmed-by-banco-santander-sa-2026-11-18/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVy16S0ItWHMtSUpySzhySFBDX0NJS3ZSOUpwUWRMY3JoOGdPQ2lZQVNUd1dCcElOVnl2QUx0cGk1bDVQSVZiZHVBZG85MHpmbVJkVk5Eby1kODJNc3g2UnpUdTVzdlVrQ0E0WEt1RFo5SXVSdEgzQThFRWd0VF9JZTdUMC12d0VKVUlTdkdMYjlWbW1tVmdCTzI2VHpNeC02Z1NVQUJMY05JZUhjZjREY0VzeVdNRnNPY0JUcE9PNXY?oc=5",
-     "utdrag": "Banco Santander S.A. decreased its position in shares of Broadcom Inc. (NASDAQ:AVGO - Free Report) by 25.9% during the 3rd quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The firm owned 605,124 shares of the semiconductor manufacturer's stock after sel"
     }
    ]
   },
   "celestica": {
    "namn": "Celestica",
    "antal": {
-    "yahoo": 4,
-    "google-en": 21
+    "yahoo": 3,
+    "google-en": 20
    },
    "fel": {},
    "nyheter": [
@@ -752,10 +752,28 @@
    "namn": "Coca-Cola",
    "antal": {
     "yahoo": 6,
-    "google-en": 44
+    "google-en": 48
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-18T13:09:11Z",
+     "titel": "Coca-Cola (NYSE:KO) Stock Rated Outperform in New Coverage at Wolfe Research",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/analyst-coca-cola-nyse-ko-stock-rated-outperform-in-new-coverage-at-wolfe-research-2026-11-18/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUzdIbGJHNHlCY19VUVhaYWdFQUxHbEdVekVpbmtCRjBiOWFDLXUtR1pScmd3TkhBbVBsUnhSQ2RtTTl5dVRCX0llMFRad2RFR0hKSHAtTDY2eXJZd2xaMEZNU0J2X2ZWcE9Fb29QNkJ4Mnc5Y0haQTF6OW5hZVRjQ2Qxc1R6c2tiTS12QkdQZkxlWUctWm9FdURXcjBsR1JGS3g5bHYyLUI3SEJDN3kzbDRNMlVua1czMlhLOE51MlR4UzhaQjd2MnhPY0xhaVJxRWc?oc=5",
+     "utdrag": "Wolfe Research began coverage on Coca-Cola in a research report on Wednesday. They issued an \"outperform\" rating on the stock."
+    },
+    {
+     "tid": "2026-11-18T12:59:03Z",
+     "titel": "This Coca-Cola Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
+     "kalla": "Benzinga",
+     "lank": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/11/63381200/this-coca-cola-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-wednesday",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaTZXc3FtV29Gcmc0ekFCTzBMRlZveU9KMXBmalBEOTI3WFlXY1pCa2VjdjVMNnY1QzhMUFNwZXRQYzNYSjBRLXdxb0dNU282a1dKTkljbDFVOTBfQ0JmUWxCaWdKQ1cteWJDZU41U01JVmdhWHhhY0paUnptYlRGbnpUWWM0ZXFRSjVDZ1dMYzViNTdzbzVxYjhoWGg0eWs4aTJ0OHV5V2ZZNGF3bUl0RUx2SUVTSTktdTZGcV9oU2huMVRpclRuNlZyaTRyTDRaWm5rVXZsRjE2elBqQ0FMd3lOdVFDUW91SGVpSktBaHFzVE1CX1Y5RFVocmoyVDg?oc=5",
+     "utdrag": ""
+    },
     {
      "tid": "2026-11-18T12:43:29Z",
      "titel": "Coca-Cola FEMSA stock gets UBS target increase to USD 124",
@@ -870,15 +888,6 @@
      "utdrag": "Today’s big story: Could Nvidia Stock Fall 50%? Follow The Cash For questions about this article or underlying research, email help@trefis.com. Coca-Cola (KO) stock closed at $99.48 on November 16, 2026, marking its highest close in a year. If you own the stock or plan to, the rest of your money probably already follows the market. This dynamic matters because any new stock position will either amplify the market’s swings or offset a portion of them. So what does Coca-Cola do to your money on the days the market rises, and on the days it falls? Over the past year, Coca-Cola on average moved against the S&P 500."
     },
     {
-     "tid": "2026-11-17T18:07:28Z",
-     "titel": "TD Cowen raises Coca-Cola stock price target on growth outlook",
-     "kalla": "Investing.com Nigeria",
-     "lank": "https://ng.investing.com/news/stock-market-news/td-cowen-raises-cocacola-stock-price-target-on-growth-outlook-93CH-2813208",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbWdRN0xHZElnZFA5OUpDYkRvT0YtX25nZWZ4SzRmaVB5cl9Qa2dVX0MyNS1lQXdJY2FDbDRiYnBJNDJUa2dHUVFYNnRad2NNdXd1b3Y5QnZEZF9LTTNvVlZCVkFfOWZwZXVqSk1RTXpLckQ3cmRCUUhXU1hiaGZtcjRydk1OWXFRcjVfRkIxVmw4U2xHZnd4QkpzQWk3V21aeTdkbFc1WGZuS1RrUUV3eDhLOGEyWFpyb0Zmb2JUcw?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-17T15:41:00Z",
      "titel": "How Is Coca-Cola's Packaging Strategy Supporting Growth?",
      "kalla": "Yahoo Finance",
@@ -920,23 +929,14 @@
      "lank": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-names-coca-cola-142230407.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Investing.com -- TD Cowen named Coca-Cola (NYSE: KO) its best idea for 2027 and raised its price target to a Street-high $112 in a note Tuesday, citing the beverage giant's ability to keep growing despite inflation and tough comparisons. TD Cowen said Coca-Cola's international footprint and franchise bottling system position it to deliver organic sales growth of 5%, in line with its long-term target and well above other consumer packaged goods companies. \"Despite the stock's rise this year, we think it will move higher as KO proves they can overcome rising inflation and tough comparisons,\" the firm added."
-    },
-    {
-     "tid": "2026-11-17T14:08:28Z",
-     "titel": "Coca-Cola stock weekly forecast: Recovery holds as support at $95.88 underpins near-term direction",
-     "kalla": "Traders Union",
-     "lank": "https://tradersunion.com/news/stocks/show/4285600-coca-cola-gains-0-35percent-this-week/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSHZsR0Q1Q3ZzRVRxVjRYNnc2emgtb1lnUUtfR29jenpJTjNkNElCb3N0aVJrZkp5cWplMTJHbzhOOGVIb19tR3FIYlFYajY5TldWa3dieEhKZDU4dTNKNVFmY0NDRkc5a0ZRX3hhMWFCYkpOWnFXeFljenpQUGpwMVktcEZKWWczRVVIU0YtZmVOdw?oc=5",
-     "utdrag": ""
     }
    ]
   },
   "crowdstrike": {
    "namn": "CrowdStrike",
    "antal": {
-    "yahoo": 9,
-    "google-en": 65
+    "yahoo": 8,
+    "google-en": 66
    },
    "fel": {},
    "nyheter": [
@@ -1309,8 +1309,8 @@
   "micron": {
    "namn": "Micron Technology",
    "antal": {
-    "yahoo": 8,
-    "google-en": 97
+    "yahoo": 9,
+    "google-en": 96
    },
    "fel": {},
    "nyheter": [
@@ -1338,6 +1338,14 @@
      "lank": "https://investorshub.advfn.com/market-news/article/40273/why-is-micron-technology-stock-rising-today?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Micron Technology shares rise 3.5% after Nvidia reports $115.84 billion in revenue and increases memory supply commitments to $390 billion, boosting AI chip demand expectations. Micron Technology (NASDAQ:MU) shares gained 3.5% in US premarket trading, supported by stronger-than-expected quarterly results from Nvidia and a substantial increase in the AI chipmaker’s long-term memory supply commitments. The advance extended gains recorded during Tuesday’s after-hours session, when Nvidia’s latest earnings helped improve investor sentiment towards semiconductor manufacturers following several days of selling pressure."
+    },
+    {
+     "tid": "2026-11-18T12:14:00Z",
+     "titel": "3 Catalysts That Will Boost Micron Stock Beyond Strong AI Earnings",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/m/dfd72c7d-a0e5-3183-be07-91983664b076/3-catalysts-that-will-boost.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Micron stock was getting a boost from Nvidia earnings but it needs more to fuel a significant rally."
     },
     {
      "tid": "2026-11-18T12:05:28Z",
@@ -1477,15 +1485,6 @@
      "lank": "https://www.fool.com/investing/2026/11/17/is-sk-hynix-the-better-artificial-intelligence-ai-memory-stock-compared-with-micron/?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Both memory chipmakers are growing like weeds. SK Hynix (SKHY +0.35%) and Micron (MU -0.92%) are two of the world's largest memory chipmakers. Both stocks soared as the AI boom fueled the market's demand for high-bandwidth memory (HBM) chips, but they pulled back sharply over the past two months. Let's see why they cooled off -- and if either chipmaker is still worth buying as a long-term AI play. SK Hynix, based in South Korea, is the world's second-largest producer of DRAM and NAND memory chips after Samsung. Micron, based in the U.S., ranks third in both markets. Both companies generate most of their revenue from DRAM chips rather than NAND chips."
-    },
-    {
-     "tid": "2026-11-17T21:30:00Z",
-     "titel": "Micron Technology Options Spot-On: On November 17th, 749.04K Contracts Were Traded, With 3.73 Million Open Interest",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/news/post/1004939589/micron-technology-options-spot-on-on-november-17th-749-04k",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcWNZOC1wdHNaY0FmR1hlUmpXWko0Sk5SQ3ZyX1VKY0U1ekRUZUV4M08xTHFJaUEta2pKU0d4NGhqZGRJanl4YW9NdG94S0p6Ry1yWThXR2dqTmszRTA1WlczaHBuX3ExRlNxZlBvY2lLbTA5VDg0aEJ2VFVnNHJYOHlCZlpIZjBwd1ctTG9nRHc3WXF3SEs4VGpiUXgzUE5JQ1AtTg?oc=5",
-     "utdrag": ""
     }
    ]
   },
@@ -1684,18 +1683,110 @@
   "nvidia": {
    "namn": "Nvidia",
    "antal": {
-    "yahoo": 6,
+    "yahoo": 11,
     "google-en": 100
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-18T12:49:52Z",
-     "titel": "Dow Jones Futures Fall, Techs Rise After Nvidia, Target Earnings, Hawkish Waller Comments; Anthropic IPO Ahead",
+     "tid": "2026-11-18T13:22:00Z",
+     "titel": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.wsj.com/finance/commodities-futures/stock-futures-rally-as-nvidia-earnings-calm-ai-trade-fears-96f51546?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T13:15:50Z",
+     "titel": "Dow Jones Futures Fall, Techs Rise After Nvidia Earnings, Waller's 'Shock' Warning; Anthropic IPO Ahead",
      "kalla": "Yahoo Finance",
      "lank": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Dow Jones futures: Nvidia and Target earnings topped views. Fed Gov. Waller said inflation is \"spreading out.\" The Anthropic IPO looms."
+    },
+    {
+     "tid": "2026-11-18T13:10:47Z",
+     "titel": "US Equity Futures Mostly Higher Pre-Bell as Nvidia Posts Higher-Than-Expected Financial Results",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mostly-higher-131047125.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "US equity futures were mostly higher pre-bell Wednesday as traders assessed Nvidia's (NVDA) higher-t"
+    },
+    {
+     "tid": "2026-11-18T13:10:03Z",
+     "titel": "Nvidia Is More Than One Person, CoreWeave Says",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/video/nvidia-more-one-person-coreweave-131003666.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "\"One thing about Nvidia is that it's not one person,\" CoreWeave's Ben Richardson says during a conversation about the chipmaker's ousted CEO Jensen Huang at Bloomberg's Global Credit Forum in London. \"I was actually sitting here thinking about the number of touchpoints that I personally have with Nvidia,\" he adds."
+    },
+    {
+     "tid": "2026-11-18T13:08:51Z",
+     "titel": "DA Davidson Reiterates Buy Rating on NVIDIA (NVDA)",
+     "kalla": "StreetInsider",
+     "lank": "https://www.streetinsider.com/Analyst+Comments/DA+Davidson+Reiterates+Buy+Rating+on+NVIDIA+%28NVDA%29/27367121.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc2V1R1BOb2kxSUxnVDd0VmhEX09ZcHQ0U1JQaXFKeEpWcnJSMGdiMU9BM19QNVdXUWNkQUtzOGZHazNpUmRjMDNFUHEwMVpoY2gtX0xoRWhscnhhb3BldUxWTlJ4NHRoZ3JqdEVYNk85dGZsaTRYLWJjWGhMeVVWeE1YWlhka0pNbHdCMEJraUdLNmpfZUswQkVVSmMzQXBCa1Q3bEZnQVh0NV85UmpLczA2Uk5Mdw?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T13:05:00Z",
+     "titel": "Nvidia Is in Turmoil, But Earnings Are Still Rocketing Higher. Is the Stock a Buy?",
+     "kalla": "The Motley Fool",
+     "lank": "https://www.fool.com/investing/2026/11/18/nvidia-is-in-turmoil-but-earnings-are-still-rocketing-higher-is-the-stock-a-buy/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONERSMnRxdG05MXVTSWFneDg5dFhpcnJ6REZ4R05Ick5EaHM4Tm5UNmZMOTRIbURuQzc0M3NVcFpwanZKcGxRd1ZzNE8tNXUxQUNmdmROamVCNGVBb2JZVVhpdFY5QUJRd05YQjlYb29Ld2tHZXZDU3dJazdGZGxuQ0tiVGtIRlc1R2lwVzY5MjlOMjluUzJWc1dfVS05WnhQZ3c1cG1lVzZLR3RwR0oxSmI1dUtneEwtRTVXaFhVQQ?oc=5",
+     "utdrag": "Jensen Huang resigned last week following allegations of affairs. Nvidia (NVDA -0.44%) just continued to do something that it's done quarter after quarter in recent years: The tech powerhouse reported earnings that beat analysts' estimates and spoke of soaring demand for its high-powered artificial intelligence (AI) chips. So Nvidia has once again demonstrated that the potential slowdown some investors feared hasn't materialized. That's fantastic news, but this comes at a time of turmoil for Nvidia. Jensen Huang, who founded the company and led its successes for more than 30 years, stepped down last week. This followed allegations of affairs, including one with a person U.S."
+    },
+    {
+     "tid": "2026-11-18T13:00:02Z",
+     "titel": "Dear Nvidia Stock Fans, Mark Your Calendars for December 10",
+     "kalla": "Barchart.com",
+     "lank": "https://www.barchart.com/story/news/8894753/dear-nvidia-stock-fans-mark-your-calendars-for-december-10",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2FGRjhYdWRzN1laSEVkb1h6MG1WQWlMYnhDY293Qzl4SVRLeWVtVUVuZGpieXF3SkE3Qk1ka1RoZUV6MXlFYy1ncFgyWFRaNGc4MEwyd2ZlZkNWU3lYMXU3Y3dReWlOWW54Rm9ybjlCTFBwQWJwdGNpX2J3Wi1LbmJYTjh2X2VmT2lQY09GSS1nTzFrNHc3Yy1CSnFfS0pyc2tpag?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T13:00:00Z",
+     "titel": "‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T13:00:00Z",
+     "titel": "A Quick Look at Today's Ratings for NVIDIA(NVDA.US), With a Forecast Between $200 to $260",
+     "kalla": "Moomoo",
+     "lank": "https://www.moomoo.com/news/post/1005043905/a-quick-look-at-today-s-ratings-for-nvidia-nvdaus",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRkhxc0M3RjltTjdzSW8wQzdWR1FyNGVyNXNmVEVkVUNGQTZ1OXpTNzR0bndxdTF3ZlVrTVMxQnAyVU9WOVJ3bHhSeDBKc2RtaVZldHFKM1NqcEl2Y3licWtKNHgzWjVzeXVmajB4N0VsNlpRc2o5N3F1WTRVTklRWFFnQW0zRkI0TEVUd2FyNi02c3VlUEFFdg?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T12:59:31Z",
+     "titel": "Equities Set to Rebound as Investors Parse Nvidia Results, Await Fed Minutes",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/equities-set-rebound-investors-parse-125931611.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "US equity futures were mostly higher pre-bell Wednesday as traders digested technology bellwether Nv"
+    },
+    {
+     "tid": "2026-11-18T12:56:32Z",
+     "titel": "China Lost Its ‘Best Friend’ at Nvidia. A Former Intelligence Officer Says the Fallout Is ‘a Catastrophe’ for Beijing",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/technology/ai/articles/china-lost-best-friend-nvidia-125632223.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Jensen Huang's exit from Nvidia Corp. (NASDAQ:NVDA) cost Beijing one of its strongest advocates for access to American AI chips, a former U.S. intelligence officer told Benzinga. \"Jensen Huang was the best friend they ever had,\" said Nicholas Eftimiades, a former Defense Intelligence Agency officer. Huang had warned that if Nvidia left the Chinese market, rivals such as Huawei would step in. Huang resigned last week after reports that he had an affair with Alice Huang, a former executive at Nvidia customer Megaspeed. News outlets have reported that U.S. intelligence officials suspected her of spying for China. Huang said Tuesday he would return if asked."
+    },
+    {
+     "tid": "2026-11-18T12:52:50Z",
+     "titel": "Nvidia’s Board Has Considered the CEOs of Arm and Marvell to Replace Huang",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/18/nvidias-board-has-considered-the-ceos-of-arm-and-marvell-to-replace-huang/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Nvidia posted a blowout quarter, yet the boardroom story overshadowed it. Two rival chip CEOs reportedly sit on the shortlist, three directors want Huang back, and one of those executives is deep in a $115 billion merger. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. Late on November 17, 2026, hours after NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) reported $115.8 billion in third-quarter revenue, people familiar with the board’s discussions said directors narrowing down the CEO search had considered two sitting chip CEOs. One is Rene Haas of Arm Holdings (NASDAQ:ARM)."
     },
     {
      "tid": "2026-11-18T12:44:04Z",
@@ -1706,6 +1797,14 @@
      "utdrag": "(Updates to include a statement from Nvidia in the fifth paragraph.) Nvidia's (NVDA) sales team c"
     },
     {
+     "tid": "2026-11-18T12:41:00Z",
+     "titel": "Nvidia Chaos Is the Perfect Setup for Anthropic IPO",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/m/2e61581d-1dd5-36b6-8a99-93ff5072394d/nvidia-chaos-is-the-perfect.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "How anxiety around much anticipated Nvidia earnings created the perfect sweet spot for Anthropic's IPO."
+    },
+    {
      "tid": "2026-11-18T12:40:42Z",
      "titel": "Nvidia Export Decision Reportedly Draws Democrats’ Question Of Whether Lutnick Decisions ‘May Have Been Improperly Influenced’",
      "kalla": "Yahoo Finance",
@@ -1714,28 +1813,13 @@
      "utdrag": "Two House Democrats have reportedly asked Cantor Fitzgerald for documents on its Nvidia (NVDA) holdings as lawmakers press Commerce Secretary Howard Lutnick over his decision to let Nvidia ship chips to Singapore-based Megaspeed International. The letter has also asked for insight on any discussions involving Commerce Secretary Howard Lutnick’s or President Donald Trump’s financial exposure to Nvidia.The letter asks whether Lutnick’s export control decisions “may have been improperly influenced” by Cantor’s holdings or business interests.Cantor denies a “material proprietary position” in Nvidia and says its holdings came mostly from client equity swaps and hedges.Two House Democrats have rep …"
     },
     {
-     "tid": "2026-11-18T12:38:06Z",
-     "titel": "Why Huang's Exit May Not Sink Nvidia Stock",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.trefis.com/stock/nvda/articles/626098/why-huang-s-exit-may-not-sink-nvidia-stock/2026-11-18?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Nvidia has lost the only CEO it ever had. Jensen Huang co-founded the company in 1993 and ran it until he resigned. Nvidia announced the change on Thursday, Nov 12, before the market opened. Its chief financial officer, Colette Kress, became interim CEO. On Tuesday, Nov 17, the board’s chair said the board does not intend to bring Huang back. Much of the talk since then asks whether Kress can keep the growth going. This article looks at the record instead. We checked what three megacap stocks did after a founder left the CEO job. We measured each one against SPY, the fund that tracks the S&P 500. The founder’s exit did not set the stock’s path by itself."
-    },
-    {
-     "tid": "2026-11-18T12:30:00Z",
-     "titel": "Nvidia gets Yorkville Ives backing as broker maintains $225 target despite leadership turmoil",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.proactiveinvestors.com/companies/news/1102000/nvidia-gets-yorkville-ives-backing-as-broker-maintains-225-target-despite-leadership-turmoil-1102000.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has retained an 'outperform' rating with Yorkville Ives, which outlined a $225 price target following record quarterly earnings and stronger revenue guidance. The target implies approximately 45% upside from the $155.5 share price cited in the broker's research note, reflecting Ives' confidence that demand for Nvidia's AI infrastructure remains intact despite the departure of founder Jensen Huang. Nvidia reported third-quarter revenue of $115.84 billion, up 103% year on year and ahead of consensus expectations of $108.96 billion."
-    },
-    {
-     "tid": "2026-11-18T12:16:45Z",
-     "titel": "Nvidia Shares Rise as Kress Reassures on Demand and Supply",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-rise-kress-reassures-121645763.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Nvidia expects fourth-quarter revenue of about $130 billion, with no China data center compute assumed Nvidia Corp. (NASDAQ:NVDA) rose 3.21% in premarket after it reported fiscal third-quarter revenue up 103% to $115.8 billion, ahead of analysts' consensus of $108.97 billion. Non-GAAP EPS of $2.68 beat the $2.48 estimate, while GAAP EPS was $2.70. Is NVDA fairly valued? Test your thesis with our free DCF calculator. Data center revenue grew 110% to $107.6 billion."
+     "tid": "2026-11-18T12:37:47Z",
+     "titel": "【US Pre-Market】Nvidia Earnings Boost AI Stocks, Anthropic IPO Pricing and Fed Minutes Ahead, Gold Falls Below $3,800",
+     "kalla": "TradingKey",
+     "lank": "https://www.tradingkey.com/analysis/stocks/us-stocks/262311015-us-pre-market-nvda-anthropic-tradingkey",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNHFMcnE4c2NVOVNWUWVpR1hKRGl4eVRLNnJ3NUdaS2dhVW1YQlE5ZTdmenNraWxlVDhfejlSM09lODMxTk02TmVtWTJfeTRKTHk1dTB1NlFPUFJ5SmNHS2sxWkF0c2xQbGZpbjJvTngxOFdEMVNfR3R5SGVqWFZRX3RPb25nM2VKN0RQVWNKVlByUEhha3VETGlBc2NPOW12M0VCSg?oc=5",
+     "utdrag": "TradingKey - On Wednesday, November 18, Eastern Time, the three major U.S. stock index futures rose across the board. Nvidia's third-quarter revenue and fourth-quarter guidance both topped market expectations, driving a pre-market rebound in chip, storage, and AI infrastructure stocks. Investors are also awaiting Anthropic's IPO pricing and the minutes of the Federal Reserve's October meeting. On Wednesday (November 18) Eastern Time, U.S. stock index futures rose, led by a premarket rebound in AI and chip stocks following Nvidia’s strong third-quarter revenue and fourth-quarter guidance."
     },
     {
      "tid": "2026-11-18T12:15:00Z",
@@ -1747,22 +1831,13 @@
      "utdrag": "The report reduced some uncertainty, and the stock should find support while the focus shifts to the Anthropic IPO. The Invesco QQQ Trust (QQQ) is up about 1% and the SPDR S&P 500 ETF (SPY) 0.6% early Wednesday following a limited, but favorable response to the earnings report from Nvidia (NVDA). Nvidia’s results were strong and surpassed most expectations. Revenue more than doubled from a year ago to about $116 billion, and the forecast of $130 billion for the current quarter was better than expected."
     },
     {
-     "tid": "2026-11-18T12:10:25Z",
-     "titel": "Here's what every major Wall Street analyst is saying about Nvidia after its earnings report",
-     "kalla": "CNBC",
-     "lank": "https://www.cnbc.com/2026/11/18/analysts-react-to-nvidias-first-earnings-without-ceo-jensen-huang.html",
+     "tid": "2026-11-18T12:07:07Z",
+     "titel": "'Business as usual': Nvidia's Kress passes first test as board slams door on Huang",
+     "kalla": "Reuters",
+     "lank": "https://www.reuters.com/business/business-usual-nvidias-kress-passes-first-test-board-slams-door-huang-2026-11-18/",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVFBd3BGYUdRdDM4c0Vjd0g1cUQ4bjl5Y3JzV2lFNWx0TUJTRmVEV0Jld2lxZHE5a2NHemNZdGVaOHR6NWtDZGY4MkFyUG8ySUU1TzVtOWRJTUs0VVdKYk9ucHVxVHBPVGIwU2RFVDZHUjNrb2FGTDdPTUJ5QThxNDdQS2pDcFlpTDk2T3ZCa1M0M0QxWWpsc0FPZGJ5UWdod0lQOA?oc=5",
-     "utdrag": "Nvidia posted another big beat in its first earnings report following the resignation of its long-time CEO Jensen Huang."
-    },
-    {
-     "tid": "2026-11-18T12:02:22Z",
-     "titel": "Jim Cramer Told Nvidia’s Interim CEO “the Cheapest Stock in the World Is Yours”",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-told-nvidia-interim-120222342.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWkZxRmpHaWNSMjRIS3VZM3YwOHh4dnJ3c3RuMkpuVkNRTEExQnFkRWNyTVBOQmtTMVctSjRyZTdmRThLdVlfc1c3SU51RWVyUW80eXJockNuaWk4Yjl2Qi0xd0F2bGZCVWtuZDhpUXYwOWJOSEY0UHFoaTRPVWd5Yk81eWdab2U1X2ItYTdDOExoVEVHU214MUtVYw?oc=5",
-     "utdrag": "Nvidia's interim CEO took a victory lap on Mad Money after earnings, but when Jim Cramer pressed her on buybacks and risky customer bets, her numbers and the company's own filings told two different stories. Jim Cramer pitched NVIDIA (NVDA) as \"the cheapest stock in the world,\" yet it trades at 11 times forward earnings, a low multiple that hints investors doubt peak earnings will last. Colette Kress put NVIDIA's buyback authority at $277 billion, but filings show a $150 billion increase and $227 billion remaining."
+     "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1hUb0ZMNTdVdlRaU3NVMXlUODNRZmhzZjVNRFVocktEWXJ4ZkF5eTVmVXBQcXRMOWFpdHZMQ2hxeUE1OER5TkpmRTlLV0JBdGV5RWVDVTl2TWtZamNmMXBTV2Y4eTVXdFpBdmZNSlFtZklNQnBLWHNDU251eElyd191OGs4ajktX2NvRVpNQ1M1cDNEU0ZzYnpWMmpnQ1E1d3NuUzhMSXZfdEowVWN6QWZldW0?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-18T11:58:50Z",
@@ -1781,87 +1856,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQk95clhsVks5OE5nbGlPSXlqMExMSzhRNVJSQkxSd2xWOExFcUNqSk9hektPdlRoR28xZ1VIR0Z2ZF95ZjFFMGRlYmZaQzI0UEFPSmdjeXlWQkMwRHUtM2NrckstQmo5SjRTb1NxQnNlekxzMUpxWVFEQk1wZXFpNnFEeUh5SUlKLUJjMFV5d1BucDBEQkZMX09n?oc=5",
      "utdrag": "Seana Smith, Global X ETFs, Senior Investment Strategist, discusses Nvidia's strong earnings, AI demand, leadership uncertainty, China chip restrictions, AI investments and Anthropic's IPO."
-    },
-    {
-     "tid": "2026-11-18T11:53:40Z",
-     "titel": "Michael Burry Agrees Nvidia Looks 'Suspicious' After Company Delays 10-Q Filing: 'Exactly'",
-     "kalla": "Benzinga",
-     "lank": "https://www.benzinga.com/markets/earnings/26/11/63379248/michael-burry-agrees-nvidia-looks-suspicious-after-company-delays-10-q-filing-exactly",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZ3ZmSWtHeU1lc2x2Vlk3dUVfa1EwUE1jRG9zOThlUEJNWGpsOGhudklad0ZNeE5lX0c0c3RsbTN4cmlEUjFTcmY2UXpSOXZOR25hLUMwaTdHSUdORkhVTTBLZ1JzNXp3LVBLUnJNM2pJcGZfdDlFa1VVY3pvVmdxLWJMMkJLY2hab1NIRVVEUUN2M0dGTEU5Mlo1bWRTenFjWnR4UFZ2UXZXdEhCRVA0aFdYUzhzR1ZocXRobWkybFlEaEhldkhGUlpfUTBVNVl1V3N3dnZaOGttdw?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T11:45:00Z",
-     "titel": "Prediction: Colette Kress Is More Vital to Nvidia’s Future Than Her Interim CEO Title Implies",
-     "kalla": "The Motley Fool",
-     "lank": "https://www.fool.com/investing/2026/11/18/prediction-colette-kress-is-more-vital-to-nvidia-s-future-than-her-interim-ceo-title-implies/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYW9nR01PUVA1c1JXaXVRandWNXM1V3VUWmRNc2xYdFZ3aEVmclB4U3VTUW5HeFpMMG52T0psSjhBUElTckhBY2NzUWotbGZrWU1ZLWRicVJkM19yVUFkQzhOMEJOVHN6X2hFWjY2SWxSWFlXal9mdmRkcmlyZ2RKV2NxU053VTJmanBNTW5VMm84YlN1NndrNnQtam5ZTmF2cWtQdHpHZ1Z5UUxSR1pXalF3MXNncld5OXU2bmt1VEJ3QjNJN1FfZ1JSU1hhbHhV?oc=5",
-     "utdrag": "A fundamental shift in Nvidia's corporate strategy could slow down the artificial intelligence boom. It has been a brutal month for Nvidia (NVDA -0.44%) investors. Concerns about sustained cash burn among hyperscalers such as Amazon, Microsoft, and Alphabet sparked a widespread sell-off in artificial intelligence (AI) stocks, especially semiconductor stocks. Then matters got much, much worse. On Nov. 8, Nvidia CEO Jensen Huang admitted to an affair that U.S. officials are looking into for potential national security concerns. After market close on Nov. 11, The New York Times reported that Huang had a different affair with an Nvidia employee."
-    },
-    {
-     "tid": "2026-11-18T11:36:14Z",
-     "titel": "Nvidia Shares Rise 3% as Revenue Doubles to $115.84 Billion and Company Raises AI Growth Forecast",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/technology/ai/articles/nvidia-shares-rise-3-revenue-113614825.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbjBZU3FwUGNuMldpcXlpckdrM29IRkNuQ2tadTBGdVp3UmlnT2J0aE5ZMVhvb0VEY0xQNTEwOVAxS0VZYWlfQUVCSzl6X05QY0Y1UnRfWGMzMkhZV1JJTndyVkcwVE5GUFNuQUdGV2FfRlBJVTZTemRFV1JPci1vWTZfUnpHSFBPSDl5YTJZTE1uTms0QXp3?oc=5",
-     "utdrag": "Nvidia (NASDAQ:NVDA) shares gained more than 3% in US premarket trading after the semiconductor manufacturer reported stronger-than-expected third-quarter results and raised its revenue outlook, supported by continued demand for artificial intelligence infrastructure. The company reported a 103.2% increase in quarterly revenue to $115.84 billion, exceeding analysts' expectations of $108.85 billion. Adjusted earnings per share reached $2.68, compared with the consensus estimate of $2.47. Nvidia also projected current-quarter revenue of $130 billion and increased its expected revenue growth for the next fiscal year to 75%, from its previous forecast of 70%."
-    },
-    {
-     "tid": "2026-11-18T11:16:42Z",
-     "titel": "'Business as usual': Nvidia's Kress passes first test as board slams door on Huang",
-     "kalla": "Reuters",
-     "lank": "https://www.reuters.com/business/business-usual-nvidias-kress-passes-first-test-board-slams-door-huang-2026-11-18/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1hUb0ZMNTdVdlRaU3NVMXlUODNRZmhzZjVNRFVocktEWXJ4ZkF5eTVmVXBQcXRMOWFpdHZMQ2hxeUE1OER5TkpmRTlLV0JBdGV5RWVDVTl2TWtZamNmMXBTV2Y4eTVXdFpBdmZNSlFtZklNQnBLWHNDU251eElyd191OGs4ajktX2NvRVpNQ1M1cDNEU0ZzYnpWMmpnQ1E1d3NuUzhMSXZfdEowVWN6QWZldW0?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T10:54:46Z",
-     "titel": "3 numbers explains why Nvidia stock is rising despite no Jensen Huang on the earnings call",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/article/3-numbers-explains-why-nvidia-stock-is-rising-despite-no-jensen-huang-on-the-earnings-call-105004324.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNTZwdUdDSDBpNmVCdFJEWDVXTUJRall1Y2Z5NHpheF9QUm9jaFloU2xmVWZBenBwQm9XZHJ1LXhlaWlnRW0zQ0ppVTVTVHAxYnRSZnoxNUxpXzJ0QmpwTFVDYW9HdDFMb241Z3VTTmJSRDJHZDhLZWhxY3Bxb2s0RDBXRHA0cTN1SW15dmd4YVpGaTB4UkRxTEVMUVBYb3JDLTdqbHhYZDl5UEZlMjhLeXNXWlhsMmNfc1NYOHlkc0FXV256V1U4VVRMVV90b0J1X3Y4bm42c2FfV3haaFY5bUVTUWxjR2xyb2c?oc=5",
-     "utdrag": "Nvidia delivered several bullish numbers on its earning day, Nvidia (NVDA) did its best late Tuesday on its earnings call to remind Wall Street that, for now, it's still the money-making Nvidia of old — sans black-leather-jacket-wearing Jensen Huang as CEO. Shares of Nvidia rose 3.5% in premarket trading on Wednesday as the Street digested the results and commentary. 75%: Nvidia interim CEO Colette Kress raised the company's fiscal year 2028 revenue growth target to 75% from the 70% Huang conveyed on the earnings call just three months ago. $227.3 billion: The company says it could repurchase this amount of stock by the end of fiscal year 2028."
-    },
-    {
-     "tid": "2026-11-18T10:37:04Z",
-     "titel": "Stocks to Watch: Nvidia, CoreWeave, Southern Copper -- WSJ",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/news/post/1005027318/stocks-to-watch-nvidia-coreweave-southern-copper-wsj",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVRCd2swakRmNjZibV8yWTB0M1lYRTM5alhMblp3YndXWXE5NXZQNFlsX0c4TVpTMlI0YktuM2FSSXpwQVppRDdPZDIweDVVRnJXY2VJR3hxZ21mS19hZWpjeERMVGljQWlicUFhRVBsblZuakY1VTRzeTJzaDI0M05QbFlvV29BdTctdUkxdTFHZ1RvdEdjZjhPODE?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T10:21:52Z",
-     "titel": "Nvidia Lifts Revenue Outlook to $130 Billion as US Futures Rise Ahead of Anthropic IPO: Dow Jones, S&P, Nasdaq, Wall Street",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://uk.finance.yahoo.com/news/nvidia-lifts-revenue-outlook-130-102152694.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbWk5dGxGTW9zbTBTeHZ2UndMRlh2MnNHSFJZVWtYSVlDUmFZdjZyZ1BXaXhWd3NpWEc1NC1PTEhYY3E1NEpZZGk0a0hqNEFNQTU3dmdPT0NwMXJ6cGl6S1lQb2xvdXFEamEwVGlaWDc4LXl1M0RhMWl0QWlUeGtkbHBBdlJocmhw?oc=5",
-     "utdrag": "US stock futures moved higher on Wednesday after Nvidia (NASDAQ:NVDA) raised its revenue forecasts following stronger-than-expected quarterly results, while investors prepared for the anticipated stock market debut of artificial intelligence developer Anthropic (NASDAQ:ANT). The technology sector led the gains after Nvidia reported third-quarter sales exceeding $100 billion for the first time and projected revenue of $130 billion for the current quarter. Meanwhile, oil prices declined amid expectations of improving global supplies, while gold weakened as investors assessed the possibility of further interest rate increases by the Federal Reserve."
-    },
-    {
-     "tid": "2026-11-18T10:19:49Z",
-     "titel": "Futures Climb As Nvidia Earnings Boost AI Trade — BABA, INTC, ASTS, CAPR In Focus",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/futures-climb-nvidia-earnings-boost-101949738.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1paem5zZWJDaS1aRVRCN1lMa21oTEozZEVDS3o2MERDbTRuWG5HcmlaSXhqNnA1a0FzRzNUcHZyc085N0RKcmZZdkhWN09GZmZ3WUs1cVZhSG00ZEFSanlpMTEtUl9Ib1BRb1d4UE1kQUFhaXV6d3ZmeFFiNS1tam1yNUxEYWdJbkI4bEMxVm9jOGRIM1BRY3AyVVdEcGlIYXc?oc=5",
-     "utdrag": "Oil prices, meanwhile, declined after U.S. crude and fuel inventories increased, amid ongoing U.S.-Iran tensions and disruptions in the Strait of Hormuz. Nvidia reported 103% year-over-year revenue growth to $115.8 billion, beating estimates. Capricor investors await an FDA decision on Deramiocel, while AST SpaceMobile faces questions over its rocket development plans. Investors will watch the Federal Reserve's October meeting minutes, U.S. housing data and earnings reports from Target, Palo Alto Networks, Lowe's and TJX. After a session in the red on Tuesday, U.S. stock futures moved higher early on Wednesday, as investors assessed Nvidia's better-than-expected earnings report."
-    },
-    {
-     "tid": "2026-11-18T10:06:00Z",
-     "titel": "How Much Was Jensen Huang Worth to Nvidia? More Than $6.7 Trillion, According to One Wall Street Analyst.",
-     "kalla": "The Motley Fool",
-     "lank": "https://www.fool.com/investing/2026/11/18/how-much-jensen-huang-worth-to-nvidia-more-than-6-trillion-wall-street-analyst/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVXI3S19BdG1iT0VWVVdncUF3VHB4SG5waXlzcVctY0ZRSUN6R1FYWEZyQjJVbWVEOEtKMm9IS01VWWhIS1lRWnRRZUNqN2FjTnVMLVNpbHkteXdlTW1KQm5wdUM0clNIT2t6UU0tamJnYkdDWFRDNkF4cXdWUF9CYnNZb1FrMC05dURyMGpuck9hSzVWUk5HRUxHQW9MNjd2cHdwMjNTVjZZLWRlR05vZVB4Q3YzdUhfTXE3N1R3?oc=5",
-     "utdrag": "A flurry of price target cuts shows just how foundational Jensen Huang was to Nvidia. For the last four years, the evolution of artificial intelligence (AI) has propelled Wall Street's major stock indexes to record highs. According to IDC, AI can transform workplaces and represents a cumulative $22.5 trillion economic opportunity from 2025 to 2031. No company has been the foundation of the AI infrastructure build-out quite like Nvidia (NVDA -0.44%). Its graphics processing units (GPUs) are staples in AI-accelerated data centers, and its CUDA software platform keeps clients loyal to the brand. Jensen Huang was central to Nvidia's identity. Image source: Nvidia."
     }
    ]
   },
@@ -1869,7 +1863,7 @@
    "namn": "Palantir",
    "antal": {
     "yahoo": 11,
-    "google-en": 93
+    "google-en": 90
    },
    "fel": {},
    "nyheter": [
@@ -1946,12 +1940,12 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-18T01:26:22Z",
+     "tid": "2026-11-18T01:18:00Z",
      "titel": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com",
-     "kalla": "Investing.com Canada",
-     "lank": "https://ca.investing.com/news/stock-market-news/palantir-director-alexander-moore-sells-269m-in-pltr-stock-93CH-4965464",
+     "kalla": "Investing.com UK",
+     "lank": "https://uk.investing.com/news/stock-market-news/palantir-director-alexander-moore-sells-269m-in-pltr-stock-93CH-4989220",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWFncTNGV1Vmb0RsR0plTkd2YXBoUFZiMFR6bm5NVllrQzdCcUhaNE1XWFF1Ul9HRGhuZHNWOUI1OElfbGZwZkZhVlFFd1gyYl91X01Sa21TclFSaE5WeTBoeE9fTGh1S3lGSTIwZHJvOFE2blB2SElhcERzbklCSG1xaFktOURya0ZIM0UwMVR6MGpjdnNGVDdoSTdad0ljQVkwcnl5ODh1RkZxOVBNSDFjTjF5UUpoZmUw?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFlsbnpJUi1GQW1LZFJlbnVzTkxOREVMSGhiajlUczU2SHhERjlhQjNTWkh0RkR2M3l2dHR0WDFKTkdhV3JESEFwTU1Pb0hheGlHcjNsSjBrSkhKSW1aODVzUC1ZNUJETW1VbmU0YThYbVVNSTVfQTJMYzBUVHhlX3hnQUxZWFdmOTkza2RNVzhLX0hlSlJSeW5SQVB3aVdYV2dCNlh1T1pTTTNKaXJYVUlDaFpVS2ZocTZr?oc=5",
      "utdrag": ""
     },
     {
@@ -2062,6 +2056,15 @@
    "fel": {},
    "nyheter": [
     {
+     "tid": "2026-11-18T12:41:00Z",
+     "titel": "Optix partners with Smart Eye to deliver end-to-end fatigue intervention for fleets globally",
+     "kalla": "Bizcommunity",
+     "lank": "https://www.bizcommunity.com/article/optix-partners-with-smart-eye-to-deliver-end-end-fatigue-intervention-for-fleets-globally-417309a",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWWhQNjhxLTZIRU95bTNCUmNiUEtMU1RUWTRPR2s2QUItempfVWVRMG41Z0FTQXZYNm5wSm1uTFBkNVdkS2ZmY01kZVRhTTdWMnFsekhjMFEtWWNQV19Rc0d4a19WdGt6NVY5b0k5N1RhV2ZHZ29VeEg2MFZERGNKQmN6OEZQUWhZTVVBNGN5WUp6ajJuaFEyVU1JOXd0eGpFczRWTlRpQWQ3TUhwRDlzSWZKR1Y0WW9rYW93ZmZiSTdZN2ZmSVBkdHZpeHlSZ0k?oc=5",
+     "utdrag": "Smart Eye, a global leader in driver monitoring technology, has partnered with Optix, renowned for 24/7 human intervention and predictive fatigue intelligence, to offer fleets a complete solution to combat driver fatigue. This collaboration combines automotive-grade AI detection from Smart Eye’s AIS driver support system with human-driven intervention and predictive analytics—bridging the safety gap between identifying fatigue and actively preventing incidents. Fatigue remains one of the most significant safety risks facing commercial transport globally, contributing to up to 20% of road crashes. Yet most fleet technologies stop at detection."
+    },
+    {
      "tid": "2026-11-18T10:26:00Z",
      "titel": "Redeye positiva till Smart Eye – ser stor uppsida",
      "kalla": "Börsvärlden",
@@ -2106,15 +2109,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-17T09:15:04Z",
-     "titel": "Why is Smart Eye stock rallying today?",
-     "kalla": "Investing.com",
-     "lank": "https://www.investing.com/news/stock-market-news/why-is-smart-eye-stock-rallying-today-93CH-5032046",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVGtuNzJEU2dUX0JPSXZITXVNM0VleVRtcHdhamkwOVE4S1ZrS1NDc3Q3dmh0SlNUemlTWmtONndHRXhXSzV4blhVSThqaldUNjJ0Nkg1V3duOEFsRFdVdjlpQjYzN3hRVlpJd3hBajBZWHdDZjdrWklzZWdBSlMzSU5GM080dVpJeldyZ2ZPVDlLeTR5NWZqamFLMW9FeVN5?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-17T09:08:27Z",
      "titel": "Varför stiger Smart Eye AB:s aktie idag?",
      "kalla": "Investing.com Sverige",
@@ -2140,15 +2134,6 @@
      "fran": "google-sv",
      "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOENnZW01Z2x6N1l1U3JjQV9DZU1VaFdIQmJMTHAxclNud3BoS2hkN0d2d2tyVkszWXNfazJwMDZ3ZEhDbVIyN0dHMWNvSThQR3dZeXVRYXZOWWRrTTduQk5VQUZFdzJEaTdER254RGx2YlpuSXBWSUNwRVItY0drMWFYRjVyMXgtQVFfU2N1V3ptcGI0Qmp1TjdwaHExZWtGTkxNWGJ0NmVYdjBxclk2SGNKU0xPbEtEYTBaWEdndGFYMDQ?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T06:25:11Z",
-     "titel": "Smart Eye förbättrar ebitda kraftigt - genomför effektiviseringsåtgärder (FinWire Smallcap)",
-     "kalla": "Aktiellt",
-     "lank": "https://www.swedbank-aktiellt.se/telegram/qaEZOEOv",
-     "fran": "google-sv",
-     "glank": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBobTlob1F4VnJPc0FsLUE3WlNPa2ZTWWU0V1lRME5MUWtDTjcxYXBDbURlLXFHMDRIUmtpaDBhUTJtRGRsRGd3MllZV192ZEdpYm1OVFMzaE5wWlNlTXAw?oc=5",
-     "utdrag": "Aktiellt är en webbtidning för Swedbank och Sparbankernas värdepapperskunder. Här får du tillgång till marknadsinformation och dagliga analyser från Swedbanks experter."
     },
     {
      "tid": "2026-11-17T06:15:36Z",
@@ -2178,6 +2163,15 @@
      "utdrag": "Ögonspårningsbolaget Smart Eye ökade omsättningen och lönsamheten under det tredje kvartalet.”Vi är på väg mot ett positivt helårsresultat”, kommenterar vd… Artikeln är en del av vår exklusiva nyhetstjänst Marknadsnytt. Du får enkelt tillgång genom att skapa ett kostnadsfritt konto. Tiden från att en sårbarhet blir känd till att den kan utnyttjas har krympt. Samtidigt använder angripare AI för att automatisera och förfina sina metoder. För verksamheter med komplexa IT-miljöer blir frågan därför inte bara hur intrång stoppas, utan vad som händer när de ändå sker. Först behöver verksamheten veta vad som är skyddsvärt. Vilka system och vilken data får inte sluta fungera?"
     },
     {
+     "tid": "2026-11-17T06:08:00Z",
+     "titel": "Smart Eye förbättrar ebitda kraftigt - genomför effektiviseringsåtgärder",
+     "kalla": "Börsvärlden",
+     "lank": "https://borsvarlden.com/artiklar/smart-eye-forbattrar-ebitda-kraftigt-genomfor-effektiviseringsatgarder",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeW40bER2WlRMOVVKdFJLUmtNaHBuaUVqcE84QXhhT0tpNUpEQXpjTk5wV0VDYk41NXROdHEtQ241RnNVUDllblZvWVJjajVhYnFJcmwzanA5eWU2d1BnT3pNOUpJTW01OUpzUEJMOGExUnBZM0JPNzRvTTVTV2ktQjR1cVlHRjhjRm1zNmxlTGUwdE1xbnpvV2JXYkJUQ1pUVGoxUWRB?oc=5",
+     "utdrag": "Teknikbolaget Smart Eye redovisar en kraftig förbättring av ebitda och ett positivt rörelseresultat i tredje kvartalet, drivet av ökade royaltyintäkter inom fordonsverksamheten. Mangold sänker riktkursen för Trianon, högre räntekostnader tynger vinstsprognosen Affärsvärlden ser risk för nyemission i Nordisk Bergteknik, neutralt råd Visa utökar AI-betalningsprogram i Europa - Klarna och Dinero deltar Mangold sänker riktkursen för Trianon, högre räntekostnader tynger vinstsprognosen Affärsvärlden ser risk för nyemission i Nordisk Bergteknik, neutralt råd"
+    },
+    {
      "tid": "2026-11-17T06:00:00Z",
      "titel": "Delårsrapport Q3 Januari-September 2026",
      "kalla": "MFN (pressmeddelande)",
@@ -2191,7 +2185,7 @@
    "namn": "SoFi",
    "antal": {
     "yahoo": 7,
-    "google-en": 34
+    "google-en": 33
    },
    "fel": {},
    "nyheter": [
@@ -2377,7 +2371,7 @@
    "namn": "Sysco",
    "antal": {
     "yahoo": 3,
-    "google-en": 28
+    "google-en": 29
    },
    "fel": {},
    "nyheter": [
@@ -2407,6 +2401,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-17T22:33:58Z",
+     "titel": "Sysco announces chief human resources officer transition and upcoming external hire",
+     "kalla": "Investing.com",
+     "lank": "https://www.investing.com/news/sec-filings/sysco-announces-chief-human-resources-officer-transition-and-upcoming-external-hire-93CH-5034174",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWlhJQUpnTUh0SndFZEY2UGg2NXE5MzROMW1RbzNrRzBqYXVJcXJyaDVSOFFRVklLd3M5RGxlb3gtTGxZdVJwb1VQMWlDLXpNZUlnTjZITnJlLWpLZUZQMGZNMW9BZEhIblNrNElCdWxCQ0Zjd2pJV2pHY2o0dVJVdklFeG5YaDNZeFVXU0RvYUJ0WkVjTlpUaXF1VFBVZnNqODc5Z2k2YUt4TllrNU5oVlJSMTBwSjN1NUk4d0x1UmJ6Wk56NnZjZGMwRUFXcVQ2RzljaVBB?oc=5",
+     "utdrag": ""
+    },
+    {
      "tid": "2026-11-17T22:11:25Z",
      "titel": "Form 8K Sysco Corporation For: 17 November By Investing.com",
      "kalla": "Investing.com Canada",
@@ -2422,15 +2425,6 @@
      "lank": "https://www.tipranks.com/news/company-announcements/sysco-executive-hr-chief-transitioning-to-strategic-advisor-role",
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd2RJeGNVeHJ1eFZpanZtM2lEcXRJQmd3M2tSZnBrRzBodG1SOTZsMjctRDUxS0pOVlpDQVFiMVBGdnVBZHkyN29JSmhULU1XN3RDSnQwYXdyeWtnNzRPeTVqUF9MS3p4U3oxWXNPV19ORlB0OHAwXzI2ZGRMYUcwLVdtOEVEXzZ5RWxIT3p2Zm1fZlJhdUcwOGdTRG5FdFlZSDhiTmVMNmgycnBlQWhkSkpETGlyNHM?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T22:02:00Z",
-     "titel": "Sysco announces chief human resources officer transition and upcoming external hire",
-     "kalla": "Investing.com UK",
-     "lank": "https://uk.investing.com/news/stock-market-news/sysco-announces-chief-human-resources-officer-transition-and-upcoming-external-hire-93CH-4988952",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORGNsVmVuWnE2V0dEb3p5ZndyLVpKY3NGY3lpRklRdzVKeFRsY2xiS3IyZW9jQmJscjRacU5VYXVYSjk2NHZzWVI2Qm15NXAycWc5RDNubld0N3dEa2pZNUVjV3pPTHRwVW5TMWR2SFltZVZwZWNDaGF6clNpWm5lTERINW5BWTJDX2N2RjN1YzVOaVVQTTVaVVBHV1hZdVhfdlNLTm1rWVZtSWQ1VTBZSWcyZGp0aG1oOUwtR1VldVRiRnFiazMyN3cxdVlIdzlNQ2I1UTRhcngta0Y4?oc=5",
      "utdrag": ""
     },
     {
@@ -2488,12 +2482,12 @@
      "utdrag": "Teachers Retirement System of The State of Kentucky boosted its stake in Sysco Corporation (NYSE:SYY - Free Report) by 839.1% in the 3rd quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The institutional investor owned 361,223 shares of the"
     },
     {
-     "tid": "2026-11-16T21:16:00Z",
-     "titel": "Form 4 Sysco Corporation: Bradley M. Halverson (Director) For: 13 November",
-     "kalla": "Investing.com UK",
-     "lank": "https://uk.investing.com/news/stock-market-news/form-4-sysco-corporation-bradley-m-halverson-director-for-13-november-93CH-4985977",
+     "tid": "2026-11-16T21:28:36Z",
+     "titel": "Form 4 Sysco Corporation: Jill Golder (Director) For: 13 November By Investing.com",
+     "kalla": "Investing.com Canada",
+     "lank": "https://ca.investing.com/news/stock-market-news/form-4-sysco-corporation-jill-golder-director-for-13-november-93CH-4962055",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbExWQ001MkcxQk81cHlSbnlSVjhXdXp5Q2JadDZ1aDRrbWMxenpRa09EcTl0eGhNbjBnbWtFQVhrWFo3N3ZxMk9KbTh2dFFWQVV5VW5Ub19RUUhzUHhIWDhOajJvdDhTb2xRSy1JV0JQMzh3d2huU0VrM1BGV1ZEaERDNG1wQkNTekhOcGJ0a2hJaEtqd3dzdzRFcElhdTJBQ2xPREhDMXhCdEJJb2l2bzZOTndVbm41b25DeG10b1dSdFJqWVR0NDhR?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0VUcnZNZUpsb2NIQnI4ak05TE1uS0VBYndBNzM5VWpWOHpaSk5xcm8xbG9zZEtZMEMxX1FvRHBmbHBibVctU2V5TE9pM1dfQjM2UzVzUzZyVEh1QXR1LXdqOGVuWjVqQ0Jyd3dHNXBnM1NsazNTYjM4Rm4yRVNsSlI1VG1vVldrNHd1WWNUZzlQUDhCc2tGeVloa0hyZ05IV1ZLMFNXSHl3akxFcV9HN3FGMlV4VE9zNGExeGl3RQ?oc=5",
      "utdrag": ""
     },
     {
@@ -2564,8 +2558,8 @@
   "asml": {
    "namn": "ASML",
    "antal": {
-    "yahoo": 7,
-    "google-en": 52
+    "yahoo": 6,
+    "google-en": 53
    },
    "fel": {},
    "nyheter": [
@@ -2751,7 +2745,7 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 14
+    "google-en": 13
    },
    "fel": {},
    "nyheter": [
@@ -2765,15 +2759,6 @@
      "utdrag": "View all of the latest articles from ASSA ABLOY Global Solutions"
     },
     {
-     "tid": "2026-11-18T01:05:49Z",
-     "titel": "ASSA ABLOY acquires Liverton expanding Vingcard’s technology offerings and presence across the APAC region",
-     "kalla": "www.hotelmanagement.com.au",
-     "lank": "https://www.hotelmanagement.com.au/2026/11/18/assa-abloy-acquires-liverton-expanding-vingcards-technology-offerings-and-presence-across-the-apac-region/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ2JIbWdJbzFiVzZJTXlYamhycXpSZ1E3TDBUcVNHbnZHNUFXWDhYS1Y5Z3ItUnlidG9aNW1QUHJLd3RVelNFdmw3clY1T3luaWs4Qlo4UWxUM1otSld4R0JfY0h3cUtlb2ZTUmpfclh5Q082SmlXUGo5YXNBeVhnWTh6U1FsTEVjRkU0ZFA4ckZib0ZHaXZfMXJHWDJPZkRzMm83MFgtTHk4OXhZMks3cHdoZWFsbEJ0QVllRHN0bWFaLWpuYXhRenJCUjZ1RnBUdktsYjRJZl9xZ3hHVUhXOE9vcjBIdDg?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-17T23:09:42Z",
      "titel": "Assa Abloy Set to Acquire Brazil-Based Aluminum Solutions Manufacturer",
      "kalla": "Window + Door magazine",
@@ -2783,21 +2768,21 @@
      "utdrag": "Windowanddoor.com Assa Abloy has signed an agreement to acquire Rometal, a Brazil-based manufacturer of aluminum solutions and accessories, including interior door systems, cabinet doors, frames and pullers. \"I am very pleased to welcome Rometal to Assa Abloy. This acquisition delivers on our strategy to strengthen our position in emerging markets through adding complementary products and solutions to our core business,” says Nico Delvaux, president and CEO of Assa Abloy."
     },
     {
-     "tid": "2026-11-17T18:40:22Z",
-     "titel": "ASSA ABLOY appoints Nicolas Aznar to lead key management unit By Investing.com",
-     "kalla": "Investing.com Nigeria",
-     "lank": "https://ng.investing.com/news/stock-market-news/assa-abloy-appoints-nicolas-aznar-to-lead-key-management-unit-93CH-2813725",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3RVb3ZIQ05fVG9adlF4bDRQMUNDUzZVeWFjNEppSThTYkZLSFBka21mZjZGd3Rpc3dvTWVacE0wQWdsY2xwT19MUGhkR3NuM3JKZlNxSTBhVVV4WDU5anNfLVhpNWtlWGU2Q2VIRzR5VXdua1BMdVdwOE15dEtDM2dxaUc1Y25ERk1TSnhlWmszNm56U2NUeHREUVdFQ1RhMXBBeGd4bl82WkNwVlBkTDJKeWt1OUlESVFyMnByQQ?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-17T17:14:41Z",
      "titel": "Assa Abloy names Nicolas Aznar to lead key and asset management",
      "kalla": "StreetInsider",
      "lank": "https://www.streetinsider.com/Management+Changes/Assa+Abloy+names+Nicolas+Aznar+to+lead+key+and+asset+management/27362287.html",
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONXZINWJCS2hCTFpnSXlyNjM1MUVnU2RYZ3E0WkpnaG5hQW5lNkRRbGNXMTQ4Y3ZPU2RmU0h3ZVFFSDlMaUtRYmViYndiRWVYMDlHY2ZmQjVNNTd5dW9RX2twZzAtTG5MR1VHR3J5SFEwOHNDOV8xV3hpOG4xcFFmdVBoVFl2ekpiS05qc0JVYy1tSzVNcFVBRGZRMW9YVWtUOWUwNW1JTXFINWZCUUlvVUE1ZGlMVTI4Y3c4SkdmdkM3Unc5?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-17T17:14:00Z",
+     "titel": "ASSA ABLOY appoints Nicolas Aznar to lead key management unit By Investing.com",
+     "kalla": "Investing.com UK",
+     "lank": "https://uk.investing.com/news/stock-market-news/assa-abloy-appoints-nicolas-aznar-to-lead-key-management-unit-93CH-4988493",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRnZhR0lWd0RuVmw1QW5FMTMwVDRwcm1GOThsY1l3dVAwNEhCaWNHU2lKYlN6MC1uV3R0Y081TGhSUmdNcmk1V2FKU1JOVE1Jc3dkZFFwWVNOYW90Q1R1QmczTEFyQ3dOejhiN2plWWtjWXBwOURJbU9RbVR5MlBHZ1lQbExMYmJ6VXUtSXd1bVJ4VHVxZnhJaXFzX3V2MUVuZkVneklxTVJMT3hWOXFPY1ZVWlBKdWE2OUFRSmxFWQ?oc=5",
      "utdrag": ""
     },
     {
@@ -2878,10 +2863,19 @@
    "namn": "BYD",
    "antal": {
     "yahoo": 5,
-    "google-en": 92
+    "google-en": 93
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-18T13:10:38Z",
+     "titel": "BYD Ti7 Prepares to Enter Indonesia, Will This Plug-in Hybrid SUV Challenge the Fortuner and Pajero Sport?",
+     "kalla": "Aktualita.co",
+     "lank": "https://aktualita.co/en/automotive/byd-ti7-indonesia-suv-challenge",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZdlNrdVQwVTV5aVNObWVlNU1wLWZ4WnJTSFEzeWtpQnVRSldYTFlxWmJCT2w2WDYtRklvOElqaldLU1p3TFZtUWZZcS1BUzJKLU9GMEU2c3hIV012M09hN0xxR3lxMHE1RUUyazRTbFdjdE5S?oc=5",
+     "utdrag": "BYD is reportedly preparing for the arrival of the BYD Ti7, a plug-in hybrid (PHEV) SUV that offers a rugged design. BYD Ti7 Prepares to Enter Indonesia, Will This Plug-in Hybrid SUV Challenge the Fortuner and Pajero Sport? JAKARTA, Aktualita.co - The large SUV market in Indonesia may soon see a new challenger. BYD is reportedly preparing for the arrival of the BYD Ti7, a plug-in hybrid (PHEV) sport utility vehicle (SUV) that offers a rugged design, a spacious cabin, and a combination of gasoline engine and electric motor power."
+    },
     {
      "tid": "2026-11-18T12:39:39Z",
      "titel": "BYD Unveils World’s First Integrated Solar, Storage, FLASH and Robotic EV Charging System in Abu Dhabi",
@@ -2894,7 +2888,7 @@
     {
      "tid": "2026-11-18T12:32:00Z",
      "titel": "Chinese Carmakers Pile Into Brazil Plants as Jetour Joins BYD, Geely, GWM",
-     "kalla": "eletric-vehicles.com",
+     "kalla": "Electric Vehicles",
      "lank": "https://eletric-vehicles.com/chery/jetour/chinese-carmakers-pile-into-brazil-plants-as-jetour-joins-byd-geely-gwm/",
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTjhaQ3hiekhCNDkxaWpqN1dfSmg4TG5idTBVZzU5cVdJMHpTSzV0LVZYYS16UHVJbzRjdENQUk1yUUtuaVZ1NHdxRVZzSTI5YUs4QVlfNmFWX2RWS0VyRmNFd1hCRXl4MzN4cXZOOTRKN3k1RkJQaWRqaFRmUk5HTDJxczQtWkVnNl96WmhGQzY5LW5PcFlvMzhGSk1jYTFQVmZrVjczTjRpUkl4YlpmZnlrWF8?oc=5",
@@ -2961,15 +2955,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcEZsTHBZbDRRTXVVTjZ6b1psbDdOZjVpZ21NNXpYNXd0Q3RrbjMxZjVNcXlJME1jQWt5NVZiRlFKa2NPWDY0QThWY3dCMW5OR2ktX0ptWUFiRS05T0dkSlY3VW5LLXR2MUpzbEdxVDIzNkx6akVVTktfRGw0ekl1d0o3NEFrRUFLd292aTI1ODBRdDhPLTBzdUFHR0Nkdw?oc=5",
      "utdrag": "The interior of the upcoming BYD Han sedan has been spied in China ahead of its official launch, giving us a clear look inside. The design takes inspiration from the larger BYD Da Han. Spy photos reveal a floating central touchscreen, an LCD instrument cluster and a three-spoke D-shaped steering wheel. The gear selector is mounted on the steering column, while the centre console houses two wireless phone charging pads, physical buttons and a concealed storage compartment. The cabin shown in the images features beige upholstery, perforated leather front seats and chrome-finished trim. Physical door handles and a 12V power outlet are also visible."
-    },
-    {
-     "tid": "2026-11-18T09:26:09Z",
-     "titel": "BYD Atto 8 Debuts With Nine Minute Flash Charging",
-     "kalla": "Motor1.com",
-     "lank": "https://www.motor1.com/news/811604/byd-atto-8-seven-seat/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XdmVVWnp6aC1BclpJaTRUVFJXeE42ZHdPT0E3ME9nbWh0Q2FRemJsSzdKY1NmOGs2OE1hMHgtWG1XVFhxRFZvSC15NUtzUUhSVy1SMjVyYTFfX0VLaTdtenMwVGVpUjg2?oc=5",
-     "utdrag": ""
     },
     {
      "tid": "2026-11-18T09:13:00Z",
@@ -3191,7 +3176,7 @@
    "namn": "Rocket Lab",
    "antal": {
     "yahoo": 12,
-    "google-en": 86
+    "google-en": 87
    },
    "fel": {},
    "nyheter": [
@@ -3373,19 +3358,10 @@
    "namn": "Sezzle",
    "antal": {
     "yahoo": 5,
-    "google-en": 16
+    "google-en": 15
    },
    "fel": {},
    "nyheter": [
-    {
-     "tid": "2026-11-18T11:19:23Z",
-     "titel": "Sezzle Inc. (SEZL) stock price, news, quote and history",
-     "kalla": "Yahoo Finance Australia",
-     "lank": "https://au.finance.yahoo.com/quote/SEZL/latest-news/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByNnNvM1RpZ2N1cjZEM29pYTZSZTl0MXI2V0FiLTlEUV9Xd3M1bTc3TjB2UVNfZWl6TzJ6SDdXaEtPQVprVkhlRVVlZEVhSm9KeTZUbUlUR2twdTJlZFYxaWVB?oc=5",
-     "utdrag": "Find the latest Sezzle Inc. (SEZL) stock quote, history, news and other vital information to help you with your stock trading and investing. This price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 p.m. to 4 a.m. ET, Sunday through Thursday, when regular markets are closed."
-    },
     {
      "tid": "2026-11-18T11:09:53Z",
      "titel": "Sezzle (SEZL) Posts Record Q3 And Sets FY2027 Targets As Sezzle Up Grows",
@@ -3532,10 +3508,19 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 14,
-    "google-en": 3
+    "google-en": 4
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-17T18:54:23Z",
+     "titel": "Volvo Car AB (publ.) (VOLCAR-B.ST) stock price, news, quote and history",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/VOLCAR-B.ST/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QSVlDbGJTUmNRVWVWVzFtcVBCMmxseEtGM2N4U25KU1JfUkZvZnZzUkpBeUEzbDVpNW16TG1wSml6UEltWDMzemJydWJqQmZFUTVIY3VHMVFyc2c?oc=5",
+     "utdrag": "Find the latest Volvo Car AB (publ.) (VOLCAR-B.ST) stock quote, history, news and other vital information to help you with your stock trading and investing. Volvo Car AB (publ.) designs, develops, manufactures, markets, and sells cars in Sweden and internationally. The company offers battery electric vehicles; non-battery electric vehicles, such as plug-in hybrid, mild hybrid, and internal combustion engine cars; and electrified cars, as well as SUV, estate, and saloon cars. It also provides vehicle parts and accessories, as well as provides maintenance contracts, extended warranties, connectivity, and in-car software services."
+    },
     {
      "tid": "2026-11-17T18:32:05Z",
      "titel": "Microsoft launches AI transparency initiative with Accenture, Adobe, KPMG, Mastercard, and Volvo Cars",
@@ -3677,7 +3662,7 @@
    "namn": "Arista Networks",
    "antal": {
     "yahoo": 9,
-    "google-en": 46
+    "google-en": 47
    },
    "fel": {},
    "nyheter": [
@@ -3923,6 +3908,15 @@
      "utdrag": "$927.2M traded in $SanDisk (SNDK.US)$ options, split $213.1M calls / $714.1M puts (77% puts). Off-exchange volume Nov 17 was 1.3x the usual, trend fading over 5 sessions. Reference levels: last $797.24, 20-day average $1,067.84, 50-day average $1,404.00, 20-day range $797.24 – $1,404.77. Source: GTA Terminal from Global Traders Academy (globaltradersacademy.com)"
     },
     {
+     "tid": "2026-11-18T12:14:27Z",
+     "titel": "SanDisk Leads Technology Stocks With a $3.10 Q3 EPS Surprise",
+     "kalla": "www.tokenpost.com",
+     "lank": "https://www.tokenpost.com/news/business/60379",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yeXI4T0tfV3NHMUtXN3Mtd1hzWnBPN1daXzNPWDc1VVFCU0N3Vng2ZVExU3M0NWo1U244RTlOTjIyUWFUUzZFaE10eHNKMW5oa0VoLWNRdFE?oc=5",
+     "utdrag": "Salesforce ranked second at $2.63, followed by American Bitcoin at $2.34, in a technology-company ranking published Nov. 18. SanDisk led a Nov. 18 ranking of technology stocks with a third-quarter earnings-per-share surprise of $3.10, the largest gap between results and Wall Street estimates among the companies screened. Salesforce followed at $2.63, while American Bitcoin ranked third at $2.34. An earnings-per-share surprise measures the difference between reported per-share earnings and analyst estimates. A positive figure means results exceeded expectations."
+    },
+    {
      "tid": "2026-11-18T12:04:46Z",
      "titel": "SanDisk leads tech stocks with biggest Q3 earnings surprise (VGT:NYSEARCA)",
      "kalla": "Seeking Alpha",
@@ -4078,14 +4072,6 @@
      "lank": "https://www.fool.com/investing/2026/11/17/why-sandisk-stock-keeps-on-going-down/?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Nvidia's CEO scandal keeps dragging on, weighing on AI chip sales forecasts, and damaging Sandisk stock. For Nvidia (NVDA -0.44%) investors, the bad news is a little less bad on Tuesday. Ever since Nvidia's CEO resigned, the stock has been sliding. Shares of the GPU AI chips giant are now down about 25% for the month of November. (The good news is that as of 1:10 p.m. ET, Nvidia stock is down only about 1.5% more today.) For Sandisk (SNDK -1.47%) investors, the news is quite a bit worse. Not only is Sandisk stock down 32% in November. It's also down more than Nvidia stock today -- 2.7%."
-    },
-    {
-     "tid": "2026-11-17T18:03:27Z",
-     "titel": "Sandisk Stocks Fall 5.43% as Druckenmiller Exit Surfaces Before 8-for-1 Split",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-fall-5-43-180327218.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Duquesne sold its entire 34,900-share stake before September 30, and Sandisk's split takes effect after Thursday's close. Sandisk (NASDAQ:SNDK) shares fell 5.43% to $765.19 at 10:45 a.m. ET in regular trading on November 17, after Stanley Druckenmiller (Trades, Portfolio)'s Duquesne Family Office disclosed that it had sold its entire Sandisk position. Duquesne held 34,900 shares worth about $79.4 million at June 30 and none at September 30. Is SNDK fairly valued? Test your thesis with our free DCF calculator. Duquesne moved within storage rather than out of it, nearly tripling its Seagate stake to 341,790 shares and opening an 80,960-share Western Digital position."
     }
    ]
   },
@@ -4287,10 +4273,27 @@
    "namn": "Berkshire Hathaway",
    "antal": {
     "yahoo": 15,
-    "google-en": 89
+    "google-en": 90
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-18T13:02:11Z",
+     "titel": "A 70-Year-Old Who Bought 1,000 Berkshire Shares at the May 2025 Peak Waited 17 Months to Break Even",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/18/a-70-year-old-who-bought-1000-berkshire-shares-at-the-may-2025-peak-waited-17-months-to-break-even/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "A sample 70-year-old who bought Berkshire Hathaway at the top in May 2025 is finally ahead. That creates a 2026 tax decision. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. A sample 70-year-old who bought Berkshire Hathaway (NYSE:BRK-B | BRK-B Price Prediction) at the top in May 2025 is finally ahead. That creates a 2026 tax decision that a few hundred dollars of planning can change. One partner in a married couple filing jointly bought 1,000 shares of Berkshire Class B in a taxable account at the $539.80 close on May 2, 2025. At the $583.34 close on Nov."
+    },
+    {
+     "tid": "2026-11-18T12:30:00Z",
+     "titel": "Warren Buffett Portfolio: Berkshire Hathaway's Q3 2026 13F Holdings",
+     "kalla": "Gotrade",
+     "lank": "https://www.heygotrade.com/en/news/warren-buffett-portfolio/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FZzFqejI3bTRxdEtCNjJfdVUtQ2x1MnFIc0JtTWpva3k4dDEzU2tsMnFBUXNMQ281VGp3bmRvUzNtT3otZkd6TjJxZGlLWnJHNEJMU2FadlpmREZfNUlJRFoyckdHcldueXlVbw?oc=5",
+     "utdrag": "Every stock in Berkshire Hathaway's latest 13F: 30 positions worth $304.2B on 30 September 2026, and what changed from Q2 2026. Updated each quarter. Berkshire Hathaway reported 30 US stock positions worth $304.2B on 30 September 2026, in its 13F filed with the SEC on 16 November 2026. Apple, American Express, Alphabet, Coca-Cola and Bank of America make up about 72% of it. Greg Abel has run Berkshire as CEO since 1 January 2026, and Warren Buffett is its chairman. What a 13F shows. The US-listed stocks Berkshire held on the last day of the quarter, valued at that day's price, filed up to 45 days later."
+    },
     {
      "tid": "2026-11-18T11:06:00Z",
      "titel": "Berkshire Without Buffett Hits Record High in AI Selloff — $377.4 Billion in Cash Is the Secret",
@@ -4403,12 +4406,12 @@
      "utdrag": "The rest of his shares are set to leave his hands by 2034. Does this matter for the stock? Warren Buffett gave away another big part of his wealth on Monday, Nov. 16. The chairman emeritus of Berkshire Hathaway (BRKA -1.02%)(BRKB -1.03%) converted 6,150 Class A shares into 9,225,000 Class B shares and donated them to four family foundations. At Monday's closing price, the gift was worth around $5.5 billion. This gift is over three times the 2.7 million Class B shares he gave the same four foundations last Thanksgiving. Buffett also paired it with a short note to shareholders. \"You heard plenty from me in September about my confidence in Berkshire."
     },
     {
-     "tid": "2026-11-18T00:52:51Z",
-     "titel": "Form 4 BERKSHIRE HATHAWAY INC: Warren E. Buffett (Director, 10% Owner) For: 16 November",
-     "kalla": "Investing.com Canada",
-     "lank": "https://ca.investing.com/news/stock-market-news/form-4-berkshire-hathaway-inc-warren-e-buffett-director-10-owner-for-16-november-93CH-4965440",
+     "tid": "2026-11-18T00:57:52Z",
+     "titel": "Form 4 BERKSHIRE HATHAWAY INC: Warren E. Buffett (Director, 10% Owner) For: 16 November By Investing.com",
+     "kalla": "Investing.com India",
+     "lank": "https://in.investing.com/news/stock-market-news/form-4-berkshire-hathaway-inc-warren-e-buffett-director-10-owner-for-16-november-93CH-5711162",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWV9VZ3NMdWt1VTNONVlsSWN1V2xPTTdEUXNmSXdCVGR5b2ZlM19QWW92TWFtY1FrcThGY3BoVTJLYzl1a044ZnU0V040YmRSWUxXZ2prVmxpY2JUTGdiS3E5WHZzaFRTVDZYeUozQ3dYR0V5RzJNSXU5c3FuQ1Q1YXBkaHNXSFMzSWZlcHlUaGp5N2FPbWVWd2FILTl0RVZ0bHVUTTU0UGdnSkNRa1E3UzllNTIwZXRjWWtuVTZOS18tbWc5Rk5Qem9lU1RETHFzbG5MZURGWnk?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbTVtWTJxNVRDYms1aVU1emlxZkpUU3czZTl4YjRuSlBCbVJwbFdwRXhiQ3ZqS3FVT21fMVh3Z2l5N3FRanlPTE1wVWtZY2liX0IwSXljRUZZNE9vTmxabERJSHlsV2lVeTgwaXlTSWw4cE1pbDdCSkZmQjR6VTNiSkxfUXAtdjBaTF93cjI3UW5PMDZZS2lsRU1POXM3OVZTM1pzYVdOWUtydUdYc1pyRnlfWmd3OFQ0bl90SFhRbDVObGJPOE0wVXVhN21PWS1MRHFkaTV2bDI?oc=5",
      "utdrag": ""
     },
     {
@@ -4445,23 +4448,6 @@
      "lank": "https://finance.yahoo.com/m/481d5163-b671-396e-a2dc-5c0e57fb9c0b/berkshire-hathaway-slashes.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Berkshire Hathaway detailed Q3 buys and sells in a 13F filing late Monday. SpaceX stock popped."
-    },
-    {
-     "tid": "2026-11-17T20:41:00Z",
-     "titel": "What Companies Does Berkshire Hathaway Own?",
-     "kalla": "The Motley Fool",
-     "lank": "https://www.fool.com/investing/how-to-invest/stocks/what-does-berkshire-hathaway-own/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWxwelRvY2M3clNyVUJuYjBfeW96cnJfMjQwVUE4RmhxYWFzbmE4dG9FZ3ROMlR1bVpWWFd0MTZkTGZ3dEh4WFJIdGMxS043QUVfNE9rZVJJUVJxaXBLMXZETEtfZEIwSzFJLXBSdnZkcl9xRTBKSFJtWm1WenlGSUNqLU4tUlBjaTZEWURR?oc=5",
-     "utdrag": "Find out what stocks Warren Buffett's Berkshire Hathaway owns and what the Oracle of Omaha looks for in a company. What does Berkshire Hathaway (BRK.A -1.02%)(BRK.B -1.03%) own? Shares in a surprisingly small number of companies, as it turns out. Warren Buffett's Nebraska-based holding company has about $360 billion invested in only three dozen publicly traded companies. If you're deciding whether Berkshire Hathaway is worth owning, the breakdown below shows where Berkshire’s money is concentrated, what it’s been trimming lately, and which positions matter most. Berkshire Hathaway is known for its outstanding return on investments."
-    },
-    {
-     "tid": "2026-11-17T20:25:33Z",
-     "titel": "Berkshire’s Only New Stock Owns AOL and Evernote. Is Greg Abel Rewriting Buffett’s Playbook?",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.tikr.com/blog/berkshires-only-new-stock-owns-aol-and-evernote-is-greg-abel-rewriting-buffetts-playbook?ref=yahoofinance&tlnk=yf-261117-px6whgpq&.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Mostly the same old Berkshire. Mostly. Berkshire Hathaway (BRK-B) added exactly one new stock in the third quarter, and it’s about the least Berkshire-looking company you could pick: Bending Spoons (BSP), the owner of AOL, Evernote and Vimeo. Berkshire’s 13F for the quarter ended Sept. 30, filed Nov. 16, also shows it cut its Capital One (COF) stake by 62% and its Bank of America (BAC) stake by 6%, while nearly doubling its stake in Lennar (LEN). One investor in r/investing asked the obvious question: “Is an app roll-up a Berkshire business, or is the portfolio changing under Greg Abel?” I’d say Berkshire still looks a lot like Berkshire. The one new name deserves a closer look, though."
     }
    ]
   },
@@ -4470,7 +4456,7 @@
    "antal": {
     "yahoo": 2,
     "google-sv": 0,
-    "google-en": 16
+    "google-en": 15
    },
    "fel": {},
    "nyheter": [
@@ -4509,15 +4495,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xZ3NtZS11U0xTT1g0Njg4R2F0MHMyRVdFRlpNMXpkN1JvM0lpVS1IdkRDR0RhRjF3Tm8tc3MwUlVlcVBrRmdDdnVpNDh5T2I5bk9ZOQ?oc=5",
      "utdrag": "Find the latest ABB Ltd (ABB.ST) stock quote, history, news and other vital information to help you with your stock trading and investing. ABB Ltd provides electrification, motion, and automation solutions and products for customers in utilities, industry and transport, and infrastructure in Europe, the Americas, Asia, the Middle East, and Africa. The company operates through Electrification, Motion, and Automation segments."
-    },
-    {
-     "tid": "2026-11-17T14:46:09Z",
-     "titel": "ABB Ltd (ABB.NE) Stock Price, News, Quote & History",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://ca.finance.yahoo.com/quote/ABB.NE/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XYzF6SmlodzZLdnEySGZJNVJJQTE4UVlTZG1xZElyeW9neWJGRWwxMVRWTHVYSHVHdk5CcXZmNnEteFJ5Q3lUbGFBb0NyUlkwVC1UYw?oc=5",
-     "utdrag": "Find the latest ABB Ltd (ABB.NE) stock quote, history, news and other vital information to help you with your stock trading and investing. ABB Ltd provides electrification, motion, and automation solutions and products for customers in utilities, industry and transport, and infrastructure in Europe, the Americas, Asia, the Middle East, and Africa. The company operates through Electrification, Motion, and Automation segments."
     },
     {
      "tid": "2026-11-17T14:38:47Z",
@@ -4613,7 +4590,7 @@
    "namn": "Visa",
    "antal": {
     "yahoo": 10,
-    "google-en": 25
+    "google-en": 26
    },
    "fel": {},
    "nyheter": [
@@ -4629,11 +4606,10 @@
     {
      "tid": "2026-11-18T11:48:40Z",
      "titel": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
-     "kalla": "Benzinga",
-     "lank": "https://www.benzinga.com/markets/large-cap/26/11/63379063/visa-targets-secure-ai-agent-payments-through-expanded-industry-partnership",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaWN3b1pGWWRLTmVVRHBzMHJRTHdRYzRmRnRTaDNNbXlGS2Y3dmYwNlE2SVlhc0IwNFBQVGJWSzFPZ3JMbFJRb3dXcEc2dVNRSk5aLTkzM19SOC01LWI2SHhnT2ZSM0hxcGxiVU5ZTTBJWWJhOWJKU2Z0U1FwMmt6V3BCOFhadGpnREZEQzlEcXhWYkdQMmdocUVuYzZFN1pneFR2MUVFMi15OVhIRGJHSmhrZVhoRTVtVUVfNHgtUVZCT2dGMlpYS2xGOE1sUQ?oc=5",
-     "utdrag": ""
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/technology/ai/articles/visa-targets-secure-ai-agent-114840038.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Visa Inc. (NYSE:V) announced on Tuesday that it expanded its Agentic Ready program to include merchants, payment service providers (PSPs), acquirers and commerce platforms, helping them prepare for transactions initiated by AI agents. The initiative, part of Visa Intelligent Commerce, launched with more than 140 participants, including Adyen, Antom, Billtrust, Checkout.com, Fiserv, Global Payments, PayPal and Stripe. These participants join more than 175 issuers already enrolled in the program across 45 markets. Additional financial institutions, merchants and technology partners are expected to join throughout 2027."
     },
     {
      "tid": "2026-11-18T11:37:49Z",
@@ -4753,14 +4729,6 @@
      "utdrag": "Stores could soon get more say at the checkout. Visa (NYSE:V) and Mastercard (NYSE:MA) asked a federal judge Monday to approve a settlement that could end a 21-year dispute over credit card swipe fees and change which cards stores accept. Economists hired by the plaintiffs estimate the changes could save merchants $38 billion by 2031. U.S. District Judge Brian Cogan, who granted preliminary approval in June, did not rule at Monday's hearing. Is V fairly valued? Test your thesis with our free DCF calculator. The proposal covers more than 12 million merchants."
     },
     {
-     "tid": "2026-11-17T17:11:28Z",
-     "titel": "Learn Why The Bull Case For Visa (V) Could Change Following Asia Pacific QR Payments Launch",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-visa-171128732.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Recent Visa news spans new AI-driven shopping benchmarks, QR-based Visa Scan to Pay with Samsung Wallet in Asia Pacific, expanded fraud defenses, a higher dividend, and fresh partnerships in expense management, online gaming, and authentication through Visa Payment Passkey. The mix of agentic commerce testing, AI-focused security tools, and QR and gaming tie ups shows Visa pushing deeper into how transactions are initiated, authenticated, and processed across both consumer and business channels. We will look at how Visa's investment narrative around payments scale intersects with Visa Scan to Pay's role in future transaction flows."
-    },
-    {
      "tid": "2026-11-17T16:39:00Z",
      "titel": "What Makes Visa (NYSE:V) A Leader In The Digital Payments Boom?",
      "kalla": "Kalkine Media",
@@ -4786,6 +4754,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb2FGX3NjclZZbHp2UnFJX1lNOTN5SUo3WFItOEZQX3d5VEstMjZjTndIcGs4Q2lDNXVXTlFidEx3UWpDZzNCYm4ydU54dmtnYWxYVkU3dGVLOFlYRmpiZmdrLW05OFd3dTRpOGxTam9BY05TZjBzOUxvUkd2ZENvRlF6dGxXMkhLQkdLbk4zdDlDUVIyYkxtQm9yXzRHRm56QTRDUFZHX3dnd2VaZ01udkd4dWNFR3pk?oc=5",
      "utdrag": ""
+    },
+    {
+     "tid": "2026-11-17T06:03:54Z",
+     "titel": "Visa, Mastercard seek to end 21-year merchant dispute with $38B deal - report (V:NYSE)",
+     "kalla": "Seeking Alpha",
+     "lank": "https://seekingalpha.com/news/4673436-visa-mastercard-seek-to-end-21-year-merchant-dispute-with-38b-deal---report",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUDNrMmNkZzVNWkN4VUhDb0xqcldubkVLZk9QWTJFNVhmZC1lYkxHdHZYUk9JNTQzbmllYURsYThQcHQ2dko5UUV1UEpFeDZvc3pFNzVwUzhMTFA0dlZVSTE4MVFQNUFDTFBwVTY1dzl2TVpqTXVfNFhxZXJfYVZ3azJNNDdWTmJCSUtJZ2ZsRmdrSndKVEtpekw5Y1dXazRFQmhLcmJCMnM5cEZQTWNCbUR3SQ?oc=5",
+     "utdrag": "Visa and Mastercard seek approval of a proposed $38B swipe-fee settlement for 12M+ merchants, cutting fees by 0.1 percentage point over five years. Visa (V) and Mastercard (MA) urged a U.S. federal judge to approve their proposed $38B settlement with merchants over credit card swipe fees, as the agreement faces more than 1,000 objections from businesses, including Walmart ("
     }
    ]
   },
