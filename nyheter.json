@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-19T12:52:03Z",
+ "hamtad": "2026-11-19T13:55:55Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -7,7 +7,7 @@
    "namn": "AbbVie",
    "antal": {
     "yahoo": 3,
-    "google-en": 42
+    "google-en": 40
    },
    "fel": {},
    "nyheter": [
@@ -102,6 +102,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-19T07:15:53Z",
+     "titel": "AbbVie Signs $2.5B Bispecific Cancer Therapy Deal with Disco Pharma",
+     "kalla": "Global Banking & Finance Review",
+     "lank": "https://www.globalbankingandfinance.com/abbvie-expands-bispecific-cancer-med-push-up-2-5-billion/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMingFBVV95cUxORjFLRktOWWpkZ0ZSZmU1dkJWYk0zRmU0Vk9ZMHRVNWJodHVqbjRoTjVLRy1aU2Rpa3JwLWpPdk5EU25XUks4VUZRd2FlRGNhbmt5Ti1Nd05VbUpiNFg3ZDd0M0tZOXp1TXBWMmRremt6eEJuU1IycWF0NDh3b2dUOXNwaDBJRDJJOV91NGVMTzZPS1dpZDBzemdBU3REdw?oc=5",
+     "utdrag": "AbbVie partners with Disco Pharmaceuticals in a $2.5B deal to develop AND-gated bispecific cancer therapies, advancing solid tumor treatments. Nov 19 (Reuters) - AbbVie agreed to pay up to $2.54 billion to develop cancer treatments with Disco Pharmaceuticals, the Germany-based private biotech said on Thursday, marking an early-stage push by the drugmaker on next-generation bispecific therapies. Bispecific antibodies, a class of cancer medicines that bind two targets at once, have drawn increased interest from big drugmakers including Bristol Myers Squibb, Pfizer and Merck."
+    },
+    {
      "tid": "2026-11-19T07:11:48Z",
      "titel": "AbbVie grooves with DISCO’s solid tumor tech in up to $2.5B licensing deal",
      "kalla": "BioSpace",
@@ -176,19 +185,10 @@
      "tid": "2026-11-18T21:31:00Z",
      "titel": "AbbVie Inc. stock underperforms Wednesday when compared to competitors",
      "kalla": "MarketWatch",
-     "lank": "https://www.marketwatch.com/data-news/abbvie-inc-stock-underperforms-wednesday-when-compared-to-competitors-79033ee8-20a8a5a71eea",
+     "lank": "https://www.marketwatch.com/data-news/abbvie-inc-stock-underperforms-wednesday-when-compared-to-competitors-79033ee8-20a8a5a71eea?mod=goog_fin_scmw",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMUZqOVByZl9sT29lcEJTQmhvSlRzcGV1Q2dfQ21zaUlsVURLampUUnBOLUZZeTVXTGI4ZU9PRWtCcVF2cjQxS2N6dUJFQl90cW0yWTAzQzM3dEpFZkxnTFFnaHh1QTFJRGJqT0MzQk5kR3N6cWp1LUhIZXBEckZaa19jODZ0WTZEMUpSa3Jza3V0Mk5fT0xFbDdBYThDaGZJZjZRdmtKR3NSN2ZpdmZicHN4TWVpX2poaGtVLS1SLUpOaVNRVGFhcg?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUEI0SmxwSzFkSzFwRmFvbThxUkNJNFJsMTZsV3E4cHZvbEswXzJWMXZUZmVFVG1GR1NlYnE1a3B0QmMwTDlxZUd5YXdNbHl2VV9DWkdjZTI5bGpBcWpMRVYyQlZ0ZTYzMnAyenNoekNFNlY4bTNMNFNWQkFWUXhpM2g5Z25fTU9pYXF5Y3haeUQtM2twM1dOZGJVWW9FcE9XOFZGS2VVSEJyLWJCaXdMUXA0b3F2eHBQNm1WLUptazRCaElmajRuMWlWUEhqWFBZOGFmckRJVkNfQl9RZDRuMw?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T15:09:01Z",
-     "titel": "AbbVie stock: Piper Sandler raises price target to USD 349",
-     "kalla": "ad-hoc-news.de",
-     "lank": "https://www.ad-hoc-news.de/boerse/news/corporate-news/abbvie-stock-piper-sandler-raises-price-target-to-usd-349/70531433",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcEFJY3R1WWRtUS1hTnV5MWhKRWl3SnBTU3lFUGdHejVLdTdNSUYwQlJHeUlZT2ZCU2pmcENxNl9aUkJnTC1jTUZ5bzNsWDIwN1M0RG9VNjZvSFNpTFV2VWlGdlBkRllZbnNYVGJnTlZlRG13UjIwV1A3d3ZMaENydWFPVllxTmRDRWUza2llYTdVejV5ZmNZeWlrcEhNbHJvUDc5c2Nuc0VSRUI2bEY1eWtSVXhRUFlqZ3hZYg?oc=5",
-     "utdrag": "Piper Sandler lifted its AbbVie stock target after the third-quarter update and kept an Overweight r Piper Sandler raised its price target for AbbVie from USD 303 to USD 349 on Tuesday, November 17, while maintaining an Overweight rating, according to Investing.com. The analyst action followed AbbVie's third-quarter update and adds a new sell-side view after several firms raised their assessments. Piper Sandler pointed to AbbVie's top-line and EBITDA growth profile through the end of the decade. The firm also cited greater visibility for Skyrizi-containing combination products in inflammatory bowel disease and the longer-term franchise potential of the immunology portfolio."
     }
    ]
   },
@@ -196,16 +196,27 @@
    "namn": "AppLovin",
    "antal": {
     "yahoo": 7,
-    "google-en": 62
+    "google-en": 63
    },
    "fel": {},
    "nyheter": [
     {
+     "tid": "2026-11-19T13:10:00Z",
+     "titel": "AppLovin (APP) Stock Price Prediction: Strong earnings, but the tape is now testing whether the breakout can hold",
+     "kalla": "blockchain.news",
+     "lank": "https://blockchain.news/news/20261119-price-prediction-app-strong-earnings-but-the-tape-is",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTVieVliMk5GaTRXSURiLVMzMFp2UVhnaFlTSloyR1VRZlpzWS1sVlVZT0dHdUJiTEFBbmFUbGpUc01KZTJPNnhtTjZ1ZGk4aTFLMm0xeHJVclpTYWVTaUVHWll5c05XUXRJZFdpcm9jZU1NTzVNQXJzT0s5OXlfNjAzNy01X0NaMkdkYjRIeFdXREZO?oc=5",
+     "utdrag": "AppLovin (APP) is trading near $397.56 after a sharp post-earnings rerating, with the latest move coming against a backdrop of stronger-than-expected... AppLovin (APP) has already done the heavy lifting: the stock surged after the company’s third-quarter print on November 5, when revenue rose 55% year over year to $2.18 billion, adjusted earnings reached $4.30 per share, and fourth-quarter revenue guidance came in above Wall Street’s forecast. That report is still the core fundamental driver behind the current setup. The market then had to digest a fast rerating, with APP closing at $390.91 on November 18 and last trading at $397.56 on the supplied market snapshot."
+    },
+    {
      "tid": "2026-11-19T11:27:15Z",
      "titel": "AppLovin (NasdaqGS:APP) Stock Forecast & Analyst Predictions",
      "kalla": "Simply Wall St",
-     "lank": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qTVl4Y3VBb2FESUhscDlCdjFZN2tmcTZBRlVGTEJtMGpMOUhyY2RmbzVBeGg3NEN0X2txUmY4dURHN2hpY1hKQ005ZEJ6TWZNemhhMERodmJ6TUZmQ1RfTWxhQXpKV1hJd2Zuck9VQjl0UQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://simplywall.st/stocks/us/media/nasdaq-app/applovin/future",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qTVl4Y3VBb2FESUhscDlCdjFZN2tmcTZBRlVGTEJtMGpMOUhyY2RmbzVBeGg3NEN0X2txUmY4dURHN2hpY1hKQ005ZEJ6TWZNemhhMERodmJ6TUZmQ1RfTWxhQXpKV1hJd2Zuck9VQjl0UQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-19T11:06:26Z",
@@ -366,26 +377,124 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcVNjbkpEVnA4V3h1cmJmQmt3N1E4YS1ZNmdPbTI5Y0ltcEJOQlNwaU40aXI5Uks3UFhodDJ5eGVvSU03aFF4cEstUndfMkRUT0NfN1QwbWNyaWUzODJBS3ZkZFNtNjhLanNhTWJya3lnSXNITFV0SFVGZ2l1djFXU19TYm40MC1FOUYwZVlBZl9zR2VQUjB3NV94OXRaeHhONFcwUkFB?oc=5",
      "utdrag": "AppLovin (APP) is trading at $402.07 after a 2.6% 24-hour decline, even after the stock’s post-earnings surge and a wave of higher analyst targets. The... AppLovin (APP) remains anchored by the market’s reaction to its recent quarterly update. On Nov. 5, the stock surged 31.04% to $356.10 after better-than-expected quarterly results and a strong outlook, while Nov. 16 brought another bullish read-through when Jefferies lifted its price target to $500 from $430 and kept a Buy rating. Jefferies said fourth-quarter revenue guidance looked conservative versus prior holiday quarters and pointed to valuation support relative to its 2028 EBITDA estimate."
-    },
-    {
-     "tid": "2026-11-18T12:17:59Z",
-     "titel": "AppLovin stock in talks to acquire Criteo, Reuters reports",
-     "kalla": "ad-hoc-news.de",
-     "lank": "https://www.ad-hoc-news.de/boerse/news/corporate-news/applovin-stock-in-talks-to-acquire-criteo-reuters-reports/70530860",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzVOUW91VW9XbGJyQUZFTUhJOEstSGhMUjhwS2dndDA4TERXYjFuQVdfc1NPOVFsQnNqUkl6THNJRENNaDZOaHlsdEJPcnp1WnRhNUJLVkZQSEdkSWt6OVdWVlJReE1qNzVnTWItcFlyRzNMM3pTRXVPbDZOSlBzVThFVG52NFY0dmhtZ3dPMGlZZDVKOHlCNVJYVmdPcEE3RnFfMXdINVRyamlHMVlhUW9mY0lKVE16eEd2VQ?oc=5",
-     "utdrag": "AppLovin stock is in focus after Reuters reported acquisition talks involving ad-tech peer Criteo. N On November 17, Reuters reported that AppLovin is among the companies in talks to acquire Paris-based ad-tech peer Criteo. The report, citing two people familiar with the matter, said Criteo is evaluating strategic alternatives that could include a sale. AppLovin, Vista Equity Partners and Quinti Capital are among the prospective buyers mentioned in the report. Criteo engaged an investment bank after an approach led by Vista, according to the sources cited by Reuters. The report did not specify a potential purchase price or other terms for AppLovin's discussions."
     }
    ]
   },
   "broadcom": {
    "namn": "Broadcom",
    "antal": {
-    "yahoo": 6,
+    "yahoo": 4,
     "google-en": 95
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:51:10Z",
+     "titel": "Broadcom Inc. $AVGO Stock Purchased by Proem Advisors LLC",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-purchased-by-proem-advisors-llc-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORU5nOW9EbHU4MmVHUXV2ZGFfa0UtVlRyTFNiQ2dUemd6VlVEX2E1RXppYWtZSmZmaDR1YjdKS3pkc2dEaGlGTnJuZnVMUUs2cklPNl9tRS1vQWdMZWtOVzVBQXd3X3BIbmtzdk5QbzZxUi1fQkZfYTQweVBWQnZJNWVmTkV4aEt1S2M5LUR6R1VRTlRYamxHS3VXWHY1X19ET29WQlNQdVpyU19SVGJpQWZvemJ1ZkU?oc=5",
+     "utdrag": "Proem Advisors LLC boosted its position in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 153.3% in the third quarter, according to the company in its most recent Form 13F filing with the Securities & Exchange Commission. The firm owned 76,000 shares of the semiconductor manufacturer's stock after"
+    },
+    {
+     "tid": "2026-11-19T13:41:20Z",
+     "titel": "Broadcom Inc. $AVGO Stock: Ieq Capital LLC Cuts Position",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-ieq-capital-llc-cuts-position-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkxoaE5keldCcFB5RjJNOVNqMkp0dDJMMVlQSkJUMFpSUGlhS1YtemduRUtvN05sNGZpMDh1a181bS1EMFVUeWp6eEZXLXpDMGIyREdHNldvX0tIWHBOdWxSNGpwQ0QxeTR1aEFJY0lDeGFwMnBRUjZMU3psMlctdUl2Y2JwY2ItajY2NFYxel9Zc3JjNzd6cU1mZVFuYV9jenhSOTlSMzdUcFVuQzdZbHNSR3U?oc=5",
+     "utdrag": "Ieq Capital LLC lowered its stake in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 5.1% during the third quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 726,212 shares of the semiconductor manufacturer's stock after"
+    },
+    {
+     "tid": "2026-11-19T13:41:03Z",
+     "titel": "Broadcom Inc. $AVGO Shares Acquired by Meeder Asset Management Inc.",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-shares-acquired-by-meeder-asset-management-inc-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdGdTN0tTT0tJYkR1ZzRVbWNZWVNpSzV0YnFiZXRrMnZlUjk2SDJUR2ZVQVJTM2dmZW1hLXFjb0VwV1dSUXZZMlVtN2dSbkktdUlEQXdnQjlDcGZhbm1LWmp6LXdwRnR3MDh3RnpmMXp2ZjJ6VE13U0VzbXhVR1J1cGtKbVNCRUNRWGlCbDdJU1B3OEFzMjZFXzZnNlpRaTUtZHlkMzBTLWtqOGFzb1ZBbjlvaXQwODdmY0RVS1VReERSVlU?oc=5",
+     "utdrag": "Meeder Asset Management Inc. boosted its position in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 22.7% during the 3rd quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 150,596 shares of the semiconductor manufacturer"
+    },
+    {
+     "tid": "2026-11-19T13:40:57Z",
+     "titel": "Broadcom Inc. $AVGO Position Lifted by Prasad Wealth Partners LLC",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-position-lifted-by-prasad-wealth-partners-llc-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQejFaNGU0WXZIaFkwaTVoOEdPM0VrMGVhM2xtclE3SGh4eFFqZXQ5T1VCanFXU29kZHRWYUpaNTBIMmNQUWI2RlM5LUl5cENhOFlQaVJNaFB3UmtlNWtyMWdieHl0ZC1VQUhkekhuMWd3Q2hPSWFPUXQwQm95djF2enhVSXF4MklLQks3YVU0SzJYUW1IT1hfYkFNWlFCSVNWQndRaEV2REhteTN1NVhHNGJtSVNfSUcwZlFRREJNMVF1dw?oc=5",
+     "utdrag": "Prasad Wealth Partners LLC grew its position in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 491.9% during the 3rd quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The firm owned 9,079 shares of the semiconductor manufacturer's stock after"
+    },
+    {
+     "tid": "2026-11-19T13:40:51Z",
+     "titel": "Broadcom Inc. $AVGO Stock Sold by Voya Investment Management LLC",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-sold-by-voya-investment-management-llc-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORTNxVWNSdFRveXJpaEJtZ1kxMkV3LVR0RXFWZ2MxZ1VOMDFSVFV4NWJ1QWtGd1pKeEhsUkh1M2Y4RzVjb255TW80RDUxemZZUHlxNEdRNXZVa2tuOXVIZWdhaU5DNmdMTFZqcEVZYW9jdEY5c3JMaDA1ei00ZnhiTWxoOXpKTVpxQnJyUVBKQmU2UUF2emcwcENWWHo3N2lwby1TeVFPNXRlRy1IbUd2VE1WbDlqaG13WUl3bDdFVTk?oc=5",
+     "utdrag": "Voya Investment Management LLC lowered its holdings in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 9.4% during the 3rd quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The fund owned 7,119,758 shares of the semiconductor manufacturer's stock after"
+    },
+    {
+     "tid": "2026-11-19T13:38:46Z",
+     "titel": "Broadcom Inc. $AVGO Shares Sold by Independent Advisor Alliance",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-shares-sold-by-independent-advisor-alliance-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSGxnRmx1eS1hS25KamdxSURVS1ZRSWtibk9TM09OOXZha1VQYzdrck9YY1JXeTVQLWhwcWpzbkFBRk5abTQ5QTB0X0NfU3pHRE5Ucl9Sdm5JcUNOaGsyVU5uZ243cEJIU3E4a1Iyci14SHRsUzEwdXFQS09YdmJmSmRTYTVvOV82RUtjRHl6NlQzV2dMVXd2THNyVlFobVpxcHBPVE9mYXlBNlQxTms0Ti0xWDByVGRidkN4YnMtYw?oc=5",
+     "utdrag": "Independent Advisor Alliance trimmed its stake in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 7.0% during the third quarter, according to the company in its most recent Form 13F filing with the Securities & Exchange Commission. The fund owned 185,560 shares of the semiconductor manufacturer's s"
+    },
+    {
+     "tid": "2026-11-19T13:04:27Z",
+     "titel": "Broadcom, Nvidia, and Micron Could Be Setting Up for a Massive AI Rally Before Year End",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/19/broadcom-nvidia-and-micron-could-be-setting-up-for-a-massive-ai-rally-before-year-end/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Nvidia is down for the year while Micron just shed nearly a fifth of its value in a month, yet the numbers under the surface tell a different story. Here is why three AI giants may be mispriced heading into 2027. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. The AI trade cooled into the holidays, and that pullback may be the setup for a rally. NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) is down 16.45% year-to-date, even though revenue rose 103.2%[1] in its latest quarter. Broadcom (NASDAQ:AVGO) is 0.76% lower for the year."
+    },
+    {
+     "tid": "2026-11-19T13:02:57Z",
+     "titel": "29,628 Shares of Broadcom Inc. $AVGO Purchased by Stelac Advisory Services LLC",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-29628-shares-of-broadcom-inc-avgo-purchased-by-stelac-advisory-services-llc-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcUViMGdiMVpHcXVSYWVNcTZ1ZHJkSzJqMEJWeVdtTWFuekNfbThYRW9CMW5EOE0tSjNwYUFJT1JheU5CUWNpeGVWaHFtcUhfcG1yaGhtelBNdjZ1T3N4TmttRV9sWktpT1k4Ynhwbl9UT1hXM2NlWlNKMGRvUDNTcjJvekxaemRGdWQ1cVpXVlhlMGhjcmYyeXZSekVpRy1rbE5XTUtmYll1Q2Z1eXphNTV5Q094ZjRxdnkzTDVCaTQxWmt6blJXbHdVa01jSldIelE?oc=5",
+     "utdrag": "Stelac Advisory Services LLC purchased a new position in shares of Broadcom Inc. (NASDAQ:AVGO - Free Report) in the third quarter, according to its most recent filing with the Securities & Exchange Commission. The fund purchased 29,628 shares of the semiconductor manufacturer's stock, valued at"
+    },
+    {
+     "tid": "2026-11-19T13:02:56Z",
+     "titel": "Broadcom Inc. $AVGO Stock Holdings Decreased by Trustmark Bank Trust Department",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-holdings-decreased-by-trustmark-bank-trust-department-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUmI1SFFuYUtDMGRuREFVYWlGM0hXM0dsMDZxTFhQUmhPMTQxSVFLUWxIbUktSDRQN1lUWlduTUJPZG1KNFZBaEFJWmpScXRpdW9DbC1kMWFGQ09UODFqaXR6WktMSlpMZ2RVTWFNbUhLX2lsckhZNGpnS0xkRnVTZ0l0RWdTSFB3enJZbTYzSWcwQlZQclA3OVRXY2psOFZPRFhieG9qRGVUTXgyS0R3MUdDamxNVzV5TkE3SHktR2l4NnB0WjJ6Y1hOaDEwWXIteXNPZA?oc=5",
+     "utdrag": "Trustmark Bank Trust Department decreased its stake in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 5.2% during the 3rd quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The fund owned 33,621 shares of the semiconductor manufacturer's stock"
+    },
+    {
+     "tid": "2026-11-19T12:56:59Z",
+     "titel": "Broadcom Inc. $AVGO Shares Sold by Public Sector Pension Investment Board",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-shares-sold-by-public-sector-pension-investment-board-2026-11-19/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTXN1SFQxUXI4MlpKMHd1Q2hGbXdZSHd2MWdYS0FGLXFTX2hPMG5sS1JuWWgxd01JcFQzMlplblViRm5WXzdoU0hmYzB6RThRMU0yUjJiQWJSSkZvRkxqbGhoZEpoR1c3c0JzQzBqU0RfQVNibmY4TzJnbkluRXBkMHdWUmVVWXhFLWtVUEVlMG1PbC1BQjVEV1FyTmZQVGVvRjZ3Q3BnMjJnODUzbmprV3NQWmJkbEU1aWVVZHhhc3d2c0RZUjJ1MF8xYzA?oc=5",
+     "utdrag": "Public Sector Pension Investment Board trimmed its holdings in shares of Broadcom Inc. (NASDAQ:AVGO - Free Report) by 10.7% in the 3rd quarter, according to the company in its most recent disclosure with the Securities & Exchange Commission. The institutional investor owned 2,033,542 shares of t"
+    },
+    {
+     "tid": "2026-11-19T12:39:00Z",
+     "titel": "Which Name Is Best Positioned Among the Top 5 AI Chip and Infrastructure Stocks After Nvidia's Reversal: Applied Optoelectronics (NASDAQ:AAOI), CoreWeave (NASDAQ:CRWV), Nvidia (NASDAQ:NVDA), Broadcom (NASDAQ:AVGO) or AMD (NASDAQ:AM",
+     "kalla": "kalkine.ca",
+     "lank": "https://kalkine.ca/news/artificial-intelligence/which-name-is-best-positioned-among-the-top-5-ai-chip-and-infrastructure-stocks-after-nvidias-reversal-applied-optoelectronics-nasdaqaaoi-coreweave-nasdaqcrwv-nvidia-nasdaqnvda-broadcom-nasdaqavgo-or-amd-nasdaqamd",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPRUFoMlpNcFVlLXNudTh3dkExeGwxNVM5c2ZrdDdjZGhNQnM2Q3p4LWxzQjlocDNQcHp5a1ZiUjk3bWNZS0dON1JmVFdaNWk1aEV2RHhaWW9KNVFHTUJadFc2bFNHOF9wdHkwTThsYmJxaWZUZGliWm1uX0Q4Q3NkNUxWT2JEcW16MUo2WTE5UzZLWGcwdFdzQW1FZGFlTko1MksxTFFpb3NVNl9pQjZGU0V6VktqRFBYTEF0S3NOUDNUZmJlRGYwckdBS1NUOF9fZkJxY2hnMzhyVVNweGVTM3U3T2FWWUdWcUZrLXhCTm95QURXZ3dFYTZUSEo4b2lONEdxZ2xHVUxwOXFpOVk3Z01Qc0E0Nk9kTjRRaE5QYzdtYXpGckQtOVJQN2ZpSzRzNWlFcGU1bjBVVVBmTjhoUlpPVWRyVlB4WkVjWnl4eXdlRXk0anJ5eFFLX1BBYjRkaV9naWNadG1XRmxwMF92MjFwS0tqdXl5?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T12:37:00Z",
+     "titel": "Which Among the Top 5 AI Chip and Infrastructure Names Is Best Positioned After Nvidia's Late Reversal: Nvidia (NASDAQ:NVDA), AMD (NASDAQ:AMD), Broadcom (NASDAQ:AVGO), CoreWeave (NASDAQ:CRWV) or Applied Optoelectronics (NASDAQ:AAO",
+     "kalla": "Kalkine",
+     "lank": "https://kalkine.com.au/news/artificial-intelligence/which-among-the-top-5-ai-chip-and-infrastructure-names-is-best-positioned-after-nvidias-late-reversal-nvidia-nasdaqnvda-amd-nasdaqamd-broadcom-nasdaqavgo-coreweave-nasdaqcrwv-or-applied-optoelectronics-nasdaqaaoi",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQTjhRQUxrM2hMWjBCTDFkbGNoSjBkRGNfX2RTODB5U2JmVmFDUWJYMENzcjFPdkpET2tIbWlWQV9MYzcxbWIxREN0R2luSnJLbUlDbjFqd0MwbmJ1UVZIWW5DQWlBWTY0V1cwemNnM05CTERHSWVZMFQ2Wk9yUlA0RzQwZGFLUmwyVDhoUGREQTBJbTkwbktrd0hwYUhyY0xPblNSZi11RzZDMW54ekx2QVpjNkd5LU5FMHlsX1N6c2VZbDd0cFRaajFlRVZBa2VQTjZKSUhRY05qSExBUl9pbHVTWDM1TVlESmVQQ2s3clUzQVVwc0xoUTRrV29kRnVxcXoyTTdSSndKOTJybG9sMFIzdzRjdk4yS2pHMGljSllVNThEMDc0ZXZsUDNGenN2OGVqNkU0cWttSGpQb1lrR2dCNGE3ZUZIRXhHa2NlVmF4N1dUbzZTbVg0YTExX2JpUWFqYlkxR1Mtc3ZvZ1BqNzVPVmd2cTJoS0h6Ug?oc=5",
+     "utdrag": ""
+    },
     {
      "tid": "2026-11-19T12:29:46Z",
      "titel": "Broadcom Stock Forecast: AVGO Rallies as AI Revenue Guidance Beats Estimates",
@@ -420,14 +529,6 @@
      "utdrag": "The fund bought $298.8 million of stock and sold nothing, lifting 39 positions. IShares A.I. Innovation and Tech Active ETF (BAI) was the sole mover in Tuesday's session, buying $298.8 million of stock and selling none. BAI increased 39 positions and decreased none, with net buying matching gross ETF activity at $298.8 million against $11.75 billion in assets. Is BAI fairly valued? Test your thesis with our free DCF calculator. Its largest buys by dollar value were AMD ($25.1 million), AVGO ($24.5 million) and MU ($20.5 million). The largest buy was Advanced Micro Devices (AMD), where BAI added 49,860 shares worth $25.1 million, bringing the position to 7.25% of assets."
     },
     {
-     "tid": "2026-11-19T11:01:19Z",
-     "titel": "ETFs Bought $82.9 Million of Broadcom (AVGO) on Nov. 17",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-82-9-million-110119740.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Broadcom shares saw net ETF buying of $82.9 million on Tuesday. On Tuesday, 56 ETFs were buying Broadcom (AVGO) versus 21 selling, for net ETF buying of $82.9 million. ETF activity extended a five-day streak of net purchases, following net inflows of $456.4 million on Nov. 16, $120.6 million on Nov. 13, $32.5 million on Nov. 12 and $235.6 million on Nov. 11. The buying came as 191 ETFs held their positions unchanged. Is AVGO fairly valued? Test your thesis with our free DCF calculator. See which funds are buying and selling on GuruFocus ETF Trends, or find and compare funds with the ETF Screener. See all ETF and guru trades in AVGO on its AVGO guru trades page."
-    },
-    {
      "tid": "2026-11-19T10:59:10Z",
      "titel": "Broadcom Inc. $AVGO Stock: Focus Advisor Solutions LLC Increases Holdings",
      "kalla": "MarketBeat",
@@ -446,11 +547,12 @@
      "utdrag": "Everest Private Wealth raised its holdings in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 30.9% in the 3rd quarter, according to its most recent 13F filing with the Securities & Exchange Commission. The firm owned 17,106 shares of the semiconductor manufacturer's stock after buying an additiona"
     },
     {
-     "tid": "2026-11-19T07:25:53Z",
+     "tid": "2026-11-19T10:22:05Z",
      "titel": "Broadcom “Foolishly Guaranteed” Anthropic’s TPU Deals, Says Ed Zitron. Its IPO Could Prove Him Wrong",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.tikr.com/blog/broadcom-foolishly-guaranteed-anthropics-tpu-deals-says-ed-zitron-its-ipo-could-prove-him-wrong?ref=yahoofinance&tlnk=yf-261119-vxp44g3p&.tsrc=rss",
-     "fran": "yahoo",
+     "kalla": "TIKR.com",
+     "lank": "https://www.tikr.com/fr/blog/broadcom-foolishly-guaranteed-anthropics-tpu-deals-says-ed-zitron-its-ipo-could-prove-him-wrong?",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTZWLTRjVDdXMzJlZ0NXR0J3LVhHTVJQMDVPbzc2dzZCT2Y1WDJzRjk3WkRvMm1sNXJid056NGNMeGE2YV9Uc2JvN1Nlei1oYkZvODNpR3V4OEM0c3ZUNm1NUEVuNTVKX2tibmw2RTVFNzNDOWNWWlpCQ3FBUnYtdGVCbkJ1aUdRaU9RR1NlcnJ2NVZfUEl6dlo1eTRPbjRSQkxFVTdJdzRmMWJILWx4VHprbDRaVXNHV3lfMGtGUDEwUTQ?oc=5",
      "utdrag": "Wall Street is about to hand Broadcom’s riskiest customer a whole lot of cash jiefeng jiang from Getty Images and Quality Stock Arts via Canva NVIDIA interim CEO Colette Kress said on NVIDIA’s Nov. 17 call that most of the guarantees she discussed start once a project is ready: “If all of that begins and unfortunately they are delayed or they have a challenge in terms of building that, our guarantee doesn’t exist anymore.” His number holds up: Broadcom’s two backstops for Anthropic (ANT) could cost up to about $72 billion, roughly three times its cash. But Anthropic just priced a record IPO, and most of that cash goes to the customer Broadcom backstops."
     },
     {
@@ -461,104 +563,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYzl0X0tENG40QTVzWXc3bEF3V3ZGWEh1R0llM3BmUlROUVBSdmxmdDZVblhfVGk0LVV1eUhTTkE4RllFWHdYSWNkVHM2T0Rhdm1hQ3BCWHJjaHQtRkNJX240M1dScHIxdnhyVE0yb0NGcGk3d1ppWGJuS3RIRFhBYjNaSmVvQ2RIRHJubl9xd1RpMGp3TmduVk9KLUx1bG9sem83N1lCOGYwb19sNGFFcVc1NWZ1cE9DSHhndGZ5b1gxSkk?oc=5",
      "utdrag": "Google is looking to buy high-bandwidth memory (HBM) directly for the AI chips it is developing with MediaTek, potentially cutting billions of dollars in procurement costs and changing how Samsung Electronics, SK hynix and Micron Technology negotiate with major customers, DigiTimes reported on Thursday, Nov. 19 [1]. The Taiwanese trade outlet is not alone. Korea's Chosun Biz reported on Nov. 18 that Google is moving toward direct HBM purchases for its Tensor Processing Units (TPUs) to gain more control over AI chip costs, according to TrendForce [2]. None of the reports included comment from Google or Broadcom."
-    },
-    {
-     "tid": "2026-11-19T06:49:59Z",
-     "titel": "Broadcom: Scale-Up And Scale-Out Ethernet Networking Remains Underappreciated By Market",
-     "kalla": "Seeking Alpha",
-     "lank": "https://seekingalpha.com/article/4969949-broadcom-scale-up-and-scale-out-ethernet-networking-remains-underappreciated-by-market",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZEF4dUhIMzAzRzlxbHRpQlZfbXZ0NTZ1VE1EYXd1dWJTZUtSOXJRTlBQOTZ1VGZZU1ZxaDM3U1dRcVk5MTFRaENBeFpaOHIxWXZNWDNBeHFDekptVXo4aUQ5YUZTVjN0eklKYTQ3R3c2MzNwcnpDckpwVzR2QWZ1UkxxUllSYllwSmp1bEhhQVc1dm04VmZiMEhmamlVd1pzZUdkcXFnck5PakxKeXhMMGJvN0lzS2hLdGEzMkIxd3FES280b3c?oc=5",
-     "utdrag": "I see Broadcom (AVGO) stock's weakness as an accumulation opportunity: 17x FY27 earnings support a $394 target, implying 18% upside. I’ve always dreamt of building a position in Broadcom (AVGO), given the robust business quality (GPM: 74-75%, non-GAAP OPM: 66-67%) and diversified business model (semiconductor hardware + high-margin infrastructure software from VMware). Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, but may initiate a beneficial Long position through a purchase of the stock, or the purchase of call options or similar derivatives in AVGO over the next 72 hours."
-    },
-    {
-     "tid": "2026-11-19T05:59:00Z",
-     "titel": "Broadcom (NASDAQ:AVGO) Rises As AI Chip Demand Builds",
-     "kalla": "Kalkine Media",
-     "lank": "https://kalkinemedia.com/us/stocks/technology/broadcom-nasdaqavgo-rises-as-ai-chip-demand-builds",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQTJxeEpYeFpoQko3VnNQaUZxT0l3ZWcyd1RhSmU5cnVpYVE4ZmxzOGN2MWE5SHo3dGxTRU1scW1pVUdwcmU3aEQ1MVRqMGJJdU1ZUnR4YzV3LXlOZEhWejlWRlBuQXMzalpNd3k1TmRLb0x6TV93WHE2bF9GVDlRbWU0YTUtSUJKcVd6REw4NlZWNFRKeXV2WF80a0I?oc=5",
-     "utdrag": "Broadcom (NASDAQ:AVGO) Rises As AI Chip Demand Builds Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder HAIN (NASDAQ:HAIN) Debt Talks and an International Sale Shape the Next... PFE (NYSE:PFE) Raises Its Outlook as Newer Medicines Offset Fading Pan... SHOP (NASDAQ:SHOP) Keeps Revenue Growth Above Thirty as AI Tools and P... AAPL (NASDAQ:AAPL) Caps Its Best Year as iPhone and Services Records S..."
-    },
-    {
-     "tid": "2026-11-19T05:38:00Z",
-     "titel": "Is Broadcom (NASDAQ:AVGO) Extending Its Climb?",
-     "kalla": "Kalkine Media",
-     "lank": "https://kalkinemedia.com/us/stocks/technical-analysis/is-broadcom-nasdaqavgo-extending-its-climb",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFFFZmRZaldnRnBiOE9XTjNFNHJ4THdsU052a1BPUUNGWjBOS0NLaFNaU09DVGxoVTl1MlY2b01NWHZQNkdvNXlUaVd2TFBnREJsTk5IanpoLXh3VmFKMFd2czItbXJ5a1FCTHotbllJTTMyOVVQeEhFdFByUmxhZkdaT0pJcjhaZkpON1Ayc1daQ3lvWDVpa080eUk?oc=5",
-     "utdrag": "Broadcom (NASDAQ:AVGO) stretches its uptrend as brisk demand for custom artificial-intelligence silicon and networking hardware keeps the chart firm. Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder HAIN (NASDAQ:HAIN) Debt Talks and an International Sale Shape the Next... PFE (NYSE:PFE) Raises Its Outlook as Newer Medicines Offset Fading Pan... SHOP (NASDAQ:SHOP) Keeps Revenue Growth Above Thirty as AI Tools and P... AAPL (NASDAQ:AAPL) Caps Its Best Year as iPhone and Services Records S..."
-    },
-    {
-     "tid": "2026-11-18T23:58:08Z",
-     "titel": "Broadcom rises 3.83% in Wednesday's session",
-     "kalla": "Global Banking & Finance Review",
-     "lank": "https://www.globalbankingandfinance.com/broadcom-avgo-rises-2026-11-18/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10bXA5cmhmYXRLcDB0bTlWODVxbzUwLTVvTElqNmJHSk1uWU81Wm1iTXlrYl9OWWZyc21MLTl3NzRXUTdYeU9tOXlwWHZkeTZoVjJyU3pVclFtYzRSa0FkS0hjMWtKc2o2Nk96MGhtSzZlTERqcHh2NXFjNA?oc=5",
-     "utdrag": "Broadcom's shares last traded 3.83% above their previous close at $354.70 in the United States information technology sector on 18 November 2026."
-    },
-    {
-     "tid": "2026-11-18T23:35:02Z",
-     "titel": "Thinking About Buying Anthropic’s IPO on Nov. 19? Here’s an AI Stock I’d Consider First (Hint: It’s Not Nvidia or Broadcom).",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.fool.com/investing/2026/11/18/thinking-about-buying-anthropic-s-ipo-on-nov-19-here-s-an-ai-stock-i-d-consider-first-hint-it-s-not-nvidia-or-broadcom/?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "ASML’s impeccable fundamentals allow investors to rest easy amid AI stock volatility. Artificial intelligence (AI) stock investors have been on a roller coaster in recent weeks, with far more drops than pops. The Nasdaq Composite (^IXIC +0.42%) is now in a correction -- which is a drop of more than 10% from the highs. The iShares Semiconductor ETF -- which closely tracks the semiconductor industry -- is in a 35.3% drawdown, and leading chip stocks Broadcom (AVGO +3.65%) and Nvidia (NVDA -2.90%) are both down over 30% from their all-time highs. Red-hot AI spending has pushed once-cash-cow businesses like Amazon, Alphabet, and Meta Platforms into negative free-cash-flow territory."
-    },
-    {
-     "tid": "2026-11-18T22:22:07Z",
-     "titel": "Broadcom (NASDAQ:AVGO) Shares Climb 3.6% - Here's Why",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/price-broadcom-nasdaq-avgo-shares-climb-36-heres-why-2026-11-18/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSUd4eVdYY2hsOGZtVGI5X3Mxdm91SUs3NUczZXM2Q3BUM01jbk1HYksxM21QRXJwemZrR0laWVdTUVB1NVpMbVB4SGo3NFZPR1FMOVB1RFltVEVGNUtDVFhqU2hjQm51dEpMUldyTWpiUHJFX3ZjSDljMkhPbWEzZkJ5blYtYTJfLWhIanB3ZW45d0txN2d2dGVPT19GT0hlWUdwS05zc1ZzUQ?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T21:30:01Z",
-     "titel": "Broadcom Options Spot-On: On November 18th, 350.8K Contracts Were Traded, With 2.64 Million Open Interest",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/news/post/1005083002/broadcom-options-spot-on-on-november-18th-350-8k-contracts",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEwwLWNDSk5Bem0wVVlHSTJmMHpNUXB2bDhxdllKcmFlZ1I2NEFnVXZTRXc3ZUZ2REgtR0x5MmxOY2ZneDBhR1pIV2tZQk9KVzhrMG9IRW15SUxnVVVQemoyM0dUc09UbzFORDdzeVZYOFRZY0NGdkJyelhoSVVmakNvcnhtYTFRcHhpQmpPWFdRQ1R0SjI1X0dqbjVsWkVZR3NtRA?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T17:45:18Z",
-     "titel": "Broadcom Already Eclipsed AMD as The 2nd Biggest Chip Maker, But The Market Won’t Recognize That Truth Until 2027",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/technology/articles/broadcom-already-eclipsed-amd-2nd-174518115.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX2pZWFI3MXZTSnpyS2xDQ3ppb3VOQUFYcmJ5eThrdXZJYUtqRWR5RE1YS3Z4dGNWMHhYNTNMdnFpTjczY1pkSWhFYlQ5cXFBb1BOMHgtLXo1aXVLMnJfckhUWnFFRllacTY5ZEc4djJGQnJQOWFUd0pqNFBtM2JrTVNYZlZrdDczX1ZuNmJyU1dwSGRPOEFZWm5n?oc=5",
-     "utdrag": "AMD's stock is soaring while its bigger rival barely moves, and both just posted record AI quarters for the same customers. One difference in how they make money could decide which chip maker the market finally crowns by 2027. Broadcom (AVGO) dwarfs AMD with a $1.63 trillion market cap versus $826 billion, yet AMD stock surged 135% this year while Broadcom slipped. Broadcom's AI chip revenue hit $17 billion, 56% of sales, driven by custom XPUs that Hock Tan says outperform any GPU. Broadcom generated $14 billion in free cash flow while AMD produced just $554 million as its inventory climbed 35%."
-    },
-    {
-     "tid": "2026-11-18T16:42:46Z",
-     "titel": "Institutional Flow in Broadcom (AVGO): 73% of the Options Money Is in Calls",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/community/feed/institutional-flow-in-broadcom-avgo-73-of-the-options-money-117638441598981",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM2pvSUlPUVI0aUtuWno0ZHh1MlZLTzN6WVBOR0Z6d09OcFFaSHV4TlVLT2RadkhfaVg4UmF0WV9zWW1uX1piWkxhSkxDbTZ5ZVZ4Qk1ZNXFfYi1kSzNKdDFqNnhMbm9CVy14MUVTTDZjUkRfYWIyMUsyUDk5aTlqcElPT3FHUVhUYUYzOXZqUzZjalJwME9sdUNEcmRjV3l2OU1acTJucE9kTllYY2YtSGZEZw?oc=5",
-     "utdrag": "$Broadcom (AVGO.US)$ : $65.4M in options premium, with $47.9M on calls and $17.5M on puts (73% calls). Dark pool shares by session (share of volume): Nov 17 8,245,366 (31.7%); Nov 16 8,611,046 (31.9%); Nov 13 11,183,081 (35.3%). The off-exchange share fell from 35.3% to 31.7% of volume. Off-exchange volume Nov 17 was 0.8x the usual, trend steady over 5 sessions. Levels: last price $351.35, 20-day average $331.94, 50-day av..."
-    },
-    {
-     "tid": "2026-11-18T16:21:00Z",
-     "titel": "Broadcom Climbs as Nvidia Outlook Revives AI Chip Sentiment",
-     "kalla": "Quiver Quantitative",
-     "lank": "https://www.quiverquant.com/news/Broadcom+Climbs+as+Nvidia+Outlook+Revives+AI+Chip+Sentiment",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1VyTU1wRnNSQW5hRVprYUczdHFsOC1oUmhPckx4TWw1Ml9IR3p6QTBXdWlRY2Zkam9Sd0dlMXQwcXE4d2xOdkdzc2lTZkZjRmdqa3dENDNWYU4xUXdqalZHTHlsdU5UYktrMTJycW9PSFJXcTMzUjBhODhZVTBFWWE4a2N3YmhMUUNkdXQ4NmtVQkpCSGRF?oc=5",
-     "utdrag": "Broadcom Inc. (AVGO) is up 3.9% today. Here is some analysis on what might have caused this price movement. Analysis: The most likely driver is a rebound in AI-chip sentiment after Nvidia delivered stronger-than-expected results and an upbeat near-term revenue outlook, lifting semiconductor peers tied to AI infrastructure. This could also be because investors continue to view Broadcom as one of the clearest alternative ways to play large-scale AI spending through custom accelerators and networking."
-    },
-    {
-     "tid": "2026-11-18T16:15:27Z",
-     "titel": "Broadcom Inc Stock (AVGO) Moved Up by 3.00% on Nov 18: Key Drivers Unveiled",
-     "kalla": "TradingKey",
-     "lank": "https://www.tradingkey.com/news/market-movers/262311414-market-movers-avgo-20261118",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd3R0TFQycm1oTzZUb2pwd0xfVVVNckV6M2xXUl9DOE1GV0hvNlM4bXB0REE2a0NLMFA1bUhYNXhTRkltRzdwbVpKNXp1SXpRWVFXR2xUT3ZoWjU2OWJNSkkwUGxWeElycWUzOWdINXNBUXJXdVBLUXdMTU9LNS1kMnFvOERrcW1yMVpj?oc=5",
-     "utdrag": "Broadcom gained momentum from institutional confidence in AI networking and custom silicon.VMware integration successfully boosted high-margin recurring software revenues and gross profitability.The company reported $63.89B in annual revenue with net profit reaching $23.13B. Broadcom Inc (AVGO) moved up by 3.00%. The Technology Equipment sector is down by 0.27%. The company outperformed the industry. Top 3 stocks by turnover in the sector: NVIDIA Corp (NVDA) down 1.98%; Micron Technology Inc (MU) down 2.19%; Advanced Micro Devices Inc (AMD) up 0.88%."
     }
    ]
   },
@@ -566,10 +570,19 @@
    "namn": "Celestica",
    "antal": {
     "yahoo": 2,
-    "google-en": 18
+    "google-en": 19
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:24:39Z",
+     "titel": "Celestica: Time To Buy Again (Rating Upgrade) (NYSE:CLS)",
+     "kalla": "Seeking Alpha",
+     "lank": "https://seekingalpha.com/article/4970089-celestica-time-to-buy-again-upgrade",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNODFzVENvbEdsS0xOd0lEbUNGLTBqVnNxUWpPekhabnpGbURzcnFoRVZzYkdEMlhIU3BPRkEtOEdUWU1TNFd6Q2Y5S19uY3ZtZFdRTEhQQlJmNlE3a2Q2LU1qZkZZYnU3dXR1WXpGeWU2bEE2MThvaHNJUGVjNG5xVXVR?oc=5",
+     "utdrag": "Analyst rates Celestica Inc. a Buy after shares fell more than 22%, with a $375.18 target implying 52% upside on 16.824x FY2027 EPS of $22.30. In August 2026 I last wrote about Celestica Inc. (CLS) stock, downgrading it from Buy to Hold because I didn’t like the firm’s decision to dilute shareholders quite Analyst’s Disclosure: I/we have a beneficial long position in the shares of CLS either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article."
+    },
     {
      "tid": "2026-11-19T09:59:00Z",
      "titel": "WHY Is Celestica (TSX:CLS) Stock Down From Its High Despite a $40 Billion 2027 Revenue Outlook?",
@@ -735,11 +748,37 @@
   "coca-cola": {
    "namn": "Coca-Cola",
    "antal": {
-    "yahoo": 10,
-    "google-en": 56
+    "yahoo": 8,
+    "google-en": 58
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:01:00Z",
+     "titel": "Coca-Cola Stock Could Lose Its Fizz. Its Valuation Is the Highest in 25 Years.",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/m/f60661fd-58b7-33fd-8bad-c6fe5bbc0376/coca-cola-stock-could-lose.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Investors are paying too much for Coke and glossing over its challenge as the top seller of soda in a health-conscious world."
+    },
+    {
+     "tid": "2026-11-19T12:50:50Z",
+     "titel": "Coca-Cola FEMSA stock: Barclays lifts target to USD 128",
+     "kalla": "ad-hoc-news.de",
+     "lank": "https://www.ad-hoc-news.de/boerse/news/corporate-news/coca-cola-femsa-stock-barclays-lifts-target-to-usd-128/70536053",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUjVyRm5KR0V2ZUxEdVlQQU83WE5WS2JLa1FUQkI5NUdOb0w2elJFQ2gtZDNTajlHbkl6czZmbE4xMWZoOGlCaTJhNHRfXzBRc3p0Q3hJcVZDT0hkcW9Hck1JcjBGMHNFb1JpOFJmdldtQ1RPdU1ZUGE0VUUxLWlzUkpmclV4T2xldU1JRTlXcXZ1V0lOdXA3SkFuOHJLUTZ1T0h4al9KNENza1BCWnlPclBONWNFZmlF?oc=5",
+     "utdrag": "Coca-Cola FEMSA stock gets a higher Barclays target. The bank kept its Equal Weight rating in a 2027 On Thursday, November 19, 2026, Barclays raised its price target for Coca-Cola FEMSA from 125 to 128 US dollars while keeping an Equal Weight rating, according to TipRanks. Barclays analyst Benjamin Theurer made the change as the firm updated its outlook for consumer companies in Mexico for 2027. The note described the companies as entering the year on firmer footing, while warning that rising labor costs raise the bar for execution."
+    },
+    {
+     "tid": "2026-11-19T11:39:00Z",
+     "titel": "FTSE 100 Coca-Cola HBC (LSE:CCH) Adds a Johannesburg Listing to Its African Plans",
+     "kalla": "Kalkine Media",
+     "lank": "https://kalkinemedia.com/uk/stocks/bluechip/ftse-100-coca-cola-hbc-lsecch-adds-a-johannesburg-listing-to-its-african-plans",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdndBRDBOTlFyMmVDR2taLUo2eFJZMmd5b3hrczBDdmFaUmQtYml2UnVabmlpWkM5UEdxUGQtWHV4TGxqVFVRY0VEeHJ3VkpCZ0VITXRyQ2xVMFYyYVVIYnhEdklYQ0Z0V2txWl9rS2dkRGtWRDZvaFRLMDRfZmJuajk0WU1SSDBqZjhsRVhDUURVVElyX2xjMFNFbjVnUmlDeW5hR0pzWG42eXdDX0ZwY1hQUkFEc292QVU1YW5ZUQ?oc=5",
+     "utdrag": "Coca-Cola HBC (LSE:CCH) wins approval for a Johannesburg listing ahead of completing its Coca-Cola Beverages Africa deal. See what it means. Sectoral breakdown of the latest in business, stock markets and economy. Here’s what trending today! Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder accesso (LSE:ACSO) Signs a Long-Term Premier Parks Deal for Its Unifie... B&M (LSE:BME) Returns to UK Sales Growth and Higher Half-Year Profit B... The Works (LSE:WRKS) Raises Its Guidance Again as It Heads Into the Ch... UK Penny Stocks Win Rail, Defence Software and Data Contracts Across t..."
+    },
     {
      "tid": "2026-11-19T10:16:32Z",
      "titel": "Berkshire's $1.3B Coca-Cola stake now yields $8...",
@@ -803,15 +842,6 @@
      "utdrag": "Coca-Cola has moved into focus as the beverage giant extended among the longest unbroken records of rising dividends in the market, reaffirming its standing as a cornerstone for those who prize steady payouts. Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder Is Merck (NYSE:MRK) Winning New Approvals for Subcutaneous Keytruda? JOYY Reports 15.6% Increase in Q3 2026 Revenue to $624.6 Million Hyster-Yale Prices $135 Million Convertible Senior Notes at 7.50% Inte..."
     },
     {
-     "tid": "2026-11-19T01:00:00Z",
-     "titel": "Coca-Cola Stock Could Lose Its Fizz. Its Valuation Is the Highest in 25 Years.",
-     "kalla": "Barron's",
-     "lank": "https://www.barrons.com/articles/buy-coca-cola-stock-price-pick-e6a89bce",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83LVNpZEtXTHJKNEZYN1Bpdld3TV9ITldPRGtfcWNrM0ludkttLWVISjQ0MVhZQXZRQmxXUTZteEU1NE9IM3IzT2NtMXUzRkpOSDBuekY3YUZZZ0o5MUl3bDJkdW05S3lCcEN0dW9HOXM4RThzQmVQMWlrbGY?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-18T18:31:15Z",
      "titel": "Coca-Cola Stocks Move Lower Even as TD Cowen Names It Top 2027 Pick",
      "kalla": "Yahoo Finance",
@@ -836,15 +866,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOEI0Y3lUR2RxSWVhdTB0VjhJY1JFbG9BcUVDOGgxV2FWTUJVYVNfcnNpLUZEOEZGcjhBd1p3NlluS3I4TV9mWjhkX2dnUlg5cEh6aGRheEpuQ0JIcGxZdHJDZEx5ZzF5RUFKVjFubVRjekJsNVB2VXVVNFNHVDZJWG03S0xWeFlaSWlSQ1V5R2I2SzZSSVdvYmN6OG5jTmppZkVkel85YVMxR3Y1R19VQXM3Qk4zTk9vTkE?oc=5",
      "utdrag": "Coca-Cola Company (The) (NYSE:KO - Get Free Report) EVP Monica Douglas sold 9,064 shares of the stock in a transaction dated Monday, November 16th. The shares were sold at an average price of $100.14, for a total transaction of $907,668.96. Following the completion of the transaction, the executive vice president directly owned 19,393 shares in the company, valued at $1,942,015.02. The trade was a 31.85% decrease in their ownership of the stock. The sale was disclosed in a document filed with the Securities & Exchange Commission, which is available at this hyperlink. The sale was made to cover tax withholding obligations related to the vesting of equity awards."
-    },
-    {
-     "tid": "2026-11-18T18:10:30Z",
-     "titel": "Coca-Cola HBC (LON:CCH) Stock: Insider Zoran Bogdanovic Purchases 128 Shares",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/insider-coca-cola-hbc-lon-cch-stock-insider-zoran-bogdanovic-purchases-128-shares-2026-11-18/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYkU2ZUx0RHRFLTVuSml4bWhSU19CbkhkQVRJMkJFbWliZXBPSFZtaHd3WjFyYUd3cjRQQ2FCQUZad1ZGbFNTeVNjZXhfS1o1X24yc083UThtbnd0amU0bFdiRGVna2s0MWVhV0dLbTZRd3V5VFZMR0ZRNDNjNVFJV2RVMnAxbTN5LW9NUkV2dS1SUkQwREdLaUw1ODlnLVFLR1djRWlWam1QTzdLeWdZaWtoczhxZVdEdlNWMUVFZnBFWFRiWDRLaXJkVjNWby1w?oc=5",
-     "utdrag": "Coca-Cola HBC AG (LON:CCH - Get Free Report) insider Zoran Bogdanovic bought 128 shares of the business's stock in a transaction that occurred on Tuesday, November 17th. The shares were acquired at an average price of GBX 4,348 per share, with a total value of £5,565.44."
     },
     {
      "tid": "2026-11-18T18:03:07Z",
@@ -904,15 +925,6 @@
      "lank": "https://www.thestreet.com/retail/owala-coca-cola-new-amazon-exclusive-collaboration?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T16:01:53Z",
-     "titel": "Beverage breakdown: Coca-Cola, Keurig Dr Pepper, and Celsius are top picks at Wolfe Research",
-     "kalla": "Seeking Alpha",
-     "lank": "https://seekingalpha.com/news/4674247-beverage-breakdown-coca-cola-keurig-dr-pepper-and-celsius-are-top-picks-at-wolfe-research",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWZCZS1YVno0clZCMWZwX0hISG9tdXRKUW8xT0pMejZ5aGIycURFY0NMUUJRRUJpLVZ2cTkyNG5JbDBYODlmVzJ4VDZMblE2RWFmanRyajBHOFNfWmdsUTk1VmtPZjhUaGttNGNFendiSFJlbEJmMGczQWJ1b2NMNVRIWng5cWZwN3FtRjZzdjQ3dDdwa1N4dUVtQWhfTDBlVktDM2c2T2VLRkZxU3VxalBXZkpNN085Qy1sVW5IZFVHODlEOHc?oc=5",
-     "utdrag": "Wolfe Research names Coca-Cola and Keurig Dr Pepper top soda picks, rates Coca-Cola Outperform with a $110 target, and selects Celsius as its energy pick. Wolfe Research started off coverage on eight beverage stocks on Wednesday. The firm singled out Coca-Cola (KO) and Keurig Dr Pepper (KDP) as its top picks in the carbonated soft drink group as the company continues to"
     }
    ]
   },
@@ -920,10 +932,55 @@
    "namn": "CrowdStrike",
    "antal": {
     "yahoo": 2,
-    "google-en": 73
+    "google-en": 77
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:53:31Z",
+     "titel": "Here’s why SentinelOne, Okta, Zscaler, and Crowdstrike stocks rising today",
+     "kalla": "Invezz",
+     "lank": "https://invezz.com/pk/news/2026/11/19/heres-why-sentinelone-okta-zscaler-and-crowdstrike-stocks-rising-today/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnpPSkZiSzBqRC1kLUxoNkJnVTlRUWhEQWotWUg0N3lhOU04a2ZhTy1qZ2FVcmN0NEFMZUtFRl81OVQ4dUJBQVFfQWZOWjg2Z0h4Tms3eHVXRXNpVzNVQUZEcXNBUktEZXlzVjVfeXhHUlZtLTJZQ0t3SzJhRzlLblZST1YwOHRheExETXEzcVlYeHFQUUpmazk2aHhXUmxabnF2ZXZkbnh4anN4bmc?oc=5",
+     "utdrag": "Leading cybersecurity stocks, including SentinelOne (S), Okta (OKTA), Zscaler (ZS), and CrowdStrike (CRWD), are rising today. This score is generated through AI-driven analysis of the article's content. Buy PANW. The earnings signal is unusually strong: +39% revenue, +35% remaining performance obligations to $21B, and 26% growth guidance. Management is also leaning into AI security (Applied Compute acquisition) which keeps the market paying up for the “AI defense” leaders. This should pull the whole group higher into early-December earnings. Key Risk: Guidance or billings disappoint next quarter, breaking the “spending is accelerating” narrative. Buy CRWD."
+    },
+    {
+     "tid": "2026-11-19T13:04:48Z",
+     "titel": "CrowdStrike Stock Forecast: CRWD Rallies 8% as Strong Earnings Lift Sector",
+     "kalla": "FXLeaders",
+     "lank": "https://www.fxleaders.com/news/2026/11/19/crowdstrike-stock-forecast-crwd-q2-earnings/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVdRSTdCc0QzZExSQ0FGZTJxWXFRMThGcENFMkltTXMzeHNxVGJQTnlGbWpKbnQ2Y1FCd3hxMTl2R1VxQnNfTENNdGdZRlI5VnFvVjh1dGpEbUQ1ajdSMkQ4UG95WmFVcC1GM2tzVWlodHhuLXVjTGx3ZnltWDRJaVpNUVU4UTEycjBlb29yOA?oc=5",
+     "utdrag": "CrowdStrike (NASDAQ: CRWD) is trading at $251.05 in the pre-market hours, up about +5.9%. The stock saw +7.95% rally yesterday and ended a 4-day of losing streak. The pre-market gains came after Palo Alto Networks reported strong results and raised guidance. Today, the market cap of CRWD is around $256 B. In its Q2 report, CrowdStrike reported a year-over-year gain in revenue of about +26% with $1.47 B in that quarter. However, the analysts expectations were $1.44 B for the Q2 revenue. EPS also beat the analysts forecast of $0.29 and came in as $0.31 against the last year’s $0.23. As for operating profit, non-GAAP operating income rose to a record $372 M with +46% surge."
+    },
+    {
+     "tid": "2026-11-19T12:39:00Z",
+     "titel": "Which Carries the Strongest Momentum Among the Top 3 Cyber and Cloud Security Stocks: Akamai (NASDAQ:AKAM), CrowdStrike (NASDAQ:CRWD) or Palo Alto Networks (NASDAQ:PANW)?",
+     "kalla": "kalkine.ca",
+     "lank": "https://kalkine.ca/news/technology/which-carries-the-strongest-momentum-among-the-top-3-cyber-and-cloud-security-stocks-akamai-nasdaqakam-crowdstrike-nasdaqcrwd-or-palo-alto-networks-nasdaqpanw",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMingJBVV95cUxQQlNiXzZiTy1SZWUyZlJ2eWVXT1MybHN0WU45Tmg4bkVMLWdfNThhRmpSYURWREtUNy1vcDJoeGxxLVBYLWExczdKLVhaMmY5Y2dfWHR3dFBmTFIzVkJYTkFjcWwtT0JpZVZ3TVF1N2FSbUJnSHF1bkJjaG1HVVczVm9leGV3RUFMWVNaVmJRWUtleDQ5Z2VzT2I2WVFRSVNCSHBnRV92UzUxeTk1SXR5UFl3THNDLWNrdzFCOTF4Wjhsek9GQlZHMGFXNHRZWXZBLV9VU1BjVUMtVkRRNF9IRE12Y0lXOGN0UGxmRkthWHFBN0p3T0otSE9BQXN5a1N5YVdMWUtuZmdSTVY5b2t0eFZPUmx2ZjNxVko4Y0pR?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T12:38:00Z",
+     "titel": "Could CrowdStrike (NASDAQ:CRWD) Shares Keep Rising After CISA Warned About the Java4Shell Bug?",
+     "kalla": "kalkine.ca",
+     "lank": "https://kalkine.ca/news/technology/could-crowdstrike-nasdaqcrwd-shares-keep-rising-after-cisa-warned-about-the-java4shell-bug",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb1JsZEpFaFpRU3ZtQzhuclU3ajJTc3JKZmtZcGVaZ2I5R2RoVzczY3hfOWJPYXVkUWlfQ2ZkeUdNQzJhLWJLVVQxbFg0dHdpckh2a2VxUmlicGdUeUdDR0ZyYWZMbnlkbVlqNVZTUG05Qi1TcEpfaGQ1aVJsSFdPQm54ZlRodzFCRE4xaFc2RDNVSFMtdlVkWkJBLWNsSVNnWDBhbTRGQmxsZmY0dDJNLVJIVHEyVWY0ZU9wZmRlNXdrMmc?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T12:37:00Z",
+     "titel": "Why Did CrowdStrike (NASDAQ:CRWD) Gain 7.95% After CISA Flagged the Java4Shell Weakness?",
+     "kalla": "Kalkine",
+     "lank": "https://kalkine.com.au/news/technology/why-did-crowdstrike-nasdaqcrwd-gain-795-after-cisa-flagged-the-java4shell-weakness",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONVJneXNmNktBSjFZYWdxaTVjLVVJY1pLc2VaX3V3Y2tqUWphbWNEbUxkcVlqMk5hN0YwWlE4NjBCM0RrTWJ0NHp1d2l2cUVYNHZacjBUVU5rMXhPd1VvZ1hIRDNER19oSTZjYV9QT29ZNzZFNWwteklfU0JZcVY5emNtS0pKMFhqYnlFeFhlNG9WcjZDRGJQbHRhNTF4SE9ETG9JMGRrYjIzM0NKSlBiXzFUNmswMktGd1hseTVn?oc=5",
+     "utdrag": ""
+    },
     {
      "tid": "2026-11-19T12:34:26Z",
      "titel": "Why is CrowdStrike stock surging today?",
@@ -1057,51 +1114,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tNVluR1FxNjhfYXl4WGlCaHptQ041WGM4M05sUklzUEd5WUNJby1qYzhNRHNSOURaNWFfY0RDbjYxSkpjZFViLVpRcTVpOFFPck00cHIwVU1IYUdpOG9jVnNGbTZJM3ZLQm8wRFln?oc=5",
      "utdrag": "CrowdStrike shares climbed 5.9% to $232.47 as cybersecurity stocks rallied broadly, lifting its market capitalization to $236.8 billion. Broad gains across the cybersecurity industry lifted CrowdStrike Holdings shares by 5.9% on Wednesday, November 18, 2026, as investors increased exposure to security technology companies. The stock closed at $232.47, supported by sector-wide momentum that pushed its market capitalization to $236.8 billion, according to AlphaStreet.Trading volume reached 2.6 million shares during the session."
-    },
-    {
-     "tid": "2026-11-18T22:06:23Z",
-     "titel": "S&P 500 Postmarket Gainers: PANW, CRWD and OKTA Extend After-Hours Gains",
-     "kalla": "ChartMill",
-     "lank": "https://www.chartmill.com/news/PSX/Chartmill-58899-SP-500-Postmarket-Gainers-PANW-CRWD-and-OKTA-Extend-After-Hours-Gains",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX3l0eFlSd1VlYVVPYm1JLVRKLVRMQVNBZDBuWTVQdHJKN3ZOc2liQkZaVzdxMXRwNG00YVRZU3NhWlFOWkZvU252ZlhtN194R0ZzMnZIb24tT1lkQzdfejhFRGJjZkMxd3FZNDlBZjNWZHZCMVFJNmFKMkpkVjNNN2hIZWIyX1gxdUtVZ1Vqa2RRMklHUVh3NHVjZlY2djZOaU9HWVhHS3lTNG9NbTAwb2JuLWFrWC1RS1lvWg?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T21:59:40Z",
-     "titel": "After-Hours Movers: PANW, CRWD, P, RRGB",
-     "kalla": "StreetInsider",
-     "lank": "https://www.streetinsider.com/Hot+List/After-Hours+Movers%3A+PANW%2C+CRWD%2C+P%2C+RRGB/27370984.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdGg3UUhQbUoydG1sRmRYb3FtemlwMU0wbmR5VUw2RElIOWRIalctQm1rdlk2MEtsY2xWeEFpVGxPNUMxWkIxakcwSzNRMGxpbWlIc3JXNlhiamR0Q1NTU0hLM1dvbXJ3SjVEQUJnZXFEMkltNkZCeHNEQllEZ0F1YVVlRGVPTUJidl9IbUdjLWFxRHNWZmNLREtHRUt4dWoxNUE?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T21:46:00Z",
-     "titel": "CrowdStrike Gains 7% as Cybersecurity Stocks Rally",
-     "kalla": "cwibc.co.id",
-     "lank": "https://cwibc.co.id/en/crowdstrike-cybersecurity-stock-rally",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xT3JrTW1vZVhPeWxvbmxyeDlKQ3NqaWV4ZEZEZ215QjNQdWxHS3Y2TEU3XzhBSzRCX2x4LWE4MVFpUU5JTV9rS1lqWEE5eUFLU2JPRFExUTRtUlRsajNxSFJhX05GRFE4bmM5LQ?oc=5",
-     "utdrag": "CrowdStrike shares climbed more than 7% as cybersecurity stocks advanced, while Airbnb declined and Toll Brothers posted monthly gains. Shares of CrowdStrike advanced more than 7% during Wednesday's trading session, November 18, 2026, as cybersecurity stocks recorded broad gains. The cybersecurity company's stock reached $235.35 at 12:50 p.m., gaining $15.77, according to Seeking Alpha, while several industry competitors also moved higher.The rally extended across multiple cybersecurity companies."
-    },
-    {
-     "tid": "2026-11-18T21:38:00Z",
-     "titel": "CrowdStrike Shares Rally 7% as Cybersecurity Stocks Advance",
-     "kalla": "bsinews.id",
-     "lank": "https://bsinews.id/en/crowdstrike-shares-cybersecurity-rally",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iV21LUTJIaHQ3S3NvTHdNcXpSYm9yZDRWVEI0S25aNFBTeHpxQ0NGeU9hNWt3c0FGVU1Wd0JpOVc5MS04TktKci1lXzlUblI2S3RQN1NyNjFQU3hqdlJDTW9pajlhb3VNcDZsbg?oc=5",
-     "utdrag": "CrowdStrike shares gain more than 7% amid a cybersecurity sector rally, stronger analyst price targets, AI security expansion and December earnings expectations. Shares of CrowdStrike Holdings (NASDAQ: CRWD) climbed more than 7% on November 18, 2026, as renewed buying interest lifted cybersecurity stocks across the market. The gains reflected improving investor sentiment toward enterprise security companies, growing adoption of artificial intelligence security products, and increased confidence in CrowdStrike's business prospects ahead of its December earnings announcement.According to Seeking Alpha, CrowdStrike shares reached $235.35 at 12:50 p.m., gaining $15.77 during the session."
-    },
-    {
-     "tid": "2026-11-18T21:22:28Z",
-     "titel": "CrowdStrike Racing by APR Keeps Championship-Winning Lineup Together for 2027 Title Defense",
-     "kalla": "Speedway Digest",
-     "lank": "https://speedwaydigest.com/index.php/news/racing-news/895514-crowdstrike-racing-by-apr-keeps-championship-winning-lineup-together-for-2027-title-defense/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUlhhZ2pKYnBMeHFWV1p6eWRSNG9lcW9MZlFpSDNpbFI1aWhsSWkzclhJaGhKOFY5YXlvUmQyc2tVSXdKalI3S1BDeFNCbTkzeWJ1enpEelNYTGJqSGtia3hOdlhPRmpENG50VXUtV3JBUVUyTmN0dXowQWhGbFhra2RLei1kVW1aN0VCRllIeW5NV3IzVDRGWmplQ0pNNUVGRU5ZVnJsd296NlJtbktIVnNkdnFQNG5xRXdzZEZXbEUyaFRabG1uX3ZPdlg4Rkc5VEQxTEdWWUtZc1QtYzBjQ0d0X0IyZkhk?oc=5",
-     "utdrag": "DAYTONA BEACH, Fla. — After assembling one of the most successful seasons in IMSA WeatherTech SportsCar Championship LMP2 history, CrowdStrike Racing by APR isn't making any changes for 2027. The team announced it will return the same four-driver lineup that captured both the 2026 IMSA LMP2 championship and the IMSA Michelin Endurance Cup title, keeping George Kurtz, Alex Quinn, Toby Sowery and Malthe Jakobsen together in the No. 04 ORECA LMP2 07."
     }
    ]
   },
@@ -1158,10 +1170,28 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 12
+    "google-en": 14
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:05:00Z",
+     "titel": "Harmony Biosciences to Participate in Upcoming Investor Conferences",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/news/harmony-biosciences-participate-upcoming-investor-130500774.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYWNBN3ZzNlZIcFpKczRPbV85S2tsM0FoTzZWZVIwTkswY1V5MWFaekF0RmhFYTdYNy1YQUppNWwwVmpTMm84UEV0Rml1a3l4dnhuS243RnlQNk9UclJ6T3RvVzlBX0RBRUtZVW1mdVdOSWZXcUFYS0dOUUc2bzZlOGRMZzAtTWJLS290TTlIU3pSRFJVOFBfWU8zT2k1Z0k?oc=5",
+     "utdrag": "PLYMOUTH MEETING, Pa., Nov. 19, 2026 (GLOBE NEWSWIRE) -- Harmony Biosciences Holdings, Inc. (Nasdaq: HRMY) today announced that Harmony's management team will participate in the following upcoming investor conferences. Webcasts of the fireside chats will be available on the investor page of the Harmony Biosciences website at https://ir.harmonybiosciences.com/. About Harmony Biosciences Harmony Biosciences is developing and commercializing innovative medicines for both rare and broad CNS disorders, and we are becoming an enduring leader in neuroscience."
+    },
+    {
+     "tid": "2026-11-19T11:00:00Z",
+     "titel": "Zymeworks Announces Participation in Upcoming Investor Conferences",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/news/zymeworks-announces-participation-upcoming-investor-110000394.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNzBBWTFQMU52M2hKQnlLN0xVcUV2UXVTajRnd1N6OXhKOUg1VHN3MWI0a2hib3Q1RDlGLXZ3UlZIVXhKZDgzYzJKMEpvRXdPZUdjTEtUYWplbWpBd0dEcE93X1E1LVpGdkZxV3hlbjZxNExGanNzN21yMFVzQUZZVFh2X2phTzlyeHhqa1djYnFKZFl3bXVnclNXRTZwV3FBRGc?oc=5",
+     "utdrag": "VANCOUVER, British Columbia, Nov. 19, 2026 (GLOBE NEWSWIRE) -- Zymeworks Inc. (Nasdaq: ZYME), a biotechnology company managing a portfolio of licensed healthcare assets while developing a diverse pipeline of novel, multifunctional biotherapeutics, today announced will participate in the following upcoming investor conferences: Evercore Healthcare Conference: Management will participate in one-on-one meetings and a fireside chat on November 30 at 2:10 pm Eastern Time (ET) in Miami, FL Citi's 2026 Global Healthcare Conference: Management will participate in one-on-one meetings and a fireside chat on December 1 at 3:40 pm ET in Miami, FL A live webcast of certain fireside chats will be availabl …"
+    },
     {
      "tid": "2026-11-18T20:20:19Z",
      "titel": "Billionaire investor Bill Ackman bashes Nvidia’s board for not bringing back Jensen Huang",
@@ -1301,6 +1331,47 @@
    "fel": {},
    "nyheter": [
     {
+     "tid": "2026-11-19T13:44:08Z",
+     "titel": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "The chip sector rose on Thursday, led by shares of semiconductor giants AMD and Nvidia, as well as memory chip maker Micron. Chip giants Nvidia (NVDA) and AMD (AMD) rose in premarket trading on Thursday amid growing optimism as investors prepared for Anthropic to start trading in what is one of the most hotly anticipated IPOs ever. Other chipmakers, including Broadcom (AVGO) and Intel (INTC), also gained. Memory chipmaker Micron Technology (MU) jumped 4% in premarket trading, along with peer SK Hynix (SKHY). Micron president and chief technology officer Scott DeBoer reiterated on Deirdre Bosa Live on Wednesday that memory supply in 2027 will be tighter than in 2026."
+    },
+    {
+     "tid": "2026-11-19T13:09:04Z",
+     "titel": "Unusual Options Activity: Micron Technology up 5.0% Premarket. The Most Active Call Contract Surges 79%, With 11 Contracts Traded.",
+     "kalla": "Moomoo",
+     "lank": "https://www.moomoo.com/news/post/1005184543/unusual-options-activity-micron-technology-up-5-0-premarket-the",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSk9LaWpLQmJKZkpwR1FFbktEd3ZPcDhmRVVJdlItR2g0UzJqTHNJUnNwd3kzZ0xTNlBYNVZhYkFnNUp4UzVJdnZpZE9PVlBhaVVUMHZHb1FYdWd2Z0w0R3JQTnQwSGFfdVkyME1tZDJKVFhJNDdYY3owQkFsWGg0WmVqRk5NZXRIaGpqMTB0UFczTnNEVExnYzdDZ3dYY3FOSThqdXc3Sl9uelk?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T13:04:27Z",
+     "titel": "Broadcom, Nvidia, and Micron Could Be Setting Up for a Massive AI Rally Before Year End",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/19/broadcom-nvidia-and-micron-could-be-setting-up-for-a-massive-ai-rally-before-year-end/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Nvidia is down for the year while Micron just shed nearly a fifth of its value in a month, yet the numbers under the surface tell a different story. Here is why three AI giants may be mispriced heading into 2027. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. The AI trade cooled into the holidays, and that pullback may be the setup for a rally. NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) is down 16.45% year-to-date, even though revenue rose 103.2%[1] in its latest quarter. Broadcom (NASDAQ:AVGO) is 0.76% lower for the year."
+    },
+    {
+     "tid": "2026-11-19T12:50:36Z",
+     "titel": "Micron valuation looks ‘ridiculously cheap’ as Anthropic IPO could revive AI trade",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/technology/ai/articles/micron-valuation-looks-ridiculously-cheap-125036181.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Investing.com -- Semiconductor stocks have been caught in a growing wave of pessimism over the outlook for AI infrastructure spending, but Lynx Equity analyst KC Rajkumar believes investors are overlooking a critical distinction: slower data-center permitting does not necessarily mean weaker demand for chips. Rajkumar argues that the recent pullback in memory, flash and semiconductor equipment stocks has created an attractive buying opportunity, with Micron Technology (NASDAQ: MU) emerging as his preferred play."
+    },
+    {
+     "tid": "2026-11-19T12:37:19Z",
+     "titel": "The Dates That Matter Most For Micron Stock",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.trefis.com/stock/mu/articles/626781/the-dates-that-matter-most-for-micron-stock/2026-11-19?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Today’s big story: Could Anthropic Stock Fall 25%?Micron Technology (MU) stock lost 21.3% over the past month, against a 5.0% drop for the S&P 500. At 9.4 times earnings, against 21.5 for the S&P 500, investors appear to doubt that Micron's record profits will last. Micron Technology (MU) stock lost 21.3% over the past month, against a 5.0% drop for the S&P 500. At 9.4 times earnings, against 21.5 for the S&P 500, investors appear to doubt that Micron’s record profits will last. Management has already said its price increases will slow. It also said wider margins would still depend on prices rising, just at a slower pace."
+    },
+    {
      "tid": "2026-11-19T12:35:00Z",
      "titel": "RBC's Pajjuri Sees Micron Doubling From Here, Keeps Nvidia Outperform With $230 Target",
      "kalla": "BigGo Finance",
@@ -1308,6 +1379,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xMW1RMDNCSWg0T0tnbUtZRHp6bTBSVUllOXJIUWY2dlVibUwyWEh1S284ay1VYVBnUjZ4eG5HVktsRU9OVFdBT3hiaG0tY2ozRi0tUHJqMGRlaGQySDRGcl9fbHYwZG9fTUg2T2VXT2h6enhpVnc?oc=5",
      "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T12:33:15Z",
+     "titel": "Appaloosa, Altimeter raise Micron stakes in Q3; Soros Capital cuts position",
+     "kalla": "TradingView",
+     "lank": "https://www.tradingview.com/news/seekingalpha:33692dbbb094b:0-appaloosa-altimeter-raise-micron-stakes-in-q3-soros-capital-cuts-position/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYVRaZUE3Nl9fUkhESEF6NnI2cC1BV0ktMVFHU0RoZkhYemEzZXRvUkluLUFRTzZLc19GajBja1dLRHhUME1oVHg0UzdPQmt0bC13aE15S3JlVTR2WGxZSmY4ZC1IWmNsWHlOSVRmcFFtZU9YVVljbkVMTGhZdzl4VVlNcXhpYVJReWVpdVlDTTA3RVFfNkhtT3lNaXNWQzU4Y1BDSVJPa0MycmZfTkNTUmpuWGVDRnZORkZDbGJyaEcyV1ZlaWZuWVlWdGlhcFpmY2c?oc=5",
+     "utdrag": "Several prominent hedge funds boosted their positions in Micron Technology MU during Q3 2026, according to their latest 13F filings. Not everyone was buying: Robert Soros' Soros Capital cut its MU position by approximately 74% to 9.4K shares from 36.7K. Meanwhile, Micron shares declined during the quarter. The stock closed at $1,154.29 on June 30 and $1,065.11 on September 30, marking a decline of $89.18, or approximately 7.7%, in Q3.DisclaimerContent provided by Seeking Alpha is intended for information purposes only, and that Seeking Alpha does not offer any personalist investment advice and is not a licensed securities dealer, broker, US investment adviser or investment bank."
     },
     {
      "tid": "2026-11-19T12:21:52Z",
@@ -1321,10 +1401,19 @@
      "tid": "2026-11-19T12:12:25Z",
      "titel": "Micron Technology (MU) And Its AI Memory Story Put Valuation Back In Focus",
      "kalla": "Simply Wall St",
-     "lank": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mu/micron-technology/news/micron-technology-mu-and-its-ai-memory-story-put-valuation-b",
+     "lank": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mu/micron-technology/news/micron-technology-mu-and-its-ai-memory-story-put-valuation-b/amp",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRUhMUUljN0ZvbFRiZ21HWnpJekhCX01yZ3JvRWMwQkU2bE5zOXc3SmJ5QnVyZHZjRmxteEp2YV9rSlVIemVYR1VhYWYxdFVuZ2JKMVJIUzdJQnIyT0hFRmxhMVNqUkh1S0lJTnVQand4ckNvQkRyMUVCVWJfbnlid09OMzBTVHZzVHRfYXJWQ011ajZXaW9lY2dfY29rLWtRYUlJWDRZQnI1cUxoenhQZVFaUXhyTjFhcUdXSUMtWkZUYjJsclNkWnlaUnBweEJyNkg4M0FZSdIB3AFBVV95cUxNTEQ4TEx2enBxdmxoZnppQVFDS0V1Wk9RSzhqVXdMV3lSTE0wOHh1NUFEbF85MVVrakhqX1lsN2daaXJCTUZrZW1YQk5zQ0pTWXBDV1BMbUJxbnVYR3YtelRvYllJSG5rNlhhLWJFZ3FFaW1vS3phRXA0N2FsZFIySksxUWtudDZsRlJnUGNrWFUtN2tBNjAwVlNTeHRrU0cxcTMwMUxEbHZ5Qm5LbXp2OG1mQl81ZVJsb3d0bm5jZ0hsVDlkSG5jSTF6WE1MV0N4aWx4VWxlYm90bDFw?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTEQ4TEx2enBxdmxoZnppQVFDS0V1Wk9RSzhqVXdMV3lSTE0wOHh1NUFEbF85MVVrakhqX1lsN2daaXJCTUZrZW1YQk5zQ0pTWXBDV1BMbUJxbnVYR3YtelRvYllJSG5rNlhhLWJFZ3FFaW1vS3phRXA0N2FsZFIySksxUWtudDZsRlJnUGNrWFUtN2tBNjAwVlNTeHRrU0cxcTMwMUxEbHZ5Qm5LbXp2OG1mQl81ZVJsb3d0bm5jZ0hsVDlkSG5jSTF6WE1MV0N4aWx4VWxlYm90bDFw0gHcAUFVX3lxTE1MRDhMTHZ6cHF2bGhmemlBUUNLRXVaT1FLOGpVd0xXeVJMTTA4eHU1QURsXzkxVWtqSGpfWWw3Z1ppckJNRmtlbVhCTnNDSlNZcENXUExtQnFudVhHdi16VG9iWUlIbms2WGEtYkVncUVpbW9LemFFcDQ3YWxkUjJKSzFRa250NmxGUmdQY2tYVS03a0E2MDBWU1N4dGtTRzFxMzAxTERsdnlCbkttenY4bWZCXzVlUmxvd3RubmNnSGxUOWRIbmNJMXpYTUxXQ3hpbHhVbGVib3RsMXA?oc=5",
      "utdrag": "Micron Technology (MU) is back in focus after the company confirmed it will present at the TomorrowX Summit in Austin on November 18, 2026. The event is drawing fresh attention to its AI memory story. Recent trading has been choppy for Micron Technology, with the share price down 22.1% over 30 days and 27.6% over 90 days. However, the year-to-date share price return of 123.6% and 1-year total shareholder return of 212.5% show powerful longer-term momentum that investors are now stress testing against AI demand, export rules, legal risks, and fresh supply contracts."
+    },
+    {
+     "tid": "2026-11-19T11:55:00Z",
+     "titel": "Micron Technology (MU) Stock Price Prediction: AI-demand optimism collides with a softer technical reset",
+     "kalla": "blockchain.news",
+     "lank": "https://blockchain.news/news/20261119-price-prediction-mu-ai-demand-optimism-collides-with-a",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPejRHRlcwRzZ0Qlg3NVJTU2JzTXVWR0FFYk5GMVNhclNVMFY5Qkx1RnBUeHFqQ2N0NHpITWViYXJDTW54bmQ1VEhNS0hsRm1vcEk4MmlzQTVwejkwVGxkQmYwZHJCZDZJOUV6a3VXcms2NXNzSUlmaXpzczRZcTJJTlpoNGJlc3V3QURpdFRrN0ZGeHNncnQ0?oc=5",
+     "utdrag": "Micron Technology (MU) traded at $733.86, down 0.52% on the day and sitting below its short- and medium-term moving averages. The latest analyst note kept a... Micron Technology (MU) remains a clean read-through on AI memory demand, and the latest note from RBC Capital reinforced that view. On November 18, 2026, RBC reiterated Outperform and a $1,500 price target, saying management still expects the supply environment to be tighter in 2027 and 2028 than in 2026 because of strong AI demand, fading benefits from node migrations, and a growing HBM mix. That matters because the stock is not trading on a vacuum."
     },
     {
      "tid": "2026-11-19T11:23:02Z",
@@ -1379,11 +1468,12 @@
      "utdrag": "Micron Technology (NASDAQ:MU) extends its uptrend as brisk demand for memory tied to artificial intelligence keeps the stock near record highs. Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder HAIN (NASDAQ:HAIN) Debt Talks and an International Sale Shape the Next... PFE (NYSE:PFE) Raises Its Outlook as Newer Medicines Offset Fading Pan... SHOP (NASDAQ:SHOP) Keeps Revenue Growth Above Thirty as AI Tools and P... AAPL (NASDAQ:AAPL) Caps Its Best Year as iPhone and Services Records S..."
     },
     {
-     "tid": "2026-11-19T04:34:21Z",
+     "tid": "2026-11-19T04:34:00Z",
      "titel": "Micron (MU) Stock May Be 16% Undervalued Following Fresh AI Supply News",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-stock-may-16-043421943.html?.tsrc=rss",
-     "fran": "yahoo",
+     "kalla": "Yahoo Finance Australia",
+     "lank": "https://au.finance.yahoo.com/news/micron-mu-stock-may-16-043421943.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tUWZLSUJpQjhsUWNweURLYXA0M2tFdG45MGlIUzZxWUJtUVBnZmhtbVJTajJubWhiVWJKbDRQMXJ0MXpUOXBBdmlWNmwzU3BIc3dhZ3l0Vm5ZUEVRSWJ2eDltb255WjRsWVlTMk5HaWNOeUVyQ2xIT3llaw?oc=5",
      "utdrag": "Micron Technology has swung from a sharp sector sell off in recent weeks to the center of the AI supply build out story. This puts a spotlight on a simple question for you as a shareholder or potential buyer: Is a price around US$705 per share adequately backed by the cash flows the memory producer can realistically generate over time, once the current excitement and anxiety around AI subsides? Over the past 3 years, Micron stock has delivered a return of a little more than 8x, which raises the question of how much of the business's future cash generation might already be reflected in today's valuation."
     },
     {
@@ -1396,82 +1486,22 @@
      "utdrag": "Micron (MU) fell 1.00% to $705.27 on Nov 18 as an early gain after Nvidia's results faded and Nvidia shares slipped 2.89%. Gotrade News - In the latest Micron stock news, Micron Technology (MU) fell 1.00% to $705.27 on Wednesday, November 18, 2026, giving back an early gain that followed quarterly results from Nvidia (NVDA). Financial media tied Micron stock's slide to that report, as Nvidia's own shares slipped 2.89% in the same session. Regular-session close on Wednesday, November 18, 2026, 4:00 p.m. New York time. Stock prices: Yahoo Finance, cross-checked against the closing price on Nasdaq.com. Volume and 30-day average volume: Nasdaq.com."
     },
     {
-     "tid": "2026-11-19T03:30:04Z",
-     "titel": "EXCLUSIVE: Tesla Still Rules Leveraged ETFs, but Anthropic IPO and Micron’s Rise Signal What’s Next",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/technology/ai/articles/exclusive-tesla-still-rules-leveraged-033004009.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "The artificial intelligence trade is expanding beyond Nvidia Corp., with memory stocks emerging as another major focus for leveraged ETF traders. Micron Technology’s strong performance and growing interest in its leveraged products underscore how investors are targeting different layers of... Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. The artificial intelligence trade is expanding beyond Nvidia Corp., with memory stocks emerging as another major focus for leveraged ETF traders."
+     "tid": "2026-11-19T01:19:54Z",
+     "titel": "Micron's strong growth and rising stock price h...",
+     "kalla": "Pluang",
+     "lank": "https://pluang.com/en/news-feed/awas-pemecahan-saham-apakah-micron-berikutnya",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY0ZYRWhEZkRlNDFsVUViUDRiWHZQelJUYWxZOWJYUWRoTTgzTTcwanctNlQ0dy1GZXJQamFidl9zRkFkc2VrenBFV0FiTUxaYmlzVGdubXA4VW8wMGo2Vk92NGpYMUxXTVdZdjByZGRlMWl2LTN0amRoZmNIMWJUYWpOZw?oc=5",
+     "utdrag": ""
     },
     {
-     "tid": "2026-11-19T01:03:02Z",
+     "tid": "2026-11-19T01:03:00Z",
      "titel": "Stock-Split Watch: Is Micron Next?",
      "kalla": "Yahoo Finance",
-     "lank": "https://www.fool.com/investing/2026/11/18/stock-split-watch-is-micron-next/?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Micron looks poised for a stock split, especially after Sandisk's recent announcement. Micron Technology (MU -1.00%) may be the next tech stock to perform a stock split. Even after a lengthy correction, it still trades above $700 per share. It's normal for companies to initiate splits when they get closer to $1,000 per share, and investors already saw that unfold when fellow memory stock Sandisk (SNDK -2.64%) announced an 8-for-1 split. While an 8-for-1 split doesn't make sense for Micron at its current price, a smaller split may make sense in the near future."
-    },
-    {
-     "tid": "2026-11-18T23:53:08Z",
-     "titel": "Micron Technology seen as strong AI play with 3...",
-     "kalla": "Pluang",
-     "lank": "https://pluang.com/en/news-feed/micron-technology-peluang-positif-infrastruktur-ai-dengan-target-kuat",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/stock-split-watch-micron-next-010302134.html",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnIxd051Vm1IS2l6ZFBJczBJTlZONU4yUUVuSGJYWTkyQV94bXhNZUJVWkhNSzlaNnppTkdCdXpoUWU3YW5LcV90LW5qR3d0X2NZektrVUVBUkhmOElyRGtTZWV0VWNteHp3MDQ4Mi03Q0t4dUZnQjZnbllEcVd4T2FmVnNZQzJtYWFkSjlBc2ZZNFo5bk1lX0lmdlAwQ1dKRzcw?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T22:24:34Z",
-     "titel": "Micron: The Jensen Event Is A Positive (NASDAQ:MU)",
-     "kalla": "Seeking Alpha",
-     "lank": "https://seekingalpha.com/article/4969806-micron-the-jensen-event-is-a-positive",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1VPVWt1S3daZ0g5Z0I5RGNqd1gtQ1IyMkVFNzAyWUVfUE16UVhIOEpFaXpuWTJfNkxEWTFjVW52TXd2ck5lUzRrYzJiQnNIY2xHaWFIMW1ZcmZyWEd1SXprYnJLaVcyVW8zRG1NY1htNE81VmlTcFM2Smg0R1FodDAyQTI?oc=5",
-     "utdrag": "Micron Technology is rated a Buy, as it remains an undervalued company mostly because of memory cyclicality. It’s been more than three years since I covered Micron Technology, Inc. (MU), and I was bullish then, convinced that it could be a joint beneficiary of the AI boom with Nvidia Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article."
-    },
-    {
-     "tid": "2026-11-18T21:58:17Z",
-     "titel": "Micron President on the AI gap: \"China is far behind in high-bandwidth memory\"",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/video/micron-president-on-the-ai-gap-china-is-far-behind-in-high-bandwidth-memory-220744101.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Micron (MU) President and Chief Technology and Products Officer, Scott J. DeBoer, joins Deirdre Bosa on Yahoo Finance's Deirdre Bosa Live to o discuss the memory gap in the global AI chip race and the competitive nature of the memory business. Do you see the Chinese as catching up in terms of high bandwidth memory? In terms of high bandwidth mem memory, they're far behind right now. But the the there's a few keys to that. Even even if they were closer than they are today, we would still have to be thinking about how do we stay even farther ahead."
-    },
-    {
-     "tid": "2026-11-18T21:30:01Z",
-     "titel": "Micron Technology Options Spot-On: On November 18th, 1.03 Million Contracts Were Traded, With 3.77 Million Open Interest",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/news/post/1005082971/micron-technology-options-spot-on-on-november-18th-1-03",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSHNwbDJ3Y0M2Y0pRZUNJNlc5SjZwYjdOOERQSWdLVTBqWG9YaUo0TGxVYW9kMlJOTVV2dkxRTU5tZS1FaWN1Q0V0U1MxcWNZVUdiZmE2a0lwV1lwcmI0SDFsazh4OFBRSnNXa0U2MmRBVF96UXV1ZDNPNmk0bU9sQzlaSzBpcmM5a3REbjBKcGUtS0w4NGlwalZEN3d3ZERw?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T21:07:16Z",
-     "titel": "How Much Upside Is Left In Micron Stock?",
-     "kalla": "Trefis",
-     "lank": "https://www.trefis.com/stock/mu/articles/626211/how-much-upside-is-left-in-micron-stock-2/2026-11-18",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS2s3UlBYWmpyMFFVdkdXTVRjakZFRXh1ZTVJX1UxUW5LTHd4aklIeHB6RlpTOVpXQU5yYmltSGdHd0dXdEpNOWxUemM2aDNFa2cwbXVzUlBDQ29zU05NMDZRVS1PLWJVay1PQ3BxaV9KWWl5WHZFMm5XZXNyX0ZZMGgwdWtDckx6RENNVlhUU0RydGh5cWlqaE5xVEZNa19lOUE?oc=5",
-     "utdrag": "For questions about this article or underlying research, email help@trefis.com. Micron Technology (MU) stock returned 189% over the past twelve months, against 10.3% for the S&P 500. That is even after a 21.3% drop in the past month. You would be buying profits at their peak. Micron’s net margin over its latest four fiscal quarters is 63.8%. That is its highest at any quarter end in our data, which start in fiscal 2017. So what could a share bought at today’s price still make you over the next three years? Under this scenario, a Micron share bought today would be worth about 21.2% more three years from now, or about 6.6% a year."
-    },
-    {
-     "tid": "2026-11-18T20:56:46Z",
-     "titel": "Micron expects even tighter supply in 2027-28 than 2026; continues to work with Nvidia",
-     "kalla": "Seeking Alpha",
-     "lank": "https://seekingalpha.com/news/4674383-micron-expects-even-tighter-supply-in-2027-28-than-2026-continues-to-work-with-nvidia",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhtRzlNNTdLbTFwMUtMSGhxaGpMOGtROWVVZWJCVDZybmR5MHF1QmlYOUE3YmtfYlk4X3cyNWh0bEptMUJsdnNDSlFuX09QbTd0N3hRTUdpU3RUY2hCcUkxVHFTdDNNbWw4SjFDVzQ3TG15Sk00MVc0WEZRZnVkcG9zWC1mclpidjJtRmpZbzFLV3FIS0tZUUlzbHFoX1RrYzdKQVU3eDZuQkp0RXAxeUpnS1dXb01WVDlIczBMTk8?oc=5",
-     "utdrag": "Micron expects memory supply to tighten further in 2027 and 2028; 75% of 2027 output is sold, with five-year customer deals expanding visibility. Micron Technology (MU) said it expects a tighter memory supply for calendar years 2027 and 2028 than in 2026 during the TomorrowX Summit in Austin on Wednesday. \"We have said before that calendar years 2027 and 2028 will be even"
-    },
-    {
-     "tid": "2026-11-18T20:30:32Z",
-     "titel": "Micron collaborates with Minio to test AI data lake: Will MU hold $666.88 support?",
-     "kalla": "Traders Union",
-     "lank": "https://tradersunion.com/news/companies/show/4310126-micron-technology-stock-falls-2-1percent/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORER0Um5ZTE82bS1NR2RRMFU2V09RemMzcHR5TzlOcUtGX3lOLVFnWHpINkw5eU9iZzVlU19SNlZGX2FqNnh5aU1SWVBWT0I1c0NISWdVU0pYeDEzcE4tRHRqN3ZXTW5paUhrRmlpZVBOR2ZGTV9GZ2R1UGJiX090cU1CVHJKSnYybTE0VVNHWVdwajVrckJrUEtR?oc=5",
-     "utdrag": ""
+     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS05QN2ZHeGJialhoZkRIcnZURkU4dkFfb2N4LUNzMEY4WlhFVXdaMGtsblhwR1RFTWo5OXNFTUhMWEY5ZlBSMFhOckNQUzJ3ZnkzajBPeXFpeDBPeGdPWEd1b3pmZXBhT2NSd1Z3NWF5dVJfemZCMEJ2cDhRRjh4OWVEZFVZOW4tb2QtSGxBMFFqcXNBTWxuUVBn?oc=5",
+     "utdrag": "Micron looks poised for a stock split, especially after Sandisk's recent announcement. Micron Technology (NASDAQ:MU) may be the next tech stock to perform a stock split. Even after a lengthy correction, it still trades above $700 per share. It's normal for companies to initiate splits when they get closer to $1,000 per share, and investors already saw that unfold when fellow memory stock Sandisk (NASDAQ:SNDK) announced an 8-for-1 split. While an 8-for-1 split doesn't make sense for Micron at its current price, a smaller split may make sense in the near future. Missed AI's \"Act 1\"? Act 2 Could Be 16x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005."
     }
    ]
   },
@@ -1481,7 +1511,7 @@
     "mfn": 2,
     "yahoo": 0,
     "google-sv": 22,
-    "google-en": 31
+    "google-en": 30
    },
    "fel": {},
    "nyheter": [
@@ -1670,50 +1700,87 @@
   "nvidia": {
    "namn": "Nvidia",
    "antal": {
-    "yahoo": 5,
+    "yahoo": 4,
     "google-en": 99
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-19T12:30:00Z",
-     "titel": "Howard Lutnick’s family firm cut its Nvidia stake nearly in half before a 36% plunge. Now Congress wants its records",
+     "tid": "2026-11-19T13:44:08Z",
+     "titel": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
      "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/howard-lutnick-family-firm-cut-123000030.html?.tsrc=rss",
+     "lank": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html?.tsrc=rss",
      "fran": "yahoo",
-     "utdrag": "The timing raises questions about whether financial institutions with close ties to senior government officials have access to information that’s not available to ordinary investors. Cantor Fitzgerald, the Wall Street investment bank formerly headed by Commerce Secretary Howard Lutnick and now run by his sons, nearly halved its reported holdings of Nvidia (NASDAQ: NVDA) stock amid growing national security concerns involving the chipmaker. The timing raises questions about whether financial institutions with close ties to senior government officials have access to information that's not available to ordinary investors."
+     "utdrag": "The chip sector rose on Thursday, led by shares of semiconductor giants AMD and Nvidia, as well as memory chip maker Micron. Chip giants Nvidia (NVDA) and AMD (AMD) rose in premarket trading on Thursday amid growing optimism as investors prepared for Anthropic to start trading in what is one of the most hotly anticipated IPOs ever. Other chipmakers, including Broadcom (AVGO) and Intel (INTC), also gained. Memory chipmaker Micron Technology (MU) jumped 4% in premarket trading, along with peer SK Hynix (SKHY). Micron president and chief technology officer Scott DeBoer reiterated on Deirdre Bosa Live on Wednesday that memory supply in 2027 will be tighter than in 2026."
     },
     {
-     "tid": "2026-11-19T12:27:19Z",
-     "titel": "President Trump Just Delivered Good News for Nvidia Stock Investors",
+     "tid": "2026-11-19T13:15:21Z",
+     "titel": "Nvidia Slides After Blowout Earnings As Investigations Line Up; Is Nvidia Stock A Sell Now?",
      "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/president-trump-just-delivered-good-122719225.html?.tsrc=rss",
+     "lank": "https://finance.yahoo.com/m/d32ee509-88e1-36bb-8282-cdd0896feece/nvidia-slides-after-blowout.html?.tsrc=rss",
      "fran": "yahoo",
-     "utdrag": "Nvidia Gets a Surprise China Signal From Trump. Blackwell Sales May Be Years Away U.S. President Donald Trump said the United States could consider allowing Nvidia (NASDAQ:NVDA) to sell its Blackwell artificial intelligence chips to China in two or three years, once newer processors replace them at the top of the market. He made the comments in Shenzhen during the Asia-Pacific Economic Cooperation summit, according to a Wednesday Fox News interview. The remarks point to a possible future opening, not an immediate change in export rules."
+     "utdrag": "Nvidia stock slides amid a five-day losing streak as investigations in export controls take center stage."
     },
     {
-     "tid": "2026-11-19T12:22:01Z",
-     "titel": "Not Nvidia. Not Broadcom. If I Could Buy and Hold Only 1 AI Chip Stock Through 2030, It Would Be This One",
+     "tid": "2026-11-19T13:13:52Z",
+     "titel": "Jim Cramer Says Investors “Would Rather Just Get Some Anthropic” Than Nvidia",
      "kalla": "Yahoo Finance",
-     "lank": "https://www.fool.com/investing/2026/11/19/not-nvidia-not-broadcom-if-buy-hold-1-ai-chip-stock-2030-this-one/?.tsrc=rss",
+     "lank": "https://247wallst.com/investing/2026/11/19/jim-cramer-says-investors-would-rather-just-get-some-anthropic-than-nvidia/?.tsrc=rss",
      "fran": "yahoo",
-     "utdrag": "There's no denying TSMC's unique opportunity in chip manufacturing. 10 stocks we like better than Taiwan Semiconductor Manufacturing › The artificial intelligence trade feels unstable, to say the least, right now. Several months ago, investors began questioning how much tech companies were spending on AI infrastructure. And the recent resignation of Nvidia CEO Jensen Huang further heightened investor skepticism that all is well with AI companies. Even AI darlings, including Broadcom and Marvell Technology, have fallen as shareholders wonder if spending on new AI chips is sustainable."
+     "utdrag": "NVIDIA posted blowout results, yet its stock keeps sliding while a empty CEO chair and a trillion-dollar AI newcomer pull investors elsewhere. The twist is that the rival's success may quietly depend on the chipmaker it is replacing. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. Jim Cramer told his television audience on the evening of November 18, 2026, that investors would “rather just get some Anthropic” than keep waiting on NVIDIA (NASDAQ:NVDA | NVDA Price Prediction). His bottom line was that you don’t need to own the chipmaker. He called NVIDIA’s quarterly results better than good."
+    },
+    {
+     "tid": "2026-11-19T13:04:27Z",
+     "titel": "Broadcom, Nvidia, and Micron Could Be Setting Up for a Massive AI Rally Before Year End",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/19/broadcom-nvidia-and-micron-could-be-setting-up-for-a-massive-ai-rally-before-year-end/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Nvidia is down for the year while Micron just shed nearly a fifth of its value in a month, yet the numbers under the surface tell a different story. Here is why three AI giants may be mispriced heading into 2027. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. The AI trade cooled into the holidays, and that pullback may be the setup for a rally. NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) is down 16.45% year-to-date, even though revenue rose 103.2%[1] in its latest quarter. Broadcom (NASDAQ:AVGO) is 0.76% lower for the year."
+    },
+    {
+     "tid": "2026-11-19T13:04:00Z",
+     "titel": "Nvidia (NASDAQ: NVDA) Board Blocks Jensen Huang's Return As Alaska Senate Seat Flips To Democrats",
+     "kalla": "Foreign Policy Journal",
+     "lank": "https://www.foreignpolicyjournal.com/2026/11/19/nvidia-nasdaq-nvda-board-blocks-jensen-huangs-return-as-alaska-senate-seat-flips-to-democrats/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQUlUNFcxbWpNbXY5UExiWlZkVWVmLVJkWU9wTXRwYnhhYjdpaUN1YnE1S05DcDdlUjF2VEhaeFMtcEtYSGgzU2hkUU95ekphZHBqZFB1clFfOTZUdl9xZ2FPVmRCS2tzR2FxMFE2cUNJWWUyc1lDZWs4WGg2NzEyY1IzSkROc2JXOUd3N0tDSXNMOE5mWFdiM1lPMWYzNjNqeG9EY1dTTHg5dEMyMzQ2Y2lKUXg2aHBnSER6RUU0Smp5ZTNqRThTUllpdzRfZlUxY3BhOW80c1dRZw?oc=5",
+     "utdrag": "Nvidia (NASDAQ: NVDA)'s board of directors has formally declined to reinstate Jensen Huang, a decision that marks a significant moment of corporate governance By David Prior | Nov 19, 2026 | Economy & Business, Featured, News & Analysis, Politics Nvidia (NASDAQ: NVDA)’s board of directors has formally declined to reinstate Jensen Huang, a decision that marks a significant moment of corporate governance tension at one of the world’s most valuable technology companies. The rejection closes, at least for now, a chapter of internal deliberation over whether Huang would resume a formal leadership role at the semiconductor giant he co-founded."
+    },
+    {
+     "tid": "2026-11-19T13:00:00Z",
+     "titel": "A Quick Look at Today's Ratings for NVIDIA(NVDA.US), With a Forecast Between $170 to $350",
+     "kalla": "Moomoo",
+     "lank": "https://www.moomoo.com/news/post/1005186151/a-quick-look-at-today-s-ratings-for-nvidia-nvdaus",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0FUMkczMW5WYVE0UU0tZ2FQSE9NX2hqb3gtSUpTSzhYM0diVmRaUklEd2Y3dGtyQnJ3ZVJYYXhKSFNTaFMtcGdUMEVzQTB2YjVGRWVSZG9GbFoxX2NVRnZTdlY4bkJkanA3VmlnVlZIc19CdjVSQ1VwWXI1cW1QOWtWb0FoVVJHY0RwbGlJTWZFVmFTQ3Nvcw?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T12:42:00Z",
+     "titel": "Why Nvidia Stock Isn’t Getting the Full-Throttle Anthropic Boost",
+     "kalla": "Barron's",
+     "lank": "https://www.barrons.com/articles/nvidia-stock-anthropic-ipo-ai-rescue-57a0d00e",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM0V3d1ZlZG04SEFmUFJDc1lRZDRWMkZMMkVULVc2SlZqMmI2VUlfUW9sWS1UOFAydWxxdDBVZDZVU2FRODNxMUtTdGdKSnh1Z0tnOF90VDNzMThFUkk2dFE0Y0ZwenFLSWl5TFNKUDhod1pOU0VHT2lEbE0tUUtKN3hQNjk?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-19T12:15:00Z",
      "titel": "Nvidia faces 2028 growth concerns as UBS cuts price target to US$220",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.proactiveinvestors.com/companies/news/1102097/nvidia-faces-2028-growth-concerns-as-ubs-cuts-price-target-to-us-220-1102097.html?.tsrc=rss",
-     "fran": "yahoo",
+     "kalla": "Proactive financial news",
+     "lank": "https://www.proactiveinvestors.com/companies/news/1102097/nvidia-faces-2028-growth-concerns-as-ubs-cuts-price-target-to-us-220-1102097.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcGp5dEI5eEJHR0hKbFYxQnlFdElhdE9rS21XNERyU0NfOWRZRGRBSmRsVVIzYXBSSlM5aTg4b0RRSUs5bDI3V2x4aUJBRFZDemg2RzVxcEZKVjBrcGNEbzE4SVZvc3Y0N3pLMXpYeVgzMmYwZjdUUFlHUWs3TENYaUxDcHNnd19UR2lBTlNGNDBNOFNURGNjaGlfUGRBOE1RY1JKMEF3aFNiMktnMThhd3c2eG93cjdOQTVwSnJPODZuNXNHdkRXR2hfNVV2Z3E5TDdkbGpn?oc=5",
      "utdrag": "UBS has cut its price target on Nvidia Corp (NASDAQ:NVDA, XETRA:NVD), the semiconductor maker, by 8% to US$220 from US$240, while retaining its 'buy' rating. The revised valuation reflects concerns about slowing growth in calendar 2028, despite strong near-term demand and improving revenue visibility. UBS analyst Timothy Arcuri, alongside associate analysts Seth Cho and Gianmarco Vella, lowered its earnings forecast for calendar 2028 to US$18.80 per share from US$20.01. The bank maintained its valuation multiple at 12 times forecast earnings, applying it to the reduced profit estimate to calculate the new target."
     },
     {
-     "tid": "2026-11-19T12:04:29Z",
-     "titel": "Dan Ives Says Anthropic IPO Is ‘A Big Win For The Tech Sector’ After ‘A White Knuckle Time With Nvidia’",
-     "kalla": "Yahoo Finance",
-     "lank": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-anthropic-ipo-big-win-for-the-tech-sector-after-a-white-knuckle-time-with-nvidia/cNbielNR9iz?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Dan Ives, partner and senior managing director at Yorkville Ives and Co., said on Thursday that strong demand for Anthropic’s (ANT) IPO is a win for the tech sector, which has had a volatile stretch with Nvidia (NVDA). According to Ives, the offering is a “key” moment for AI and markets.Anthropic is scheduled to begin trading on Thursday on the Nasdaq under the ticker ANT."
+     "tid": "2026-11-19T12:12:00Z",
+     "titel": "Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?",
+     "kalla": "MarketWatch",
+     "lank": "https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTVPd0FEeTNPYkhXbFg0NV9XUVQ2WFQwelNjVlRmQU1pWW9KX1J1bDdHOXhLVkhPRmRmZmJxbDY1YUtkZWJKUnV3MFdtVkd0RnpQSVdJeGtUajY0NnQwLWhHVzd3T01fMDdOZGJSeVpMZl9tSDZ5eFltSFg5RkNHeGxhZzJXMnBiT2ZoRUduUjB2eFI5WTlLMU1LRXRXelRwbGFkMUk5c0xiZHhJWFN5NEJFby1mQQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-19T12:00:00Z",
@@ -1734,15 +1801,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-19T11:45:16Z",
-     "titel": "Nvidia Is the Central Bank to AI’s Circular Economy. See Where the Money Goes.",
-     "kalla": "WSJ",
-     "lank": "https://www.wsj.com/finance/stocks/nvidia-is-the-central-bank-to-ais-circular-economy-see-where-the-money-goes-da480b61",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQXJ3dXNSQjEteFV0RHhXOG9BNENrMUtNWEhScTE1U01nQXhqRWlidDFXMGVGeHVaX2cwcEhnOG9jRVc0emxvUzQtZHhGRTJpdklTLXZ1T0M1eW1WU1YydVpCM1MzSXdDYUFUTHJUTVdBTVZhMlJDOGlFMzA3UTZxdHpJT1ItOGFtaXYzUTQwLURndXJrblVIdlVCdkZGcVc1V0ZsNHVBclRtZ3NZSjdZRGRZc0hMQ1JyMDdn?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-19T11:30:14Z",
      "titel": "Trump suggests Nvidia's Blackwell chips could go to China later (NVDA:NASDAQ)",
      "kalla": "Seeking Alpha",
@@ -1750,15 +1808,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObjVKNmVPWjVWV2taSzhpTzFIRDJlZ0lCRzNWYWtGUzJKX3BSN2ZaYlgzaUxXWmtYdmtiVllCcFJycGJYTm5vTjdoV3ZsWWE3Z1h5V0JGMXljS1NGZ3czd1A2WXZCbmxNRjNNSHF1UTZtMzhObnlyaW1JZFZpaFhTSndYLW5KcVZ2UkxhYV9Bc2E5SmM2dFRxWWo5ZmdoMWhnOUE?oc=5",
      "utdrag": "Trump says Nvidia could sell Blackwell chips to China in 2-3 years, once they are no longer the most advanced; Nvidia sold $2.4B in China Hopper products. U.S. President Donald Trump said Washington could eventually permit Nvidia (NVDA) to sell its highly sought-after Blackwell chips to China once they are no longer among the most advanced processors available on the market."
-    },
-    {
-     "tid": "2026-11-19T11:15:00Z",
-     "titel": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/stocks/articles/nvidia-turmoil-spooked-time-come-130000353.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUXdtR2s5Y3EzQXFqbmF5X1Q4X2ptUF82czA1RUd6WFNXNGNBd1RJTjhhU2hGU0RCX0EyeEF5TWlwQlhlckZfUmtMOG9ncU4zY2QyZXRPOC02aHBIMDlMd0ZZb3poeHlmNlJvRTAzUEJhQ1hGZE5wd0RzRDRRdU95MVp0MUVlZWxiRTFQRk90TnBrdG52MGZWMklsS1plUQ?oc=5",
-     "utdrag": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves. A Moneyist reader nearing retirement shared his fears: \"With the market dropping so sharply, is this a good time to move some money out of investments in the S&P 500 SPX and consider other opportunities? I'm in my late 60s. Nvidia's turmoil has me spooked, so I'm looking at a couple of options.\" This closely watched investing guru just sold all of his stocks 'I felt so seen': Why families across America are laughing — and crying — over SNL's 'Sister' sketch \"Real estate here in Florida seems to be presenting some interesting opportunities, with plenty of inventory and sellers who appear more willi …"
     },
     {
      "tid": "2026-11-19T11:08:31Z",
@@ -1797,24 +1846,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-19T10:10:00Z",
-     "titel": "Nvidia Stock Is Rebounding on Hope Anthropic IPO Will Rescue the AI Trade",
-     "kalla": "Barron's",
-     "lank": "https://www.barrons.com/articles/nvidia-stock-anthropic-ipo-ai-rescue-57a0d00e",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM0V3d1ZlZG04SEFmUFJDc1lRZDRWMkZMMkVULVc2SlZqMmI2VUlfUW9sWS1UOFAydWxxdDBVZDZVU2FRODNxMUtTdGdKSnh1Z0tnOF90VDNzMThFUkk2dFE0Y0ZwenFLSWl5TFNKUDhod1pOU0VHT2lEbE0tUUtKN3hQNjk?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-19T09:19:48Z",
-     "titel": "HOW-TO: read Volume Oracle's yellow warning on Nvidia, 4H for NASDAQ:NVDA by SignalPilotLabs",
-     "kalla": "TradingView",
-     "lank": "https://www.tradingview.com/chart/NVDA/TI3ThVTD-HOW-TO-read-Volume-Oracle-s-yellow-warning-on-Nvidia-4H/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcWlfMlpTUnQzbEpuLUdTUjVfTWtnTzlHaUhneDdFbE82RFRpSUg5SDdRbUZ1MVJaLWt5NXdneTJ5LXJtYXFKc0R5UDNsRVhHZjBnMjZxZnpfcmczTVY3d09Cd0t1OFcwa3Z0UkV1ZU9tdUxzbjZzV1VKUzJDcUVOUkNnaDZEWEFFNFlvZk84Q1dCMGlodU1MWEhGWFNiSERSajZnYWZKMA?oc=5",
-     "utdrag": "Does Volume Oracle warn before Nvidia's regime changes? On the 4 hour chart, all 159 since March 2022 had a warning on the candle before. Volume Oracle sorts the market into regimes: Accumulation, Distribution or Neutral. It scores each candle, and the regime changes when that score crosses its flip level for two candles. Its table shows the score and the level when you hover over it. Before a change, the regime weakens, and Volume Oracle warns through a ladder: FADING, WEAKENING, CRITICAL, …"
-    },
-    {
      "tid": "2026-11-19T08:55:02Z",
      "titel": "2 Words From Nvidia’s Colette Kress That Should Reassure Investors",
      "kalla": "The Motley Fool",
@@ -1833,6 +1864,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-19T08:45:01Z",
+     "titel": "$1 Million In Nvidia Five Years Ago: What Is It Worth Now?",
+     "kalla": "Trefis",
+     "lank": "https://www.trefis.com/stock/nvda/articles/626572/1-million-in-nvidia-five-years-ago-what-is-it-worth-now/2026-11-19",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY2hRdWZ5cHI1RGM5TmtHVmJ4LWVFbmp2ZFpLbmJWU1RUUU9iejFXMGJWSEk3TXZZRHlENHhyRmFFSUxqMTIxX3dKc0daZVotTEZpTTl3a0ZTaHF0dUNwMHZVOThIbi0wQnZwamR4amczOEhpUU1oVEVXOVR6MkpjRm1zQWY5a1R2NnllVGxrcXRxalVTeXFvbnRUb2ZhVS1jQXMtOHd2elBmTkhaWlFRRUs4UWNlbWM?oc=5",
+     "utdrag": "Today's big story: Could Anthropic Stock Fall 25%? One million dollars put into Nvidia on Nov 18, 2021 was worth about $4.79 million at Wednesday's close. Over ten years, the same million became about $65.9 million. In our view, AI may be the biggest technology shift of our lifetimes. Nvidia sells the chips it runs on, and its stock shows it. One million dollars put into Nvidia on Nov 18, 2021 was worth about $4.79 million at Wednesday’s close. Over ten years, the same million became about $65.9 million. In our view, AI may be the biggest technology shift of our lifetimes. Nvidia sells the chips it runs on, and its stock shows it. The story usually leaves out the falls."
+    },
+    {
      "tid": "2026-11-19T08:43:52Z",
      "titel": "Is Nvidia Stock Dead Money For A Year?",
      "kalla": "Trefis",
@@ -1840,26 +1880,53 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObFJTVldfVDQ3RmhENGZIcjYxSHE0dnNtcDF0ZW9aZ3hkMFliRVFmM0RxLWVqeUVUV1E3ZUNUcWRtcWF5bGljb21Dc0lNUThOSXJ4djctbHBtbGtyZ1FKSWwxeWhCdmxZRmdpUGhxTV9mOERQRjdvNXc2c1RXUGFJclFHcndiWExJWXFIWjE1RnB2ZVB0cFRQWHByb3BYTHM?oc=5",
      "utdrag": "Today's big story: Could Anthropic Stock Fall 25%? The AI trade has had a hard five months. The VanEck chip fund (SMH) is down 31% from its June 22 high. Nvidia is down 37% from its October high. The Nasdaq 100 is down 13% from its Oct 6 high. The worry now is not a dip. The AI trade has had a hard five months. The VanEck chip fund (SMH) is down 31% from its June 22 high. Nvidia is down 37% from its October high. The Nasdaq 100 is down 13% from its Oct 6 high. The worry now is not a dip. It is a lost year, or dead money: a stock that goes nowhere while everything else moves. We checked every fall this size since 2003, what set the dead years apart, and what to watch now."
-    },
-    {
-     "tid": "2026-11-19T08:43:45Z",
-     "titel": "Nvidia Beat Again. Why Is The Stock Still Down?",
-     "kalla": "Trefis",
-     "lank": "https://www.trefis.com/stock/nvda/articles/626521/nvidia-beat-again-why-is-the-stock-still-down/2026-11-19",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTHIxREJ1OHJWVFVOWURPYVRORTB6N3RHWDhDUW5iSkE1Q0RqLXhFcGJGUEFOWjlnUDM5Q0Fzc2MxUmt6UF9TZjFFZjltZVhoTEpoX1NUc1pOR3hGZ0YyaU10Nk9Kd1BfbDdWdnh5ajZfMnFwR05hbzFBY3dCWXp3NGlEa0ZXM180aGw1UHNOWTFBUkZmVDRpbEZLa3NXbHBYWVppRlpCZ1FjQQ?oc=5",
-     "utdrag": "Today's big story: Could Anthropic Stock Fall 25%? On Tuesday Nvidia reported $115.8 billion of sales for the quarter. That was $6.7 billion more than analysts expected. On Wednesday the stock fell 2.9%. It now sits 37% below its Oct 6 high. If you own it, that feels backwards. The company keeps winning and the stock keeps losing. On Tuesday Nvidia reported $115.8 billion of sales for the quarter. That was $6.7 billion more than analysts expected. On Wednesday the stock fell 2.9%. It now sits 37% below its Oct 6 high. If you own it, that feels backwards. The company keeps winning and the stock keeps losing."
     }
    ]
   },
   "palantir": {
    "namn": "Palantir",
    "antal": {
-    "yahoo": 14,
+    "yahoo": 13,
     "google-en": 95
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:30:00Z",
+     "titel": "Nurse warns trust in NHS at risk over Palantir contract",
+     "kalla": "Nursing Times",
+     "lank": "https://www.nursingtimes.net/digital-and-technology/nurse-warns-trust-in-nhs-at-risk-over-palantir-contract-19-11-2026/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01xczlKc2p2V3BYSFN3TWRKZFJjZDJEcEYyTlJYMk9CUm8wd1NFRVBndXZpNmI3NU9rSFNGbWMxYmo3Z01KTVptR3VpVkN5ZWxGV2ZSNEV6LXpmX05kRmVrREF6Qm5QUW9oV0tySDlNMVg5MElPakV5aC13RHh3SFhtd3o3SmFyU0FZem1wR0xHQk1MUk5IX1lHcFU5ODE3aEE3MWREMGpYT21aSUNLQmJsRTVhWVM1YTBF?oc=5",
+     "utdrag": "Read why a nurse, who is also a borough councillor, has shared concerns with Nursing Times about the NHS' contract with Palantir. A nurse has told Nursing Times she is concerned for the profession now a controversial technology company has been allowed to continue overseeing a nationwide NHS database. This week, the government announced its contract between US tech company Palantir and the NHS Federated Data Platform (FDP) would be renewed but shortened by around two years. A consortium led by Palantir won the £330m contract in 2023 to run the FDP system for up to seven years from March 2024 through to March 2031."
+    },
+    {
+     "tid": "2026-11-19T13:18:14Z",
+     "titel": "U.S. Indicts Russian National for Stalking Palantir Employees as ‘Foreign Agent’",
+     "kalla": "The Moscow Times",
+     "lank": "https://www.themoscowtimes.com/2026/11/19/us-indicts-russian-national-for-stalking-palantir-employees-as-foreign-agent-a94313",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcWlBcnE2UmI0eEFMaFpiQ3FrbGtXS2tFcUFzWW04a0N0R0g5RnJCckdvbWN6WVhldncxOWRENlFoZ0dOemZrWFd1OHJ3VjBZalllQ2ptNW1ZQ0lRSmFWRDI5aHRObnY2UUdQQzlDcUJmR25TcXh5Um5uZ2VGLUJNOGdndW5wd2hUZXNjMVdzMGpNOVlWaUhPVldLWFVvRzZfTDNxX0l3dEc3MXkwdTZpYU5SYjkxQVhDbm84Z0RpUUZyUlU?oc=5",
+     "utdrag": "A U.S. federal grand jury has indicted a Russian national on charges of acting as an unregistered foreign agent and stalking employees of the defense and software company Palantir over its support for Ukraine, the Justice Department announced Wednesday. “The allegations in this case describe a state-sponsored operation to target and harass employees of an American technology and defense company because of that company’s assistance to Ukraine in its war with Russia,” said U.S. Attorney Craig H. Missakian. Bloomberg, citing a source familiar with the matter, identified the targeted Silicon Valley technology and defense company as Palantir. Reuters later corroborated that report."
+    },
+    {
+     "tid": "2026-11-19T13:00:14Z",
+     "titel": "US Indicts Russian National for Spying on Palantir Staff Over Its Support for Ukraine",
+     "kalla": "UNITED24 Media",
+     "lank": "https://united24media.com/world/us-indicts-russian-national-for-spying-on-palantir-staff-over-its-support-for-ukraine-24529",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMGhYMF9IWmVzaHNsbDdWamNJQTR6aEdKNXh4UDBfaVRqTVRjOGpCZzliMEUxWVVXQi05Um1DZ1BpMGxRaHFwd3NEV3I1czc1clA0Yld4aldVcUh0b0ZOZV9QaWhXbWZlRkhHMDRLblkxbUpUZXV6aWQtV2xRZEt4RDJhMFlLZGwyV0ZFUWpUTDItRGQxNEs4aWZDdU10NUwtZDNBdnZGX01COE1RVWNfU3duLTIxZlNfamJHeGlTTkI?oc=5",
+     "utdrag": "The Igor D’iu indictment details alleged identity document fraud and undeclared foreign agent activity linked to Palantir Technologies surveillance. A US federal grand jury has indicted Russian national Igor D’iu for allegedly conducting surveillance on employees of a California technology and defense company over its support for Ukraine, the US Department of Justice announced on November 18. Authorities did not name the company in the indictment, but Reuters identified it as Palantir Technologies on November 18, citing a source familiar with the investigation. We bring you stories from the ground. Your support keeps our team in the field."
+    },
+    {
+     "tid": "2026-11-19T12:59:09Z",
+     "titel": "Palantir: I'm Still Bullish, But Not Adding More Yet (NASDAQ:PLTR)",
+     "kalla": "Seeking Alpha",
+     "lank": "https://seekingalpha.com/article/4970076-palantir-im-still-bullish-but-not-adding-more-yet",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQTV0a2dIZkFDa2lsdlQ0RjAyQ1VTeG56U1ZBdlNxbWE3SU5ZV0w1NDlJMk1fam5MaHZRN2dHemI3djhycTJiWWpDWVFuRi1ac2UwQWZadHFLWGFaLUxnd2ZsTzRacExrMVVLbDJGXzB5dmFrcmVncFIwVGZTajZiV1BuRXFMRDdXQnhuUzNBNHBqR1Rv?oc=5",
+     "utdrag": "Palantir's Q3 revenue surged 96% to $2.31 billion, while adjusted operating margins reached an exceptional 62%. Palantir Technologies Inc. (PLTR) has pulled back almost 25% from its October highs despite reporting another quarter of accelerating growth and outstanding margins. The firm reported third quarter revenue growing 96% year-over-year to $2.31 Analyst’s Disclosure: I/we have a beneficial long position in the shares of PLTR either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha)."
+    },
     {
      "tid": "2026-11-19T11:59:56Z",
      "titel": "Russian charged with spying on Palantir employees for Moscow",
@@ -1958,15 +2025,6 @@
      "utdrag": "The U.S. Justice Department charged a Russian national with surveilling employees of American tech firm Palantir to intimidate staff over the company's support for Ukraine against Russia, Reuters wrote on Nov. 19, citing its sources. The Reuters source said the company is Palantir Technologies, which has a large office in Palo Alto, California, and is headquartered in Florida. Investigators said Russian citizen Igor D’iu acted with accomplices from Russia. He photographed company employees’ computer screens while in a cafe near its office. He also followed one female employee for almost 50 kilometers, but stopped after she contacted the police."
     },
     {
-     "tid": "2026-11-19T05:36:00Z",
-     "titel": "Is Palantir (NASDAQ:PLTR) Testing Chart Support?",
-     "kalla": "Kalkine Media",
-     "lank": "https://kalkinemedia.com/us/stocks/technical-analysis/is-palantir-nasdaqpltr-testing-chart-support",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmttZElSWG4zSXRuQ0JVT2NfVDhWVGNxODZ5TTFmeGZ1OThFREtoNzBJZmtIdmUyXzU3RjQwdDQtLU9OVm5pTXJxa1hIYnZnMUtNaGJNQ1M0cy1BYllfS19DVG83d2hFc3FrVGtVRXc1UXJkeTRacm1Id3lnWkFSbEtjbFRYVFJxY0cxcVQ4bUt6RVREWVRtU1dLcTZ1Smc?oc=5",
-     "utdrag": "Palantir Technologies (NASDAQ:PLTR) has eased from record highs even after a strong quarter, leaving chart watchers focused on whether support stays firm. Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder HAIN (NASDAQ:HAIN) Debt Talks and an International Sale Shape the Next... PFE (NYSE:PFE) Raises Its Outlook as Newer Medicines Offset Fading Pan... SHOP (NASDAQ:SHOP) Keeps Revenue Growth Above Thirty as AI Tools and P... AAPL (NASDAQ:AAPL) Caps Its Best Year as iPhone and Services Records S..."
-    },
-    {
      "tid": "2026-11-19T05:10:34Z",
      "titel": "How Investors May Respond To Palantir Stock After NHS Contract Extension",
      "kalla": "Simply Wall St",
@@ -2010,32 +2068,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa2ZKTHBmT2hqNzM5UW5ITFlMcXZodnNhbTFXOWNyZmZCMmphNGJQcnVhTzNhNGNuY09OWW55NE5ySVVIbTEzei00R3hpSkV0MDhLZUo0Y3pKZFBlYjZEYUpKMVBKY0diQmFFM2NXVU4wdUQzYUIyamtaWHlrX1h5UTAxVG1jb2lDS0FzMjdsZGpjb0ZudmQ0MkF1QV9XSGVUR3ZBLVJmTWRUM0F5RTBiZW1aNA?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-19T00:47:45Z",
-     "titel": "Russian indicted in US over alleged effort to target Palantir employees",
-     "kalla": "Mezha.net",
-     "lank": "https://mezha.net/eng/news/mezha-cbd7846e7f542c9e50bd5c40_russian_indicted_in/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTJlSHpiN293T2lwTGVjMTdxWTZZZ2xVbTZvRWVSc1c5VDY3UEkxaE9GZ2xCemZQb0RqU2p1Q2JjV2VfVHYzSGxjTmNIU1h1UDNlMkpVbW1ueHdqMkRXM1NINDdxWXFRZWxEU3BPTjhmdDNrOFEtXzNKMjFBLXFldjhZN2s?oc=5",
-     "utdrag": "Igor D’iu is accused of acting as a foreign agent in an alleged effort to surveil Palantir employees. The company has publicly backed Ukraine and says it has deployed its technology there. A federal grand jury indicted D’iu on charges related to acting as a Russian agent, interstate stalking and fraud involving identification documents, according to court records. The Justice Department described the target in an affidavit and press release only as a Silicon Valley technology and defense company. A person familiar with the investigation, speaking anonymously, identified it as Palantir Technologies Inc., which has a large office in Palo Alto, California, and is based in Florida."
-    },
-    {
-     "tid": "2026-11-19T00:45:18Z",
-     "titel": "UiPath vs. Palantir Technologies: Comparing Modest Revenue Growth vs. Rapid Expansion",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.fool.com/coverage/charts/2026/11/18/uipath-vs-palantir-technologies-comparing-modest-revenue-growth-vs-rapid-expansion/?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "Palantir's quarterly revenue has more than doubled over the past eight quarters, while UiPath's has stayed largely flat with recurring seasonal swings. UiPath (PATH -5.33%) primarily generates revenue by delivering an integrated suite of enterprise software applications that empowers corporate entities, financial institutions, and government organizations to independently design, deploy, evaluate, and continuously manage automated business processes across their operations."
-    },
-    {
-     "tid": "2026-11-19T00:44:01Z",
-     "titel": "Russian spy suspect caught in the US! Followed Palantir's female executive for 48 km",
-     "kalla": "Haberler.com",
-     "lank": "https://en.haberler.com/russian-spy-suspect-caught-in-the-us-followed-2339555/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHVKYmg4a01VVXA5YVBpMkQxUFBQa3JISDRJcEhkbGppdVlGam8wYnlBa0gzZjhNTGlWeW5KVWNJTDExRDQzTHBGQ3h1NDNJZXZ1X0ZoY1V3U08xYXpVSDhEVWY3emFoYk82a3hraGNxU2tXdHlVZm9YQjBNaF9IRW1hTG4?oc=5",
-     "utdrag": "In the US, a Russian accused of monitoring Palantir's Silicon Valley employees on behalf of Russia has been arrested; Palantir supplies software to Ukraine. Two Russian passports and a notebook containing the employees' addresses were found in the suspect's home."
     }
    ]
   },
@@ -2044,11 +2076,10 @@
    "antal": {
     "mfn": 1,
     "yahoo": 1,
+    "google-sv": 10,
     "google-en": 5
    },
-   "fel": {
-    "google-sv": "HTTP Error 429: Too Many Requests"
-   },
+   "fel": {},
    "nyheter": [
     {
      "tid": "2026-11-18T12:41:00Z",
@@ -2060,12 +2091,48 @@
      "utdrag": "Smart Eye, a global leader in driver monitoring technology, has partnered with Optix, renowned for 24/7 human intervention and predictive fatigue intelligence, to offer fleets a complete solution to combat driver fatigue. This collaboration combines automotive-grade AI detection from Smart Eye’s AIS driver support system with human-driven intervention and predictive analytics—bridging the safety gap between identifying fatigue and actively preventing incidents. Fatigue remains one of the most significant safety risks facing commercial transport globally, contributing to up to 20% of road crashes. Yet most fleet technologies stop at detection."
     },
     {
+     "tid": "2026-11-18T10:26:00Z",
+     "titel": "Redeye positiva till Smart Eye – ser stor uppsida",
+     "kalla": "Börsvärlden",
+     "lank": "https://borsvarlden.com/artiklar/redeye-positiva-till-smart-eye-ser-stor-uppsida",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdXV2Z3ZkUE5mSHBMak56LVphVEk1M0ZLNzVObldNY0lyRHlWYnpiZ1RvSUZ2MS1raGhFbTR5LVFHbkNQZElrS2FENlBaWl9vRVA1a3dWNkpzUlpEN0stR0F5TGpzeFNnR2dDUlhDLVh0cXY0SlpPOVd1YzdWOFBHaVlGYm9jVHc?oc=5",
+     "utdrag": "Analyshuset Redeye är positivt till teknikbolaget Smart Eyes rapport för tredje kvartalet och bedömer att den underliggande utvecklingen är stark trots förändringar i redovisning och organisation. Omsättningen var i stort sett i linje med förväntningarna, medan samtliga lönsamhetsmått överträffade prognoserna. Millicom utökar obligationsemission till 900 miljoner dollar Manchester United ökade omsättningen men redovisar större nettoförlust Guldbrev: Announces Extra Dividend and Share Cancellation - Redeye Källor: TSMC skärper restriktionerna för kinesiska AI-chipbolag – Reuters Trump presenterar affärer för över 17 miljarder dollar i Sydostasien"
+    },
+    {
+     "tid": "2026-11-18T08:06:25Z",
+     "titel": "Smart Eye aktie 2026/2027: riktkurs +105 % – rekommendation",
+     "kalla": "TradeDesk.dk",
+     "lank": "https://tradedesk.dk/se/aktier/seye.st",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SbXREODZvWjNxT095bEQ1eTFrRFZoenVrcU50QWdteEpqc2tsTHBIaEdzcThpRF9uYVpzZjBCWFVJU0hzWUVPc2pLODlaTUU?oc=5",
+     "utdrag": "Smart Eye aktie 2026/2027: riktkurs +95 %. Kurs 49,96 kr | Riktkurs 98,00 kr (+95 %) | RSI 56 (neutral) | MACD negativ (fallande trend) Andra bolag i branschen ligger lugnare (Vitec Software +0,8 %, Truecaller +8,1 %, Better Collective −9,9 % och Keo Capital +11,9 %), så rörelsen gäller främst Smart Eye. Som jämförelse är OMXS30 +0,6 % idag. Smart Eye är för närvarande undervärderad med en avvikelse på 96,2 % i förhållande till riktkursen. Den aktuella kursen är 49,96 kr, vilket placerar Smart Eye i kategorin undervärderad. Aktien bedöms som undervärderad, om kursen är under 88,20 kr, och som övervärderad, om kursen överstiger 107,80 kr."
+    },
+    {
+     "tid": "2026-11-17T17:03:56Z",
+     "titel": "Efter senaste kurskraschen: Ny rapport från Smart Eye",
+     "kalla": "EFN",
+     "lank": "https://efn.se/nya-delarssiffror-fran-smart-eye-efter-senaste-kurskraschen",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Y0VBOGVYaFFHNUYxYktFdEFLd2wwNzBUUUFkUVpuX2h0bURmb0JFbVBBT0Q5NTN2TW1idnpXNXhfLWZFTmxmWlVWeUtEWE8yUjNRNHpIcjJwQk9YclQ4aTFxX3JnSE0zcUJLVXNaRUhkR2I5LTZQWnlYUl9rZ0U?oc=5",
+     "utdrag": "Senast när Smart Eye rapporterade föll aktien kraftigt på First North. På tisdagen släppte eyetrackingbolaget nya delårssiffror. Smart Eye redovisar ett rörelseresultat för det tredje kvartalet 2026 på 5,2 miljoner kronor (-8,2). Nettoomsättningen uppgick till 135 miljoner kronor (99,1). Den organiska tillväxten var 33 procent. Ebitda-resultatet uppgick till 41,7 miljoner kronor (19,1). För att öka effektiviteten och skapa en mer slimmad organisation koncentrerar Smart Eye sina resurser till tre affärsenheter i stället för fyra. Affärsenheten Applied AI avvecklas, och kunderna kommer att hanteras inom de två segmenten Automotive och Behavioral Research."
+    },
+    {
      "tid": "2026-11-17T14:30:00Z",
      "titel": "Smart Eye data supports seasonal explanation for Seeing Machines royalty slowdown, Stifel says",
      "kalla": "Yahoo Finance",
      "lank": "https://www.proactiveinvestors.com/companies/news/1101923/smart-eye-data-supports-seasonal-explanation-for-seeing-machines-royalty-slowdown-stifel-says-1101923.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Seeing Machines Ltd (AIM:SEE, OTC:SEEMF) shares could benefit from evidence that its recent royalty slowdown reflects seasonal weakness in European vehicle production, rather than deteriorating underlying demand. Stifel analyst Peter McNally highlighted Smart Eye's third-quarter results as supporting evidence for the driver monitoring technology group's performance in the first quarter of its 2027 financial year. Smart Eye's Automotive division generated revenue of SEK95.7 million in the third quarter, up 61% year on year and 57% organically, although automotive royalties declined sequentially."
+    },
+    {
+     "tid": "2026-11-17T13:30:46Z",
+     "titel": "Smart Eye växer 36 procent – går med vinst på rörelsenivå",
+     "kalla": "Finanstid",
+     "lank": "https://finanstid.se/smart-eye-rapport-q3-2026-vaxer-36-procent",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fUGZzMU5KczNJLXJ4U0pPRGNMNVNrNVNUdFdxa2ZPMzBCRzR4Z0ZsX0xBQ0V3aTJpRDZiWVFqcGNQZ3dnakh2akduOUxuck41SC1kaTVibXdDMUtudURjVEdzWDVEUHN5RFY1eUlaXzg?oc=5",
+     "utdrag": "Finanstid Smart Eye fortsätter att växa snabbt. Omsättningen ökade med 36 procent i tredje kvartalet, och bolaget har fått nya affärer värda uppskattningsvis 175 miljoner kronor. Vd beskriver ett positivt rörelseresultat för kvartalet. Det framgår av bolagets delårsrapport, som kom i morse klockan 07.00. Smart Eye gör alltså system som övervakar förare och passagerare i bilar. ”Vi går äntligen med vinst och redovisar ett blygsamt men betydelsefullt positivt EBIT på 5 MSEK under Q3”, skriver grundaren och vd Martin Krantz i rapporten. Under årets första nio månader ökade dessutom intäkterna med 43 procent, varav 47 procent organiskt."
     },
     {
      "tid": "2026-11-17T10:47:41Z",
@@ -2086,6 +2153,24 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-17T09:08:27Z",
+     "titel": "Varför stiger Smart Eye AB:s aktie idag?",
+     "kalla": "Investing.com Sverige",
+     "lank": "https://se.investing.com/news/stock-market-news/varfor-stiger-smart-eye-abs-aktie-idag-93CH-535066",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU0V6aE5oNkFuX0k0TEstR1g3OW1xNFpXODJtWktuOXhZeW5icWZlUjg2RW1RbzNFVlg5T05SczlHVDVBZURqb19uZTBDdHZVb29VLUpocEZMZXppUEFEamoxUEZ1SURPNlJFZjBhTWRTbFdhRXdoVDZuZEFlYUhaejhMTXE2SjMxWDI1eFkxY0F3dU4xeDhKWnkyYjg5OWs?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-17T07:16:56Z",
+     "titel": "Smart Eye rapport Q3 2026: Vinst men nettoförlust",
+     "kalla": "HurBra.se",
+     "lank": "https://hurbra.se/smart-eye-rapport-q3-2026/",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9CLWJTTnNYa0kzRFR5ei1xLWNET2I5Qm9oeENpVm1sZmt6dmpmWVNrWnlZWWN5aUJQRjRtbEl5bGJ4VWlndC1KY21SdUp5UUxyaE9ZZlN5UQ?oc=5",
+     "utdrag": "Smart Eye redovisar rörelsevinst i Q3 2026 men fortsatt nettoförlust. Se hur royalties, räntekostnader och besparingar påverkar resultatet. Smart Eye redovisar en rörelsevinst på 5,2 miljoner kronor för tredje kvartalet 2026, jämfört med en förlust på 8,2 miljoner kronor samma period förra året. Omsättningen steg med 36 procent och royaltyintäkterna från fordonsindustrin fortsätter att driva tillväxten. Men höga finansieringskostnader gör att bolaget fortfarande går med nettoförlust. Samtidigt ska ett nytt besparingsprogram minska kostnaderna med 40 miljoner kronor per år."
+    },
+    {
      "tid": "2026-11-17T06:54:57Z",
      "titel": "Smart Eye posts positive EBIT as royalty revenue jumps",
      "kalla": "Investing.com",
@@ -2093,6 +2178,33 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1hsdUlZVnBHNXFHODdFMXBZNXhReFFUTDBadkdUOUd6ejdWVGt4RWs3Q3JLaGlOUldaVDhBdDhSSlhFUU1oWkRqNTZBY1F1MnJGcDdEOFBBWUlydWdQTTNNbEJOTHdJcmY1cVpPclV4aDFjN0tTbTdBTjdoOWFnQXBOaUZHUTZtcmJabkNPZFF1MS1wX0NuX1BrYUZNV3h2MzVNYTVXTVJEUmhvUTF6N2pnSDBqc00?oc=5",
      "utdrag": ""
+    },
+    {
+     "tid": "2026-11-17T06:41:32Z",
+     "titel": "Smart Eye AB redovisar positivt EBIT när royaltyintäkterna stiger",
+     "kalla": "Investing.com Sverige",
+     "lank": "https://se.investing.com/news/stock-market-news/smart-eye-ab-redovisar-positivt-ebit-nar-royaltyintakterna-stiger-93CH-535025",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOENnZW01Z2x6N1l1U3JjQV9DZU1VaFdIQmJMTHAxclNud3BoS2hkN0d2d2tyVkszWXNfazJwMDZ3ZEhDbVIyN0dHMWNvSThQR3dZeXVRYXZOWWRrTTduQk5VQUZFdzJEaTdER254RGx2YlpuSXBWSUNwRVItY0drMWFYRjVyMXgtQVFfU2N1V3ptcGI0Qmp1TjdwaHExZWtGTkxNWGJ0NmVYdjBxclk2SGNKU0xPbEtEYTBaWEdndGFYMDQ?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-17T06:25:11Z",
+     "titel": "Smart Eye förbättrar ebitda kraftigt - genomför effektiviseringsåtgärder (FinWire Smallcap)",
+     "kalla": "Aktiellt",
+     "lank": "https://www.swedbank-aktiellt.se/telegram/qaEZOEOv",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBobTlob1F4VnJPc0FsLUE3WlNPa2ZTWWU0V1lRME5MUWtDTjcxYXBDbURlLXFHMDRIUmtpaDBhUTJtRGRsRGd3MllZV192ZEdpYm1OVFMzaE5wWlNlTXAw?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-17T06:08:51Z",
+     "titel": "Positivt resultat för Smart Eye",
+     "kalla": "DI",
+     "lank": "https://www.di.se/live/positivt-resultat-for-smart-eye/",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xVE9LUGtDUEZhb2pISzFWbnE0UEZTcnhMSGhSbElla2VjbEV6OFdMYlNka3ZRLVNWS2IyM2FIWnZUTGhESFFjVENQanNfVjhPU0hXN0RrSjFFSDYyVHhIel95ektnZw?oc=5",
+     "utdrag": "Ögonspårningsbolaget Smart Eye ökade omsättningen och lönsamheten under det tredje kvartalet.”Vi är på väg mot ett positivt helårsresultat”, kommenterar vd… Artikeln är en del av vår exklusiva nyhetstjänst Marknadsnytt. Du får enkelt tillgång genom att skapa ett kostnadsfritt konto. En digital tjänst kan sluta fungera utan att en angripare har varit framme – det kan räcka med att ett certifikat har löpt ut för att få affären att stanna upp. Bakom kundportaler, betalningar och system finns kryptografiska nycklar och certifikat som måste fungera för att verksamheten ska kunna fortsätta."
     },
     {
      "tid": "2026-11-17T06:00:00Z",
@@ -2295,10 +2407,19 @@
    "namn": "Sysco",
    "antal": {
     "yahoo": 2,
-    "google-en": 30
+    "google-en": 31
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:29:38Z",
+     "titel": "Sysco GB to invest £28m in Derby facility",
+     "kalla": "Food and Drink International",
+     "lank": "https://www.fdiforum.net/mag/featured/sysco-gb-to-invest-28m-in-derby-facility/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbl9hY0NQZ09HUUZPcWR4d0UyMU5xemVlSlNYRDJpV1pRSWYtdEJDajF0dGM1b0pVazFHclJTNDUwV24zb1lPWDFNS0g5MWRGdmhNVzBmY1dGVFpjeE82V1lzTU1ITXVoWnRSTTh4YnA4YTdwNWpGTTJQUWFOMjMyVTZadVFydw?oc=5",
+     "utdrag": "Sysco GB is investing £28m in a new meat and fresh produce preparation facility in Derby as it expands capacity across its Fairfax Meadow and Fresh Direct businesses. The 150,000 sq ft facility will support increased production and preparation capacity for both businesses, responding to growing customer demand for freshly prepared produce and consolidated foodservice supply. The investment follows the acquisition and subsequent growth of Fairfax Meadow, alongside increased demand for Fresh Direct’s fresh preparation services."
+    },
     {
      "tid": "2026-11-19T12:29:22Z",
      "titel": "Sysco GB to open £28m manufacturing facility",
@@ -2316,15 +2437,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMklTYW8xdHZ4MUNaaTZmeHNEaVhXUUVsYWFCUF9IRFJ6LXNtR1J4YTEwRVRHT2tRd0tCVHlRckF2ZVRMZ0x2Ti1PVVM2a3JXNUlXMHBXZzVzVlI5TEVhUVV4VlhDSDRtajl3cEh0N0VFMGl3Y1dsYkJ1elRtYUZwUndJYk0xczgwc3RPVWJRTzhsNmFOcmZ6VDc5U3k5X0dlSjZzYTRpRmJXaS02ZGVDeG4tV1RRVTV6WWxkU21ZOTlsRjg?oc=5",
      "utdrag": "Expanded fresh meat and produce facility further strengthens fresh capability; gives more options for customers Sysco GB has announced plans to build a new, purpose-built meat and fresh produce preparation facility in Derby, marking another major milestone in the company’s long-term growth strategy. At 150,000 sq.ft, the state-of-the-art site will provide the scale, efficiency and flexibility needed to support future growth of its Fairfax Meadow and Fresh Direct businesses; further strengthening Sysco GB’s position as the nation’s leading foodservice supplier of quality meat and produce."
-    },
-    {
-     "tid": "2026-11-19T10:00:12Z",
-     "titel": "Sysco GB to invest £28m in Derby facility",
-     "kalla": "East Midlands Business Link",
-     "lank": "https://www.eastmidlandsbusinesslink.co.uk/mag/featured/sysco-gb-to-invest-28m-in-derby-facility/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZzdVWGd4ekFnTVRvMkhRYkFPWV9EUFZOaU12S3M2ejRham5zaHQxY2dObmlJM3MtdWRyNTBoc0NXQTY0aVVXWE0xc2lraUY1dVNmbENlbThreTdxZUM2TEdBV2c3c2hSMHc0WGRyamJMaml2U1Jjb2FVN3pTcXZreGlWNl9iajJWVDh3OVl3OXNfd1NwYlFUQW1odmNSZw?oc=5",
-     "utdrag": "Sysco GB is investing £28m in a new meat and fresh produce preparation facility in Derby as it expands capacity across its Fairfax Meadow and Fresh Direct businesses. The 150,000 sq ft facility will support increased production and preparation capacity for both businesses, responding to growing customer demand for freshly prepared produce and consolidated foodservice supply. The investment follows the acquisition and subsequent growth of Fairfax Meadow, alongside increased demand for Fresh Direct’s fresh preparation services."
     },
     {
      "tid": "2026-11-19T09:03:53Z",
@@ -2372,6 +2484,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-18T20:37:26Z",
+     "titel": "Sysco (SYY) Q3 2026 Earnings Call Transcript",
+     "kalla": "Fortune",
+     "lank": "https://fortune.com/company/sysco/earnings/q3-2026/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1reVZsYlhyUGgzVlNjYU5ETjJtQXVFaHZTOUN5VlpWbkJrQnJiOGFhUXlwaXJUaG1ScExwMldlWmZkWkhzM3VxYjdjSkJ1ajhpUkg5bGZFMG0teEhSdVpmSA?oc=5",
+     "utdrag": "Sysco is a marketer and distributor of food and related products to the food service or food-away-from-home industries in the U.S., Canada, the U.K., France, and elsewhere. The company serves restaurants, hospitals and nursing facilities, schools and colleges, hotels and motels, industrial caterers, and other food service venues. Sysco was incorporated in 1969 and is headquartered in Houston."
+    },
+    {
      "tid": "2026-11-18T19:04:15Z",
      "titel": "Drivers Join Teamsters-Sysco Northern California Agreement",
      "kalla": "International Brotherhood of Teamsters",
@@ -2379,6 +2500,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZklqTUtGS0JZSjZWMnRwdGZuYUt2elZFSUIwajZmdC0tY1FIbzQ3ZjNpMk1RTGJzTDFDRmtCcHNCM3JhWUR1dkRNaWtLcVJOdGhXN3BCSHpMbFFpN19GSldGdUNQZlhuTW9qcnNGVVBCNjlSYncxOFJPV21ScXVzYVo4LW11NEJTejl1WWNGMERIUQ?oc=5",
      "utdrag": "(WASHINGTON) – Sysco drivers represented by Teamsters Local 386 and Teamsters Local 431 are the latest group to join the regional contract across Northern Cal Press Contact: Lena Melentijevic Phone: (347) 208-2279 Email: LMelentijevic@teamster.org (WASHINGTON) – Sysco drivers represented by Teamsters Local 386 and Teamsters Local 431 are the latest group to join the regional contract across Northern California and Nevada, bringing 144 more workers under the landmark agreement. The four-year contract delivers a 34 percent wage increase, enhanced pension contributions, Teamsters health care fully covered by the employer, and strong workplace protections."
+    },
+    {
+     "tid": "2026-11-18T17:42:00Z",
+     "titel": "Inside Sysco: How America's Restaurants Get Their Food",
+     "kalla": "Yahoo",
+     "lank": "https://www.yahoo.com/news/videos/inside-sysco-americas-restaurants-ingredients-120002478.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVGZxc2RxbWpQNlZDWXI4ZVlGeXBmTXZDQWVCNy1NeVhtU3dVcUtMVHk3YXhHUmxfLXlubmFrbW13bmY3ZHB5bUpkSnNMRE1vZWZfaHNJSnRTZXZpQVRHbU00R3diUzl5ZERBejVVYXJMVmxkb1VsWHB5SGVOU2k5dmN3MXRDWGpKTUlYaGlTZmVVMG9Dc1Uzb0xR?oc=5",
+     "utdrag": "Sysco supplies food and ingredients to over 670,000 customer locations worldwide. We examine its warehouses, distribution network, and New York City restaurant customers as its proposed acquisition of Jetro Restaurant Depot raises concerns about competition and prices."
     },
     {
      "tid": "2026-11-18T12:11:50Z",
@@ -2458,24 +2588,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelI0MjVXZ0w3TXlfVThxWEIyd0tqenBIT084Y3ZPMUVhYlZCRGFRaFd2b1BfRUxvTEVLWHRTWEpUem9ZUlhxUllVbGswdS1BQWhJS0tXRGRyYXY1Z0Y1ak1RT3g3T0xmSVZOU05GVU9NOTc1Sy1xTHJaUUxTUFpIWXh5a3BGdEp4TDAxbTAtbG9GZVhxeVI5alNOak40QQ?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T12:12:30Z",
-     "titel": "Guggenheim reiterates Sysco stock rating on AI adoption progress",
-     "kalla": "Investing.com",
-     "lank": "https://www.investing.com/news/analyst-ratings/guggenheim-reiterates-sysco-stock-rating-on-ai-adoption-progress-93CH-5032474",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeERVb201enFsZ2tSNk9IXzZXSi1GMmtvRVd1WGY2RkRadDRtaEpkN3ZVVVpVaU8ydjRsdjk0ZXVUMVgwMThreVEwYzNOS25FOVJNQVZKakEwRGltUGEyUzM2NlJPMjZ2YjQ5TG5hQzlwVzJXTHBJcUdBUzRVRkVEMUdKdzFxRXdFV09HSHNobzBOaVd0QzBqb3JNVzgtMy01SGVhcUItTFRQSTZuMlNSMGFVZDcxeGNsYVU5Z0VQNmlYQQ?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T11:20:08Z",
-     "titel": "Seton Hall, UGA, NYU and Sysco, AbbVie, Element Solutions are looking for their next great FM. Is it you?",
-     "kalla": "https://www.facilitiesmanagement-now.com/",
-     "lank": "https://www.facilitiesmanagement-now.com/article/294430/seton-hall-uga-nyu-and-sysco-abbvie-element-solutions-are-looking-for-their-next-great-fm.-is-it-you?",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSXdGaG0zc09ZUi14eWp3bUtFNEt4UHRPSkIyVEVjMWNzVzhrVUljUllFQjRhM29zaURQdDNSZURLN2RoS0J6UDFFSWFLaTNBWUhZazZ5aFFPbHRtcWMzZmNyOUMwMDhNRXVZVUtqYXBtS3p5T0RtNVZEemlVQXNvVWxWaUpOd0RoZ3B5SW5PSEtRVUVmUlFqeEVhdUFVdnBfQzM5ZFFCUzQ3RUtGY19pdURKOU4xWXlSOXcxTnIwOW1mTjhhX0ZoWF9JdDFvLVE3MzZUUW1uUlJFTTFlNHltaXRPUEgzejVVdXpMU25R?oc=5",
-     "utdrag": "November 16, 2026 — Professional facility opportunities and positions in campus planning and management are on the rise as demonstrated with new po..."
     }
    ]
   },
@@ -2483,10 +2595,19 @@
    "namn": "ASML",
    "antal": {
     "yahoo": 7,
-    "google-en": 66
+    "google-en": 67
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T12:49:52Z",
+     "titel": "ASML Shares Rebound but Stay Below Three Moving Averages",
+     "kalla": "www.tokenpost.com",
+     "lank": "https://www.tokenpost.com/news/investing/61333",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yVXZseTlZWnViMGYwcVVva000Zm1vRnBTbVNvSXdUTmE1czFnbXU0RU1BZW1BZ3F6eWlPQVdpZ1RaTmtVVG0xd3B2a25ONGY0VGsyT1VkczNIdw?oc=5",
+     "utdrag": "The shares rose 3.72% to $1,445.38 in a Nov. 19 snapshot, below the seven-day, 20-day and 50-day averages. ASML shares rose 3.72% to $1,445.38 in a Nov. 19 market snapshot, but remained below three listed moving averages, leaving the rebound short of those technical benchmarks. At 7:45 a.m. ET (12:45 UTC), the share price was below the seven-day average of $1,450.90, the 20-day average of $1,480.76 and the 50-day average of $1,615.40. The snapshot put near-term resistance at $1,470.29 and $1,495.21, with support at $1,395.55 and $1,345.73. The relative strength index was 42.25. The moving average convergence divergence (MACD) reading was -46.3272, and its histogram was flat."
+    },
     {
      "tid": "2026-11-19T12:36:00Z",
      "titel": "ASML Stock Price Prediction: Strong buy analyst backdrop meets a still-fragile trend",
@@ -2638,15 +2759,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-18T13:46:00Z",
-     "titel": "$ASML Holding (ASML.US)$",
-     "kalla": "Moomoo",
-     "lank": "https://www.moomoo.com/community/feed/asml-holding-asml-us-117639538671622",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ycTVOM1pvdDBnb3cyYW5kcTY2TWtlekFHU1ZMVlF3b1U5UE9rTmIwS01tLTRGLXdPNURFbTYwQ2psYnF5QzdWQzNTRkt4NVlPMi1BSVRRNm9PdXFHTXJwSnV2QWh1aS1HQ01TcV91ZTkzWUpOWW9lLWhXLXN3NHM?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-18T13:41:34Z",
      "titel": "AlphaValue/Baader Europe Upgrades ASML to Add Rating",
      "kalla": "marketscreener.com",
@@ -2670,7 +2782,7 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 13
+    "google-en": 14
    },
    "fel": {},
    "nyheter": [
@@ -2682,6 +2794,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcmR4aDR4WlJWYndFMkNnWUlEUGRMMEtPU0EtN3YxTTFELVIzcDExd1VYbTh5bmVtVVh4bkNPS0JTejdvZ0RLTEhiTkpCM3ZKRUU5SzJTYmVUcloxaHpzVkR6a2doSmVxVU5RWkVtNzFna3dkc2VUeEdqZWVHRmc0WHZJQW1yMG9WbkJZUm5CblBVV1ZQY0J6VFN4VkFJc1V3bW1DeEFveXNRRS10RXpsTmRkSGczT3pXUVhoazFLalF6VmFESHlyaTlVYnJpMGxjZW9Ibkp3bHlaaC1ydFkwYnc2OA?oc=5",
      "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T13:49:21Z",
+     "titel": "ASSA ABLOY AB (publ) (ALZ.F) Seasonal returns chart",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/ALZ.F/seasonality/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03enZBZkFGWXFqM09FdnF3aHIyZm5lbDJ1ckR6LWo4N2dEY3dtdWxQQUJSTWp6QkU5aWNIeUhxNGZxY0xqMks2Y0I1UkQxZHI0VEtxYkZLeFFwOWk2ME0tbFBlUQ?oc=5",
+     "utdrag": "ASSA ABLOY AB (publ) (ALZ.F) seasonal returns chart provides the mean and median returns by month to inform your investment strategy."
     },
     {
      "tid": "2026-11-18T04:45:15Z",
@@ -2797,10 +2918,19 @@
    "namn": "BYD",
    "antal": {
     "yahoo": 5,
-    "google-en": 95
+    "google-en": 96
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:43:00Z",
+     "titel": "BYD’s Fang Cheng Bao Ti 9 hits the market with foldable steering wheel and 1,630 km combined range",
+     "kalla": "CarNewsChina.com",
+     "lank": "https://carnewschina.com/2026/11/19/byds-fang-cheng-bao-ti-9-hits-the-market-with-foldable-steering-wheel-and-1630-km-combined-range/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM0Y0dTZTaWpJeVNqQ2V1dnJkam5HN1ZsR1Z2c1J3c3hYVHN1a3RlaTkyeXF4ZkJqQ2FOYmRNajBFZjh6US1CUkNERjBhTkF3SlFhVjBxam50ZEhDNUZwRG5IemJPODRPZnp4c2NzbFc0WjFiMFVxbEFxV0FSdXpPVmE4Y1FMYi1OUGJXZUZQQllPdlVUVUo2WlNidWdKbEQ0NkJwbDAtQnVraDFUNXZjRHhRQVJzdDRjcWZvNWctWEwyenB4YUlFbmRQX2xqdw?oc=5",
+     "utdrag": "BYD's Fang Cheng Bao Ti 9 launches: A 5.3-meter PHEV with foldable steering tech. BYD‘s Fang Cheng Bao has officially launched its latest flagship, the Ti 9, a full-size PHEV SUV. The vehicle is available in three configurations, with a starting price of 279,900 yuan (41,800 USD). The Ti 9 maintains the brand’s “hardcore boxy” aesthetic, highlighted by a continuous front lighting signature. The vehicle measures 5,270 mm in length, 1,999 mm in width, and 1,850 mm (or 1,880 mm) in height, with a wheelbase of 3,130 mm. Customers can choose from six exterior colours and three interior colour schemes: White/Brown, Gray/Black, and Red/Black."
+    },
     {
      "tid": "2026-11-19T12:15:00Z",
      "titel": "BYD’s Denza B5 Tows a 180-Ton Boeing 747 on Just Two Wheels",
@@ -2971,15 +3101,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOXptd2pHVG41YlUxaTN5bllzSEFxejFVcG80ZG9nMHRYbXplYmgzNjNvYlhLT1dBclZVaHZDLS0zT09kWVRxdjVHalEyd1ZrZjNyU2RNSzZNYU4yR0FtYzNNNl9za3dHd0thZlk0aVFWTEVYV0xYT3Zhb1MyUmlYUEZUYVVXU1hQTUxBU3psZWh3dUtkYnZ4aUJlNFhfcm9aMDh4UkluM3E2TllnOXNtRkxmWGRNLW8?oc=5",
      "utdrag": "On Wednesday, November 18, 2026, U.S. equities finished mixed. The S&P 500 declined 0.23% to 7,323.63, the Nasdaq Composite gained 0.42% to 24,429.88, and the Dow Jones Industrial Average fell 1.11% to 50,198.17, leaving technology shares relatively resilient. ARK Invest’s trading pattern carried a distinct strategic message: concentrate fresh capital in autonomous mobility and precision medicine while reducing exposure to electric ..."
-    },
-    {
-     "tid": "2026-11-19T06:43:14Z",
-     "titel": "Fix Auto Redhill secures BYD approval",
-     "kalla": "Bodyshop Magazine",
-     "lank": "https://www.bodyshopmag.com/2026/news/fix-auto-redhill-secures-byd-approval/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU2tQUENkRmFrdkZLM1loUXgyVUZwTmRqNEhCN2lpY2I0MVlpS2VCMkhPUTUtV2xoSVNPa3RMRFJiemYzYVhwVTZLbjgwRnE2aHU2aWpuWTJJR240Zmw0eU9SUGFCQ1ZJRC0wNklXR2VxTVNaLW9GbV84aXloU19GNnJ3?oc=5",
-     "utdrag": "Fix Auto Redhill has announced it has become an officially approved BYD repairer, its first approval with an electric vehicle manufacturer."
     }
    ]
   },
@@ -2988,7 +3109,7 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 7
+    "google-en": 6
    },
    "fel": {},
    "nyheter": [
@@ -3035,15 +3156,6 @@
      "lank": "https://ca.finance.yahoo.com/quote/HNSAS.XC/seasonality/",
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14NlBrSzBOTXQtVjM3dUtSS2dPRUhDQUhqQ0dMYUNZMnF2V1ByR1ZUdzVINGJWSExXdEstNDlRS0JQWE9SQ2ZxaE85MVVrSWozS3hNc2pIZ0huOGVTSDNNeDNaM1NNSm8?oc=5",
-     "utdrag": "Hansa Biopharma AB (publ) (HNSAS.XC) seasonal returns chart provides the mean and median returns by month to inform your investment strategy."
-    },
-    {
-     "tid": "2026-11-15T14:37:57Z",
-     "titel": "Hansa Biopharma AB (publ) (HNSAS.XC) Seasonal returns chart",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://uk.finance.yahoo.com/quote/HNSAS.XC/seasonality/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZQ0VXdVB4ZGhYZGllb3ZvTVN2NWVSLW8taUd6ZUZPM2lCbnBidzVWR2l4TDBpSk5ZX0J5enhla3pNWS1sX2hZb2tkQ0FvQkstN2dUVllsQnhOYjJoempFLVd3TG1FeU0?oc=5",
      "utdrag": "Hansa Biopharma AB (publ) (HNSAS.XC) seasonal returns chart provides the mean and median returns by month to inform your investment strategy."
     },
     {
@@ -3218,7 +3330,7 @@
    "namn": "Rocket Lab",
    "antal": {
     "yahoo": 11,
-    "google-en": 90
+    "google-en": 89
    },
    "fel": {},
    "nyheter": [
@@ -3453,6 +3565,15 @@
      "utdrag": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life. Sezzle Inc has an Investment Rating of BUY; a target price of $182.000000; an Industry Subrating of High; a Management Subrating of High; a Safety Subrating of Low; a Financial Strength Subrating of High; a Growth Subrating of High; and a Value Subrating of High. Exclusive reports, detailed company profiles, and best-in-class trade insights to take your portfolio to the next level"
     },
     {
+     "tid": "2026-11-18T18:17:13Z",
+     "titel": "Sezzle Inc. (0SE0.DE) company profile and facts",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/0SE0.DE/profile/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3SlJhY0x5TFhxZGRHV19ONzFSeXFTaWFvUEJrSWJ0aGs2TkxZQkx1SmJ3QVlvOFIzMnFmbE5DSUlqc3I2M05GR3ZyQk9NRUlBMVNNbnZqMkxWTDFXUUZ5UA?oc=5",
+     "utdrag": "See the company profile for Sezzle Inc. (0SE0.DE), including business summary, industry/sector information, number of employees, corporate governance, key executives and salary information."
+    },
+    {
      "tid": "2026-11-18T15:02:19Z",
      "titel": "Sezzle Launches Sezzle Anywhere Subscription Service in Canada, Expanding BNPL Reach (SEZL)",
      "kalla": "GuruFocus",
@@ -3503,15 +3624,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSGFZeWZ0RFIzWVUwa0llM21VNDhnRkJMbzB4QTEyYTRpZkc1bnQxVXhkQkQxaFNWX2NsY2JVVmRjUWxsSmQ2VWdYakF1eDQ1dTl2Y1NfRjg4WnUwc2RVQ0ZxQ3M0dnpjSGxPZ3U3UEJ0SElUcE5GbjRsZmdJLTRIZkp1WF9tUjZSTXd3QzJFaGYzODV6ejA5Yk5CX1QzT2diUktKdmkwMA?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T21:08:45Z",
-     "titel": "Sezzle Inc. (0SE0.DE) stock price, news, quote and history",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://uk.finance.yahoo.com/quote/0SE0.DE/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xZmJTQklLc1NPMUMxSkVoZU92NGRKbndPRmQ4aVpDOG1nUzljaGE1Y1A5RUZZbDlEcENlZmQyQWxHMXBHNTlNU0libnQxX1BVQXJxR2F3?oc=5",
-     "utdrag": "Find the latest Sezzle Inc. (0SE0.DE) stock quote, history, news and other vital information to help you with your stock trading and investing. Trailing total returns as of 18/11/2026, which may include dividends or other distributions. Benchmark is S&P 500 (^GSPC) ."
     },
     {
      "tid": "2026-11-17T13:27:30Z",
@@ -3761,7 +3873,7 @@
    "namn": "Arista Networks",
    "antal": {
     "yahoo": 8,
-    "google-en": 51
+    "google-en": 46
    },
    "fel": {},
    "nyheter": [
@@ -3847,15 +3959,6 @@
      "utdrag": "Arista shares advanced due to renewed buying in AI infrastructure providers.The company expanded its portfolio with next-generation Etherlink platforms.Analysts reiterated constructive ratings and lifted forward consensus earnings estimates. Arista Networks Inc (ANET) moved up by 3.71%. The Technology Equipment sector is down by 0.25%. The company outperformed the industry. Top 3 stocks by turnover in the sector: NVIDIA Corp (NVDA) down 2.84%; Advanced Micro Devices Inc (AMD) up 3.98%; Micron Technology Inc (MU) down 1.99%. Arista Networks shares advanced as renewed buying momentum swept through high-performance networking and artificial intelligence infrastructure providers."
     },
     {
-     "tid": "2026-11-18T20:01:14Z",
-     "titel": "Wrapped Arista Networks, Inc. Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
-     "kalla": "CryptoRank",
-     "lank": "https://cryptorank.io/price/wrapped-arista-networks-inc-tokenized-stock-xstock",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN0NkQkVUS2NyX0FSdEw4bFRxMk10OFVxdUZEZEJ4ckIzekJrQ0N3OXZQaTFyWVlydXoxVjJURWcxdmR0aDJHMUV1Y3B4YV90V0NpeXRhcVBBQnM5STRLZEVYMnRGRkN5R0VzeHZmVGZMMGhGOVRyX1N3dmpFM2lVUFpfOWI?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-18T19:13:00Z",
      "titel": "Arista Networks (ANET) Stock Price Prediction: Strong Q3 growth and bullish target revisions keep the setup constructive, but momentum needs confirmation",
      "kalla": "Blockchain News",
@@ -3908,15 +4011,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-18T05:05:42Z",
-     "titel": "Arista Networks director Lewis Chew sells $492,212 of stock By Investing.com",
-     "kalla": "Investing.com Nigeria",
-     "lank": "https://ng.investing.com/news/stock-market-news/arista-networks-director-lewis-chew-sells-492212-of-stock-93CH-2814665",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNlRibkFOaERVRmJ3UEpobS1HRGR4ZHFTdUh4VkU4OGVDYVhqc0xsb3I1WjNjWi0wUjNHQjE5MkU3QTRaYUVhZXhzNFdpcXo3SnlLRERRcDBkMVRGVDVGcHB0Ml95b0VVcTBsODNyMmw4TXA5SzZwQThnNGppSHRlb2FlMVlOYThRUHdOMUlEVDhZaHBRMktBc3ZOVGp5M3BXcTBpQ1VpcHBUQWw3WDZGTTJXX1RqLTFyb0E?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-18T03:21:59Z",
      "titel": "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
      "kalla": "Fortune",
@@ -3926,32 +4020,56 @@
      "utdrag": "Arista is headquartered in Santa Clara, California, and known for its cloud networking platforms, including its Extensible Operating System (EOS) and CloudVision software, along with high-performance switches and routing products. It serves data center, campus, and routing environments, with particular strength in large cloud and AI infrastructure deployments. Arista’s customer base includes some of the world’s largest cloud operators and enterprise technology users."
     },
     {
-     "tid": "2026-11-18T02:15:34Z",
-     "titel": "Arista Networks (NYSE:ANET) Director Lewis Chew Sells 2,500 Shares of Stock",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/insider-arista-networks-nyse-anet-director-lewis-chew-sells-2500-shares-of-stock-2026-11-17/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa1MzT2hvYzVIa1IyT0tIR2Rwbl9fV25fN1NyQnljYkQtWk4yeTZyQk1NV2Z3dzF1X0tYS2Fxc2VPczlPWTFYc2cwbm1xRXEtbWkyN19KZDNCS1hsbFhhbDVOdlBqNURkTkNkYi1TS3p4VjBIaFA2TTJud3JuMG8tSm92NjNZZVB4bGpwTHo5c3BLVDFTLWpnSGJCREs1T2s1Mmp5S1A5UXF0a1VoMkNPczFULVJ4SGd5LW04YU1xRDkwQTc3ekNBVHI2d1ZSeTA?oc=5",
-     "utdrag": "Arista Networks, Inc. (NYSE:ANET - Get Free Report) Director Lewis Chew sold 2,500 shares of the company's stock in a transaction that occurred on Friday, November 13th. The stock was sold at an average price of $196.89, for a total value of $492,225.00. Following the transaction, the director owned 29,270 shares of the company's stock, valued at approximately $5,762,970.30. This trade represents a 7.87% decrease in their ownership of the stock. The sale was disclosed in a legal filing with the Securities & Exchange Commission, which is available at this link."
-    },
-    {
      "tid": "2026-11-17T22:51:11Z",
      "titel": "Arista Networks (ANET) Is Quietly Breaking One of NVIDIA’s Biggest Advantages",
      "kalla": "Yahoo Finance",
      "lank": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-quietly-breaking-225406560.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "We recently ranked the 10 Stocks to Buy as Investors Look Beyond NVIDIA, and Arista Networks, Inc. (NYSE:ANET) came in at number 7. For three years, the AI trade had one face. Now it has an interim CEO. On November 12, Jensen Huang resigned as NVIDIA's chief executive and board member, hours after nerves gripped investors awaiting the outcome of the board's crisis meeting. CFO Colette Kress is running the chipmaker on an interim basis while the board searches for a permanent successor. Analysts moved fast: Bernstein downgraded the stock to Market Perform and halved its target to $200, Baird cut it to Neutral, and Morgan Stanley dropped it from its Top Pick list."
+    },
+    {
+     "tid": "2026-11-17T22:09:37Z",
+     "titel": "Arista Networks And 2 Other High Growth Stocks To Watch",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-2-other-high-220937929.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "The Fed is openly wrestling with what artificial intelligence might do to productivity, jobs and inflation, which puts fast growing, financially solid companies in the spotlight. If AI and automation reshape costs and demand, businesses that can grow earnings while keeping their balance sheets healthy become harder to ignore. This article walks through three such high potential stocks from our screen so you can decide which, if any, deserve a closer look. The three stocks highlighted here offer a compelling starting point if you want exposure to financially healthy high growth potential businesses."
+    },
+    {
+     "tid": "2026-11-17T20:12:21Z",
+     "titel": "Is Arista Networks (ANET) Fully Priced For Its AI Cash Flow?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-fully-priced-201221182.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Arista Networks has given long term shareholders a very large 5 year return, and that kind of gain naturally raises a simple question for anyone looking at the stock today. Are the cash flows that Arista can generate over time strong enough and reliable enough to justify the current share price around US$187? Over the past 5 years, Arista shares have delivered a very large total return of roughly 7x, which puts real pressure on the valuation case to be grounded in the business's cash generation rather than just past price momentum."
+    },
+    {
+     "tid": "2026-11-17T19:34:00Z",
+     "titel": "Arista Networks (ANET) Stock Price Prediction: Rally meets mixed tape after strong Q3 growth and fresh analyst upgrades",
+     "kalla": "Blockchain News",
+     "lank": "https://blockchain.news/news/20261117-price-prediction-anet-rally-meets-mixed-tape-after-strong",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTDZDNm1NQXlFdEk2Qmh6a1FsU3BWR2Rndkl5WDl1ZEh2WHEteHlvd0FoaHNOWmN1ZUlZNGhuQ01DVkVBbnl2eXh2TkJtUmtscmxuRU5IVGE3OVdoOHZGdEZyOFJvbGZkVTdpNGRWRTktVWJIalFWLTR5R2VCbVpRVUdGQllRSGxHa0ZPam4wOHJFa0dHeG5iQXpCNA?oc=5",
+     "utdrag": "Arista Networks (ANET) reported third-quarter 2026 revenue of about $3.66 billion, up 58.5% year over year and well above guidance, while the stock has... Arista Networks (ANET) entered mid-November with two very different signals in play. On the fundamental side, the company said on November 3 that third-quarter 2026 revenue reached approximately $3.66 billion, above guidance of $3.3 billion and up 58.5% year over year, the fastest growth rate since its IPO. The same release highlighted new open standards-based rack-scale architectures launched with AMD, Arm, Broadcom, d-Matrix, Meta, Microsoft and Qualcomm, and noted Arista’s addition to the S&P 100 in September 2026."
     }
    ]
   },
   "harmony-biosciences": {
    "namn": "Harmony Biosciences",
    "antal": {
-    "yahoo": 0,
-    "google-en": 4
+    "yahoo": 1,
+    "google-en": 5
    },
    "fel": {},
    "nyheter": [
+    {
+     "tid": "2026-11-19T13:05:00Z",
+     "titel": "Harmony Biosciences to Participate in Upcoming Investor Conferences",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/healthcare/articles/harmony-biosciences-participate-upcoming-investor-130500774.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "PLYMOUTH MEETING, Pa., Nov. 19, 2026 (GLOBE NEWSWIRE) -- Harmony Biosciences Holdings, Inc. (Nasdaq: HRMY) today announced that Harmony's management team will participate in the following upcoming investor conferences. Webcasts of the fireside chats will be available on the investor page of the Harmony Biosciences website at https://ir.harmonybiosciences.com/. About Harmony Biosciences Harmony Biosciences is developing and commercializing innovative medicines for both rare and broad CNS disorders, and we are becoming an enduring leader in neuroscience."
+    },
     {
      "tid": "2026-11-19T03:48:00Z",
      "titel": "Harmony Biosciences Holdings, I (HRMY) Stock Forecasts",
@@ -3974,9 +4092,9 @@
      "tid": "2026-11-16T10:08:13Z",
      "titel": "There May Be Reason For Hope In Harmony Biosciences Holdings' (NASDAQ:HRMY) Disappointing Earnings",
      "kalla": "Simply Wall St",
-     "lank": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-hrmy/harmony-biosciences-holdings/news/there-may-be-reason-for-hope-in-harmony-biosciences-holdings",
+     "lank": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-hrmy/harmony-biosciences-holdings/news/there-may-be-reason-for-hope-in-harmony-biosciences-holdings/amp",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNS3ZBU0hRWkJraFR0Y1hpdUxFdmlWc0xNOVljSkVwSlI5SWNGTEFYTkp6cVBOZWNxT3pYekZFTnQyNVhIQVpzUk1rX09ZNm8tVUVYekZDbXZlTWlVVGZDdWRGY1FJZFVndkVPTlNwMlZvb0MxakZsVXMtVHhNTVVhUFdDempIWVhCSG5GWWJrZGxfVmxhc2p3ZEd2QUhNOWFDaVh2WDdnWk94TVpucmVBTzVxRlNVWWk4bVBmSGRxcnRVZ1VVNTFnNlRzWjRCYWpscmdVV2duMmowaC00OUNjV3NOMFZFS3E2NzgxaE9iTk1Xa2t30gH6AUFVX3lxTFBLclBHc3VCbVo0NDR0NF9UNlRrUzZ5ejlXdHNTYjM2X01TNU5EVWhvQjVUOUdELVBmQndRdXoxZ3dxNnVmZ0dXOW16SHFGR2RmcnlVOG1PUjdwUGVYSDJ3VGFaNDBQNGtoamwtRWZieHFHcFhoaUZ4VzVVTVktVHA0c3U0M0RDS19Qa0I4aVlHQVhPREM2d0t1Zzc3MGpyOGFNZElQbFhWNTAxcDFUbXFCMl9lMndxZWNIdk81SkR0bDl5YVdOaVlaLUlsdTJsRm5pamstNjdvMS1mMWR2R2F2LWx3NnJCM2UwQm5rWFpJeVE3OU1oMUJsOXc?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQS3JQR3N1Qm1aNDQ0dDRfVDZUa1M2eXo5V3RzU2IzNl9NUzVORFVob0I1VDlHRC1QZkJ3UXV6MWd3cTZ1ZmdHVzltekhxRkdkZnJ5VThtT1I3cFBlWEgyd1RhWjQwUDRraGpsLUVmYnhxR3BYaGlGeFc1VU1ZLVRwNHN1NDNEQ0tfUGtCOGlZR0FYT0RDNndLdWc3NzBqcjhhTWRJUGxYVjUwMXAxVG1xQjJfZTJ3cWVjSHZPNUpEdGw5eWFXTmlZWi1JbHUybEZuaWprLTY3bzEtZjFkdkdhdi1sdzZyQjNlMEJua1haSXlRNzlNaDFCbDl30gH6AUFVX3lxTFBLclBHc3VCbVo0NDR0NF9UNlRrUzZ5ejlXdHNTYjM2X01TNU5EVWhvQjVUOUdELVBmQndRdXoxZ3dxNnVmZ0dXOW16SHFGR2RmcnlVOG1PUjdwUGVYSDJ3VGFaNDBQNGtoamwtRWZieHFHcFhoaUZ4VzVVTVktVHA0c3U0M0RDS19Qa0I4aVlHQVhPREM2d0t1Zzc3MGpyOGFNZElQbFhWNTAxcDFUbXFCMl9lMndxZWNIdk81SkR0bDl5YVdOaVlaLUlsdTJsRm5pamstNjdvMS1mMWR2R2F2LWx3NnJCM2UwQm5rWFpJeVE3OU1oMUJsOXc?oc=5",
      "utdrag": "Harmony Biosciences Holdings, Inc.'s (NASDAQ:HRMY) earnings announcement last week didn't impress shareholders. Despite the soft profit numbers, our analysis has optimistic about the overall quality of the income statement. AI is about to change healthcare. These 20 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10bn in marketcap - there is still time to get in early. In high finance, the key ratio used to measure how well a company converts reported profits into free cash flow (FCF) is the accrual ratio (from cashflow)."
     },
     {
@@ -3993,13 +4111,22 @@
   "sandisk": {
    "namn": "Sandisk",
    "antal": {
-    "yahoo": 9,
+    "yahoo": 10,
     "google-en": 98
    },
    "fel": {},
    "nyheter": [
     {
-     "tid": "2026-11-19T12:00:00Z",
+     "tid": "2026-11-19T13:19:48Z",
+     "titel": "Sandisk is completing its 8-for-1 stock split after Thursday's close",
+     "kalla": "Quartz",
+     "lank": "https://qz.com/sandisk-stock-split-8-for-1-thursday-close-111926",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qUkpiRFViZnJVLUg1U1I4UElsQzFOMURQSXZwZzBGNXp2bThoTGtVMXJsV09IVUhjVVMyUHJoM2FPYnRqbVFZZ3VvYVBNLTBqcHQ5OXI0XzR3aXRoUlNBZkp1WWxfMk8yeFVnbHpQQmN5UQ?oc=5",
+     "utdrag": "The memory-chip maker announced the plan in October after its stock price rose following its February 2025 spinoff from Western Digital Sandisk is scheduled to carry out an 8-for-1 split of its shares when trading ends Thursday, according to MarketWatch. Once the split is completed, holders of Sandisk stock will own eight times as many shares, each priced at about one-eighth of the pre-split level, so the total value of their holdings won’t change. The memory-chip company, which trades under the ticker SNDK, announced the split in October, according to MarketWatch. Sandisk cited a rise in its stock price since it separated from Western Digital $WDC in February 2025, MarketWatch said."
+    },
+    {
+     "tid": "2026-11-19T12:14:00Z",
      "titel": "Sandisk’s stock split is almost here. This is what investors need to know.",
      "kalla": "MarketWatch",
      "lank": "https://www.marketwatch.com/story/sandisks-stock-split-is-almost-here-this-is-what-investors-need-to-know-e0a18461",
@@ -4015,6 +4142,14 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaTlkSkZ2Qmhpb0EtZWNyZl9wN1B3ZlVEX040eXJWODVxeU9UU1RKSldhazgyRENBSjNvY2pqdDB4RHlHZ2ZBNWh5a0w5MUdDRUM4ZTRQNTFZaklLVGdXQUxYZERuX0ZENUM2S2I3T2owNWFaczNSUXNTaVljYjR4QXNic3NVdUhLMnBzelB5LUI4blVCTTNkYThrZ3FOTVE?oc=5",
      "utdrag": "SanDisk Corp. (SNDK) will implement its first-ever 8-for-1 forward stock split at the close of trading on Nov. 19, a widely tracked corporate action colliding with a 60% share retreat that has deepened a market debate over AI storage demand durability and semiconductor cyclicality. Shares of the memory and storage solutions provider, which trades under the ticker SNDK on the Nasdaq, have climbed nearly 2,400% since its February 2025 market debut, fueled by surging global investment in AI data center infrastructure. The steep selloff since July has erased a large share of those gains as investors reassess both macroeconomic headwinds and industry-specific risks."
+    },
+    {
+     "tid": "2026-11-19T10:52:27Z",
+     "titel": "Sandisk Sinks 21% in a Week as Nvidia’s CEO Exit Hits Memory Stocks. Time to Buy?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.tikr.com/blog/sandisk-sinks-21-in-a-week-as-nvidias-ceo-exit-hits-memory-stocks-time-to-buy?ref=yahoofinance&tlnk=yf-261119-pc2cmr8q&.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Same business, much cheaper stock @Brett Sayles from Pexels via Canva, @Imágenes de MAKSYM YEMELYANOV via Canva Sandisk (SNDK) is down 21% in the past week, and the news behind it was Nvidia’s. Jensen Huang’s exit as CEO of Nvidia (NVDA) set off a chip selloff that hit memory hardest: Micron (MU) fell 13%, and SK hynix (SKHY) 14%. Nvidia’s strong Nov. 17 report showed purchase commitments up to $390 billion from $279 billion in August. It brought only a brief bounce before Nvidia confirmed Huang won’t return. Micron and SK hynix sell Nvidia the high-bandwidth memory in its AI chips, so they’re first in line for those commitments."
     },
     {
      "tid": "2026-11-19T02:38:34Z",
@@ -4151,24 +4286,6 @@
      "lank": "https://247wallst.com/investing/2026/11/18/3-reasons-keep-me-buying-sandisk-at-795/?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "SanDisk shares lost nearly 40% in a month while revenue nearly quadrupled. One investor sees a market pricing in a crash that contracts, cash flow, and buybacks suggest is not coming, and he keeps adding. What is he seeing that Wall Street is not? This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. My position in SanDisk (NASDAQ:SNDK | SNDK Price Prediction) keeps growing, and the stock’s slide to $797.24 has only made me add faster. Shares fell 38.64% in a month. Over that same month, the company reported quarterly revenue of $11.031 billion[1], up 377.9% year over year."
-    },
-    {
-     "tid": "2026-11-18T14:58:36Z",
-     "titel": "Why is SanDisk stock sliding today?",
-     "kalla": "Investing.com",
-     "lank": "https://www.investing.com/news/stock-market-news/why-is-sandisk-stock-sliding-today-93CH-5036470",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEFfOHhrVDFwdXlQcnR4VjBBTzZQN0RBMmRBZGlyQXdGc0lTZzAyNDdIZmJ0d1ZjZ3F6ZzcwVmFGZUFCRHBuTlY0UFgwbDNHY1U2RWV1ZzRhWjRJMHAzdzk4S3ZlcnlGTGFsdGJBYVgtX3poQU9jY1ZveEcweVBFbENMd0tXNk1mQzJuQWUzNkpBRTRXc2hPdWlWWHA?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-18T14:56:15Z",
-     "titel": "SanDisk shares drop despite Nvidia rally",
-     "kalla": "StreetInsider",
-     "lank": "https://www.streetinsider.com/Investing/SanDisk+shares+drop+despite+Nvidia+rally/27368154.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSC1zR193VlNyVVVrSVNlcUpRVVZieHZLdHBxMXNLZVo2MER0TmxFdTE2VGRJYklLa0E3YVFkT3BSYzFGdk5tNzYtRnpqNFVaWEg3dWIySF83TjJ4d0VuRmVZaXo1ZHpMUm41VUlET2FyMExRaUF4dEhJNUJVWmhLc0dxQk5nYXZxaDFlSDRQRVhGT0R4dGlxTl9R?oc=5",
-     "utdrag": ""
     }
    ]
   },
@@ -4258,29 +4375,12 @@
   "caris-life-sciences": {
    "namn": "Caris Life Sciences",
    "antal": {
-    "yahoo": 2,
-    "google-en": 8
+    "yahoo": 2
    },
-   "fel": {},
+   "fel": {
+    "google-en": "HTTP Error 429: Too Many Requests"
+   },
    "nyheter": [
-    {
-     "tid": "2026-11-19T05:56:06Z",
-     "titel": "Caris Life Sciences (Ondo Tokenized) (CAION) Price Prediction for 2026 to 2031",
-     "kalla": "Bybit",
-     "lank": "https://www.bybit.com/en/price-prediction/caris-life-sciences-ondo-tokenized/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmdSQ3R3NmlsTUQwaXRIczBnN1RzUTFtVEVmQ1ZSVnNfWlJWeVZmNzFiYW02bXJiYXA1cmlzM2RIV0hNaGh0Z1ZtcnNxU0FBZHk4cFpnTDhiWU5VUU10VjhmZ0xIZGtlVlYxLU5jNFZhUml1aVpHWW5Xcm5oekQ2al96dw?oc=5",
-     "utdrag": "Discover how Caris Life Sciences (Ondo Tokenized) (CAION) may perform from 2026 to 2031 using historical trends and forecasts. Buy, sell, and trade on Bybit today. Bybit AI predicts the price of Caris Life Sciences (Ondo Tokenized) (CAION) will trend across 2026 to 2031 based on user-driven Consensus Ratings and historical patterns. Get detailed forecasts for 2026, 2027, 2028, 2029, 2030, and 2031 below. You can buy CAION on Bybit using major fiat currencies such as USD, EUR, RUB, and INR. Register with Bybit to start trading Caris Life Sciences (Ondo Tokenized) today."
-    },
-    {
-     "tid": "2026-11-19T02:29:34Z",
-     "titel": "Caris Life Sciences, Inc. (CAI) stock price, news, quote and history",
-     "kalla": "Yahoo Finance UK",
-     "lank": "https://uk.finance.yahoo.com/quote/CAI/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKSVJtZXAtZl9SMEtVU2pmWkZGYjZQQ0VVUGJQN3pGb2I4cXJoS0Rpb3g4em5mOWpPZW5oOFQ5eDF1ektReWpyNmRlRDhiUFBB?oc=5",
-     "utdrag": "Find the latest Caris Life Sciences, Inc. (CAI) stock quote, history, news and other vital information to help you with your stock trading and investing. This price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 p.m. to 4 a.m. ET, Sunday through Thursday, when regular markets are closed. Caris Life Sciences, Inc., an artificial intelligence TechBio company, provides molecular profiling services in the United States and internationally. It develops and commercializes solutions to transform healthcare using molecular information, and artificial intelligence/machine learning algorithms."
-    },
     {
      "tid": "2026-11-18T15:38:00Z",
      "titel": "Genomic Data Set for RWE Applications - Global Strategic Business Report 2026: Capitalize on 16% CAGR and $1.5B in Total Revenue by 2032 with Illumina, Caris Life Sciences and Datavant",
@@ -4290,48 +4390,12 @@
      "utdrag": "Dublin, Nov. 18, 2026 (GLOBE NEWSWIRE) -- \"Genomic Data Set for Real World Evidence (RWE) Applications - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. The global genomic data sets for Real-World Evidence (RWE) applications market was valued at US$533.3 million in 2025 and is projected to reach US$1.5 billion by 2032, expanding at a compound annual growth rate (CAGR) of 16.0%. Market growth is being supported by advances in genomic sequencing, precision medicine, artificial intelligence, cloud infrastructure and the integration of genomic and longitudinal clinical data."
     },
     {
-     "tid": "2026-11-17T12:18:19Z",
-     "titel": "Why is Caris Life Sciences stock rallying today? By Investing.com",
-     "kalla": "Investing.com Canada",
-     "lank": "https://ca.investing.com/news/stock-market-news/why-is-caris-life-sciences-stock-rallying-today-93CH-4963589",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUXRlMUVJZUhZMEtaSEU2eVlPY2lpMkkyTl80Vlh4SVVUeFhWQjBya1ZlOTl1NUEwaHg0NFY4X3NlZDdNVEhYeW4tY21qOHV5T3lGYXBlMXpHRWhib09PMlBIaUlqdHV6ajZfTmZkTjltbFN4akk3VnRXNXdmQTNyYVNXUk5xaU8wMHl2LS0ySnVmWEtRbklnZFd3SEVURm40ckZKZTJ1b3Yxb0M5?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T07:46:47Z",
-     "titel": "Caris Life Sciences (NASDAQ:CAI) Shares Cross Below 200-Day Moving Average - Should You Sell?",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/price-caris-life-sciences-nasdaq-cai-shares-cross-below-200-day-moving-average-should-you-sell-2026-11-17/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObVZ3RDEwbTBvWklrUl9FaXBYQko4eFlzY3psMDU5VWlNM0pzWXZlbHhDdExBZG14TDZBaW42WW1OTEg3V3IxQkh2RENCeGdJS3FfNTdnaWFpUWpDazlJeDNtMk5Fb1BwNzRWcG5VYU9jZ0RQVlR5cnBnTDA4MEl6Q0ZKcG9kS1FMRkVwMEJuQWc3dnd5d0RqdlNRVWVlS0U4TW9vaE5wOHVwaEduT2tocDdvYXZLVjJmeVBrWndYaXJBamZkNVF1ZWRnVkkzR0E5MmIwcG5oZUFLY2JrWkZzZ2ln?oc=5",
-     "utdrag": "Caris Life Sciences (NASDAQ:CAI) Share Price Crosses Below 200-Day Moving Average - Time to Sell?"
-    },
-    {
      "tid": "2026-11-16T13:30:00Z",
      "titel": "Caris Life Sciences Presented Research Demonstrating the Value of Whole Transcriptome Sequencing in Precision Oncology at the Association of Molecular Pathology 2026 Annual Meeting",
      "kalla": "Yahoo Finance",
      "lank": "https://finance.yahoo.com/healthcare/articles/caris-life-sciences-presented-research-133000069.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Caris Life Sciences® (Caris), a leading next-generation AI TechBio company and precision medicine pioneer, today announced that Caris and collaborators presented two posters at the Association for Molecular Pathology (AMP) 2026 Annual Meeting. The research demonstrates how Caris' comprehensive Whole Transcriptome Sequencing (WTS) and clinico-genomic data are redefining fusion discovery by uncovering novel and rare gene fusions. It also assesses outcomes with matched therapies and reveals clinica Two Caris-led studies highlight the power of comprehensive RNA sequencing to identify novel and rare gene fusions across solid tumors IRVING, Texas, Nov."
-    },
-    {
-     "tid": "2026-11-15T23:25:03Z",
-     "titel": "Caris Life Sciences Inc (Ondo Tokenized)",
-     "kalla": "CryptoRank",
-     "lank": "https://cryptorank.io/price/caris-life-sciences-inc-ondo-tokenized/cny",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WZF9xdm50OGJRN0pyZnU3VkhUYmtKcHJ0RmU2LVpZVzBpZmtmRE94M3FYcEViSEpWcDRlZW16TDhlMHlPdktpYjZ4V3pNQTVsUXNpU0VTMVFXdy1uY0VfM29pbmpwQ1FBYUwxZmRrSWxQQzJqaUp2enJn?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-15T23:21:50Z",
-     "titel": "Caris Life Sciences Inc (Ondo Tokenized) Exchanges CAIon Markets | Buy & Sell & Trade",
-     "kalla": "CryptoRank",
-     "lank": "https://cryptorank.io/price/caris-life-sciences-inc-ondo-tokenized/exchanges",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc2VYenE3c1g2VkZXTXlOYzNsZ1JrXzZDSThsRExXVWk1SF9WNkhzUFZQRXJrMHNvTlhJWllaRHpYLUpwMThzNGllaV9RcDF6eTRhc2JaMENuRGg2Y0NKQWU1TkV5RTA4OHN2OWlCVzRRYm9DUnY2RWc5RV83M2xOZHV3?oc=5",
-     "utdrag": ""
     }
    ]
   },
@@ -4377,8 +4441,8 @@
   "berkshire-b": {
    "namn": "Berkshire Hathaway",
    "antal": {
-    "yahoo": 15,
-    "google-en": 93
+    "yahoo": 14,
+    "google-en": 90
    },
    "fel": {},
    "nyheter": [
@@ -4687,7 +4751,7 @@
   "visa": {
    "namn": "Visa",
    "antal": {
-    "yahoo": 10,
+    "yahoo": 9,
     "google-en": 22
    },
    "fel": {},
@@ -4819,14 +4883,6 @@
      "utdrag": "Lianlian DigiTech (HKEX: 2598) and Visa (NYSE: V), a global leader in digital payments, today announced the next phase of their collaboration to advance trusted B2B agentic commerce. The companies have completed their first live transaction in Asia Pacific through Visa Intelligent Commerce Connect,[ii] using a tokenised payment credential designed specifically for an authorised AI agent."
     },
     {
-     "tid": "2026-11-18T09:00:00Z",
-     "titel": "iFAST Global Bank Expands Multi-Currency Visa Debit Card Access to Overseas Customers",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/currencies/articles/ifast-global-bank-expands-multi-090000920.html?.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "The expansion brings multi-currency spending and virtual debit card access to iFAST Global Bank customers across seven overseas markets. Launch: iFAST Global Bank is expanding virtual access to its Multi-Currency Visa Debit Card to customers across seven overseas markets: Thailand, Hong Kong, Singapore, Malaysia, Taiwan, Pakistan, and Germany. Purpose: Complementing iFAST Global Bank's Multi-Currency Current Account, the expansion broadens access of the Bank's digital banking services beyond the UK, supporting the needs of globally mobile customers. LONDON, Nov."
-    },
-    {
      "tid": "2026-11-18T07:25:42Z",
      "titel": "Visa expands Agentic Ready program to merchants and PSPs with 140+ launch participants",
      "kalla": "Seeking Alpha",
@@ -4861,6 +4917,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oYlE4VDR0S2lLd09maGRPY2EyLWdEaENTUzk1UXFKQ0FkTzFRdkE3cklnTGZzOFlleFQzUGhoMGlTZDJjRno1dHN6ZjdVZmVLY2tPamxYR1RuenR6LTBYVlRGd2tUUkt3YndyNmpB?oc=5",
      "utdrag": "Yahoo Finance provides the latest analyst insights, price targets and recommendations on VISA INC-CLASS A (V-USD.SW) to help inform your investment strategy."
+    },
+    {
+     "tid": "2026-11-17T16:39:00Z",
+     "titel": "What Makes Visa (NYSE:V) A Leader In The Digital Payments Boom?",
+     "kalla": "Kalkine Media",
+     "lank": "https://kalkinemedia.com/us/stocks/bluechip/what-makes-visa-nysev-a-leader-in-the-digital-payments-boom",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3JIbkNDczhib3ZMdkFQaWdyMkVoS2taMm9RQzJKaDRoUGowQlluRVFFMGdrT1hod2R3cURGU1lLT2cyZmpBdWlSaXdHVzR2Mmhvbi1TQWQ3STR5YmVQZEgwQkU5VzNHZkp5cVQwQTcwSHo0dEQ0MDZuUWhieUNvM3E3WFlpZUhKQ0NJYzJoV2hoUVlVZ3pSSmNVNl8xWVNoeVkxVV9R?oc=5",
+     "utdrag": "What Makes Visa (NYSE:V) A Leader In The Digital Payments Boom? Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder JPMorgan Chase (NYSE:JPM) Faces Pressure As Momentum Weakens Johnson & Johnson Submits sNDA for CAPLYTA to Treat Bipolar I Mania Redfin Reports 0.4% Decline in Median Home-Sale Price for Period Endin... Visa (NYSE:V) Financial Services Visa Inc. Class A (NYSE:V) 415.22 USD 0.000 ↑ 0.000% Last Updated at: 2026-11-18T21:00:00Z is back in focus after its latest company update."
     }
    ]
   },
@@ -5050,5 +5115,5 @@
    ]
   }
  },
- "googleKvar": 1
+ "googleKvar": 0
 }
