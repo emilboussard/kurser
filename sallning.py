@@ -21,6 +21,10 @@ Alla branscher sedan 2026-11-21 (Emils val), med guidens specialmoduler där de 
 jamforPoang = snabbpoängen omräknad till 12 när poäng saknas för att Yahoo saknar datan; den används
 bara för att rangordna bolagen.
 
+Mätfelen från Caris (rättade 2026-11-21): Rule of 40 räknas på samma period (samma kvartal och 12 månader,
+den lägsta gäller), estimatändringar på en liten vinstbas räknas som oförändrade, och utspädningen för bolag
+noterade under 3 år tas i analysen (möjliga poäng, som inte räknas upp i jamforPoang).
+
 Körning:
   python3 sallning.py --marknad se     en marknad, skriver delar/se.json
   python3 sallning.py --sla-ihop       slår ihop delar/*.json till sallning.json och arkiv/
@@ -262,6 +266,7 @@ TYPER = [
     "annualOrdinarySharesNumber", "annualDilutedAverageShares",
     "annualPretaxIncome", "annualNetInterestIncome", "annualTangibleBookValue", "annualGoodwillAndOtherIntangibleAssets",
     "quarterlyTotalRevenue", "quarterlyTotalDebt", "quarterlyCashCashEquivalentsAndShortTermInvestments",
+    "quarterlyOperatingCashFlow", "quarterlyCapitalExpenditure",
     "trailingTotalRevenue", "trailingGrossProfit", "trailingOperatingIncome", "trailingEBITDA",
     "trailingNetIncomeCommonStockholders", "trailingOperatingCashFlow", "trailingCapitalExpenditure",
     "trailingPretaxIncome",
@@ -305,6 +310,7 @@ def hamta_profil(sym):
             nu, fore = (et.get("current") or {}).get("raw"), (et.get("90daysAgo") or {}).get("raw")
             if nu is not None and fore not in (None, 0):
                 ut["estimatAndring3m"] = (nu - fore) / abs(fore)
+                ut["epsFore"] = fore
     return ut, ""
 
 
@@ -360,6 +366,14 @@ def rakna(b):
     kv = ar_serie(b, "quarterlyTotalRevenue")
     kd = sorted(kv)
     n["tillvaxtKvartal"] = (kv[kd[-1]] / kv[kd[-5]] - 1) if len(kd) >= 5 and kv[kd[-5]] > 0 else None
+    # Tillväxt på 12 månader: rullande om 8 kvartal finns, annars senaste helåret mot året före (för Rule of 40)
+    if len(kd) >= 8 and sum(kv[d] for d in kd[-8:-4]) > 0:
+        n["tillvaxt12m"] = sum(kv[d] for d in kd[-4:]) / sum(kv[d] for d in kd[-8:-4]) - 1
+    else:
+        n["tillvaxt12m"] = (R[-1] / R[-2] - 1) if len(R) >= 2 and R[-2] > 0 else None
+    qo, qc = ar_serie(b, "quarterlyOperatingCashFlow"), ar_serie(b, "quarterlyCapitalExpenditure")
+    sista = kd[-1] if kd else None
+    n["fcfMarginalKvartal"] = ((qo[sista] + qc[sista]) / kv[sista]) if sista and sista in qo and sista in qc and kv[sista] else None
 
     # ROIC per år och snitt
     roic = []
@@ -474,14 +488,30 @@ def poang_a(n):
     return k, osakra
 
 
+def k7_estimat(profil):
+    """Profil B kriterium 7. En liten vinstbas (vinst per aktie under 1 % av kursen, P/E över 100) räknas som oförändrad,
+    eftersom en avrundning där räcker för en stor procentändring (mätfelet från Caris, sedan 2026-11-21)."""
+    e, bas_eps, kurs = profil.get("estimatAndring3m"), profil.get("epsFore"), profil.get("kursRedovisning")
+    if e is None:
+        return (1, "estimatändring saknas (räknat som oförändrat)")
+    if bas_eps is not None and kurs and abs(bas_eps) / kurs < 0.01:
+        return (1, "vinstestimat %+.1f %% på en liten vinstbas (vinst per aktie %s, under 1 %% av kursen): räknat som oförändrat" % (100 * e, round(bas_eps, 2)))
+    return (2 if e > 0.05 else 0 if e < -0.05 else 1, "vinstestimat %+.1f %% senaste 3 mån" % (100 * e))
+
+
 def poang_b(n, profil):
     k = {}
     t = n["tillvaxtKvartal"] if n["tillvaxtKvartal"] is not None else n["tillvaxt"]
     k[1] = (2 if t is not None and t > 0.20 else 1 if t is not None and t >= 0.10 else 0, "omsättning %s %% (senaste kvartalet mot i fjol)" % pct(t))
     g = n["bruttomarginal"]
     k[2] = (2 if g is not None and g > 0.60 else 1 if g is not None and g >= 0.40 else 0, "bruttomarginal %s %% (ROIC gäller kontraktstillverkare)" % pct(g))
-    r40 = (t + n["fcfMarginal"]) if t is not None and n["fcfMarginal"] is not None else None
-    k[3] = (2 if r40 is not None and r40 >= 0.40 else 1 if r40 is not None and r40 >= 0.20 else 0, "Rule of 40: %s" % pct(r40))
+    # Rule of 40 på samma period (sedan 2026-11-21, mätfelet från Caris): samma kvartal och 12 månader, den lägsta gäller.
+    kvartal = (n["tillvaxtKvartal"] + n["fcfMarginalKvartal"]) if n["tillvaxtKvartal"] is not None and n.get("fcfMarginalKvartal") is not None else None
+    tolv = (n["tillvaxt12m"] + n["fcfMarginal"]) if n.get("tillvaxt12m") is not None and n["fcfMarginal"] is not None else None
+    varianter = [x for x in (kvartal, tolv) if x is not None]
+    r40 = min(varianter) if varianter else None
+    k[3] = (2 if r40 is not None and r40 >= 0.40 else 1 if r40 is not None and r40 >= 0.20 else 0,
+            "Rule of 40: %s (samma kvartal %s, 12 månader %s; den lägsta gäller)" % (pct(r40), pct(kvartal), pct(tolv)))
     osakra = 0
     if n["nettoskuld"] <= 0:
         k[5] = (2, "nettokassa")
@@ -491,11 +521,7 @@ def poang_b(n, profil):
     else:
         k[5] = (1, "nettoskuld men positivt FCF (bedöms i analysen)")
         osakra += 1
-    e = profil.get("estimatAndring3m")
-    if e is None:
-        k[7] = (1, "estimatändring saknas (räknat som oförändrat)")
-    else:
-        k[7] = (2 if e > 0.05 else 0 if e < -0.05 else 1, "vinstestimat %+.1f %% senaste 3 mån" % (100 * e))
+    k[7] = k7_estimat(profil)
     u, rps = n["utspadning"], n["omsPerAktieTillvaxt"]
     if u is not None and u < 0.015:
         k[10] = (2, "aktier %s %% per år" % pct(u))
@@ -530,8 +556,7 @@ def poang_bank(n, bokstav, profil):
         s = (t + rs) if t is not None and rs is not None else None
         k[3] = (2 if s is not None and s >= 0.40 else 1 if s is not None and s >= 0.20 else 0, "tillväxt + ROTE: %s (ersätter Rule of 40)" % pct(s))
         k[5] = (0, "CET1 finns inte hos Yahoo (tas i analysen, ersätter runway)")
-        e = profil.get("estimatAndring3m")
-        k[7] = (1, "estimatändring saknas (räknat som oförändrat)") if e is None else (2 if e > 0.05 else 0 if e < -0.05 else 1, "vinstestimat %+.1f %% senaste 3 mån" % (100 * e))
+        k[7] = k7_estimat(profil)
         rps = n["omsPerAktieTillvaxt"]
         if u is not None and u < 0.015:
             k[10] = (2, "aktier %s %% per år" % pct(u))
@@ -542,7 +567,7 @@ def poang_bank(n, bokstav, profil):
     return k, 0, 4
 
 
-def veton(n, typ=None, sektor=None):
+def veton(n, typ=None, sektor=None, nynoterad=False):
     """Steg 0. Veto 1 gäller inte finans, banker och investmentbolag. Veto 2 (kassan) räknas inte för banker,
     eftersom bankers kassaflöde följer utlåningen; det prövas i analysen."""
     v = []
@@ -550,7 +575,7 @@ def veton(n, typ=None, sektor=None):
         v.append("veto 1: nettoskuld/EBITDA %s" % n["nettoskuldEbitda"])
     if typ != "bank" and n["kassaManader"] is not None and n["kassaManader"] < 12:
         v.append("veto 2: kassan räcker %d månader" % n["kassaManader"])
-    if n["utspadning"] is not None and n["utspadning"] > 0.05:
+    if n["utspadning"] is not None and n["utspadning"] > 0.05 and not nynoterad:
         v.append("veto 3 (villkorligt): aktierna ökar %s %% per år" % pct(n["utspadning"]))
     return v
 
@@ -598,6 +623,8 @@ def sall_marknad(kod):
             "kurs": q.get("regularMarketPrice"), "valuta": val,
             "pe": round(q["trailingPE"], 1) if q.get("trailingPE") else None,
             "finnsRedan": redan.get(rot(sym)), "sektor": None, "bransch": None,
+            "noterad": (datetime.datetime.fromtimestamp(q["firstTradeDateMilliseconds"] / 1000, datetime.timezone.utc).date().isoformat()
+                        if q.get("firstTradeDateMilliseconds") else None),
         }
         b, bfel = hamta_bokslut(sym)
         if b is None:
@@ -622,6 +649,9 @@ def sall_marknad(kod):
         pfel, typ = "", None
         if m["region"] != "us" or tak >= MIN_POANG or bankdata:
             profil, pfel = hamta_profil(sym)
+            rv = b.get("_valuta") or val
+            if bas["kurs"] and val in fx and rv in fx:
+                profil["kursRedovisning"] = bas["kurs"] * fx[val] / fx[rv]  # estimaten är i redovisningsvalutan
             bas["sektor"], bas["bransch"] = profil.get("sektor"), profil.get("bransch")
             typ = branschtyp(bas["sektor"], bas["bransch"], n, m["region"])
             if typ == "skal":
@@ -636,8 +666,15 @@ def sall_marknad(kod):
             elif typ == "investmentbolag":
                 k[2] = (0, "substansvärdestillväxt mot index tas i analysen (investmentbolag, ersätter ROIC; ROIC här %s %%)" % pct(n["roic"]))
                 saknas = 2
-            poang = sum(p for p, _ in k.values())
-        v = veton(n, typ, bas["sektor"])
+        # Nyligen noterade (under 3 år): aktierna före noteringen (t.ex. preferensaktier) räknas inte lika hos Yahoo,
+        # så 3-årssnittet för utspädningen går inte att räkna (mätfelet från Caris, sedan 2026-11-21). Tas i analysen.
+        nynoterad = bool(bas["noterad"]) and (datetime.date.today() - datetime.date.fromisoformat(bas["noterad"])).days < 3 * 365
+        if nynoterad:
+            k[10] = (0, "noterad %s: 3-årssnittet för aktierna går inte att räkna ur Yahoo (aktier före noteringen, t.ex. "
+                        "preferensaktier); tas i analysen (Yahoo ger %s %% per år)" % (bas["noterad"], pct(n["utspadning"])))
+            osakra += 2  # möjliga poäng, men räknas inte upp i jämförpoängen: utspädningen är ofta hög efter en notering
+        poang = sum(p for p, _ in k.values())
+        v = veton(n, typ, bas["sektor"], nynoterad)
         hart_veto = any(not x.startswith("veto 3") for x in v)
 
         flaggor = []
@@ -653,6 +690,8 @@ def sall_marknad(kod):
             flaggor.append("finansbolag: veto 1 gäller inte finans")
         elif typ == "fastighet":
             flaggor.append("fastighetsbolag: veto 1 och nyckeltalen gäller som för andra bolag (fastighetsmodulen är bara ett förslag, Tidsplan.md)")
+        if nynoterad and n["utspadning"] is not None and n["utspadning"] > 0.05:
+            flaggor.append("nyligen noterat: Yahoo ger utspädning %s %% per år inklusive tiden före noteringen; veto 3 prövas i analysen" % pct(n["utspadning"]))
         if n.get("ebitKalla") == "vinst före skatt" and typ != "bank":
             flaggor.append("EBIT saknas hos Yahoo: ROIC och marginalen räknas på vinst före skatt")
         if n["ebitFall"] > 0.30:
