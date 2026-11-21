@@ -1,4 +1,4 @@
-"""Sållning: hittar nya kandidater till bevakningslistan (Masterguide v4.8, Steg 0 och Fas 1).
+"""Sållning: hittar nya kandidater till bevakningslistan (Masterguide v4.8.2, Steg 0 och Fas 1).
 
 Marknader: Sverige, Norge, Danmark och Finland (börsvärde över 2 mdr kr) och USA (NYSE och
 Nasdaq, börsvärde över 2 mdr USD). Hämtar bolagen från Yahoo Finance, räknar de kriterier i
@@ -10,6 +10,17 @@ Sifferkriterier (max 12 p): Profil A 1, 2, 5, 6, 7, 10. Profil B 1, 2, 3, 5, 7, 
 Kriterierna 3/6 (kundkoncentration), 8 (guidning) och 9 (insiders) kräver läsning (6 p).
 Ett bolag behöver minst 8 av 12 för att kunna nå 14 av 18 och grönt ljus.
 
+Alla branscher sedan 2026-11-21 (Emils val), med guidens specialmoduler där de finns:
+- Banker och utlånare: bankmodulen (ROTE, räntenettot som blandade intäkter, CET1 och kreditförluster).
+  CET1 och kreditförluster finns inte hos Yahoo och räknas som möjliga poäng (tas i analysen).
+- Finans (banker, försäkring, kapitalförvaltare, investmentbolag): veto 1 gäller inte (Steg 0).
+- Investmentbolag (nordiska kapitalförvaltare, Profil A): kriterium 2 är substansvärdestillväxt mot
+  index, som inte finns hos Yahoo (möjliga poäng).
+- Försäkrings- och fastighetsbolag: guiden har ingen egen modul, så de räknas som andra bolag.
+- Bara SPAC:ar och skalbolag tas bort (ingen verksamhet att bedöma).
+jamforPoang = snabbpoängen omräknad till 12 när poäng saknas för att Yahoo saknar datan; den används
+bara för att rangordna bolagen.
+
 Körning:
   python3 sallning.py --marknad se     en marknad, skriver delar/se.json
   python3 sallning.py --sla-ihop       slår ihop delar/*.json till sallning.json och arkiv/
@@ -18,6 +29,7 @@ Körning:
 import glob, json, os, re, sys, time, datetime, urllib.request, urllib.parse, urllib.error, http.cookiejar
 
 MIN_POANG = 8            # minsta möjliga snabbpoäng för att bli kandidat
+BANK_RANTENETTO = 0.30   # finansbolag där räntenettot är minst 30 % av intäkterna räknas med bankmodulen
 SKATT = 0.79             # ROIC = EBIT × 0,79 / (eget kapital + räntebärande nettoskuld)
 GRANS_NORDEN_SEK = 2e9   # minsta börsvärde i Norden, i kronor
 ANTAL_FORSLAG = 5        # förslag per månad, de bästa oavsett marknad
@@ -35,19 +47,23 @@ ORDNING = ["se", "no", "dk", "fi", "us-stora", "us-mellan"]  # vid dubbelnoterin
 VALUTA_RESERV = {"SEK": 1.0, "NOK": 0.93, "DKK": 1.47, "EUR": 11.0, "USD": 9.5}  # bara om kurserna inte går att hämta
 
 
-def uteslut(sektor, bransch):
-    """Bolag som guidens nyckeltal inte passar för. Returnerar orsaken eller None."""
-    bransch = bransch or ""
+def branschtyp(sektor, bransch, n, region):
+    """Vilken del av guiden bolaget räknas med. "skal" tas bort; övriga är med (sedan 2026-11-21)."""
+    b = bransch or ""
+    if b == "Shell Companies":
+        return "skal"
+    if sektor == "Financial Services":
+        if b.startswith("Banks") or b == "Mortgage Finance":
+            return "bank"
+        if b == "Asset Management" and region != "us":
+            return "investmentbolag"
+        if b.startswith("Insurance"):
+            return "forsakring"
+        if BANK_RANTENETTO <= (n.get("niiAndel") or 0) <= 1.5:
+            return "bank"  # utlånare och mäklare med inlåning, t.ex. kreditbolag (räntenettot är en stor del av intäkterna)
+        return "finans"
     if sektor == "Real Estate":
-        return "fastighetsbolag (räknas inte med guidens nyckeltal)"
-    if bransch.startswith("Banks") or bransch == "Mortgage Finance":
-        return "bank (egen modul i guiden)"
-    if bransch.startswith("Insurance -"):
-        return "försäkringsbolag (guidens nyckeltal passar inte)"
-    if bransch == "Asset Management":
-        return "investmentbolag eller kapitalförvaltare (investmentbolag har egen modul)"
-    if bransch == "Shell Companies":
-        return "SPAC eller skalbolag"
+        return "fastighet"
     return None
 
 
@@ -244,9 +260,11 @@ TYPER = [
     "annualNetIncomeCommonStockholders", "annualOperatingCashFlow", "annualCapitalExpenditure",
     "annualStockholdersEquity", "annualTotalDebt", "annualCashCashEquivalentsAndShortTermInvestments",
     "annualOrdinarySharesNumber", "annualDilutedAverageShares",
+    "annualPretaxIncome", "annualNetInterestIncome", "annualTangibleBookValue", "annualGoodwillAndOtherIntangibleAssets",
     "quarterlyTotalRevenue", "quarterlyTotalDebt", "quarterlyCashCashEquivalentsAndShortTermInvestments",
     "trailingTotalRevenue", "trailingGrossProfit", "trailingOperatingIncome", "trailingEBITDA",
     "trailingNetIncomeCommonStockholders", "trailingOperatingCashFlow", "trailingCapitalExpenditure",
+    "trailingPretaxIncome",
 ]
 
 
@@ -309,6 +327,7 @@ def pct(x):
     return None if x is None else round(100 * x, 1)
 
 
+
 def rakna(b):
     """Räknar nyckeltalen ur bokslutet. Returnerar (nyckeltal, notering) eller (None, orsak)."""
     oms = ar_serie(b, "annualTotalRevenue")
@@ -321,7 +340,7 @@ def rakna(b):
         return [s.get(d) for d in datum]
 
     R = [oms[d] for d in datum]
-    EBIT = rad(["annualEBIT", "annualOperatingIncome"])
+    EBIT = rad(["annualEBIT", "annualOperatingIncome", "annualPretaxIncome"])  # vinst före skatt när EBIT saknas (finans)
     EBITDA = rad(["annualEBITDA"])
     NI = rad(["annualNetIncomeCommonStockholders"])
     OCF = rad(["annualOperatingCashFlow"])
@@ -333,6 +352,7 @@ def rakna(b):
     BRUTTO = rad(["annualGrossProfit"])
 
     n = {"ar": [d[:4] for d in datum]}
+    n["ebitKalla"] = "EBIT" if (ar_serie(b, "annualEBIT") or ar_serie(b, "annualOperatingIncome")) else "vinst före skatt"
     ar_spann = (datetime.date.fromisoformat(datum[-1]) - datetime.date.fromisoformat(datum[0])).days / 365.25
 
     # Omsättningstillväxt per år (CAGR över boksluten) och senaste kvartalet mot samma kvartal i fjol
@@ -372,7 +392,7 @@ def rakna(b):
 
     # EBIT-marginal: rullande 12 månader (annars senaste året), stigande = över snittet av åren före
     marg = [e / r for e, r in zip(EBIT, R) if e is not None and r]
-    t_oms, t_ebit = list(ar_serie(b, "trailingTotalRevenue").values()), list(ar_serie(b, "trailingOperatingIncome").values())
+    t_oms, t_ebit = list(ar_serie(b, "trailingTotalRevenue").values()), list(ar_serie(b, "trailingOperatingIncome", "trailingPretaxIncome").values())
     n["ebitMarginal"] = (t_ebit[-1] / t_oms[-1]) if t_oms and t_ebit and t_oms[-1] else (marg[-1] if marg else None)
     n["marginalStigande"] = bool(marg[:-1]) and n["ebitMarginal"] is not None and n["ebitMarginal"] > sum(marg[:-1]) / len(marg[:-1])
 
@@ -408,6 +428,22 @@ def rakna(b):
     else:
         n["utspadning"] = n["omsPerAktieTillvaxt"] = None
 
+    # Bankmodulen: räntenettots andel av intäkterna och ROTE (vinst / materiellt eget kapital, snitt över åren)
+    NII = rad(["annualNetInterestIncome"])
+    n["niiAndel"] = (NII[-1] / R[-1]) if NII[-1] is not None and R[-1] else None
+    TBV, GW = rad(["annualTangibleBookValue"]), rad(["annualGoodwillAndOtherIntangibleAssets"])
+    tbv = [tv if tv is not None else (ek - (gw or 0) if ek is not None else None) for tv, ek, gw in zip(TBV, EK, GW)]
+    rote = []
+    for i, (ni, tv) in enumerate(zip(NI, tbv)):
+        if ni is None or not tv or tv <= 0:
+            continue
+        fore = tbv[i - 1] if i > 0 and tbv[i - 1] and tbv[i - 1] > 0 else None
+        rote.append(ni / ((fore + tv) / 2 if fore else tv))
+    n["rote"] = sum(rote) / len(rote) if rote else None
+    n["roteAr"] = len(rote)
+    t_ni = list(ar_serie(b, "trailingNetIncomeCommonStockholders").values())
+    n["roteSenast"] = (t_ni[-1] / tbv[-1]) if t_ni and tbv[-1] and tbv[-1] > 0 else (rote[-1] if rote else None)
+
     # Cykeltestet (Del 4) med de år som finns: EBIT föll mer än 30 % från topp till botten
     fall = 0.0
     for i, e in enumerate(EBIT):
@@ -429,7 +465,7 @@ def poang_a(n):
     k[5] = (2 if s < 1.5 else 1 if s <= 3 else 0, "nettoskuld/EBITDA %s" % s)
     m = n["ebitMarginal"]
     k[6] = (2 if m is not None and m > 0.20 and n["marginalStigande"] else 1 if m is not None and m >= 0.10 else 0,
-            "EBIT-marginal %s %%%s" % (pct(m), ", stigande" if n["marginalStigande"] else ""))
+            "%s %s %%%s" % ("EBIT-marginal" if n.get("ebitKalla") != "vinst före skatt" else "vinst före skatt av intäkterna", pct(m), ", stigande" if n["marginalStigande"] else ""))
     f = n["fcfKonvertering"]
     k[7] = (2 if f is not None and f > 0.90 else 1 if f is not None and f >= 0.60 else 0, "FCF/nettovinst %s %%" % pct(f))
     u = n["utspadning"]
@@ -470,11 +506,49 @@ def poang_b(n, profil):
     return k, osakra
 
 
-def veton(n):
+def poang_bank(n, bokstav, profil):
+    """Bankmodulen (Specialmoduler, båda profilerna). Returnerar (kriterier, osäkra, saknas): saknas = poäng som
+    inte går att räkna ur Yahoo (CET1 och kreditförluster mot jämförelsegruppen) och tas i analysen."""
+    k = {}
+    u = n["utspadning"]
+    if bokstav == "A":
+        t = n["tillvaxt"]
+        k[1] = (1 if t is not None and t >= 0.05 else 0, "omsättning %s %% per år (bank: räntenettot räknas som blandade intäkter, högst 1p)" % pct(t))
+        r = n["rote"]
+        k[2] = (2 if r is not None and r > 0.15 else 1 if r is not None and r >= 0.10 else 0, "ROTE %s %% (snitt %d år, ersätter ROIC)" % (pct(r), n["roteAr"]))
+        k[5] = (0, "CET1 finns inte hos Yahoo (tas i analysen, ersätter nettoskuld/EBITDA)")
+        m = n["ebitMarginal"]
+        k[6] = (2 if m is not None and m > 0.20 and n["marginalStigande"] else 1 if m is not None and m >= 0.10 else 0,
+                "%s %s %%%s" % ("EBIT-marginal" if n.get("ebitKalla") == "EBIT" else "vinst före skatt av intäkterna", pct(m), ", stigande" if n["marginalStigande"] else ""))
+        k[7] = (0, "kreditförluster mot jämförelsegruppen tas i analysen (ersätter FCF-konvertering)")
+        k[10] = (2 if u is not None and u < 0.01 else 1 if u is not None and u <= 0.03 else 0, "aktier %s %% per år" % pct(u))
+    else:
+        t = n["tillvaxtKvartal"] if n["tillvaxtKvartal"] is not None else n["tillvaxt"]
+        k[1] = (2 if t is not None and t > 0.20 else 1 if t is not None and t >= 0.10 else 0, "omsättning %s %% (senaste kvartalet mot i fjol)" % pct(t))
+        k[2] = (0, "kreditförluster mot jämförelsegruppen tas i analysen (ersätter bruttomarginal)")
+        rs = n["roteSenast"]
+        s = (t + rs) if t is not None and rs is not None else None
+        k[3] = (2 if s is not None and s >= 0.40 else 1 if s is not None and s >= 0.20 else 0, "tillväxt + ROTE: %s (ersätter Rule of 40)" % pct(s))
+        k[5] = (0, "CET1 finns inte hos Yahoo (tas i analysen, ersätter runway)")
+        e = profil.get("estimatAndring3m")
+        k[7] = (1, "estimatändring saknas (räknat som oförändrat)") if e is None else (2 if e > 0.05 else 0 if e < -0.05 else 1, "vinstestimat %+.1f %% senaste 3 mån" % (100 * e))
+        rps = n["omsPerAktieTillvaxt"]
+        if u is not None and u < 0.015:
+            k[10] = (2, "aktier %s %% per år" % pct(u))
+        elif u is not None and u <= 0.05 and rps is not None and rps > 0.15:
+            k[10] = (1, "aktier %s %% per år, omsättning per aktie %s %%" % (pct(u), pct(rps)))
+        else:
+            k[10] = (0, "aktier %s %% per år" % pct(u))
+    return k, 0, 4
+
+
+def veton(n, typ=None, sektor=None):
+    """Steg 0. Veto 1 gäller inte finans, banker och investmentbolag. Veto 2 (kassan) räknas inte för banker,
+    eftersom bankers kassaflöde följer utlåningen; det prövas i analysen."""
     v = []
-    if n["nettoskuldEbitda"] > 4:
+    if n["nettoskuldEbitda"] > 4 and sektor != "Financial Services":
         v.append("veto 1: nettoskuld/EBITDA %s" % n["nettoskuldEbitda"])
-    if n["kassaManader"] is not None and n["kassaManader"] < 12:
+    if typ != "bank" and n["kassaManader"] is not None and n["kassaManader"] < 12:
         v.append("veto 2: kassan räcker %d månader" % n["kassaManader"])
     if n["utspadning"] is not None and n["utspadning"] > 0.05:
         v.append("veto 3 (villkorligt): aktierna ökar %s %% per år" % pct(n["utspadning"]))
@@ -539,46 +613,72 @@ def sall_marknad(kod):
 
         profil_bokstav = "B" if (n["tillvaxt"] or 0) >= 0.15 else "A"
         k, osakra = poang_a(n) if profil_bokstav == "A" else poang_b(n, {})
-        v = veton(n)
-        hart_veto = any(not x.startswith("veto 3") for x in v)
+        saknas = 0
         poang = sum(p for p, _ in k.values())
-        # Bransch och estimat hämtas bara för bolag som kan bli kandidater (estimatet kan ge Profil B 1p till).
-        pfel = ""
-        if poang + osakra + (1 if profil_bokstav == "B" else 0) >= MIN_POANG and not hart_veto:
+        # Bransch och estimat hämtas för alla nordiska bolag (få, och investmentbolagen syns bara där), och i USA för
+        # bolag som kan bli kandidater, oavsett veto (veto 1 gäller inte finans), och för bolag med bankdata (räntenettot).
+        bankdata = (n.get("niiAndel") or 0) >= BANK_RANTENETTO
+        tak = poang + osakra + (1 if profil_bokstav == "B" else 0)
+        pfel, typ = "", None
+        if m["region"] != "us" or tak >= MIN_POANG or bankdata:
             profil, pfel = hamta_profil(sym)
             bas["sektor"], bas["bransch"] = profil.get("sektor"), profil.get("bransch")
-            orsak = uteslut(bas["sektor"], bas["bransch"])
-            if orsak:
-                bas["orsak"] = orsak
+            typ = branschtyp(bas["sektor"], bas["bransch"], n, m["region"])
+            if typ == "skal":
+                bas["orsak"] = "SPAC eller skalbolag (ingen verksamhet att bedöma)"
                 del_ut["uteslutna"].append(bas)
                 time.sleep(0.2)
                 continue
-            if profil_bokstav == "B":
+            if typ == "bank":
+                k, osakra, saknas = poang_bank(n, profil_bokstav, profil)
+            elif profil_bokstav == "B":
                 k, osakra = poang_b(n, profil)
-                poang = sum(p for p, _ in k.values())
+            elif typ == "investmentbolag":
+                k[2] = (0, "substansvärdestillväxt mot index tas i analysen (investmentbolag, ersätter ROIC; ROIC här %s %%)" % pct(n["roic"]))
+                saknas = 2
+            poang = sum(p for p, _ in k.values())
+        v = veton(n, typ, bas["sektor"])
+        hart_veto = any(not x.startswith("veto 3") for x in v)
 
         flaggor = []
+        if typ == "bank":
+            flaggor.append("bankmodulen: CET1 och kreditförluster (4p) finns inte hos Yahoo och tas i analysen; "
+                           "räntenettot %s %% av intäkterna" % pct(n.get("niiAndel")))
+        elif typ == "investmentbolag":
+            flaggor.append("investmentbolag eller kapitalförvaltare: är det ett investmentbolag gäller investmentbolagsmodulen "
+                           "(kriterium 2 och priserna från substansvärdet) i analysen")
+        elif typ == "forsakring":
+            flaggor.append("försäkringsbolag: guiden har ingen egen modul, så nyckeltalen räknas som för andra bolag; veto 1 gäller inte finans")
+        elif typ == "finans":
+            flaggor.append("finansbolag: veto 1 gäller inte finans")
+        elif typ == "fastighet":
+            flaggor.append("fastighetsbolag: veto 1 och nyckeltalen gäller som för andra bolag (fastighetsmodulen är bara ett förslag, Tidsplan.md)")
+        if n.get("ebitKalla") == "vinst före skatt" and typ != "bank":
+            flaggor.append("EBIT saknas hos Yahoo: ROIC och marginalen räknas på vinst före skatt")
         if n["ebitFall"] > 0.30:
             hur = "gick från vinst till förlust" if n["ebitFall"] >= 1 else "föll %d %%" % (100 * n["ebitFall"])
             flaggor.append("möjligen cykliskt: EBIT %s under åren %s–%s (cykeltestet kräver 15 år)" % (hur, n["ar"][0], n["ar"][-1]))
         if cyklisk_bransch(bas["sektor"], bas["bransch"]):
             flaggor.append("bransch som ofta är cyklisk (%s): cykeltestet och P/S-regeln avgör" % (bas["bransch"] or bas["sektor"]))
-        if n["roicUppblast"]:
+        if n["roicUppblast"] and typ not in ("bank", "investmentbolag"):
             flaggor.append("ROIC blir hög för att nettokassan drar ner kapitalet (guidens formel)")
         if pfel:
             flaggor.append("bransch och estimat saknas (%s)" % pfel)
+        jamfor = round(poang * 12 / (12 - saknas), 1) if saknas else poang
         bas.update({
-            "profil": profil_bokstav, "snabbpoang": poang, "mojligPoang": poang + osakra,
+            "profil": profil_bokstav, "snabbpoang": poang, "mojligPoang": poang + osakra + saknas,
+            "jamforPoang": jamfor, "branschtyp": typ, "saknasHosYahoo": saknas,
             "kriterier": {str(nr): {"poang": p, "varde": txt} for nr, (p, txt) in sorted(k.items())},
             "veto": v, "flaggor": flaggor, "bokslutAr": n["ar"], "redovisningsvaluta": b.get("_valuta"),
             "roic": pct(n["roic"]), "ebitMarginal": pct(n["ebitMarginal"]), "tillvaxt": pct(n["tillvaxt"]),
             "nettoskuldEbitda": n["nettoskuldEbitda"], "fcfKonvertering": pct(n["fcfKonvertering"]),
+            "rote": pct(n["rote"]),
         })
         if bas["mojligPoang"] >= MIN_POANG and not hart_veto:
             del_ut["kandidater"].append(bas)
         else:
             del_ut["ovriga"].append(bas)
-        print("%-12s %s %2dp %s" % (sym, profil_bokstav, poang, "; ".join(v)))
+        print("%-12s %s %2dp %-15s %s" % (sym, profil_bokstav, poang, typ or "", "; ".join(v)))
         time.sleep(0.2)
 
     if len(del_ut["dataSaknas"]) > len(univers) / 2:
@@ -602,10 +702,12 @@ def sla_ihop():
         forra = {}
     ut = {
         "hamtad": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "system": "Masterguide v4.8", "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
+        "system": "Masterguide v4.8.2", "kalla": "Yahoo Finance (screener, fundamentals-timeseries, quoteSummary)",
         "regler": {"borsvardeMinNordenSEK": GRANS_NORDEN_SEK, "borsvardeMinUSA_USD": MARKNADER["us-mellan"]["min"],
                    "marknader": sorted({m["land"] for m in MARKNADER.values()}),
-                   "minSnabbpoang": MIN_POANG, "maxSnabbpoang": 12, "antalForslag": ANTAL_FORSLAG},
+                   "minSnabbpoang": MIN_POANG, "maxSnabbpoang": 12, "antalForslag": ANTAL_FORSLAG,
+                   "branscher": "alla utom SPAC och skalbolag (sedan 2026-11-21); banker med bankmodulen, finans utan veto 1",
+                   "rangordning": "jamforPoang (snabbpoängen omräknad till 12 när Yahoo saknar data för en modul)"},
         "status": "ok", "fel": [], "diagnos": {}, "antal": {}, "forslag": [], **{k: [] for k in LISTOR},
     }
     lyckade = 0
@@ -651,10 +753,13 @@ def sla_ihop():
         ut[lista].append(x)
 
     def nyckel(x):
-        # Högst snabbpoäng först. Vid lika poäng: möjligen cykliska sist (poängen kan vara en vinsttopp),
-        # sedan ROIC (högst 50 %, så att nettokassa inte avgör) och sist börsvärdet.
+        # Högst jämförpoäng först (= snabbpoängen, omräknad till 12 när Yahoo saknar data för en modul).
+        # Vid lika poäng: möjligen cykliska sist (poängen kan vara en vinsttopp), sedan ROIC eller för banker ROTE
+        # (högst 50 %, så att nettokassa inte avgör) och sist börsvärdet.
         cyklisk = any(f.startswith(("möjligen cykliskt", "bransch som ofta")) for f in x.get("flaggor") or [])
-        return (-x.get("snabbpoang", 0), cyklisk, -min(x.get("roic") or -999, 50), -(x.get("borsvardeMdrSEK") or 0))
+        avk = x.get("rote") if x.get("branschtyp") == "bank" else x.get("roic")
+        return (-x.get("jamforPoang", x.get("snabbpoang", 0)), cyklisk, -min(avk if avk is not None else -999, 50),
+                -(x.get("borsvardeMdrSEK") or 0))
     ut["kandidater"].sort(key=nyckel)
     ut["ovriga"].sort(key=nyckel)
     ut["forslag"] = [x["symbol"] for x in ut["kandidater"] if not x["finnsRedan"] and not x["veto"]][:ANTAL_FORSLAG]
