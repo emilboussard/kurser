@@ -53,12 +53,14 @@ def branschtyp(sektor, bransch, n, region):
     if b == "Shell Companies":
         return "skal"
     if sektor == "Financial Services":
-        if b.startswith("Banks") or b == "Mortgage Finance" or (n.get("niiAndel") or 0) >= BANK_RANTENETTO:
+        if b.startswith("Banks") or b == "Mortgage Finance":
             return "bank"
         if b == "Asset Management" and region != "us":
             return "investmentbolag"
         if b.startswith("Insurance"):
             return "forsakring"
+        if BANK_RANTENETTO <= (n.get("niiAndel") or 0) <= 1.5:
+            return "bank"  # utlånare och mäklare med inlåning, t.ex. kreditbolag (räntenettot är en stor del av intäkterna)
         return "finans"
     if sektor == "Real Estate":
         return "fastighet"
@@ -613,12 +615,12 @@ def sall_marknad(kod):
         k, osakra = poang_a(n) if profil_bokstav == "A" else poang_b(n, {})
         saknas = 0
         poang = sum(p for p, _ in k.values())
-        # Bransch och estimat hämtas för bolag som kan bli kandidater, oavsett veto (veto 1 gäller inte finans),
-        # för bolag med bankdata (räntenettot) och i Norden för bolag där kriterium 2 kan vara substansvärdet.
+        # Bransch och estimat hämtas för alla nordiska bolag (få, och investmentbolagen syns bara där), och i USA för
+        # bolag som kan bli kandidater, oavsett veto (veto 1 gäller inte finans), och för bolag med bankdata (räntenettot).
         bankdata = (n.get("niiAndel") or 0) >= BANK_RANTENETTO
-        tak = poang + osakra + (1 if profil_bokstav == "B" else 0) + (2 if m["region"] != "us" and profil_bokstav == "A" else 0)
+        tak = poang + osakra + (1 if profil_bokstav == "B" else 0)
         pfel, typ = "", None
-        if tak >= MIN_POANG or bankdata:
+        if m["region"] != "us" or tak >= MIN_POANG or bankdata:
             profil, pfel = hamta_profil(sym)
             bas["sektor"], bas["bransch"] = profil.get("sektor"), profil.get("bransch")
             typ = branschtyp(bas["sektor"], bas["bransch"], n, m["region"])
