@@ -2,12 +2,9 @@ name: Nyheter
 
 on:
   schedule:
-    # Före den dagliga aktiebevakningen 06.39 svensk tid. GitHub startar ibland sent, därför flera försök.
-    - cron: "20 3 * * 1-5"   # 04.20 svensk vintertid
-    - cron: "5 4 * * 1-5"    # 05.05
-    - cron: "50 4 * * 1-5"   # 05.50
-    # Efter stängning i USA, så att kvällens rapporter finns i filen även om morgonkörningarna startar sent (4–5 nov startade de 7–8 timmar sent).
-    - cron: "35 22 * * 1-5"  # 23.35
+    # Sedan 2026-11-21 bara en kvällsstart som reserv: workflowen Morgon hämtar nyheterna 06.10 varje vardag,
+    # och den dagliga körningen startar en hämtning via trigger/nyheter.txt om filen ändå är gammal.
+    - cron: "35 22 * * 1-5"  # 23.35 svensk vintertid, efter stängning i USA
   workflow_dispatch:
   push:
     paths:
