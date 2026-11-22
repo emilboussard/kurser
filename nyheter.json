@@ -1,5 +1,5 @@
 {
- "hamtad": "2026-11-22T06:24:08Z",
+ "hamtad": "2026-11-22T06:27:50Z",
  "dagar": 5,
  "kallor": "MFN, Yahoo Finance RSS, Google News RSS",
  "bolag": {
@@ -66,8 +66,10 @@
      "tid": "2026-11-20T19:56:17Z",
      "titel": "AbbVie Inc. (ABBV) stock price, news, quote and history",
      "kalla": "Yahoo Finance Australia",
-     "lank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mRWJXb1FrNk9sdmtLaHhzN0NGUmFCRkRQajJ1bGR1eVoyS3oxT1RZVThqeU43eFJzMy1EdExBbno1X1lvUTk3bjk5YzM5bWdkTnc?oc=5",
-     "fran": "google-en"
+     "lank": "https://au.finance.yahoo.com/quote/ABBV/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mRWJXb1FrNk9sdmtLaHhzN0NGUmFCRkRQajJ1bGR1eVoyS3oxT1RZVThqeU43eFJzMy1EdExBbno1X1lvUTk3bjk5YzM5bWdkTnc?oc=5",
+     "utdrag": "Find the latest AbbVie Inc. (ABBV) stock quote, history, news and other vital information to help you with your stock trading and investing. AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer."
     },
     {
      "tid": "2026-11-20T16:20:01Z",
@@ -140,8 +142,10 @@
      "tid": "2026-11-19T20:40:49Z",
      "titel": "The BioPharm Brief: A Matrix-Targeting ADC in Head and Neck Cancer, an RNAi Approval in Myasthenia Gravis, and AbbVie Bets on AND-Gated Bispecifics",
      "kalla": "BioPharm International",
-     "lank": "https://news.google.com/rss/articles/CBMilgJBVV95cUxORXdzR0UxcGVkVVFCaURsdEhvaFQ4azFRSXBwNnEyQTRHNGdoNW9yZlhIRDNXTllyWGRsajBHOS1qY3c5aVlwTnVpZVgydEtWQjEtT1VmWXlHaFB6bmRJTWRpLWNYY19MQUh6S0pFRzlobHpIWmxobEUyaVhCYTRhOTFuRjNzRkwzV1E4Zk1Bb2FNSHFKT1JSd1JzOWRaQlBPQVREQ3hnemUxRjE2WG5Xdnl5cWtRUEFFUHdLd3BPS1hrQm1MWnJfdFViU0g0ZmZCZHFDdE1Bd1ZtZWRBRklfTnFtRnEzV01FdWFrOHZtTEI1RU02Vld6bzVkcU56czVXY2syV2FrN1B2eWFVb2hXYW80T051dw?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.biopharminternational.com/view/the-biopharm-brief-a-matrix-targeting-adc-in-head-and-neck-cancer-an-rnai-approval-in-myasthenia-gravis-and-abbvie-bets-on-and-gated-bispecifics",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMilgJBVV95cUxORXdzR0UxcGVkVVFCaURsdEhvaFQ4azFRSXBwNnEyQTRHNGdoNW9yZlhIRDNXTllyWGRsajBHOS1qY3c5aVlwTnVpZVgydEtWQjEtT1VmWXlHaFB6bmRJTWRpLWNYY19MQUh6S0pFRzlobHpIWmxobEUyaVhCYTRhOTFuRjNzRkwzV1E4Zk1Bb2FNSHFKT1JSd1JzOWRaQlBPQVREQ3hnemUxRjE2WG5Xdnl5cWtRUEFFUHdLd3BPS1hrQm1MWnJfdFViU0g0ZmZCZHFDdE1Bd1ZtZWRBRklfTnFtRnEzV01FdWFrOHZtTEI1RU02Vld6bzVkcU56czVXY2syV2FrN1B2eWFVb2hXYW80T051dw?oc=5",
+     "utdrag": "Pyxis Oncology’s EDB+FN-targeting ADC micvotabart pelidotin shows a 39% confirmed response rate in previously treated head and neck cancer, FDA approves Regeneron’s cemdisiran (Livsayis), an RNAi therapy Regeneron licensed from Alnylam Pharmaceuticals, as the first RNAi therapy for generalized myasthenia gravis, and AbbVie partners with DISCO Pharmaceuticals on AND-gated bispecifics for solid tumors. Welcome to The BioPharm Brief, your daily snapshot of developments shaping the biopharmaceutical industry. Today: an ADC that targets the tumor’s surroundings, a new way to block complement in myasthenia gravis, and bispecifics designed to hit only cells that carry two targets at once."
     },
     {
      "tid": "2026-11-19T20:11:41Z",
@@ -184,7 +188,7 @@
    "namn": "AppLovin",
    "antal": {
     "yahoo": 8,
-    "google-en": 62
+    "google-en": 78
    },
    "fel": {},
    "nyheter": [
@@ -260,6 +264,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-20T09:37:00Z",
+     "titel": "AppLovin reports record revenue and strong cash flow but stock remains 47% below its yearly high.",
+     "kalla": "Pluang",
+     "lank": "https://pluang.com/en/news-feed/saham-applovin-naik-39-persen-dalam-sebulan-apakah-masih-bagus",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeDBuQy1sOHktb3JTb0VKbXVHOVRyQnhPbVhVQ29hMUU5bU1lYTdyNWdMR0tWeHlNNWZqeTJaNW1NVzQzWm5QZ2RuckdlUXdWUHR5Skx4bHYzaW0xdGNZWEVWY1ZFeDRYd08zb0xIenNKdktRckZPNDZwR2h1S09hZVFkSC13TTVWUTFRaDFFMzM3SXFfakFzTElR?oc=5",
+     "utdrag": ""
+    },
+    {
      "tid": "2026-11-20T09:11:00Z",
      "titel": "AppLovin (APP) Stock Price Prediction: Jefferies lifts target as AppLovin tests support after a sharp pullback",
      "kalla": "Blockchain News",
@@ -281,8 +294,28 @@
      "tid": "2026-11-20T08:00:00Z",
      "titel": "AppLovin (NasdaqGS:APP) Stock Forecast & Analyst Predictions",
      "kalla": "Simply Wall St",
-     "lank": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qTVl4Y3VBb2FESUhscDlCdjFZN2tmcTZBRlVGTEJtMGpMOUhyY2RmbzVBeGg3NEN0X2txUmY4dURHN2hpY1hKQ005ZEJ6TWZNemhhMERodmJ6TUZmQ1RfTWxhQXpKV1hJd2Zuck9VQjl0UQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://simplywall.st/stocks/us/media/nasdaq-app/applovin/future",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qTVl4Y3VBb2FESUhscDlCdjFZN2tmcTZBRlVGTEJtMGpMOUhyY2RmbzVBeGg3NEN0X2txUmY4dURHN2hpY1hKQ005ZEJ6TWZNemhhMERodmJ6TUZmQ1RfTWxhQXpKV1hJd2Zuck9VQjl0UQ?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-20T06:55:23Z",
+     "titel": "Teleconferência de resultados do 3T 2026 da AppLovin (APP): receita sobe 55% com ganhos de modelo",
+     "kalla": "TradingKey",
+     "lank": "https://www.tradingkey.com/pt/news/transcripts/262279572-",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yZVY3SXJEMlpLUmt4Nk9zMTVycVZtcHhZcWgwd2hOSVEzbWl2ZDlZWXVOTVY3cGpOcDNaYk1MZUJqYUM1LXBvZmpkUFM2T3lhM1JDSUpyQVg4WnJ2M2pPYmtZbGc4dVo2?oc=5",
+     "utdrag": "A receita da AppLovin no terceiro trimestre de 2026 subiu 55%, para US$ 2,18 bilhões, à medida que novos modelos impulsionaram o crescimento em jogos e consumo. O guidance de receita para o quarto trimestre atinge US$ 2,395 bilhões. No terceiro trimestre de 2026, a AppLovin registrou receita de US$ 2,18 bilhões, alta anual de 55%, e lucro líquido de US$ 1,44 bilhão, com margem de 66%. O EBITDA ajustado alcançou US$ 1,84 bilhão (margem de 84%) e o fluxo de caixa livre somou US$ 1,4 bilhão. O principal motor foi o negócio de jogos para dispositivos móveis, impulsionado por uma nova arquitetura de modelos parcialmente implementada, além da forte expansão na vertical de consumo."
+    },
+    {
+     "tid": "2026-11-20T04:56:17Z",
+     "titel": "Applovin Corp Tokenized bStocks Price (APPB/USD) Today | Live Price, Market Cap & Chart",
+     "kalla": "Binance",
+     "lank": "https://www.binance.com/en/price/applovin-corp-tokenized-bstocks",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMickFVX3lxTE43NTRWWl8zTDY2UDMzMGJrbWd0dWliSzR2UEl1TFg4aWplczFuMkN6OHVvMG5SeTRuMUdaTTJUTVRRRll0ZGNaamFtcWd6TUd6VnNObFJZT0NTMUNrV3pMcWsxTlZVWWR4YzZ0UjZFM1FQUQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-20T03:18:44Z",
@@ -292,6 +325,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcXc2bE9raDVYOXVNSlZRSlYzWkRYYlhMNmxYeld4RUsyeTN6MGZHLVliZHdHWDBsWU1od1F1VEhKblIyUjZRdjNGU1pfWTdFVXVRQnRoMWR6WmFfM2xVclRSaEpBajI4S1gyMnBNUVpXbUVkQS1DQ2N1UVRqZmRZalBfcnBYNHFGRWc?oc=5",
      "utdrag": "AppLovin shares declined due to broad tech sector de-risking and tactical profit-taking.The company reported an annual revenue of $5.48B and net profit of $3.33B.Technical indicators show a MACD buy signal and a neutral RSI reading. Applovin Corp (APP) closed down by 3.04%. The Software & IT Services sector is down by 2.71%. The company underperformed the industry. Top 3 stocks by turnover in the sector: Alphabet Inc Class A (GOOGL) down 3.46%; Microsoft Corp (MSFT) down 1.78%; Palo Alto Networks Inc (PANW) up 6.44%."
+    },
+    {
+     "tid": "2026-11-19T23:52:40Z",
+     "titel": "APPB to CHF: Applovin (bStocks Tokenized Stock) Price in Swiss Franc",
+     "kalla": "CoinGecko",
+     "lank": "https://www.coingecko.com/en/coins/applovin-bstocks-tokenized-stock/chf",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBNHpxSzNwUEh0UlE1dEIzNnNJWF9zWHcySzNxNEFhRnAycFNkQWlqYjlYOXJPUEpVRWhKWWpTaXJ3QlN1YzVBbHc1ZUo5ZHZvdUo1SXFBMWV0Nm5STmFzdnBTa3ZOVktfcUtKdHJoT2gzWElOUjhTcHJDWQ?oc=5",
+     "utdrag": "Get live charts for APPB to CHF. Convert Applovin (bStocks Tokenized Stock) (APPB) to Swiss Franc (CHF). 1. Identify where to trade APPB Applovin (bStocks Tokenized Stock) (APPB) can be bought and sold across 4 crypto exchanges. Based on trading volume and Trust Score, the most active exchange to trade Applovin (bStocks Tokenized Stock) is Binance, followed by LBank. 2. Choose a suitable exchange A convenient option to buy APPB with CHF is through a centralized exchange (CEX) that supports CHF deposits. When choosing an exchange, compare its fee structure, security, and available assets. Most CEXes have maker/taker fees and may include additional withdrawal & deposit fees."
     },
     {
      "tid": "2026-11-19T19:24:36Z",
@@ -328,41 +370,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTDJTRzBZWlVGVHlvek5yelREQzh5TnI1S0xhWnNUemlkNzF0cnJETk4ySVlqaE4ydXNnYWFCOTNJVEJlY0tldkl6Vl9jNjlUNmdPZEUzZTBqLUpsZFlvZUdDV05ONVFLUlgtZTl3OWVoVGVZbzd4U2ctVlJjbTliMVp3Y1VVVmVtQWpKTGRLWkYxTG1BZUxZYUQ1NU9xZDZMazNaRWVESksyb24xY0RJMXpMOWltYnl1d1A2YkJiZnhNNkZxUzRYOHN3?oc=5",
      "utdrag": "StoneX maintained AppLovin at Buy and raised its price target to $469 from $440, a 6.6% increase. The price target implies an upside of 20.0% from the Nov 18 close of $390.91. Across the five most recent analyst notes published on AppLovin over the past 30 days, price targets range from $347 to $520. Explore more price target data and ratings for AppLovin on the Forecasts tab, and track all previous and future analyst recommendations in the dedicated News Flow."
-    },
-    {
-     "tid": "2026-11-19T15:11:35Z",
-     "titel": "StoneX raises AppLovin stock price target to $469 on growth outlook",
-     "kalla": "Investing.com",
-     "lank": "https://www.investing.com/news/analyst-ratings/stonex-raises-applovin-stock-price-target-to-469-on-growth-outlook-93CH-5039219",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX3d6QWlyY2RpRlhnUjdiY2Jtb0kyd2NsUHJYQUhjcGY2OXJidjBDaEJPcFU1VG54Ny01QWdJUFZtSlZaMWVVSzc1b3ZLNEpwVlN4SmVsdEcxS0pUbEktRTBydDFnZFA5ek1fT1ZyY1YtLVZTNXh3QTVRWkZCUldwMlFUNXdIVzFvTHlaTUwyTlVQa3I4cUloemJFaS1oNGtjZVkzYUVhVXgzdzMyQ0pxcVhpVl9hdjdWcnJXRWExSEhxOFBJ?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-19T14:55:46Z",
-     "titel": "AppLovin Pauses After Q3 Surge as Traders Test Range",
-     "kalla": "TradingPedia",
-     "lank": "https://www.tradingpedia.com/2026/11/19/applovin-pauses-after-q3-surge-as-traders-test-range/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUG1lQ1VjX2RkNTVfZjhtS3Qtc2dZNUZOQnI5TERpbUNOcUxqcDQ2Snltb2loUjRlQjBDUFR5X3E5Rjc0LVUtMnhGeEluOTVnamJjdzRRSUlwVm9BWTFfZzBkdnY2Q2tYN0w1UHBmeVRGOUtWSFdjeEpFWDV6OTM3TFRLT0lXNk5pU1lnd0F5aDdPeGNDNWFBaA?oc=5",
-     "utdrag": "Key Moments AppLovin (APP) jumped after its November 5 third-quarter report, which showed 55% year-over-year revenue growth to $2.18 billion and adjusted earnings of $4.30 per share. The stock last traded at $397.56 after closing at $390.91 on November 18, with price action now centered on whether the stock can sustain its higher post-earnings range. Derivatives positioning is skewed bearish, with Binance accounts roughly three-quarters short, even as APP trades above key moving averages and support levels. Fundamental Catalyst and Price Action AppLovin (APP) has already undergone a sharp repricing following its third-quarter earnings release on November 5."
-    },
-    {
-     "tid": "2026-11-19T13:10:00Z",
-     "titel": "AppLovin (APP) Stock Price Prediction: Strong earnings, but the tape is now testing whether the breakout can hold",
-     "kalla": "Blockchain News",
-     "lank": "https://blockchain.news/news/20261119-price-prediction-app-strong-earnings-but-the-tape-is",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTVieVliMk5GaTRXSURiLVMzMFp2UVhnaFlTSloyR1VRZlpzWS1sVlVZT0dHdUJiTEFBbmFUbGpUc01KZTJPNnhtTjZ1ZGk4aTFLMm0xeHJVclpTYWVTaUVHWll5c05XUXRJZFdpcm9jZU1NTzVNQXJzT0s5OXlfNjAzNy01X0NaMkdkYjRIeFdXREZO?oc=5",
-     "utdrag": "AppLovin (APP) is trading near $397.56 after a sharp post-earnings rerating, with the latest move coming against a backdrop of stronger-than-expected... AppLovin (APP) has already done the heavy lifting: the stock surged after the company’s third-quarter print on November 5, when revenue rose 55% year over year to $2.18 billion, adjusted earnings reached $4.30 per share, and fourth-quarter revenue guidance came in above Wall Street’s forecast. That report is still the core fundamental driver behind the current setup. The market then had to digest a fast rerating, with APP closing at $390.91 on November 18 and last trading at $397.56 on the supplied market snapshot."
-    },
-    {
-     "tid": "2026-11-19T12:22:57Z",
-     "titel": "AppLovin Just Gained 45% in a Month. What Will It Take to Hit $500?",
-     "kalla": "Yahoo Finance",
-     "lank": "https://www.tikr.com/blog/applovin-stock-up-50-percent-month-path-to-500-price-target?ref=yahoofinance&tlnk=yf-261119-p963jxx8&.tsrc=rss",
-     "fran": "yahoo",
-     "utdrag": "AppLovin stock gained 50% in a month on 55% revenue growth. Here’s what it would take for APP to hit $500 and what to watch in the February report. maxkabakov from Getty Images, AndreyPopov from Getty Images via Canva AppLovin stock is up 45% in the past month. It bottomed on Oct. 30, the day after Roblox reported 9% fewer daily active users than a year before. Then its Q3 showed game makers still spending; Unity Software said its ad engine more than doubled its revenue, and Reuters reports AppLovin is among the companies in talks to buy Criteo. Revenue rose 55% to $2.18 billion. AppLovin guided Q4 revenue to $2.365 billion-$2.395 billion, above a consensus near $2.25 billion."
     }
    ]
   },
@@ -370,7 +377,7 @@
    "namn": "Broadcom",
    "antal": {
     "yahoo": 8,
-    "google-en": 92
+    "google-en": 90
    },
    "fel": {},
    "nyheter": [
@@ -433,6 +440,15 @@
      "utdrag": "Analyst sees Broadcom shares hinging on AI spending durability through 2028 and Google competition; Goldman cuts its target to $460 at 25x earnings. For Broadcom (AVGO), the focus would likely be beyond its quarterly results and on whether demand for AI chips can remain strong through 2028, as per Goldman Sachs analysts.\"We expect modest upside to guidance, but believe the stock will ultimately be"
     },
     {
+     "tid": "2026-11-21T13:58:40Z",
+     "titel": "Broadcom Inc. $AVGO Holdings Increased by State Street Corp",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-holdings-increased-by-state-street-corp-2026-11-21/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVJLYVZzRUdCUUc0ODQxTEtSNDVmYVBldC14eHdmQ3IweDhGdlBNNTFNR1lJMjdZT2dZNmZBTV9Cd3BvYlRLSmNBamRVckJoMkc0SnVvdzZlOVg5RkdVZVpSQ3h0bmxKTlRIVU5FT2l5cjRzeUkycC1aWW1IOXVUNG9ZamRTUjBvYzZoNXhaU3d6R1lyQnJUaHYxbjVlTC1TT2RDMXVFTjZRRGZORHZESnh5bWdndUxQb1E?oc=5",
+     "utdrag": "State Street Corp grew its position in Broadcom Inc. (NASDAQ:AVGO - Free Report) by 2.1% during the 3rd quarter, according to the company in its most recent disclosure with the Securities & Exchange Commission. The institutional investor owned 201,032,203 shares of the semiconductor manufacturer"
+    },
+    {
      "tid": "2026-11-21T13:46:02Z",
      "titel": "The 1 Thing I'll Be Watching When Broadcom Reports on Dec. 9",
      "kalla": "Yahoo Finance",
@@ -467,28 +483,12 @@
      "utdrag": "$Broadcom (AVGO.US)$ : Second biggest: $4.1M on 1,693 puts expiring Nov 27. $AVGO options: $418.0M in premium, $152.3M in calls and $265.7M in puts (64% puts). The biggest single trade: $6.2M on 3,497 call contracts expiring May 21, 2027 vs 445 open interest. Shares traded off the exchanges (% of volume): Nov 19 9,870,688 (37.9%); Nov 18 9,876,028 (37.8%); Nov 17 8,245,366 (31.5%). The off-exchange share rose from 31.5..."
     },
     {
-     "tid": "2026-11-20T23:33:51Z",
-     "titel": "Broadcom Plunges 11.3% Amid Sector-Wide Selling",
-     "kalla": "AlphaStreet",
-     "lank": "https://news.alphastreet.com/broadcom-plunges-11-3-amid-sector-wide-selling/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVTV1V2tETWdsdldDNnNpM3E1ZGpvbGFKVUZWNWJuSE52b0w2YmRPblA2OXluSVh4LS00akk5Yi1vb3gtSzlEeERBeDFxbTZKX1E0c1AxOEpxSkJ5TGc2X28wcm51ZmFiNXRlcjBRSnU4S2MtaktnRldGa2daaFY5blp30gGHAUFVX3lxTE02M194QnBOZDBBdGI2Uy15dW01R0JlT2dNN3V3NWRWeFhReDllRW1RYWV5NTBhSjU4UHNPV3h3TE5LRmJaQ1VsTXk0RDBGSEdLQ01vZktNQ1NHY3JyX2RNT0xiMnMtcjBNZGRCMDRRUU5fZEJtZ0xhSEN4enJ1UmhOaU5VeDVpZw?oc=5",
-     "utdrag": "Broadcom Plunges 11.3% Amid Sector-Wide Selling Broadcom plunged 11.3% on Friday as a brutal selloff ripped through semiconductor stocks, dragging the chipmaker down to $307.41 in what turned into one of t... Broadcom plunged 11.3% on Friday as a brutal selloff ripped through semiconductor stocks, dragging the chipmaker down to $307.41 in what turned into one of the sector’s worst trading days in recent memory. The company’s shares tumbled alongside nearly every major name in the space, with volume surging to 24.1M shares as investors fled the category en masse. The damage was sector-wide and unforgiving."
-    },
-    {
      "tid": "2026-11-20T23:25:54Z",
      "titel": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
      "kalla": "Yahoo Finance",
      "lank": "https://247wallst.com/investing/2026/11/20/data-center-ai-chips-could-change-the-winners-broadcom-and-marvell/?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "While investors fixate on Nvidia's share price, hyperscalers are quietly buying different chips for different jobs. Counting accelerators misses the real money, and a memory-stack model shows why the chip tally can mislead. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. The selloff in semiconductor stocks has intensified questions about the sustainability of artificial intelligence infrastructure spending."
-    },
-    {
-     "tid": "2026-11-20T23:06:32Z",
-     "titel": "Broadcom, Intel, Nvidia, and Qualcomm stocks trade down, what you need to know",
-     "kalla": "The Globe and Mail",
-     "lank": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcDlsZ1JnLUxLTDZ4bkdvMUlPXzNyXzlzSkQyazJLMHZMUDdsUVRCR0xkdFlLZlM3a29LVmNoRnVYQWYwSVRhUkxWMWxMSGc3TXpfTEt4WXhvb2NsUVBEMC1Xa0hTZmI2dTBHay1UVVhGRkVHczdGZVFuT0RJa0ZDeHk1dWJHSXA5VF9jT3A4ZnlBWWNrMDZHUDYxNkJteWRsOTNmdzk5Y3BWeUlzMENuQmltcDdYdHFEVWw0NnNOdzRJb2VxYjdSeldRMHMzZWxEZGxLcGNic1VTSTV2OU8yYV9ub1p3OW9nY1J2anNydTM?oc=5",
-     "fran": "google-en"
     },
     {
      "tid": "2026-11-20T22:04:52Z",
@@ -518,6 +518,15 @@
      "utdrag": ""
     },
     {
+     "tid": "2026-11-20T21:26:43Z",
+     "titel": "Cathie Wood Buys $90M Anthropic as AMD, Broadcom Stocks Crash",
+     "kalla": "Coinpaper",
+     "lank": "https://coinpaper.com/39162/cathie-wood-buys-90-m-anthropic-as-amd-broadcom-stocks-crash",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcG52a1BUVS1HWmFoODMwQ2ZsM0JtYkV5c3NXMjFvbUxZeXdRSW5mQXNsZGpTTFVkTmFEeks5c1RDQVpSQ3BNVnRSaVExZTJNUlNWLUxIYUNJakt2Z0VxQ0V6S2pwR2NJN3N2R2ozTVZJQXBqNEJhLWdNR3NKVjYxVEVVa2dGNk1naG12bksxN0Q2QQ?oc=5",
+     "utdrag": "Cathie Wood's ARK Invest buys 935,000 Anthropic shares worth $90.9M as AMD, Broadcom and CoreWeave plunge amid a widening AI stock selloff. Cathie Wood's ARK Invest acquired 934,968 Anthropic (NASDAQ: ANT) shares worth approximately $90.9 million at Thursday's closing price, making a substantial investment in the artificial intelligence developer as AMD, Broadcom and CoreWeave stocks extended their steep decline. The November 19 purchases were distributed across six actively managed ARK exchange-traded funds, including the flagship ARK Innovation ETF (ARKK)."
+    },
+    {
      "tid": "2026-11-20T21:25:08Z",
      "titel": "Broadcom sinks 12% as Google trims 2027 TPU orders, tech stocks drop (AVGO:NASDAQ)",
      "kalla": "Seeking Alpha",
@@ -536,13 +545,13 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-20T20:21:19Z",
-     "titel": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
-     "kalla": "Yahoo Finance",
-     "lank": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html",
+     "tid": "2026-11-20T20:46:40Z",
+     "titel": "Broadcom, Intel, Nvidia, and Qualcomm stocks trade down, what you need to know",
+     "kalla": "The Globe and Mail",
+     "lank": "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/8942091/broadcom-intel-nvidia-and-qualcomm-stocks-trade-down-what-you-need-to-know/",
      "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
-     "utdrag": "Chip giant Nvidia slid further into red territory on Friday along with the rest of the semiconductor sector. Chip giant Nvidia (NVDA) extended its declines on Friday, dropping 12%. The stock headed for seven straight days of losses amid a reported SEC probe into the chip maker's accounting practices. Shares of peers AMD (AMD) and Broadcom (AVGO) also tanked double-digit percentages as a broader AI trade sell-off intensified. Broadcom has significant financial ties to Anthropic (ANT), which made its public debut on Thursday."
+     "glank": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOS0RiTFRwVzM2Yld0ODhwa050UlJ6LTl1eW5KYjNHdGs3S0ZwVWpzeUo0M3J4WnJZRlNpU2poWGNkSW1qRVpPWGs1bjRzQVVwMHRtclY1RzhuQVZHMnhNZVYzS0FibVRTaUJoYy1jMTJydUxKZHJ3WU1UYl93a2wzYVFfdlhNQXppSEZPdjFCNUVLY3VpMi1vNlNlbUdaM1Z0U2pLRk5jQ2xPNkhuRzVYSmNPZm9NMWZobmRSb1h2THB3SzBKRElmUWFOdlI4Zks3dFVRcGF4MDFpSmVfeDNXZi16ZG13cGlpMVY5cm1BLWo?oc=5",
+     "utdrag": "Detailed price information for Broadcom Ltd (AVGO-Q) from The Globe and Mail including charting and trades. A number of stocks fell in the afternoon session as AI-linked shares continued to pull back. Anthropic slid more than 10% following its debut, failing to revive confidence in the sector's spending boom. Investors had looked to Anthropic's record $81.3 billion initial public offering and Nvidia's quarterly earnings beat under interim CEO Colette Kress to steady sentiment following Jensen Huang's resignation, CNBC reported. Instead, Anthropic's retreat toward its $83 offer price echoed Seaport Research warnings, covered by CNBC, that its valuation demands much faster revenue growth."
     }
    ]
   },
@@ -550,7 +559,7 @@
    "namn": "Celestica",
    "antal": {
     "yahoo": 2,
-    "google-en": 29
+    "google-en": 28
    },
    "fel": {},
    "nyheter": [
@@ -576,8 +585,10 @@
      "tid": "2026-11-20T22:38:00Z",
      "titel": "Can Celestica (TSX:CLS) Sustain Its Expansion Across AI Infrastructure Markets?",
      "kalla": "Kalkine Media",
-     "lank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbzVrYk4zdDhkS1k5X21sWTZpU21ESld4VDNTQ05xNWMwR0VtQXA3cWZRSzVOMjJsZDNPc2U1cUQ1d3dHcVRfR0wySjZvNEhqNGlvRExzeGRBbnJ4bmZDQXNFWnNOOHBOaVhWSnFDdnJleEJCWFEyRXQ3ZHVIZjhwZ0xsNkpuSFNpRGs1R09WRWFuckJnVjZwMmFLNUhuR1NwV0R5Z2xnREFXV3VrRkVzTmlnMzdmRnpYUGJvVHRn?oc=5",
-     "fran": "google-en"
+     "lank": "https://kalkinemedia.com/ca/stocks/technology/can-celestica-tsxcls-sustain-its-expansion-across-ai-infrastructure-markets",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbzVrYk4zdDhkS1k5X21sWTZpU21ESld4VDNTQ05xNWMwR0VtQXA3cWZRSzVOMjJsZDNPc2U1cUQ1d3dHcVRfR0wySjZvNEhqNGlvRExzeGRBbnJ4bmZDQXNFWnNOOHBOaVhWSnFDdnJleEJCWFEyRXQ3ZHVIZjhwZ0xsNkpuSFNpRGs1R09WRWFuckJnVjZwMmFLNUhuR1NwV0R5Z2xnREFXV3VrRkVzTmlnMzdmRnpYUGJvVHRn?oc=5",
+     "utdrag": "Celestica raises its annual outlook and projects faster growth next year, while shares swing amid global AI-related market moves. Events that impact markets, stocks, IPOs, commodities, forex from regional to international – We’ve got it all covered. Sectoral breakdown of the latest in business, stock markets and economy. Here’s what trending today! Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder How Could Acceleware (TSXV:AXE) Advance Its Radio Technology Strategy? Is enCore Energy (TSXV:EU) Advancing Its Upper Spring Creek Strategy? Could Talamore Mining (TSX:TALA) Strengthen Its Position In Gold Explo..."
     },
     {
      "tid": "2026-11-20T22:21:27Z",
@@ -688,13 +699,6 @@
      "utdrag": "Analyst rates Celestica Inc. a Buy after shares fell more than 22%, with a $375.18 target implying 52% upside on 16.824x FY2027 EPS of $22.30. In August 2026 I last wrote about Celestica Inc. (CLS) stock, downgrading it from Buy to Hold because I didn’t like the firm’s decision to dilute shareholders quite Analyst’s Disclosure: I/we have a beneficial long position in the shares of CLS either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article."
     },
     {
-     "tid": "2026-11-19T12:02:00Z",
-     "titel": "Celestica Tokenized Stock (Ondo) Price Today | CLSon to ZAR Live Price, Market Cap & Chart",
-     "kalla": "Binance",
-     "lank": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XWDAtQzFfdGNzakJmalBUMVN1elcyZ0FQTFduMEFmYkpuWHJfNzlCZkJ5RC1uUjdKNWt0akFtLThUSjhMNml0VzdLZEp1YVlMbGNsVGUzcVFYRjFldUcwUm9WQ2l6TVpsYTNsb3pwTDloWjZM?oc=5",
-     "fran": "google-en"
-    },
-    {
      "tid": "2026-11-19T09:59:00Z",
      "titel": "WHY Is Celestica (TSX:CLS) Stock Down From Its High Despite a $40 Billion 2027 Revenue Outlook?",
      "kalla": "kalkine.ca",
@@ -729,6 +733,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWMybTNDb0FVTXFpSXBjcVpZbjhRQ1hTN1BJSTNRUGQybzNPUEJ6bEhtajRsWm0xWHBzZy1ZcnBDbTlHVVU0MFhMN1ROMHJlM3dodUVVeFNmcjludmhwQ2FZOTVMeC11Q1lWRzN6MDBjOGlVbmp5WHZUZWl1czl2WGYzYWYwbDBqUTR3a1RMTGJ2VHloNlEzcUFCSFZTWS0weHh5bUtwcmU2dw?oc=5",
      "utdrag": ""
+    },
+    {
+     "tid": "2026-11-18T21:25:00Z",
+     "titel": "Why Is Celestica Inc (TSX:CLS) Back on Bay Street’s Radar?",
+     "kalla": "Kalkine Media",
+     "lank": "https://kalkinemedia.com/ca/stocks/artificial-intelligence/why-is-celestica-inc-tsxcls-back-on-bay-streets-radar",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWJ5OFkzTlVyWkRlRVJJQWEyc0M0bXFSM2VEajJRUVhyZlRubWdPcHBkTTllV1VSdExueEtoTE11RGNHaWtKNHZMRWRUdkQ4SlRhM01EY09LMHFSemxzbTg1N2dwUG02VmNuV0VFZThVTXgxTGVvLWlEMXB4VmcxY3hNVTFOWl9Uem1ibzRybHFqVjdUMThWVlBob3NlNW5ITlp0bXZzN3ZKSkRnSWFjSEFR?oc=5",
+     "utdrag": "Explore why Celestica Inc is in focus as commodity pressure, trade uncertainty and sector conditions place fresh emphasis on company execution. Events that impact markets, stocks, IPOs, commodities, forex from regional to international – We’ve got it all covered. Sectoral breakdown of the latest in business, stock markets and economy. Here’s what trending today! Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder How Could Acceleware (TSXV:AXE) Advance Its Radio Technology Strategy? Is enCore Energy (TSXV:EU) Advancing Its Upper Spring Creek Strategy?"
     }
    ]
   },
@@ -736,7 +749,7 @@
    "namn": "Coca-Cola",
    "antal": {
     "yahoo": 10,
-    "google-en": 66
+    "google-en": 67
    },
    "fel": {},
    "nyheter": [
@@ -890,8 +903,10 @@
      "tid": "2026-11-20T15:11:19Z",
      "titel": "What Coca Cola HBC Holders Saw Early",
      "kalla": "Simply Wall St",
-     "lank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0xZNWhwdDhidWR4YWtXeFctTEdib3QyVWtrcjdCNVRSZENDVlBUUkp6YUlCZUhWc0Rtc1AwTllJdGhYTXhDT0RzVDhlUnVmUE5QU2NEQ3dJbHRTeVNDUWhxbS1ocUp3d1MzSmtIU1NrQU1RWEtYQXI1VWlIYmpzY0NZUzZST2QwMEQwVWpENkc0Y29WMjZfSlNVRURnaDlVUUxTT1ZFMTVXV1Izakk3NlVmTjZRRkxCTzc4ZThSN3RnZw?oc=5",
-     "fran": "google-en"
+     "lank": "https://simplywall.st/stocks/gb/food-beverage-tobacco/lse-cch/coca-cola-hbc-shares/news/what-coca-cola-hbc-holders-saw-early",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0xZNWhwdDhidWR4YWtXeFctTEdib3QyVWtrcjdCNVRSZENDVlBUUkp6YUlCZUhWc0Rtc1AwTllJdGhYTXhDT0RzVDhlUnVmUE5QU2NEQ3dJbHRTeVNDUWhxbS1ocUp3d1MzSmtIU1NrQU1RWEtYQXI1VWlIYmpzY0NZUzZST2QwMEQwVWpENkc0Y29WMjZfSlNVRURnaDlVUUxTT1ZFMTVXV1Izakk3NlVmTjZRRkxCTzc4ZThSN3RnZw?oc=5",
+     "utdrag": "Coca-Cola HBC’s year revolved around one concrete move. Management kept pushing ahead with the Coca-Cola Beverages Africa deal, securing approvals and even a fast-tracked Johannesburg listing to anchor its position across key African markets. For Coca-Cola HBC shareholders, the return over the past year was 20.4%, including dividends. If you had been deciding on 19 November 2025, what would you have needed to believe about Nigeria, Egypt and African soft drink demand to back that outcome? On Simply Wall St, a Narrative is an investor's thesis written down: the reasoning, plus the numbers it rests on. Run those numbers and you get an estimated Fair Value. Coca-Cola HBC has already moved."
     },
     {
      "tid": "2026-11-20T15:04:29Z",
@@ -984,8 +999,10 @@
      "tid": "2026-11-21T17:01:52Z",
      "titel": "CrowdStrike in Talks to Acquire Zscaler in Potential Blockbuster Cybersecurity Deal: Reports",
      "kalla": "Security Boulevard",
-     "lank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1dvR0staktsaERiNTVybzJOUnYwUGxQNzdpSVpHejVVOUVVbFQ3NDNuRlp4eWtWSUJ4dzJudjMwZzZVbE9HT1U0Yjc1aXA1V09tSjFnMlc1UWNIMEFmTHhWYS1NWFhLZkc2Mk5CbHVJZUpHR00wYWRsRmlVNnR0MWZPR0F1NkxFLVZlS2FvVDc0OElQTkJfS2RpZ2RObi1fejlmeGd2bE96a2RTMnVyRWMzc3VzeVlfLW1NdEJaZHNsaE1EM2puOUdn?oc=5",
-     "fran": "google-en"
+     "lank": "https://securityboulevard.com/2026/11/crowdstrike-in-talks-to-acquire-zscaler-in-potential-blockbuster-cybersecurity-deal-reports/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1dvR0staktsaERiNTVybzJOUnYwUGxQNzdpSVpHejVVOUVVbFQ3NDNuRlp4eWtWSUJ4dzJudjMwZzZVbE9HT1U0Yjc1aXA1V09tSjFnMlc1UWNIMEFmTHhWYS1NWFhLZkc2Mk5CbHVJZUpHR00wYWRsRmlVNnR0MWZPR0F1NkxFLVZlS2FvVDc0OElQTkJfS2RpZ2RObi1fejlmeGd2bE96a2RTMnVyRWMzc3VzeVlfLW1NdEJaZHNsaE1EM2puOUdn?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-21T16:37:00Z",
@@ -1027,8 +1044,10 @@
      "tid": "2026-11-21T09:31:23Z",
      "titel": "CrowdStrike crash 5% after Talks to Buy Cybersecurity Firm Zscaler",
      "kalla": "FXLeaders",
-     "lank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQmRYUEoyN0k3dk1WSllwakxmS3pfS3pUc2FKbXNWLThGRzNlZUdlc2xfanRGeUNJdUNfUk9Ma21kM1lubHdkaENhUnowc2stcG9CWjFGYkJfVDVybEtiMHdoSGR5UlNRWDBRaUJ5ZEsxdzY4ZFVOUkZudTExRUNqb2dKU0pTV1FEbkVyV0RVbGZXRXNVTjVTeWp5bzJXQ1JiRmE2dnljbTA2dGltTWRvMUl4ZlU?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.fxleaders.com/news/2026/11/21/crowdstrike-crash-5-after-is-in-talks-to-buy-cybersecurity-firm-zscaler/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQmRYUEoyN0k3dk1WSllwakxmS3pfS3pUc2FKbXNWLThGRzNlZUdlc2xfanRGeUNJdUNfUk9Ma21kM1lubHdkaENhUnowc2stcG9CWjFGYkJfVDVybEtiMHdoSGR5UlNRWDBRaUJ5ZEsxdzY4ZFVOUkZudTExRUNqb2dKU0pTV1FEbkVyV0RVbGZXRXNVTjVTeWp5bzJXQ1JiRmE2dnljbTA2dGltTWRvMUl4ZlU?oc=5",
+     "utdrag": "CrowdStrike shares fell more than 5% amid reports from Bloomberg and Reuters that the company is in talks to acquire rival cybersecurity firm Zscaler. Meanwhile, Zscaler’s stock surged 18% in late trading on the news. Zscaler holds a market value of roughly $32 billion (compared to CrowdStrike’s ~$235 billion), making this one of the largest potential deals in cybersecurity history. Zscaler develops software that shields businesses from cyber threats. Before the news, its stock—already down 13% year-to-date—fell 5.3% to close at $194.82 on Friday, mirroring a broader 5.3% drop in the Nasdaq Composite."
     },
     {
      "tid": "2026-11-21T08:04:13Z",
@@ -1109,8 +1128,10 @@
      "tid": "2026-11-18T09:57:17Z",
      "titel": "Industrivärden ökar i Volvo för 324 miljoner",
      "kalla": "Affärsvärlden",
-     "lank": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbl81YXEyZzdkbThlVzJIMDFXSmF5RVBTRlpBclhWMGhXYTRacVRqaWxXMmowdzZfNkFadF8zYWJsNGFqVDU1RkctMjJzUXdRVmxBQ0Fnci1fYVhDN1djNVlFRzhmbEN0Y2VxVkIwajJiYjQ4Zi0xY2hPSjhIMUxLRThTYjU2d0Jt?oc=5",
-     "fran": "google-sv"
+     "lank": "https://www.affarsvarlden.se/artikel/industrivarden-okar-i-volvo-for-324-miljoner",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbl81YXEyZzdkbThlVzJIMDFXSmF5RVBTRlpBclhWMGhXYTRacVRqaWxXMmowdzZfNkFadF8zYWJsNGFqVDU1RkctMjJzUXdRVmxBQ0Fnci1fYVhDN1djNVlFRzhmbEN0Y2VxVkIwajJiYjQ4Zi0xY2hPSjhIMUxLRThTYjU2d0Jt?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T16:36:06Z",
@@ -1181,8 +1202,10 @@
      "tid": "2026-11-20T13:00:03Z",
      "titel": "Nice (NICE) is Attracting Investor Attention: Here is What You Should Know",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLVdmaUpMY2JXWjQzU190SGlkdGdydkNadGtzUUhMV2xCWG9KT0FVZ0l3Q2xmckE3UjRpLTdBT3JtckFnQ3Z0Vl9pcTB4LV83cGxaY1ZkTC1MMFVZbnhaMTFJd3M3SjRNRGcxWFUxbHZja2NoN05Cb1hYeHBkZFYzZVN4SmI0d3RmY1lXR1RtMHhjdw?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/news/nice-nice-attracting-investor-attention-130003140.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLVdmaUpMY2JXWjQzU190SGlkdGdydkNadGtzUUhMV2xCWG9KT0FVZ0l3Q2xmckE3UjRpLTdBT3JtckFnQ3Z0Vl9pcTB4LV83cGxaY1ZkTC1MMFVZbnhaMTFJd3M3SjRNRGcxWFUxbHZja2NoN05Cb1hYeHBkZFYzZVN4SmI0d3RmY1lXR1RtMHhjdw?oc=5",
+     "utdrag": "Recently, Zacks.com users have been paying close attention to Nice (NICE). This makes it worthwhile to examine what the stock has in store. Nice (NICE) is one of the stocks most watched by Zacks.com visitors lately. So, it might be a good idea to review some of the factors that might affect the near-term performance of the stock. Shares of this software company have returned -25.9% over the past month versus the Zacks S&P 500 composite's -6.6% change. The Zacks Internet - Software industry, to which Nice belongs, has lost 13.3% over this period. Now the key question is: Where could the stock be headed in the near term?"
     },
     {
      "tid": "2026-11-20T12:12:17Z",
@@ -1206,8 +1229,10 @@
      "tid": "2026-11-19T21:05:00Z",
      "titel": "Build-A-Bear Workshop to Announce Third Quarter Fiscal 2026 Results and Host Investor Conference Call on December 3, 2026",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbVZFalJXQjgyUm8tSmg4aURTY2pRT3RGdXU0Wk1Rc3UyN0hNbjgyM1FCalM3dG9RY2h5MmRmeEFqOHpfeGtfWFIzdkpwcnVyV0c3amtWTU9uZzE4eU1UQmZWZXJ0Vm0xbUFxWVpLZHd5bmhSUTNuUmp3a05zVXlUVnZUOUpuczIyUVRj?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/news/build-bear-workshop-announce-third-210500345.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbVZFalJXQjgyUm8tSmg4aURTY2pRT3RGdXU0Wk1Rc3UyN0hNbjgyM1FCalM3dG9RY2h5MmRmeEFqOHpfeGtfWFIzdkpwcnVyV0c3amtWTU9uZzE4eU1UQmZWZXJ0Vm0xbUFxWVpLZHd5bmhSUTNuUmp3a05zVXlUVnZUOUpuczIyUVRj?oc=5",
+     "utdrag": "ST. LOUIS, November 19, 2026--Build-A-Bear Workshop, Inc. (NYSE: BBW) today announced that the Company will report third-quarter fiscal 2026 results for the period ended October 31, 2026, on Thursday, December 3, 2026, before the opening of trading on the New York Stock Exchange. The Company will host its quarterly investor conference call to discuss the results at 9:00 a.m. ET on the same day. ST. LOUIS, November 19, 2026--(BUSINESS WIRE)--Build-A-Bear Workshop, Inc. (NYSE: BBW) today announced that the Company will report third-quarter fiscal 2026 results for the period ended October 31, 2026, on Thursday, December 3, 2026, before the opening of trading on the New York Stock Exchange."
     },
     {
      "tid": "2026-11-19T11:00:00Z",
@@ -1231,8 +1256,10 @@
      "tid": "2026-11-18T15:31:00Z",
      "titel": "Take-Two shares jump over 6% as GTA VI launch drives investor optimism",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VV1NGa3FoSzdDakhkSTJXbktRMXd0X01yVGJMdFZnZzhyR0ktbEp0WWk5TzltM2VfSm1feGswUURJRWRNdmZhd2JvV2xVOFZTV1FlUVlOdl9JYVJ2ZE1XYVp5eUFndDlTbzhQazNtMFVrdU1yVHlyeGFJSQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/news/two-shares-jump-over-6-153100303.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VV1NGa3FoSzdDakhkSTJXbktRMXd0X01yVGJMdFZnZzhyR0ktbEp0WWk5TzltM2VfSm1feGswUURJRWRNdmZhd2JvV2xVOFZTV1FlUVlOdl9JYVJ2ZE1XYVp5eUFndDlTbzhQazNtMFVrdU1yVHlyeGFJSQ?oc=5",
+     "utdrag": "Shares in Take-Two Interactive Software (NASDAQ: TTWO) rose over 6% to $217.12 on Wednesday morning as investors responded to positive early reviews and strong expectations for the launch of Grand Theft Auto VI. The video game publisher, which owns Rockstar Games, the studio behind the Grand Theft Auto franchise, is benefiting from anticipation surrounding the first new instalment in the series since 2013. The game began its global rollout on Wednesday, with critics giving it an enthusiastic reception, strengthening expectations that it could generate substantial sales and increase the company's bookings and revenue."
     },
     {
      "tid": "2026-11-18T06:14:00Z",
@@ -1247,15 +1274,19 @@
      "tid": "2026-11-17T20:11:32Z",
      "titel": "3 AI Hardware Stocks Investors Are Watching As Trade Rules Shift",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSUdGNUJ5eXk4cG1NcXFQcFZKbXM2Q2ItSjNqZ1U1Qkhsc0FTbnM4Qzk2NVpObHhUUGtfR2VldFVacjJKOExzY2JIUGs5am9fVGk3cnBpM2VXbjhsc2M3UVRfdkh0MVlXZnpzSDM2bGJLNGdReHRxb3ZBQmVwSmdIckR0YVR2QQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/news/3-ai-hardware-stocks-investors-201132699.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSUdGNUJ5eXk4cG1NcXFQcFZKbXM2Q2ItSjNqZ1U1Qkhsc0FTbnM4Qzk2NVpObHhUUGtfR2VldFVacjJKOExzY2JIUGs5am9fVGk3cnBpM2VXbjhsc2M3UVRfdkh0MVlXZnpzSDM2bGJLNGdReHRxb3ZBQmVwSmdIckR0YVR2QQ?oc=5",
+     "utdrag": "Global trade rules are being redrawn in real time, with fresh tariffs colliding with policies that grease the wheels of cross border commerce, and AI hardware sits right in the middle of that tug of war. For investors, that creates real risk of being on the wrong side of the winners and losers list. This article walks through three globally exposed exporters from our AI hardware screener that appear to be positioned as net beneficiaries of these shifting trade currents."
     },
     {
      "tid": "2026-11-17T13:00:05Z",
      "titel": "Tesla, Inc. (TSLA) is Attracting Investor Attention: Here is What You Should Know",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTVSMWl6M2MyME8tUU9UcDZNcFloTW5MWXFZMTNZaERqd0lsazc1bjEzY2RBbDBBNUpSQl81YjQyMjZSU0tkejljMlU5VzcwVHlrc2xLTWoybjVOSi1RQzhYVi1SNmtPMjJlU3NCUzZLYzVaT043cWw1Z1FyOC1yYVJBQ2c1c2dxYzlF?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/news/tesla-inc-tsla-attracting-investor-130005109.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTVSMWl6M2MyME8tUU9UcDZNcFloTW5MWXFZMTNZaERqd0lsazc1bjEzY2RBbDBBNUpSQl81YjQyMjZSU0tkejljMlU5VzcwVHlrc2xLTWoybjVOSi1RQzhYVi1SNmtPMjJlU3NCUzZLYzVaT043cWw1Z1FyOC1yYVJBQ2c1c2dxYzlF?oc=5",
+     "utdrag": "Zacks.com users have recently been watching Tesla (TSLA) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects. Tesla (TSLA) has recently been on Zacks.com's list of the most searched stocks. Therefore, you might want to consider some of the key factors that could influence the stock's performance in the near future. Over the past month, shares of this electric car maker have returned +3.2%, compared to the Zacks S&P 500 composite's -3% change. During this period, the Zacks Automotive - Domestic industry, which Tesla falls in, has gained 5.7%. The key question now is: What could be the stock's future direction?"
     }
    ]
   },
@@ -1383,24 +1414,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-21T11:50:16Z",
-     "titel": "Micron Says Memory Has Changed as Shares Fall 13.89%",
-     "kalla": "JournalArta",
-     "lank": "https://journalarta.com/en/2026/11/21/micron-memory-shares-earnings-nand-outlook/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb0FLa25haUF6Q2pPNlc1NENxbFVUa19JR2lKMjhUeXpHdWlzaWRLbWE2aXJGSGpmY1hIbEpvbjRiVlJkdzR6LUZGekFKQ2RWY1g1MndBVUVPbjFnb2ZvXzdCSTlWd3Z1Ym5sZkR5UklBZWIwUjdFbUN5cmI3NHQ1ZC1ZZFFQTG5T?oc=5",
-     "utdrag": "Micron President Scott DeBoer says memory plays a different role than it did five years ago, even as the chipmaker’s shares trade at a low multiple of forecast earnings. Investors face competing signals from long-term supply agreements and warnings of a NAND oversupply. Micron Technology President Scott DeBoer says the memory business has changed since it was a commodity five years ago. Yet the chipmaker’s shares fell 13.89% on November 20 to $594.51, trading at about 3.4 times consensus earnings for fiscal 2027. The valuation comes as analysts expect normalized earnings per share to more than double in fiscal 2027."
-    },
-    {
-     "tid": "2026-11-21T11:40:03Z",
-     "titel": "SanDisk and Micron shares fall as AI stocks sell off",
-     "kalla": "JournalArta",
-     "lank": "https://journalarta.com/en/2026/11/21/sandisk-micron-chip-stocks-ai-selloff-ubs/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaV8tTEZuV0xkYmdqZDU4Mlp5bVJOU25wOU5iZlNHS1c1LVkwd2pjVzl5Mmw3Sy1QRnhLdFdhWG03YnlyejNPRTRoQWpadVZOTVJvYVNySXN2cUZ5TllPYjJLNVd1cVlObDM2VEVfSnZ6TlFIdFF5LTZsMVNsRnYzLUZkaGdYalU?oc=5",
-     "utdrag": "SanDisk and Micron shares fell in early trading as investors questioned the scale of spending on artificial intelligence infrastructure. UBS estimated that US technology investment in the field could approach $5 trillion by the end of 2028, while warning that higher interest rates could weigh on demand. SanDisk and Micron Technology shares plunged in early trading as a selloff in artificial intelligence stocks spread across chipmakers. The Nasdaq fell over 2%, while the S&P 500 lost around 1%, as investors questioned the cost of building AI infrastructure. The Dow Jones Industrial Average traded marginally higher. Gains in healthcare and retail stocks supported the index."
-    },
-    {
      "tid": "2026-11-21T10:37:02Z",
      "titel": "Micron Stock Fell More Than 40% From Its June Record. History Says What It Did After Its 5 Other Drops This Deep.",
      "kalla": "Yahoo Finance",
@@ -1412,8 +1425,10 @@
      "tid": "2026-11-21T08:57:53Z",
      "titel": "7 Red Days In A Row: Micron Technology Stock Is Down 27%",
      "kalla": "Trefis",
-     "lank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWi1laGRDdmxIMDBFMk8zaTEzNXRUUWV3VlNQRTYwM0VpMVlBcTFBcUVZUlhZd1FIUXJRM0xrcC1OM1VrYUljd0RmQ2R6WVBwbzh5U2hoR09KUG9maGc3ZERoQkpzNlVWb0dsdmg0MHBTMVFjUk1qcFNkV3pZcEN2TVJ6OUVBOFE0dF8xNjVBOWhTRS16eUR1ampBNURWN25ibm1vY25ydWVOZ2k4X0RxMVVCVQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.trefis.com/stock/mu/articles/627504/7-red-days-in-a-row-micron-technology-stock-is-down-27/2026-11-21",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWi1laGRDdmxIMDBFMk8zaTEzNXRUUWV3VlNQRTYwM0VpMVlBcTFBcUVZUlhZd1FIUXJRM0xrcC1OM1VrYUljd0RmQ2R6WVBwbzh5U2hoR09KUG9maGc3ZERoQkpzNlVWb0dsdmg0MHBTMVFjUk1qcFNkV3pZcEN2TVJ6OUVBOFE0dF8xNjVBOWhTRS16eUR1ampBNURWN25ibm1vY25ydWVOZ2k4X0RxMVVCVQ?oc=5",
+     "utdrag": "Micron Technology (MU) stock is on a 7-day losing streak, down 26.7% since the run began. That erased about $245.0 billion from the company’s market value, which now stands at about $671.8 billion. The stock closed at $594.51 on Friday, November 20, 51.0% below its 52-week high of $1,213.18 and 195.6% above its low of $201.14. Returns for MU and the S&P 500 over the streak and the periods around it, all ending Friday, November 20 and including dividends: Over the same 7 trading days, the S&P 500 returned -9.2% including dividends, so the slide is mostly Micron Technology’s own story rather than the market’s. 22 other S&P 500 stocks are currently on losing streaks of 7 days or longer."
     },
     {
      "tid": "2026-11-21T08:50:14Z",
@@ -1449,6 +1464,24 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVJKZG91U2w5TlRHOUtnMGFkeVdzbHpfVWlFUU9tMjd6MDh1Q05weEVUVnI2aWhGMHUyRVROMzloYmlLR043U2xsbUNlakd5OGp4M3RSU2JieFJsWWU4WEVyZGRjQnhmeDd4QkRKeUpxYVVHWklNdElubHIzdW5uZ3ZmOFhabTN5THUtMmswN2dzTHJPLU01MDlyRzJndjNvMndhTHVMYWRsNkRQX0x0TGdNZzMwVjd2QU9CTTRFNEk?oc=5",
      "utdrag": "$Micron Technology (MU.US)$ options: $1.3B in premium, $393.3M in calls and $943.6M in puts (71% puts). Off-exchange trading by session (share of volume): Nov 19 17,175,142 (49.1%); Nov 18 13,847,856 (50.3%); Nov 17 17,082,663 (51.0%). Dark pool share of volume fell 1.9 points, 51.0% to 49.1%. Dark pool volume Nov 20: 1.9x its normal level, 5-day trend rising. Where it trades: last $690.44, 20-day average..."
+    },
+    {
+     "tid": "2026-11-21T01:04:51Z",
+     "titel": "Institutional Flow in Micron Technology (MU): 62% of the Options Money Is in Calls",
+     "kalla": "Moomoo",
+     "lank": "https://www.moomoo.com/community/feed/institutional-flow-in-micron-technology-mu-62-of-the-options-117651740491781",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNHFVYkpIaFlSaEd6aTdwNXNtdC0wSWw4eVN2Qm1GM0FUajJLWkFaWEpoU01wSTFBV0ZHUkRmZHpIVnZNVGRWMk16NXRfQzlrSGQ0U0ZaTlpQbkFCVm13bDlqeDVoRVNkVjg0VkQ3TmF4ZXJUMG1SNVNjdHpTM1lmeXF0NHpQLWlmcG9zMVVBRUVRZGVvM0VkdG85cFJiRnZNUTFHeXptRW9QSjJxaGtoUzJDWnc?oc=5",
+     "utdrag": "Calls took $3.2M and puts $2.0M of the $5.2M in $Micron Technology (MU.US)$ options premium (62% calls). Shares traded off the exchanges (% of volume): Nov 19 17,175,142 (49.1%); Nov 18 13,847,856 (50.3%); Nov 17 17,082,663 (51.0%). Share of volume traded off the exchanges fell to 49.1% (from 51.0%). Dark pool trading Nov 20 hit 1.9x a normal day (5-day trend: rising). Reference levels: last price $636.81, 20-day a..."
+    },
+    {
+     "tid": "2026-11-20T22:31:44Z",
+     "titel": "Micron and SanDisk Stocks Crash 12%-14% as AI Selloff Spreads to Memory Chipmakers",
+     "kalla": "Coinpaper",
+     "lank": "https://coinpaper.com/39164/micron-and-san-disk-stocks-crash-12-14-as-ai-selloff-spreads-to-memory-chipmakers",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYV83ZXhRN1MzSExhN3JhZi1xNEpVUlplSHcwZS1rOW1BR19QU0U3SDIzUXltZDZaQ25ETElCaVdFSnJDckhqUU5FYmRPMTdtU1pJV214X2RBb29qNDlNanhtczBQamVQMGlIWFBkU2pUVWxrdm56OU1IRHdBdXBrdWt5V1pRaVpFMmc2Rl8wT2l2N1YxSHhLLXRGUUNaU0tOaXFPOWI3V0hHazFEaXc?oc=5",
+     "utdrag": "Micron stock plunges 14% and SanDisk crashes 16% as AI spending fears and weakening memory prices hit semiconductor stocks. Micron Technology (NASDAQ: MU) and SanDisk (NASDAQ: SNDK) suffered double-digit losses on Friday, November 20, as the artificial intelligence stock selloff spread across memory chips and data storage companies. Micron shares closed approximately 14% lower, while SanDisk plunged 16%, making it the worst-performing S&P 500 stock of the session. Western Digital and Seagate also declined sharply as investors questioned whether the AI infrastructure boom could sustain record memory-industry profits."
     }
    ]
   },
@@ -1493,8 +1526,10 @@
      "tid": "2026-11-19T23:18:33Z",
      "titel": "NIBE Industrier AB (publ) 2026 Q3 - Results - Earnings Call Presentation (OTCMKTS:NDRBF) 2026-11-19",
      "kalla": "Seeking Alpha",
-     "lank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQkI2aUFLNC1xeENTMG1lRUVodEVPRHZqN3RBaVNXY3pZNmt1d1FFUURtN3pLdEVTdWNnYzV2S2VwQVJGOC1hUmdCa2ZyN3dGQlZUWU1QUFQzUlhPMXZ4NmF3QnBSeHhzY3hLeWhJWUdmU1ZUYmJZM3R5VHJGUHdHVmMzWlMxUHRZYldnN0pwYWc2YUVpSS1ZRV9jUjJPSFJFTFpwSDkyM0kzZFU?oc=5",
-     "fran": "google-en"
+     "lank": "https://seekingalpha.com/article/4970368-nibe-industrier-ab-publ-2026-q3-results-earnings-call-presentation",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQkI2aUFLNC1xeENTMG1lRUVodEVPRHZqN3RBaVNXY3pZNmt1d1FFUURtN3pLdEVTdWNnYzV2S2VwQVJGOC1hUmdCa2ZyN3dGQlZUWU1QUFQzUlhPMXZ4NmF3QnBSeHhzY3hLeWhJWUdmU1ZUYmJZM3R5VHJGUHdHVmMzWlMxUHRZYldnN0pwYWc2YUVpSS1ZRV9jUjJPSFJFTFpwSDkyM0kzZFU?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-19T11:01:37Z",
@@ -1617,22 +1652,28 @@
      "tid": "2026-11-17T16:38:30Z",
      "titel": "Nibe fell in broad decline on Stockholm Stock Exchange, OMXS30 index dropped 1.6%",
      "kalla": "marketscreener.com",
-     "lank": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWldid0ZjTDJYT2lWcHdUaGhfc1JjeUVGUW5fTWZFRVA2OEZhMGJNaEg4c0FLVVhUamNYR0Rjbm56N19IYUxKa1ZBWVZzWlJJNkFaY3BlRW9PR2VUR3RvbmM3dmZicGlFSVNrdVJueWJpa1lmeGxjSGRlQ1RLWTNDMDJwb1Z1aUgyb2xPU1RlR2RyVDAyTGQ1OFFGbi1rM0ZfYlFXOUNaTldPWDVEZDhlMVYzMTcycnctNWxQZmNNeEZsN1lydVJoOHBIQzk?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.marketscreener.com/news/nibe-fell-in-broad-decline-on-stockholm-stock-exchange-omxs30-index-dropped-1-6-ce785edcda80f425",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWldid0ZjTDJYT2lWcHdUaGhfc1JjeUVGUW5fTWZFRVA2OEZhMGJNaEg4c0FLVVhUamNYR0Rjbm56N19IYUxKa1ZBWVZzWlJJNkFaY3BlRW9PR2VUR3RvbmM3dmZicGlFSVNrdVJueWJpa1lmeGxjSGRlQ1RLWTNDMDJwb1Z1aUgyb2xPU1RlR2RyVDAyTGQ1OFFGbi1rM0ZfYlFXOUNaTldPWDVEZDhlMVYzMTcycnctNWxQZmNNeEZsN1lydVJoOHBIQzk?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T16:33:37Z",
      "titel": "Nibe Industrier stock: Q3 report shows stronger profitability",
      "kalla": "ad-hoc-news.de",
-     "lank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ3VoM1JqNGxXX015Ti04U18xLVFmcnMyR21neUtyV1NyVTMzNk1DRTdQV25YbzMtMmRBSHIxY1VfWThEMGpudEZpXy1qR0NOYTVVQVJ0WWM3N0lLQUc2Nl9EUzZjblc1Vno3eWJCQ1RuemZYNzVjR2ZXTUd4U0s2UF84Y19WbXFhMHhtNjBYQTJMZVF2b0V1dUI2dXZ5M0RfcFppWGZxaHVXNnpFNEk2cnBiZjNqbDVBLWVDcWJXRXY?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nibe-industrier-stock-q3-report-shows-stronger-profitability/70527876",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ3VoM1JqNGxXX015Ti04U18xLVFmcnMyR21neUtyV1NyVTMzNk1DRTdQV25YbzMtMmRBSHIxY1VfWThEMGpudEZpXy1qR0NOYTVVQVJ0WWM3N0lLQUc2Nl9EUzZjblc1Vno3eWJCQ1RuemZYNzVjR2ZXTUd4U0s2UF84Y19WbXFhMHhtNjBYQTJMZVF2b0V1dUI2dXZ5M0RfcFppWGZxaHVXNnpFNEk2cnBiZjNqbDVBLWVDcWJXRXY?oc=5",
+     "utdrag": "Nibe Industrier stock follows a third-quarter report showing stronger growth and profitability. The NIBE Industrier released its third-quarter results on Tuesday, November 17, 2026, at 08:00 CET. The Swedish heat-pump and climate-systems group reported stronger growth and profitability in its Interim Report 3, published through a Nasdaq Stockholm announcement. Net sales rose 11.4% to SEK 11,232 million from SEK 10,086 million in the year-earlier quarter. Growth at fixed exchange rates was 9.9%. Operating profit increased to SEK 1,524 million from SEK 1,139 million. The operating margin widened to 13.6% from 11.3%, indicating stronger earnings conversion alongside the higher sales base."
     },
     {
      "tid": "2026-11-17T15:16:38Z",
      "titel": "NIBE_B: Q3 growth and stronger margins were tempered by tariffs that reset Stoves’ 2026 outlook",
      "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOTF9YMzhzTlFkSERSenBqcmhuVzdFNHBnakNiODc1VmpLOS1seDJvRVEtMk5DaUJRMzVFbnB6ZGliQ1hxeVp4N3lGSmdGeFU3akhJYkpvTEM3VnMxbGJWLTVnZnZPY2J3aU5VeGVTempUZGlNblFLTDhHR3NvUFhreEQ3THpaTUY5ckRBWWpHT0hPOW9oUkRETDEybHl0X0JqV0VUOGNJMEktV0NPMlo5SUtvbUhaU0hycHg5dnJ2bnFxVXhhanVRLVZYMzUyYkdjeFltbG5icUpjdkZsRy10czdzc2htclhTTUowVWhtMnAyWUNQVkVIUFdHRzRQQkhKWlZKNFBPSQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4253859:0-nibe_b-q3-growth-and-stronger-margins-were-tempered-by-tariffs-that-reset-stoves-2026-outlook/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOTF9YMzhzTlFkSERSenBqcmhuVzdFNHBnakNiODc1VmpLOS1seDJvRVEtMk5DaUJRMzVFbnB6ZGliQ1hxeVp4N3lGSmdGeFU3akhJYkpvTEM3VnMxbGJWLTVnZnZPY2J3aU5VeGVTempUZGlNblFLTDhHR3NvUFhreEQ3THpaTUY5ckRBWWpHT0hPOW9oUkRETDEybHl0X0JqV0VUOGNJMEktV0NPMlo5SUtvbUhaU0hycHg5dnJ2bnFxVXhhanVRLVZYMzUyYkdjeFltbG5icUpjdkZsRy10czdzc2htclhTTUowVWhtMnAyWUNQVkVIUFdHRzRQQkhKWlZKNFBPSQ?oc=5",
+     "utdrag": "Q3 sales rose 11.4% and operating profit 33.7% YoY, with margins improving across all three business areas. Climate Solutions and Element growth outweighed tariff pressure on Stoves, which lowered its 2026 margin target. Original document: NIBE Industrier AB Class B [NIBE_B] Slides Release — Nov. 17 2026"
     }
    ]
   },
@@ -1878,8 +1919,10 @@
      "tid": "2026-11-21T09:00:00Z",
      "titel": "Will replacing Palantir solve the NHS’s fragmented governance problem?",
      "kalla": "Yahoo Tech",
-     "lank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVk40TWV2V2hZQURqMkJRSTlJUnRZUkdNMnhvWmRWeGZtaWxfTFNySmRPckxjRjR3VzdIdEZUcGZyQXllbk05WFJqVThzcVRFUnZUbHpYR2wxN1J0YmREcEVLR0V1amVLS0dkUmlnZVJwQ01jeG55LWZ0cHNYa1ZVSWY2ODFtYXNTdlZBc0xGRENSZGFIZGp1NWFn?oc=5",
-     "fran": "google-en"
+     "lank": "https://tech.yahoo.com/general/articles/replacing-palantir-solve-nhs-fragmented-090000707.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVk40TWV2V2hZQURqMkJRSTlJUnRZUkdNMnhvWmRWeGZtaWxfTFNySmRPckxjRjR3VzdIdEZUcGZyQXllbk05WFJqVThzcVRFUnZUbHpYR2wxN1J0YmREcEVLR0V1amVLS0dkUmlnZVJwQ01jeG55LWZ0cHNYa1ZVSWY2ODFtYXNTdlZBc0xGRENSZGFIZGp1NWFn?oc=5",
+     "utdrag": "Replacing a supplier can change who operates a system, but it does not remove the complexity surrounding the system. When you buy through links on our articles, Future and its syndication partners may earn a commission. Picture February 2027. The government triggers the break clause, Palantir packs up, a new supplier arrives with a better price and a British postcode, and the migration begins. What, precisely, would change for the health service? The federated and ownership at each level keeps responsibility and control in the hands of the data controllers. The pressure to reconsider the Federated Data Platform is, however, understandable."
     },
     {
      "tid": "2026-11-21T08:49:34Z",
@@ -1975,8 +2018,10 @@
      "tid": "2026-11-20T16:32:36Z",
      "titel": "Make the government keep its promise on Palantir",
      "kalla": "Good Law Project",
-     "lank": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLWJyUGxZc2xHcnlMdjJyd0xIWlhsNnV0ZUk5STRZZDFTV25KVkNtc2xpQ0wycGNyNWdJQzV6SU0ySjdQdkp4VVNOc3A0d0ZDUExuNE9MamtFNEpuaFFReG5YaGhmYWlubEpVTnVSSnpVeTdVbFpjWi1XSVdDTUc0Ql81RVg0aVU5dkowMVlB?oc=5",
-     "fran": "google-en"
+     "lank": "https://goodlawproject.org/petition/make-the-government-keep-its-promise-on-palantir/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLWJyUGxZc2xHcnlMdjJyd0xIWlhsNnV0ZUk5STRZZDFTV25KVkNtc2xpQ0wycGNyNWdJQzV6SU0ySjdQdkp4VVNOc3A0d0ZDUExuNE9MamtFNEpuaFFReG5YaGhmYWlubEpVTnVSSnpVeTdVbFpjWi1XSVdDTUc0Ql81RVg0aVU5dkowMVlB?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-20T16:29:22Z",
@@ -2011,7 +2056,7 @@
    "antal": {
     "mfn": 1,
     "yahoo": 1,
-    "google-sv": 7,
+    "google-sv": 6,
     "google-en": 5
    },
    "fel": {},
@@ -2081,8 +2126,10 @@
      "tid": "2026-11-17T09:15:04Z",
      "titel": "Why is Smart Eye stock rallying today?",
      "kalla": "Investing.com",
-     "lank": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVGtuNzJEU2dUX0JPSXZITXVNM0VleVRtcHdhamkwOVE4S1ZrS1NDc3Q3dmh0SlNUemlTWmtONndHRXhXSzV4blhVSThqaldUNjJ0Nkg1V3duOEFsRFdVdjlpQjYzN3hRVlpJd3hBajBZWHdDZjdrWklzZWdBSlMzSU5GM080dVpJeldyZ2ZPVDlLeTR5NWZqamFLMW9FeVN5?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.investing.com/news/stock-market-news/why-is-smart-eye-stock-rallying-today-93CH-5032046",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVGtuNzJEU2dUX0JPSXZITXVNM0VleVRtcHdhamkwOVE4S1ZrS1NDc3Q3dmh0SlNUemlTWmtONndHRXhXSzV4blhVSThqaldUNjJ0Nkg1V3duOEFsRFdVdjlpQjYzN3hRVlpJd3hBajBZWHdDZjdrWklzZWdBSlMzSU5GM080dVpJeldyZ2ZPVDlLeTR5NWZqamFLMW9FeVN5?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T09:08:27Z",
@@ -2106,23 +2153,18 @@
      "tid": "2026-11-17T06:54:57Z",
      "titel": "Smart Eye posts positive EBIT as royalty revenue jumps",
      "kalla": "Investing.com",
-     "lank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1hsdUlZVnBHNXFHODdFMXBZNXhReFFUTDBadkdUOUd6ejdWVGt4RWs3Q3JLaGlOUldaVDhBdDhSSlhFUU1oWkRqNTZBY1F1MnJGcDdEOFBBWUlydWdQTTNNbEJOTHdJcmY1cVpPclV4aDFjN0tTbTdBTjdoOWFnQXBOaUZHUTZtcmJabkNPZFF1MS1wX0NuX1BrYUZNV3h2MzVNYTVXTVJEUmhvUTF6N2pnSDBqc00?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.investing.com/news/stock-market-news/smart-eye-posts-positive-ebit-as-royalty-revenue-jumps-93CH-5031774",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1hsdUlZVnBHNXFHODdFMXBZNXhReFFUTDBadkdUOUd6ejdWVGt4RWs3Q3JLaGlOUldaVDhBdDhSSlhFUU1oWkRqNTZBY1F1MnJGcDdEOFBBWUlydWdQTTNNbEJOTHdJcmY1cVpPclV4aDFjN0tTbTdBTjdoOWFnQXBOaUZHUTZtcmJabkNPZFF1MS1wX0NuX1BrYUZNV3h2MzVNYTVXTVJEUmhvUTF6N2pnSDBqc00?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T06:41:32Z",
      "titel": "Smart Eye AB redovisar positivt EBIT när royaltyintäkterna stiger",
      "kalla": "Investing.com Sverige",
-     "lank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOENnZW01Z2x6N1l1U3JjQV9DZU1VaFdIQmJMTHAxclNud3BoS2hkN0d2d2tyVkszWXNfazJwMDZ3ZEhDbVIyN0dHMWNvSThQR3dZeXVRYXZOWWRrTTduQk5VQUZFdzJEaTdER254RGx2YlpuSXBWSUNwRVItY0drMWFYRjVyMXgtQVFfU2N1V3ptcGI0Qmp1TjdwaHExZWtGTkxNWGJ0NmVYdjBxclk2SGNKU0xPbEtEYTBaWEdndGFYMDQ?oc=5",
-     "fran": "google-sv"
-    },
-    {
-     "tid": "2026-11-17T06:25:11Z",
-     "titel": "Smart Eye förbättrar ebitda kraftigt - genomför effektiviseringsåtgärder (FinWire Smallcap)",
-     "kalla": "Aktiellt",
-     "lank": "https://www.swedbank-aktiellt.se/telegram/qaEZOEOv",
+     "lank": "https://se.investing.com/news/stock-market-news/smart-eye-ab-redovisar-positivt-ebit-nar-royaltyintakterna-stiger-93CH-535025",
      "fran": "google-sv",
-     "glank": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBobTlob1F4VnJPc0FsLUE3WlNPa2ZTWWU0V1lRME5MUWtDTjcxYXBDbURlLXFHMDRIUmtpaDBhUTJtRGRsRGd3MllZV192ZEdpYm1OVFMzaE5wWlNlTXAw?oc=5",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOENnZW01Z2x6N1l1U3JjQV9DZU1VaFdIQmJMTHAxclNud3BoS2hkN0d2d2tyVkszWXNfazJwMDZ3ZEhDbVIyN0dHMWNvSThQR3dZeXVRYXZOWWRrTTduQk5VQUZFdzJEaTdER254RGx2YlpuSXBWSUNwRVItY0drMWFYRjVyMXgtQVFfU2N1V3ptcGI0Qmp1TjdwaHExZWtGTkxNWGJ0NmVYdjBxclk2SGNKU0xPbEtEYTBaWEdndGFYMDQ?oc=5",
      "utdrag": ""
     }
    ]
@@ -2157,8 +2199,10 @@
      "tid": "2026-11-21T09:09:04Z",
      "titel": "A 9-Day Losing Streak Has SoFi Technologies Stock Down 26%",
      "kalla": "Trefis",
-     "lank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU1d6WDYwZER4eUtqZG9vcVhiNnBCLVhITzlfdzlRRWE3S3JpVzUydnNWZHpXUGhoeXBZZGc5emJ3OHlZSUpkTUJYVE5uS0RKMkJLMmhZWjhBaG0xWmtrekpyM3dtLUh1dEhza1NtUjM1X2JKbW1BVTdGUXBIVG95Zml1VjN1WUxPSGNadXQ2T29icFY2cm93Nk9sNVMxUWVYeWVRZDJKYm1DR3lRNllZcWFRUl8wX2ZFcXc?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.trefis.com/stock/sofi/articles/627506/a-9-day-losing-streak-has-sofi-technologies-stock-down-26/2026-11-21",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU1d6WDYwZER4eUtqZG9vcVhiNnBCLVhITzlfdzlRRWE3S3JpVzUydnNWZHpXUGhoeXBZZGc5emJ3OHlZSUpkTUJYVE5uS0RKMkJLMmhZWjhBaG0xWmtrekpyM3dtLUh1dEhza1NtUjM1X2JKbW1BVTdGUXBIVG95Zml1VjN1WUxPSGNadXQ2T29icFY2cm93Nk9sNVMxUWVYeWVRZDJKYm1DR3lRNllZcWFRUl8wX2ZFcXc?oc=5",
+     "utdrag": "SoFi Technologies (SOFI) stock has fallen for 9 consecutive trading days, losing 25.5% over that stretch. That erased about $5.5 billion from the company’s market value, which now stands at about $16.1 billion. The stock closed at $12.48 on Friday, November 20, its lowest close of the past year. Returns for SOFI and the S&P 500 over the streak and the periods around it, all ending Friday, November 20 and including dividends: The market explains little of this: the S&P 500 lost 8.4% over the same 9 sessions, including dividends, against SoFi Technologies’ -25.5%."
     },
     {
      "tid": "2026-11-21T04:24:55Z",
@@ -2259,8 +2303,10 @@
      "tid": "2026-11-20T08:21:04Z",
      "titel": "SoFi Technologies Stock Extends An 8-Day Losing Streak To A 19% Loss",
      "kalla": "Trefis",
-     "lank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUlhDTmoxRmFNSzU4UE9UTXd1Yk51SUtycTRzYW56QnBfemprTFlaT1lrSHRYOHcxMjd2Z0xCQmpzT0dEWGs3YmtyN3lXQi1JYUdCZGZNOW8yTmZqZzVyeTFYNFhoTTlzc1NfbHp2LU1YNHdRVVBIczBVbWI1QmxaYU5JaGFoa09Ba3o5R3ZaSFJMSG1ib09sWVluT09CNzFXaUVfam4zT1NPUWdoMmlaalFtMmVmTHdBNUl6ZnZjSFpMZG9sbXpn?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.trefis.com/stock/sofi/articles/627136/sofi-technologies-stock-extends-an-8-day-losing-streak-to-a-19-loss/2026-11-20",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUlhDTmoxRmFNSzU4UE9UTXd1Yk51SUtycTRzYW56QnBfemprTFlaT1lrSHRYOHcxMjd2Z0xCQmpzT0dEWGs3YmtyN3lXQi1JYUdCZGZNOW8yTmZqZzVyeTFYNFhoTTlzc1NfbHp2LU1YNHdRVVBIczBVbWI1QmxaYU5JaGFoa09Ba3o5R3ZaSFJMSG1ib09sWVluT09CNzFXaUVfam4zT1NPUWdoMmlaalFtMmVmTHdBNUl6ZnZjSFpMZG9sbXpn?oc=5",
+     "utdrag": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks? SoFi Technologies (SOFI) stock is on an 8-day losing streak, down 19.2% since the run began. That erased about $4.2 billion from the company's market value, which now stands at about $17.5 billion. The stock closed at $13. SoFi Technologies (SOFI) stock is on an 8-day losing streak, down 19.2% since the run began. That erased about $4.2 billion from the company’s market value, which now stands at about $17.5 billion. The stock closed at $13.53 on Thursday, November 19, its lowest close of the past year."
     },
     {
      "tid": "2026-11-20T02:11:28Z",
@@ -2320,8 +2366,10 @@
      "tid": "2026-11-21T09:01:58Z",
      "titel": "4,829,549 Sysco Corporation $SYY Shares Sold by Boston Partners",
      "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTDl3N3llSGhjc0lES0xKbDhGSUZRY1hmTGFBcThkY2QtWGY4Y0hRYkdQUzlSLUdVNURBRlhrdGNtWm9ueEN5S3hRV3NwZE5PSE1OWkZuYlVRcUVIbENsb2ZxRlZhck9aZG1OQVBhQkRDaGotanYzcWNFNVJBWkVtTWg0YWRTczhVNVBKenVaUmw2ME5PaGlSMXBlXzZ1dkRMTDAzSDV2MHIxend1TVNERWx4VG5QMnU4V1RQRzdn?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-4829549-sysco-corporation-syy-shares-sold-by-boston-partners-2026-11-21/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTDl3N3llSGhjc0lES0xKbDhGSUZRY1hmTGFBcThkY2QtWGY4Y0hRYkdQUzlSLUdVNURBRlhrdGNtWm9ueEN5S3hRV3NwZE5PSE1OWkZuYlVRcUVIbENsb2ZxRlZhck9aZG1OQVBhQkRDaGotanYzcWNFNVJBWkVtTWg0YWRTczhVNVBKenVaUmw2ME5PaGlSMXBlXzZ1dkRMTDAzSDV2MHIxend1TVNERWx4VG5QMnU4V1RQRzdn?oc=5",
+     "utdrag": "Boston Partners trimmed its position in Sysco Corporation (NYSE:SYY - Free Report) by 78.0% in the third quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The institutional investor owned 1,360,164 shares of the company's stock after selling 4,829,549"
     },
     {
      "tid": "2026-11-20T18:47:28Z",
@@ -2336,8 +2384,10 @@
      "tid": "2026-11-20T18:33:00Z",
      "titel": "Why Sysco (SYY) Stock Is Up Today",
      "kalla": "Quiver Quantitative",
-     "lank": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vNlVEb2duRldOdDMtdTFFRXgwVTVndDNQbXg4LXhWUTUzLVBxSFhmeUpKSWpzSk9lVzJNSm9FZjdEYTZ5MDktSFlGdUtPdVJGU3Y4Zlc1Tjh0d0N1bTdiZWlxQngwaHhIS01rQzd4MmRacmxy?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.quiverquant.com/news/Why+Sysco+%28SYY%29+Stock+Is+Up+Today",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSWDBOUVQ4TFl4dzc0bUs1LVdRQjRrZ09IMWs0UVlvdzRGeVVCbDhtLW5QQnM2V0VpUVpKZl9aVXo2cFB1dXBiWUt4RTlFbTJyeWNJRTJDV0dGRTV4RHNJcm5BQ0RhMTJpanZHWGZMcTlQaDFQWmN5UThn?oc=5",
+     "utdrag": "Sysco Corporation (SYY) is up 3.3% today. Here is some analysis on what might have caused this price movement. Analysis: A single same-day catalyst is not obvious, so the move may reflect investors continuing to react to Sysco’s recent quarterly results, reaffirmed fiscal 2027 adjusted EPS guidance, and another quarterly dividend declaration. This could also be because investors are favoring steadier food distribution names after recent volatility elsewhere in the market. Details:Sysco reported first-quarter fiscal 2027 results on November 3, with sales up 2.8%, U.S."
     },
     {
      "tid": "2026-11-20T15:26:39Z",
@@ -2414,8 +2464,10 @@
      "tid": "2026-11-19T16:54:27Z",
      "titel": "Sysco GB's growth accelerates as it invests £28m in state-of-the-art new manufacturing facility",
      "kalla": "The Staff Canteen",
-     "lank": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdmFfMWY0LXA0UnZMZngwVzhzTnZMUTdoNXBoc1FVNFJrMWt5N3JIM1JLbnZJSkxzS08xaEtIMTBoaHR1eW5SXzhsZzNQYXVYWGJKbnpvcEJLcC16UW9Sd185R1g2UFNmb2Z0d29FQ09uR3RJbXpwdTUzSGZBSGpHUTQ3cVpZR0w0WEFWMW0xb0pYa28wRXJnTGVuTzBjME9UcHpkcVp5a2JwNkNkeVotZjh0R1NCVHBXOEN2T0IxVC1PYmZfODgtTkYxVmtRS29wQU54Qy13Z3N5QQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.thestaffcanteen.com/post/sysco-gb-s-growth-accelerates-as-it-invests-28m-in-state-of-the-art-new-manufacturing-facility-1795107140",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdmFfMWY0LXA0UnZMZngwVzhzTnZMUTdoNXBoc1FVNFJrMWt5N3JIM1JLbnZJSkxzS08xaEtIMTBoaHR1eW5SXzhsZzNQYXVYWGJKbnpvcEJLcC16UW9Sd185R1g2UFNmb2Z0d29FQ09uR3RJbXpwdTUzSGZBSGpHUTQ3cVpZR0w0WEFWMW0xb0pYa28wRXJnTGVuTzBjME9UcHpkcVp5a2JwNkNkeVotZjh0R1NCVHBXOEN2T0IxVC1PYmZfODgtTkYxVmtRS29wQU54Qy13Z3N5QQ?oc=5",
+     "utdrag": "Expanded fresh meat and produce facility further strengthens fresh capability; gives more options for customers LONDON, UK: Sysco GB has announced plans to build a new, purpose-built meat and fresh produce preparation facility in Derby, marking another major milestone in the company’s long-term growth strategy. At 150,000 sq.ft, the state-of-the-art site will provide the scale, efficiency and flexibility needed to support future growth of its Fairfax Meadow and Fresh Direct businesses; further strengthening Sysco GB’s position as the nation’s leading foodservice supplier of quality meat and produce."
     },
     {
      "tid": "2026-11-19T16:04:48Z",
@@ -2466,15 +2518,19 @@
      "tid": "2026-11-18T22:58:01Z",
      "titel": "Form 8K Sysco Corporation For: 18 November By Investing.com",
      "kalla": "Investing.com South Africa",
-     "lank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXE1T0h5YU9CWTRuQlVuWTliLWVVUVlEbTFpOTdMTkhsMW1jMHdyckxFV25DNE9HSVlaSVNfOVhxOERpVVo2WTlUX2hCU2R5c1VPck5XLXViX1VqU195Q3RhNm5zTFd2YXdNODlTRDZZWXZvbkNGUWtmWkVJRUNLVk5SWEduTUloYXU3RlFzVHhYa1hfSkV1RG9vdTdqWXdCMV9XVA?oc=5",
-     "fran": "google-en"
+     "lank": "https://za.investing.com/news/stock-market-news/form-8k-sysco-corporation-for-18-november-93CH-4584523",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXE1T0h5YU9CWTRuQlVuWTliLWVVUVlEbTFpOTdMTkhsMW1jMHdyckxFV25DNE9HSVlaSVNfOVhxOERpVVo2WTlUX2hCU2R5c1VPck5XLXViX1VqU195Q3RhNm5zTFd2YXdNODlTRDZZWXZvbkNGUWtmWkVJRUNLVk5SWEduTUloYXU3RlFzVHhYa1hfSkV1RG9vdTdqWXdCMV9XVA?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-18T21:29:01Z",
      "titel": "Sysco shareholders re-elect board, approve executive pay and auditor at annual meeting",
      "kalla": "Investing.com",
-     "lank": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDNwd1hiQlBVc0REX2NfZ1huYUNpdFRjOTFJWnlEODk0emE3UUhKdHYwR1Ntd2hZdGYxMTI4Q3NTYTZLOFNFa3VQTkwteVYwWkpGN0QwdUg4Tjd6cWdzUHB6VGRpZHJVUVhzVGdfLXo0Ujd5T2IzRDFsSzBodTdHbl9oR3VMYTAweE5jYjlSN1lUUk5QbXhJZDVCSWE3T2JFS1VHMk1zdXRucTU3RG44RDJRVERmWjJTU1h5cXVVNHZzUzhTbHdTOXBlenZhQkRuUTY3UWxDYw?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.investing.com/news/sec-filings/sysco-shareholders-reelect-board-approve-executive-pay-and-auditor-at-annual-meeting-93CH-5037029",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDNwd1hiQlBVc0REX2NfZ1huYUNpdFRjOTFJWnlEODk0emE3UUhKdHYwR1Ntd2hZdGYxMTI4Q3NTYTZLOFNFa3VQTkwteVYwWkpGN0QwdUg4Tjd6cWdzUHB6VGRpZHJVUVhzVGdfLXo0Ujd5T2IzRDFsSzBodTdHbl9oR3VMYTAweE5jYjlSN1lUUk5QbXhJZDVCSWE3T2JFS1VHMk1zdXRucTU3RG44RDJRVERmWjJTU1h5cXVVNHZzUzhTbHdTOXBlenZhQkRuUTY3UWxDYw?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-18T20:37:26Z",
@@ -2551,8 +2607,10 @@
      "tid": "2026-11-21T04:20:00Z",
      "titel": "ASML: 12-Monats-Kursziel auf $2.436,94 angehoben, Aufwärtspotenzial von 92%",
      "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zNXdWQmlXaXdhdk5jbV85MlRrc0tiNmdQam5PWmNYOXdjTmZ5bklmTmJ2cE9XMWhpaE9rUkVEQWRSLWFEYlBPV2lWcDNfRTVQOGI1UHhRTTF4bERkRHBfaGVXMC1tQnd0aVJjOEJ3?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.tradingview.com/news/tradingview:351768f8dc010:0/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zNXdWQmlXaXdhdk5jbV85MlRrc0tiNmdQam5PWmNYOXdjTmZ5bklmTmJ2cE9XMWhpaE9rUkVEQWRSLWFEYlBPV2lWcDNfRTVQOGI1UHhRTTF4bERkRHBfaGVXMC1tQnd0aVJjOEJ3?oc=5",
+     "utdrag": "Mehr Kursziele und Analystenratings zu ASML Holding N.V. - New York Registry Shares gibt es im Tab „Prognosen“. Alle bisherigen und künftigen Analystenempfehlungen lassen sich im vorgefilterten Nachrichtenstrom verfolgen."
     },
     {
      "tid": "2026-11-21T01:42:20Z",
@@ -2612,8 +2670,10 @@
      "tid": "2026-11-20T12:46:05Z",
      "titel": "ASML is down 30% from its high 🔥 What's next? ❓",
      "kalla": "XTB.com",
-     "lank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTzVGbEdUcFYybDRJcnFmYXNqZXdBWDR4TkZVRmJVa3RHc3I0SEhTZ1JNeEp4WlJ2U19xV2FQLXY0ZGtsZGRFSU9hb2M5SlgxbFBqRHhBeWVjbEhSaXlxNlhZdHA1OHp6NC1ibjUxVVNySXVyUFFqbXNlQW1tR3c4UjB0MmV6S294TS10Mm1DSTZGd2RVMl9Vblo0d0tHdVE?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.xtb.com/cy/market-analysis/news-and-research/asml-is-down-30-from-its-high-what-s-next",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTzVGbEdUcFYybDRJcnFmYXNqZXdBWDR4TkZVRmJVa3RHc3I0SEhTZ1JNeEp4WlJ2U19xV2FQLXY0ZGtsZGRFSU9hb2M5SlgxbFBqRHhBeWVjbEhSaXlxNlhZdHA1OHp6NC1ibjUxVVNySXVyUFFqbXNlQW1tR3c4UjB0MmV6S294TS10Mm1DSTZGd2RVMl9Vblo0d0tHdVE?oc=5",
+     "utdrag": "Shares of the Dutch lithography systems manufacturer (ASML) are down more than 6% today, falling to around 1,209 EUR and leading the declines among European companies in the semiconductor We use tools that let us analyze the usage of our page. Such data lets us improve the user experience of our web service. The selected country of residence is not operated. Please choose a different country."
     },
     {
      "tid": "2026-11-20T12:00:02Z",
@@ -2675,7 +2735,7 @@
    "antal": {
     "yahoo": 0,
     "google-sv": 0,
-    "google-en": 10
+    "google-en": 9
    },
    "fel": {},
    "nyheter": [
@@ -2683,8 +2743,10 @@
      "tid": "2026-11-20T16:18:51Z",
      "titel": "ASSA ABLOY AB (publ) (ASSA-B.ST) Stock Price, News, Quote & History",
      "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BclJ1dUVDQ2QtZFc1RWl3ZzNmUW1Lb2pMVkEyaWhsOE9WMWdqVTYybFI2c2h3WTJQczhucDVNZTVTV1cwZlIzRVlWN1g5ckYwaXJERVRXM1M?oc=5",
-     "fran": "google-en"
+     "lank": "https://ca.finance.yahoo.com/quote/ASSA-B.ST/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BclJ1dUVDQ2QtZFc1RWl3ZzNmUW1Lb2pMVkEyaWhsOE9WMWdqVTYybFI2c2h3WTJQczhucDVNZTVTV1cwZlIzRVlWN1g5ckYwaXJERVRXM1M?oc=5",
+     "utdrag": "Find the latest ASSA ABLOY AB (publ) (ASSA-B.ST) stock quote, history, news and other vital information to help you with your stock trading and investing. ASSA ABLOY AB (publ) provides door opening and access products for the institutional, commercial, and residential markets. It operates through Europe, the Middle East, India, and Africa (EMEIA); North and South America (Americas); Asia and Oceania (Asia Pacific); Global Technologies; and Entrance Systems divisions."
     },
     {
      "tid": "2026-11-20T08:29:46Z",
@@ -2726,15 +2788,19 @@
      "tid": "2026-11-17T20:09:00Z",
      "titel": "ASSA ABLOY Global Solutions Appoints Nicolas Aznar Senior Vice President & Head of Key and Asset Management",
      "kalla": "01net",
-     "lank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNek5HbV9IN1RHOUlWNG5BdW5Uc2ZtN3hVMnZ1bkk4OV9wRDVBaXZMLThhSk5RcFd5NWJvRTMxR1lYNS13dVh6eTRtNDU2VklQNWZOT1pjUEl4ZW1CZHJGR2NtVF9ZVXBrRUVUVjdjUjU1MGFNallZUjBkT05pbzU2Wno5YkVCNEpidGlCZ1QtNW9FSzNhTDQ5V085OU9pMkNyMTNlbExJY2g5Y09aNzV6Rldjb1l5Nk5jbUp6bTRqbjNjN1JqckE?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.01net.it/assa-abloy-global-solutions-appoints-nicolas-aznar-senior-vice-president-head-of-key-and-asset-management/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNek5HbV9IN1RHOUlWNG5BdW5Uc2ZtN3hVMnZ1bkk4OV9wRDVBaXZMLThhSk5RcFd5NWJvRTMxR1lYNS13dVh6eTRtNDU2VklQNWZOT1pjUEl4ZW1CZHJGR2NtVF9ZVXBrRUVUVjdjUjU1MGFNallZUjBkT05pbzU2Wno5YkVCNEpidGlCZ1QtNW9FSzNhTDQ5V085OU9pMkNyMTNlbExJY2g5Y09aNzV6Rldjb1l5Nk5jbUp6bTRqbjNjN1JqckE?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T17:26:47Z",
      "titel": "ASSA ABLOY appoints Nicolas Aznar to lead key management unit",
      "kalla": "Investing.com",
-     "lank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa053NGJoczAxcUJ4Mlh5UV9DOVZ3dlVmTW8tV0Y5X0ZMREZiVF9RbjlBV2I2dkhMMzQ3bDNzakFWODMyX1cxMjBSeFhjZVFTNUlxTzlHSzdGMHhnTTJzQzVfVWpuanNkb1RJRG9zek45dTk0enlaSkFQZDI1OFN0TndwcmJDZDhBZWJuY1FySTRSRlkyLUNRd2E0eXI0N09CNVlZemdJb3BadVdKb19Wd1U0RnNCLXFhcUE?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.investing.com/news/company-news/assa-abloy-appoints-nicolas-aznar-to-lead-key-management-unit-93CH-5033662",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa053NGJoczAxcUJ4Mlh5UV9DOVZ3dlVmTW8tV0Y5X0ZMREZiVF9RbjlBV2I2dkhMMzQ3bDNzakFWODMyX1cxMjBSeFhjZVFTNUlxTzlHSzdGMHhnTTJzQzVfVWpuanNkb1RJRG9zek45dTk0enlaSkFQZDI1OFN0TndwcmJDZDhBZWJuY1FySTRSRlkyLUNRd2E0eXI0N09CNVlZemdJb3BadVdKb19Wd1U0RnNCLXFhcUE?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T17:14:41Z",
@@ -2753,15 +2819,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEE2bWtMdGxBRnppLUVCcTRsZ3E3OFlZMlY5Q01OdDI5WVBEUEp6Rmh1ZDNKN0hsNWZRQm9pUm1ZeE5QejFSaW52MUMxVFljOElVXzhYbjd6TDhxYzlCbG4zeGFfR3RGZWFpWlBKZXdnUWFlSmdmVmZmcFNqWHNSWG1PWkdiNk16SGQ1a1JkeFNfRGR0UzljbEJyZEp4RHBRTzRmddIBwwFBVV95cUxNMU95dUVmdFFDYmFTQ0J5RDFONVVRWUJjNTlyRENtS2UwQkJ5SXM0UGItU054bkJzclZsVlE0d0ZvSUdjSHFWRy1pRUw4YV9yT2xob2tQaEo5U1pybXQyUkpMZTBSNE43WVY3cXdVR1JfeGdfOElTWmEzM3VuUTk2bXROSTNsaG9XeGV1QTRDN0diSkZsdUJ4SkFPbmMtbE9JN0FveTR1a09NWF9Wdzk2RzVLdHF2UHg5U1ZCZWVWeUN2Z28?oc=5",
      "utdrag": "From hardware assemblers at ASSA ABLOY to sales jobs in East Berlin to a country club server, here are the jobs open in Berlin. BERLIN, CT — Looking for work close to home? At least 20 jobs based in Berlin are posted as of Monday, Nov. 16, from hardware assemblers and material handlers at ASSA ABLOY to inside and outside sales jobs at New Castle Building Products in East Berlin. Fosdick Fulfillment is hiring part-time production workers for weekend day shifts, and The Berlin Steel Construction Co. needs an HR generalist in Kensington. Here's the list, grouped by employer. Click a job title to see the posting and apply. Listings were current as of Nov. 16 and may close without notice."
-    },
-    {
-     "tid": "2026-11-17T08:54:02Z",
-     "titel": "ASSA ABLOY AB ser. B Price Return Cash Settled Monthly Futures Price Chart — OMXNORDIC:FASSABG2027",
-     "kalla": "TradingView",
-     "lank": "https://www.tradingview.com/symbols/OMXNORDIC-FASSAB1!/?contract=FASSABG2027",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRmhndzVxMXRob3ZRWkJUdjBXOTBYWS1hNUZ6TUNSdzRmYmFoVEhxUFdUY25tcEdOa1ZJMGtGUGhoQ2VvZy1WOE05NG1xa0RkVzF6TlJHako2bkJkZmptUVREN3lBUHI5MUg3OXlWb21naC1wWWRsVWwyQ1VwRXpXQmRB?oc=5",
-     "utdrag": "See ASSA ABLOY AB ser. B Price Return Cash Settled Monthly Futures price today with the live chart. Read futures market news and explore FASSABG2027 forward curve, trading ideas, and forecasts."
     }
    ]
   },
@@ -2855,15 +2912,6 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-21T18:05:20Z",
-     "titel": "Dutch court bans BYD's Ti7 across the EU over the Land Rover Defender's registered design",
-     "kalla": "Techish Kenya",
-     "lank": "https://tech-ish.com/2026/11/21/byd-ti7-banned-eu-land-rover-defender/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aZGFmVEt0ZGJRS01RNHV5cFo0eTJUQWV5SGd0NlNVUllWamRyRHhQb1ZQLWpBTF9EM3lpZGdXVFdGSnUxaWhwNTVBZHZKWGVSTjZzNjkwQlBLNnhaVW1ZWncwT3pnQmV3VWJOS3hmUllIbXB6eHp3OWhn?oc=5",
-     "utdrag": "A Dutch court has barred BYD's Ti7 from the EU after finding it infringes the Land Rover Defender's registered design. A court in The Hague ruled yesterday that BYD's Ti7 SUV infringes Jaguar Land Rover (JLR)'s registered EU design for the Land Rover Defender. The carmaker is now banned from from importing, making, offering, selling, storing or delivering the Ti7 anywhere in the European Union. It is the first ruling on whether the car infringes, in a fight that began with a raid on BYD's Dutch offices in August. The ruling arrives nine days after the same court ordered JLR to destroy the files it seized in that raid."
-    },
-    {
      "tid": "2026-11-21T16:08:15Z",
      "titel": "Is Boyd Gaming (BYD) Still Undervalued After A 30% Gain?",
      "kalla": "Yahoo Finance",
@@ -2951,6 +2999,15 @@
      "lank": "https://finance.yahoo.com/markets/stocks/articles/byd-sehk-1211-undervalued-atto-111403917.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "ATTO 3 EVO rollout puts BYD stock back in focus BYD (SEHK:1211) has pushed its ATTO 3 EVO electric SUV into a wide range of Asia-Pacific, European and UK markets, giving investors fresh information to weigh against a sharply weaker share price this year. Despite the ATTO 3 EVO push into new regions, BYD’s recent share price return has been weak, with the stock down 12.37% over 30 days and 36.86% year to date. The 1-year total shareholder return of a 32.46% decline points to fading momentum..."
+    },
+    {
+     "tid": "2026-11-21T10:40:09Z",
+     "titel": "Chinese BYD SUV Faces EU Sales Ban Over Land Rover Defender Resemblance",
+     "kalla": "NDTV",
+     "lank": "https://www.ndtv.com/auto/chinese-byd-suv-faces-eu-sales-ban-over-land-rover-defender-resemblance-12358496",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObWtqYWNHd1RmS0FUN3B5S2EyQU9WNENxaHBwOTB0ay10bXZaMzNOT0JBM3FwWGVHMXRxOFRJMVZLNmZTaDBtcGgtZnRBLTAxZGV6MVZ5NlhmRzJPb1RkVUhlVEQ2eW1nQUVwR0wxb0xqNWRsb1Q1SURZOGlsSkFiclJpc1dBQUR6dEdLaXBzYnJlZE5jZFI4VVNoQnFBLUdUNHNESU9XUmVXUdIBsgFBVV95cUxQTmsxdVpqWnRpMHV0Ti1FeTR3M1B4VFJqX0pubzR6dktpajNNMFV1LVNidHRTY3NCZE82VlR4U0x0a0xfVzFkUU5HeW02WFY0R0FfNWtfcDNqbTVHcVdaQ1IyVFlPLXI0dXRmWDlmTWotOWI3MEN5ZzgyY3BnclJQNWo4ckhkMnVKSWNFUGt6dlhfMXBrVHRIX3RUVlJWYW5mRTRLQjNaV3BIUUIyZ1dpWlVn?oc=5",
+     "utdrag": ""
     }
    ]
   },
@@ -2994,8 +3051,10 @@
      "tid": "2026-11-17T14:41:51Z",
      "titel": "Hansa Biopharma at Jefferies: transplant drug nears key U.S. test By Investing.com",
      "kalla": "Investing.com Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN1RHc25URUcwZFVaWkFHS081T3RmUE9JTkpIcm5xYzFLQVhCcnRHdFJMY01XY1VDSXJSWUFtNzlDTzd4RUtBUWh5TllCQ3ZFcUJJdThmNEw5V3VuaHZ4akZRczZ5eGFwNW95a0VJTG5nLUJNd2N0bWVwTXItV3V3LWVQUFotbTFXcFp5aUs0cVg3ZmNCclRmQjJvcG1sZlRadmlkdkk2V3ppUmxXaDAyaGhZNGlScTBFSUd2OTc0cTQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://ca.investing.com/news/stock-market-news/hansa-biopharma-at-jefferies-transplant-drug-nears-key-us-test-93CH-4964305",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN1RHc25URUcwZFVaWkFHS081T3RmUE9JTkpIcm5xYzFLQVhCcnRHdFJMY01XY1VDSXJSWUFtNzlDTzd4RUtBUWh5TllCQ3ZFcUJJdThmNEw5V3VuaHZ4akZRczZ5eGFwNW95a0VJTG5nLUJNd2N0bWVwTXItV3V3LWVQUFotbTFXcFp5aUs0cVg3ZmNCclRmQjJvcG1sZlRadmlkdkk2V3ppUmxXaDAyaGhZNGlScTBFSUd2OTc0cTQ?oc=5",
+     "utdrag": ""
     }
    ]
   },
@@ -3021,8 +3080,10 @@
      "tid": "2026-11-21T00:22:25Z",
      "titel": "Hexagon AB (publ) (HEXA-B.ST) Stock Price, News, Quote & History",
      "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Od29ZTG9sa3dYNTdqOUN1azBpNV91YlJhTGNVbnhIZTg5RUdfWVhhR3ZmZGZkMERTWFMtRnhDb0J4RUVEX3NfNGhYZDBoSlJRb1E1OEFvSTc?oc=5",
-     "fran": "google-en"
+     "lank": "https://ca.finance.yahoo.com/quote/HEXA-B.ST/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Od29ZTG9sa3dYNTdqOUN1azBpNV91YlJhTGNVbnhIZTg5RUdfWVhhR3ZmZGZkMERTWFMtRnhDb0J4RUVEX3NfNGhYZDBoSlJRb1E1OEFvSTc?oc=5",
+     "utdrag": "Find the latest Hexagon AB (publ) (HEXA-B.ST) stock quote, history, news and other vital information to help you with your stock trading and investing. Hexagon AB (publ) provides geospatial and industrial enterprise solutions worldwide. It operates in Manufacturing Intelligence, Geosystems, Autonomous Solutions and Octave segments. The company provides autonomy and perception, enterprise software for farms, GNSS positioning, and machine control; airborne and mobile mapping, geospatial content, laser scanning, ERIDAA imagin, lucaid, and M.app enterprise; and asset lifecycle information management, design and visualization, engineering and schematics, enterprise project performance, operations …"
     },
     {
      "tid": "2026-11-20T16:43:17Z",
@@ -3037,8 +3098,10 @@
      "tid": "2026-11-20T15:28:01Z",
      "titel": "Hexagon AB (publ) (HEXA-B.ST) stock price, news, quote and history",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YQUk0Y1Vfcm5YQXRnVHI4STFfNXNZTy1fMm5Nc3ZCdjRDYy1nbE9OMFJod3NtSG5xWWNYZ3BkV0NZV1FQT3Z2Wkc1UmxERlg3aTF6dER1dGY?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/quote/HEXA-B.ST/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YQUk0Y1Vfcm5YQXRnVHI4STFfNXNZTy1fMm5Nc3ZCdjRDYy1nbE9OMFJod3NtSG5xWWNYZ3BkV0NZV1FQT3Z2Wkc1UmxERlg3aTF6dER1dGY?oc=5",
+     "utdrag": "Find the latest Hexagon AB (publ) (HEXA-B.ST) stock quote, history, news and other vital information to help you with your stock trading and investing. Hexagon AB (publ) provides geospatial and industrial enterprise solutions worldwide. It operates in Manufacturing Intelligence, Geosystems, Autonomous Solutions and Octave segments. The company provides autonomy and perception, enterprise software for farms, GNSS positioning, and machine control; airborne and mobile mapping, geospatial content, laser scanning, ERIDAA imagin, lucaid, and M.app enterprise; and asset lifecycle information management, design and visualization, engineering and schematics, enterprise project performance, operations …"
     },
     {
      "tid": "2026-11-20T14:39:00Z",
@@ -3052,8 +3115,10 @@
      "tid": "2026-11-19T09:22:28Z",
      "titel": "Hexagon and Oracle Red Bull Sim Racing reveal Future Skills Challenge winners",
      "kalla": "Process and Control Today",
-     "lank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYjBqRXRfaXhyOTh5akdBcHo5WUlBMzZqbXppU3JUNHdjUTRYUHdwOW9YU196TDRuaGoxVEk1THp0SF95VlgzaTdFeFFaaTNuN2JBXzJQU2hVWUxLVkxtejRCSFRUM0VpTG9zVjdINFZyeHNpdTF1bi0yX1JWYmtlZkZ1MWEwWnA3WWVsN3cwUE1ORFA0X2w3d3ZyS05NUElyOXVnZkpKUjgyUQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.pandct.com/news/hexagon-and-oracle-red-bull-sim-racing-reveal-future-skills-challenge-winners/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYjBqRXRfaXhyOTh5akdBcHo5WUlBMzZqbXppU3JUNHdjUTRYUHdwOW9YU196TDRuaGoxVEk1THp0SF95VlgzaTdFeFFaaTNuN2JBXzJQU2hVWUxLVkxtejRCSFRUM0VpTG9zVjdINFZyeHNpdTF1bi0yX1JWYmtlZkZ1MWEwWnA3WWVsN3cwUE1ORFA0X2w3d3ZyS05NUElyOXVnZkpKUjgyUQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-17T16:39:04Z",
@@ -3072,7 +3137,7 @@
     "mfn": 1,
     "yahoo": 0,
     "google-sv": 3,
-    "google-en": 5
+    "google-en": 4
    },
    "fel": {},
    "nyheter": [
@@ -3102,15 +3167,6 @@
      "fran": "google-sv",
      "glank": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSmROVTdnMy1BS2hiMDI2di1OM2FWcXM1eHhuWmk4M2V0MmJpM3dORXJRbDdEZ2NCZ05XcnBtOHdVbjl2cmx6SlZvWnN3dVdWN2VvUXhPLWdvMXNhNXBfSVVFWDZqREpoZnk5SnZNMEVVYUktT1pZMVhiM0Rtbl9jTDFPams2THZNYmZaazFMWWxXOVJhb3dSczBHYTFFWG1w?oc=5",
      "utdrag": "Finska OP Cooperative har ökat sitt ägande i Noba Bank över flaggningsgränsen vid 10 procent, efter ett köp av drygt 10 miljoner aktier. Ägandet uppgår den 18 november till 11,91 procent av kapitalet och rösterna i bolaget, enligt ett flaggningsmeddelande. AMD föll nära 8 procent efter blankarrapport om kopplingar till Kina DNB Carnegie flera större poster i Better Collective (uppdatering 3) DNB Carnegie flera större poster i Better Collective (uppdatering 2) Brittisk domstol ger Apple rätt i tvist om hemlig övervakningsorder AMD föll nära 8 procent efter blankarrapport om kopplingar till Kina"
-    },
-    {
-     "tid": "2026-11-18T15:56:15Z",
-     "titel": "Noba Bank Group Issues SEK200 Million Bonds, Adds SEK100 Million in Tap Issue",
-     "kalla": "www.marketscreener.com",
-     "lank": "https://www.marketscreener.com/news/noba-bank-group-issues-sek200-million-bonds-adds-sek100-million-in-tap-issue-ce785eddda80f527",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV2RZUkU5MnY0NVJsU3JNUDh6QU41bFRLMjNrU3RiNGFDZUdZczQzTExqemRnakV1NVJ0R1dRdHR1a296UzhWT18wdExCSXVGVjQ5bVlWUjFRalN1MjNxS2xEWEVKRWZiYVpCaDdoNm1laFFaQXNMeU83TVJqVzFsaVNLX3BfX291UE5TWEtYTmp6SVplMVZZSll0RVBXVS01RHl1TU1CZWl0alpVYkRZQi04YnltdHRSaU1TS3R0MmtNb0wxbHNpZw?oc=5",
-     "utdrag": ""
     },
     {
      "tid": "2026-11-18T15:00:00Z",
@@ -3223,8 +3279,10 @@
      "tid": "2026-11-21T08:57:34Z",
      "titel": "Rocket Lab Stock: 7 Straight Red Days, Down 31%",
      "kalla": "Trefis",
-     "lank": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU3M4Vi0yYXFza1RDT1Fnd3V5cWFpSHVvZWpUQkVHeXEtOWFNZEVXVXp6ekxMdnFMVk54Zk5TRW9PdEJfWEtiNlpRS3JzY1g5NGtxWkJvbk9kbks4Z3NoTEhvcGFQcm5wc0RxeG9xdXhDR29KdlQwakdtSFZtMGZ6WTVaRWRXTmdKOE9wMjA3cGwtR0N0UUp2OHBLd1FlVzUyQ1dBVDZWUlU?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.trefis.com/stock/rklb/articles/627502/rocket-lab-stock-7-straight-red-days-down-31/2026-11-21",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU3M4Vi0yYXFza1RDT1Fnd3V5cWFpSHVvZWpUQkVHeXEtOWFNZEVXVXp6ekxMdnFMVk54Zk5TRW9PdEJfWEtiNlpRS3JzY1g5NGtxWkJvbk9kbks4Z3NoTEhvcGFQcm5wc0RxeG9xdXhDR29KdlQwakdtSFZtMGZ6WTVaRWRXTmdKOE9wMjA3cGwtR0N0UUp2OHBLd1FlVzUyQ1dBVDZWUlU?oc=5",
+     "utdrag": "Rocket Lab (RKLB) stock is on a 7-day losing streak, down 31.3% since the run began. That erased about $13.5 billion from the company’s market value, which now stands at about $29.6 billion. The stock closed at $45.42 on Friday, November 20, 69.8% below its 52-week high of $150.23 and 15.0% above its low of $39.48. Returns for RKLB and the S&P 500 over the streak and the periods around it, all ending Friday, November 20 and including dividends: Over the same 7 trading days, the S&P 500 returned -9.2% including dividends, so the slide is mostly Rocket Lab’s own story rather than the market’s."
     },
     {
      "tid": "2026-11-21T07:05:28Z",
@@ -3334,8 +3392,10 @@
      "tid": "2026-11-20T15:50:00Z",
      "titel": "Trending Industry Today: Rocket Lab Leads Losses In Space Stocks",
      "kalla": "Moomoo",
-     "lank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3F0aTF1M2FkeW1OWDU4eWM3UWh0bU1Na0JuTjE0b0JVeE9na2ZkME96NDdFUzVwejFZZUp6NlJnZFYwLWdadk1oazJ1TWdNR2gtNkZLSkFvc0ZOQ0l0ZmE4aDJIdnprUjZQbkZBWWJFdG1VWlMtcEhTUFlGb3l3aWtDd3hQWkw1Y2RmRjVKU05rdVBReXdsTE12WXVWTUlPRFNrY2tIemtjbUk?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.moomoo.com/news/post/1005355079/trending-industry-today-rocket-lab-leads-losses-in-space-stocks",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3F0aTF1M2FkeW1OWDU4eWM3UWh0bU1Na0JuTjE0b0JVeE9na2ZkME96NDdFUzVwejFZZUp6NlJnZFYwLWdadk1oazJ1TWdNR2gtNkZLSkFvc0ZOQ0l0ZmE4aDJIdnprUjZQbkZBWWJFdG1VWlMtcEhTUFlGb3l3aWtDd3hQWkw1Y2RmRjVKU05rdVBReXdsTE12WXVWTUlPRFNrY2tIemtjbUk?oc=5",
+     "utdrag": ""
     }
    ]
   },
@@ -3343,7 +3403,7 @@
    "namn": "Sezzle",
    "antal": {
     "yahoo": 5,
-    "google-en": 21
+    "google-en": 23
    },
    "fel": {},
    "nyheter": [
@@ -3394,8 +3454,19 @@
      "tid": "2026-11-19T20:31:20Z",
      "titel": "Form 144 Sezzle Inc. For: 19 November By Investing.com",
      "kalla": "Investing.com India",
-     "lank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDlPb3JlZEtWLXRHbGNyR2tFOTMwVk40UjFLbF9uMDVpM0ZTTS04NmZsRGFMT0tXN2RjMWxXV3VWM0lEeEZmRjJRZWtsQjRMQl9iTUkwMDJNTmZ2dF9ya1BQR3pNWDZaSklrRXZCUVNDdFA1SE1qbUpXRjNJNGFTUlFnM3ZBdUJYSUhOa3RydnA0LV9sZnpVNGo4UzM?oc=5",
-     "fran": "google-en"
+     "lank": "https://in.investing.com/news/stock-market-news/form-144-sezzle-inc-for-19-november-93CH-5716057",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDlPb3JlZEtWLXRHbGNyR2tFOTMwVk40UjFLbF9uMDVpM0ZTTS04NmZsRGFMT0tXN2RjMWxXV3VWM0lEeEZmRjJRZWtsQjRMQl9iTUkwMDJNTmZ2dF9ya1BQR3pNWDZaSklrRXZCUVNDdFA1SE1qbUpXRjNJNGFTUlFnM3ZBdUJYSUhOa3RydnA0LV9sZnpVNGo4UzM?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T19:54:32Z",
+     "titel": "Sezzle Director Brehm Plans to Sell 625 Shares via Rule 144",
+     "kalla": "kalkine.com",
+     "lank": "https://kalkine.com/news/announcements/sezzle-director-brehm-plans-to-sell-625-shares-via-rule-144",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUhZdnNOdGtVcjRKRmtrWHBHZEh3Q3Z4VU1LYktmbTBQSGNiMzBjMmI4Yy1zVU1wRmFHbXN6Y0w4dnY0OGFKb214UEtHY1pwdHpOYTg1WFpaejJYWDNTd244dG9lcTlxejhhMG56b25VQm9TNUlsVzVaMEtpem9KRHg1S0tjVnBaQ1J1M0VPUWFxZWhIMFh6ZUxMUlhobGM?oc=5",
+     "utdrag": "Sezzle Inc. director Kyle M. Brehm filed a Form 144 notice on November 19, 2026, disclosing a proposed sale of 625 shares of Sezzle common stock through Fidelity Brokerage Services LLC on NASDAQ. Key Highlights Proposed seller: Kyle M. Brehm, identified in the filing as a director of Sezzle Inc. Shares proposed for sale: 625 shares of Sezzle common stock, with an aggregate market value reported as $99,112.00. Approximate date of sale: November 19, 2026, through Fidelity Brokerage Services LLC, located at 245 Summer Street, Boston, MA 02110. Shares outstanding: 33,783,402 shares of common stock outstanding, according to the filing."
     },
     {
      "tid": "2026-11-19T18:03:59Z",
@@ -3418,8 +3489,10 @@
      "tid": "2026-11-19T15:52:33Z",
      "titel": "Sezzle Inc. (SEZL) Stock Price, News, Quote & History",
      "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KQnBwVTMxTWZtcGtOdUxBY0VrLUlrbkp4aGFqdWZIYTN0OG9GbTYwc2IyTE9TaFVPTkRlSmNjcjRCRjRiZEdHR2hlQXhnNmg3ZVE?oc=5",
-     "fran": "google-en"
+     "lank": "https://ca.finance.yahoo.com/quote/SEZL/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KQnBwVTMxTWZtcGtOdUxBY0VrLUlrbkp4aGFqdWZIYTN0OG9GbTYwc2IyTE9TaFVPTkRlSmNjcjRCRjRiZEdHR2hlQXhnNmg3ZVE?oc=5",
+     "utdrag": "Find the latest Sezzle Inc. (SEZL) stock quote, history, news and other vital information to help you with your stock trading and investing. Trailing total returns as of 2026-11-20, which may include dividends or other distributions. Benchmark is S&P 500 (^GSPC) ."
     },
     {
      "tid": "2026-11-19T10:41:00Z",
@@ -3449,11 +3522,22 @@
      "utdrag": "How did Minneapolis-based Sezzle go from a $40 million market cap to $5 billion in four years? How did a Minneapolis fintech company go from a $40 million market cap to $5 billion in four years? Sezzle Co-Founder, Executive Director, and President Paul Paradis joins us on The Twin Cities Business Show to tell the story: a pivot one month after launch, an early entry into the Buy Now, Pay Later space with their signature Pay In 4 program, an IPO in Australia, a failed merger with Zip, a hard turn to profitability, a Timberwolves jersey patch, and now an application to become a bank."
     },
     {
+     "tid": "2026-11-19T01:41:34Z",
+     "titel": "Sezzle Inc. (0SE0.DE) Analyst Insights, Price Targets & Recommendations - Yahoo Finance",
+     "kalla": "Yahoo! Finance Canada",
+     "lank": "https://ca.finance.yahoo.com/quote/0SE0.DE/analyst-insights/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SenFJTkhHaFY0SHQzQS1OU0l6R2M0VGFYN2hmRDNPQUJUZlNLdENUVDl3TldYbHQ1bUR1T3BwclQ1dU9aZ0cwNmtfVXV2YzhrR0ZIa2VhNjhXY3NlOV9NaThxaXczbUJsM3ZSVA?oc=5",
+     "utdrag": "Yahoo Finance provides the latest analyst insights, price targets, and recommendations on Sezzle Inc. (0SE0.DE) to help inform your investment strategy."
+    },
+    {
      "tid": "2026-11-18T20:15:01Z",
      "titel": "Sezzle Inc. (SEZL) Stock Forecasts",
      "kalla": "Yahoo Finance",
-     "lank": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVZwVTR6N2FzVWtWSmtXdG42TFpxOFRERTNhdzNlWlJrME5IMGVyVk8xZm9DOVJYWmpxeXlYamRFRk1wbGVqc0NsUTJ0bzdYMHh6Q3llbHBkUHVGdkdTUmE5cF9uRlFiMFVwb2lSRjZlLUlCaEtnVkYxNFExdXhkc3hxb1FBLVRZSkJYUmRMVEk?oc=5",
-     "fran": "google-en"
+     "lank": "https://finance.yahoo.com/research/reports/ARGUS_6766_QuantitativeReport_1794960000000/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVZwVTR6N2FzVWtWSmtXdG42TFpxOFRERTNhdzNlWlJrME5IMGVyVk8xZm9DOVJYWmpxeXlYamRFRk1wbGVqc0NsUTJ0bzdYMHh6Q3llbHBkUHVGdkdTUmE5cF9uRlFiMFVwb2lSRjZlLUlCaEtnVkYxNFExdXhkc3hxb1FBLVRZSkJYUmRMVEk?oc=5",
+     "utdrag": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life. Sezzle Inc has an Investment Rating of BUY; a target price of $182.000000; an Industry Subrating of High; a Management Subrating of High; a Safety Subrating of Low; a Financial Strength Subrating of High; a Growth Subrating of High; and a Value Subrating of High. Exclusive reports, detailed company profiles, and best-in-class trade insights to take your portfolio to the next level"
     },
     {
      "tid": "2026-11-18T15:02:19Z",
@@ -3497,20 +3581,6 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSGFZeWZ0RFIzWVUwa0llM21VNDhnRkJMbzB4QTEyYTRpZkc1bnQxVXhkQkQxaFNWX2NsY2JVVmRjUWxsSmQ2VWdYakF1eDQ1dTl2Y1NfRjg4WnUwc2RVQ0ZxQ3M0dnpjSGxPZ3U3UEJ0SElUcE5GbjRsZmdJLTRIZkp1WF9tUjZSTXd3QzJFaGYzODV6ejA5Yk5CX1QzT2diUktKdmkwMA?oc=5",
      "utdrag": ""
-    },
-    {
-     "tid": "2026-11-17T08:00:00Z",
-     "titel": "What Is Sezzle Anywhere? How This Subscription Works",
-     "kalla": "Sacramento Bee",
-     "lank": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OeHFnNXV5dXBTSjNlLUY1Y0YwRXN1ZHNNZURzWkFVQVRnaVRka0xzUjQ4OWpMR3l1dkdEZmdRSU81R1psTnNZbWM5cmV6dWdaZm9hQklGWUhuRW1UMF9sLUFPaU1jeUVKQ3lCLUJRa3FUQ3M?oc=5",
-     "fran": "google-en"
-    },
-    {
-     "tid": "2026-11-17T08:00:00Z",
-     "titel": "How Does the Sezzle Virtual Card Work?",
-     "kalla": "Charlotte Observer",
-     "lank": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY1c2dTAycGhLQTJZRXdDb0Q5S0lUZlNWclQweUUzd1J4U0pqRnR0d1Iwa2Fub0hYektaeDlsMEFBQWxUSXFrVlB3QjAwM2xfdjVSZTE3NUlzem5QMGlXM3BwR1JyZUIwYXhXdFllT1FmbHdtWl9ta0lPRG5FMnF4U2xPOEdTMnU5bUdIZHI2MA?oc=5",
-     "fran": "google-en"
     }
    ]
   },
@@ -3545,8 +3615,10 @@
      "tid": "2026-11-20T10:45:20Z",
      "titel": "Volvo Cars får ny vd",
      "kalla": "TV4 Nyheterna",
-     "lank": "https://news.google.com/rss/articles/CBMihAZBVV95cUxNaEJBMkFIZW8xNHJqZUYwVEN1VmthSUFkYkc1TEEtR1Rfam05R1hBb1VvUkJlRmQ2OUt4QlB3anIwT0tubFdXVUZYMjFMMWpvWjVOSFRTNndtczVBbmdGazg2cHMteHpHS1JFaXB0TWZwbVlXR0tFN2pUa0dxTU5fLV9hOG11Y2VVODBLa2RGZW5YTjFuZWFDNmJXaEhhT1NVcjI0TUdmTnlZOG01RUVyU3VoQ1lYZUhvYTZJa3VQTnFXaDVtdzFPcXdTMmJJQ3FpQTdLa2MzMl9LbmoyN3BiRnZKM2pEMFNxODIyamF1OGtSOE1na295V0g1U1I3dWRubkNjWkJDbGpjQlRCYVQ4QmpNLTVJSzdZaDZ1b3lNcG9aemhqM2FkQjQ4LV9rbVlneHVHWWRNbUdmR0lXNHRyaFdLUWFsUnQyVU53VDh1SHprdjBaZE5zcmFfa1h1R2lxaFd1RHppSUw2T1JNQjJtQTlPYVJ3aXp1M2J2Q0xaNHVKOXBiYWZPYkVDMnVrRGZCd0ZGNjFfN25nN0dJMnhlbWhxMVhDallQUHZJZmFvMUpURmluRGQzSFpfSG1DVklyS3RnTUY5SFlNbUR3Mlp5ekRJNWF0QzdoMWNCZEVXYVRnUy10dWtyanhFUFpGSlVfQmpNS2hEVGhnNVJ1bVhWMVQyaDNYWVotd3FEOUFiNnB2VHg1WVdmbTc0aGVJWEl6WVFkMnRFLXFid1ZISFdac0xhTk9mbmhuRHpFN3FQWGxDeTZkTVdfQUs1WnZXSGk1ZWN4aTV2dGtDWHdFX1VyQ3NDaGRZOHFvem5vVlJ6X3FubUlJZ011WUxWSWJ6SEl5Q1RPcnJCenFLV2lJT2JpNW8tclllcVJYZGo5dUFFTnJlMW5XSGdYOGFSaXZ6eHVkbVJYX09kOEFRaDllWFJJX3BoRXBQazAxNlJvSnlSSU1KS3NINmdlVVAweU1lN0hONFFMSDl3Y1d5bGJwaVdqQnZhX0ZyaVJrT2ZEdWRrb0J3S01v?oc=5",
-     "fran": "google-sv"
+     "lank": "https://www.tv4.se/just-nu/6KVz0e7JyS2LKaKcrb7QuC/Elsa,%20som%20egentligen%20heter%20nagot%20annat,%20ar%20fodd%20med%20en%20ovanlig%20tarmsjukdom.%20I%20juni%20forra%20aret%20tvangsomhandertogs%20flickan%20enligt%20LVU%20efter%20att%20sjukvarden%20misstankt%20att%20mamman%20overdrev%20hennes%20sjukdomssymtom.%20En%20granskning%20av%20fallet%20i%20P1:s%20Kaliber%20visade%20pa%20brister%20bade%20i%20sjukvarden%20och%20i%20socialtjanstens%20utredning.%20I%20maj%20havdes%20beslutet%20och%20%E2%80%9DElsa%E2%80%9D%20kunde%20aterforenas%20med%20sin%20familj.",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMihAZBVV95cUxNaEJBMkFIZW8xNHJqZUYwVEN1VmthSUFkYkc1TEEtR1Rfam05R1hBb1VvUkJlRmQ2OUt4QlB3anIwT0tubFdXVUZYMjFMMWpvWjVOSFRTNndtczVBbmdGazg2cHMteHpHS1JFaXB0TWZwbVlXR0tFN2pUa0dxTU5fLV9hOG11Y2VVODBLa2RGZW5YTjFuZWFDNmJXaEhhT1NVcjI0TUdmTnlZOG01RUVyU3VoQ1lYZUhvYTZJa3VQTnFXaDVtdzFPcXdTMmJJQ3FpQTdLa2MzMl9LbmoyN3BiRnZKM2pEMFNxODIyamF1OGtSOE1na295V0g1U1I3dWRubkNjWkJDbGpjQlRCYVQ4QmpNLTVJSzdZaDZ1b3lNcG9aemhqM2FkQjQ4LV9rbVlneHVHWWRNbUdmR0lXNHRyaFdLUWFsUnQyVU53VDh1SHprdjBaZE5zcmFfa1h1R2lxaFd1RHppSUw2T1JNQjJtQTlPYVJ3aXp1M2J2Q0xaNHVKOXBiYWZPYkVDMnVrRGZCd0ZGNjFfN25nN0dJMnhlbWhxMVhDallQUHZJZmFvMUpURmluRGQzSFpfSG1DVklyS3RnTUY5SFlNbUR3Mlp5ekRJNWF0QzdoMWNCZEVXYVRnUy10dWtyanhFUFpGSlVfQmpNS2hEVGhnNVJ1bVhWMVQyaDNYWVotd3FEOUFiNnB2VHg1WVdmbTc0aGVJWEl6WVFkMnRFLXFid1ZISFdac0xhTk9mbmhuRHpFN3FQWGxDeTZkTVdfQUs1WnZXSGk1ZWN4aTV2dGtDWHdFX1VyQ3NDaGRZOHFvem5vVlJ6X3FubUlJZ011WUxWSWJ6SEl5Q1RPcnJCenFLV2lJT2JpNW8tclllcVJYZGo5dUFFTnJlMW5XSGdYOGFSaXZ6eHVkbVJYX09kOEFRaDllWFJJX3BoRXBQazAxNlJvSnlSSU1KS3NINmdlVVAweU1lN0hONFFMSDl3Y1d5bGJwaVdqQnZhX0ZyaVJrT2ZEdWRrb0J3S01v?oc=5",
+     "utdrag": "Senaste nytt från TV4 Nyheterna I ett pressmeddelande meddelar Volvo Cars att vd:n Håkan Samuelsson avgår. Ny vd blir Klaus Zellmer, som tar över posten den första oktober nästa år. Han har tidigare jobbat för Skoda. SMHI har utfärdat en vädervarning för snöfall och starka vindar i delar av norra Upplands län. ”Snöfall som tidvis väntas bli kraftigt i kombination med frisk nordlig vind ger risk för mycket besvärliga trafikförhållande.”, skriver myndigheten. Varningen gäller från 22 november kl. 15.00 – 23 november kl. 12.00. ”Ihållande snöfall som tidvis väntas bli kraftigt med risk för stora totala snömängder. Samtidigt blåsigt med frisk nordlig vind och hårda vindbyar."
     },
     {
      "tid": "2026-11-20T09:01:00Z",
@@ -3617,7 +3689,7 @@
    "namn": "Arista Networks",
    "antal": {
     "yahoo": 6,
-    "google-en": 69
+    "google-en": 68
    },
    "fel": {},
    "nyheter": [
@@ -3775,8 +3847,10 @@
      "tid": "2026-11-20T20:35:38Z",
      "titel": "Arista Networks, Ciena, Nokia, Applied Digital, and CoreWeave shares are falling, what you need to know",
      "kalla": "TradingView",
-     "lank": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT01UZXNTaXl4VEZoa2VkTmw1YktyaENxQUJIRXBpeXl5Mkt2eVlqRUVQWE0yY2ZQQmRtYjVyb3ZxZ2xRVVR3dzF6OWRpbWdmOVhGNWFFNk5zSHhZanNDREtUQmtSUkdnUXpkQm03cUZhYmZ4aGRjOXcyNkhQX3k0SGs4LTVhWWpEZndsSUgydkY4R2doTVEzb1Y3ZzQ1blVKZ1gxc3FDRVhBXzlHTk5ldWd4cFlMNUJLSV9nbUx6ZHNWaVlucGVwRWkweEI4VUxpSTIxaEhSaXBCcUNoZHZ3RDJSbHVUSEhUMXhaem92UHo?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.tradingview.com/news/stockstory:738f46a3e094b:0-arista-networks-ciena-nokia-applied-digital-and-coreweave-shares-are-falling-what-you-need-to-know/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT01UZXNTaXl4VEZoa2VkTmw1YktyaENxQUJIRXBpeXl5Mkt2eVlqRUVQWE0yY2ZQQmRtYjVyb3ZxZ2xRVVR3dzF6OWRpbWdmOVhGNWFFNk5zSHhZanNDREtUQmtSUkdnUXpkQm03cUZhYmZ4aGRjOXcyNkhQX3k0SGs4LTVhWWpEZndsSUgydkY4R2doTVEzb1Y3ZzQ1blVKZ1gxc3FDRVhBXzlHTk5ldWd4cFlMNUJLSV9nbUx6ZHNWaVlucGVwRWkweEI4VUxpSTIxaEhSaXBCcUNoZHZ3RDJSbHVUSEhUMXhaem92UHo?oc=5",
+     "utdrag": "What happened?A number of stocks fell in the afternoon session after AI linked stocks continued to pull back as Anthropic slid more than 10% following its debut, failing to revive confidence in the sector's spending boom.Investors had looked to Anthropic's record $81.3 billion initial public offeri… A number of stocks fell in the afternoon session after AI linked stocks continued to pull back as Anthropic slid more than 10% following its debut, failing to revive confidence in the sector's spending boom."
     },
     {
      "tid": "2026-11-20T20:15:52Z",
@@ -3868,6 +3942,15 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0pHTHNIV3NocGVtTDVHVUJWV0liRjBPTTJ5U19HUGd0S05zTGhaemJSV2ltbmxZdjhXOF84X2R0dzIxaC1JTWFRZ090TDVIakFJVnlUNnptWnR3Vk9RX0tsVlRMYWtITXZyWnBXM3lKa3VOOWc3Q3BaV2pUdTZjQVlGZ29zQQ?oc=5",
      "utdrag": "Running out of room for downloads on your Nintendo Switch 2? Amazon has the SanDisk 512GB microSD Express card for $98.99 in its Black Friday sale, $31 below the retailer’s displayed $129.99 typical price. The offer is for the plain black SDSQXFN-512G-GN4NN card, which SanDisk says works with Switch 2. When I checked the Amazon listing, the new 512GB card was in stock, sold and shipped by Amazon, with no coupon or Prime membership required for the displayed price. I’d consider the extra space if you download several larger games or prefer not to keep deleting and reinstalling them. The console and card reader pictured in this article are separate from the card on offer."
+    },
+    {
+     "tid": "2026-11-22T04:21:51Z",
+     "titel": "How Will SanDisk Stock Move After 1-for-8 Split? Four Chip Stocks Including Micron and Nvidia Saw Two Rise and Two Fall 60 Trading Days Post-Split",
+     "kalla": "TradingKey",
+     "lank": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315809-sandisk-8-for-1-stock-split-chip-stocks-60-day-returns-tradingkey",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVDNZaVl4YVRMNFlkaWpiOWRydUJ0b1pXZmdaSDE0cjBPSTlfcXdTYlQ3cnM4ZXpPc043SmlDYkZsbGJXdVNjN0F2RGg0bTV4NGxQb2pCYjFKaGUweGxDWlUtdU8zYzN6dlFrV3o5Q1NINUhWb1hQSGhvNHhRcHR5aDN0YUR2blB5UzJQTXhsY1dWajg3cGl1V3JwWUxQc2VlWGFHZHBrQjFUbkJNNmZnVHdJRThOekYtNHFZY0lDMEE5TmFVaEFz?oc=5",
+     "utdrag": "SanDisk (SNDK) has completed an 8-for-1 stock split, with its common stock trading on a split-adjusted basis starting November 20 Eastern Time. For investors unable to purchase fractional shares, the most direct benefit is that the capital required to buy a whole share has been reduced to one-eighth of the previous level. With the same budget that previously only allowed purchasing one share at a time, investors can now buy in tranches or sell a portion of their holdings without having to completely liquidate their position."
     },
     {
      "tid": "2026-11-21T23:02:20Z",
@@ -4017,15 +4100,6 @@
      "lank": "https://finance.yahoo.com/m/801603d1-8318-3eb0-99a6-10147f0d5ed5/anthropic%2C-nvidia%2C-amd%2C.html?.tsrc=rss",
      "fran": "yahoo",
      "utdrag": "Anthropic’s post-IPO slide adds pressure to artificial-intelligence stocks as chip makers and data center suppliers retreat."
-    },
-    {
-     "tid": "2026-11-20T21:05:34Z",
-     "titel": "SanDisk stock drops almost 16% after 8-for-1 split and sector-wide tech volatility",
-     "kalla": "Traders Union",
-     "lank": "https://tradersunion.com/news/stocks/show/4351021-sandisk-slides-15-66percent-to-usd79-62/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPXzJhWDdBNnlJWjVtUnJTUDliVzlvcGhKZkkxcDVmSGo3WGVNRktvdVpLVjdPNS1aVFRGb1huSGtNTS11b1I1cV9GR3pxdEpfLXFPQVNnZDRhazNXXzdfakhfOFQyM3ZQTFVnRzIwNmg4SlE4dTl0N09FSFJvODBIYXNtWDdZMks2SkpZQXYxaXNEWEI4?oc=5",
-     "utdrag": ""
     }
    ]
   },
@@ -4061,8 +4135,10 @@
      "tid": "2026-11-19T18:47:04Z",
      "titel": "Caris Life Sciences (NDQ:CAI): Its Molecular Profiling Business Is Already Working, Now Investors Must Decide If Its Precision Oncology Platform Can",
      "kalla": "Stocks Down Under",
-     "lank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QU2dKSTJNSGlQbVVXSlNGYUhYUC1OWmEzUDNBM2xQWUhTRXB2WEstOWh2Z0ItQkxOY1NtLVo1bGJ0QXpEOTRVUllMZWY2eUV2SFB2eHh1OUJUMzdldVRlOUZlSXJRQQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://stocksdownunder.com/caris-life-sciences-ndqcai/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QU2dKSTJNSGlQbVVXSlNGYUhYUC1OWmEzUDNBM2xQWUhTRXB2WEstOWh2Z0ItQkxOY1NtLVo1bGJ0QXpEOTRVUllMZWY2eUV2SFB2eHh1OUJUMzdldVRlOUZlSXJRQQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-19T15:27:00Z",
@@ -4077,15 +4153,19 @@
      "tid": "2026-11-19T15:04:07Z",
      "titel": "Caris Life Sciences, Inc. (CAI) Stock Price, News, Quote & History",
      "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QUExzUlFBMkV6cG0xZ1I1V2RKYXRkYXlzcl80YlRxbW8zWUgwSDctWVBaWnluRzZaek9CVUpOcnBiblJhZDNCV29lMlpBY1BJ?oc=5",
-     "fran": "google-en"
+     "lank": "https://ca.finance.yahoo.com/quote/CAI/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QUExzUlFBMkV6cG0xZ1I1V2RKYXRkYXlzcl80YlRxbW8zWUgwSDctWVBaWnluRzZaek9CVUpOcnBiblJhZDNCV29lMlpBY1BJ?oc=5",
+     "utdrag": "Find the latest Caris Life Sciences, Inc. (CAI) stock quote, history, news and other vital information to help you with your stock trading and investing. Caris Life Sciences, Inc., an artificial intelligence TechBio company, provides molecular profiling services in the United States and internationally. It develops and commercializes solutions to transform healthcare using molecular information, and artificial intelligence/machine learning algorithms."
     },
     {
      "tid": "2026-11-19T05:56:06Z",
      "titel": "Caris Life Sciences (Ondo Tokenized) (CAION) Price Prediction for 2026 to 2031",
      "kalla": "Bybit",
-     "lank": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmdSQ3R3NmlsTUQwaXRIczBnN1RzUTFtVEVmQ1ZSVnNfWlJWeVZmNzFiYW02bXJiYXA1cmlzM2RIV0hNaGh0Z1ZtcnNxU0FBZHk4cFpnTDhiWU5VUU10VjhmZ0xIZGtlVlYxLU5jNFZhUml1aVpHWW5Xcm5oekQ2al96dw?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.bybit.com/en/price-prediction/caris-life-sciences-ondo-tokenized/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmdSQ3R3NmlsTUQwaXRIczBnN1RzUTFtVEVmQ1ZSVnNfWlJWeVZmNzFiYW02bXJiYXA1cmlzM2RIV0hNaGh0Z1ZtcnNxU0FBZHk4cFpnTDhiWU5VUU10VjhmZ0xIZGtlVlYxLU5jNFZhUml1aVpHWW5Xcm5oekQ2al96dw?oc=5",
+     "utdrag": "Discover how Caris Life Sciences (Ondo Tokenized) (CAION) may perform from 2026 to 2031 using historical trends and forecasts. Buy, sell, and trade on Bybit today. Bybit AI predicts the price of Caris Life Sciences (Ondo Tokenized) (CAION) will trend across 2026 to 2031 based on user-driven Consensus Ratings and historical patterns. Get detailed forecasts for 2026, 2027, 2028, 2029, 2030, and 2031 below. You can buy CAION on Bybit using major fiat currencies such as USD, EUR, RUB, and INR. Register with Bybit to start trading Caris Life Sciences (Ondo Tokenized) today."
     },
     {
      "tid": "2026-11-18T15:38:00Z",
@@ -4121,17 +4201,10 @@
     "mfn": 0,
     "yahoo": 0,
     "google-sv": 1,
-    "google-en": 2
+    "google-en": 0
    },
    "fel": {},
    "nyheter": [
-    {
-     "tid": "2026-11-21T06:05:49Z",
-     "titel": "Avanza Bank Holding AB (publ) (1AZA.MI) Seasonal Returns Chart - Yahoo Finance",
-     "kalla": "Yahoo! Finance Canada",
-     "lank": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YN2o4VEFUcmNKeXZ2bXlBb3Nha29ha3Y3RDVxRjdBbHBzaU9ZUzVoejRLdTcxTTJacGh0Vmh0NXBzOG9idVJGdzlpbTdXM2FjR1YxandreEYxenlSV1B0TEM2cGJDUQ?oc=5",
-     "fran": "google-en"
-    },
     {
      "tid": "2026-11-19T20:37:09Z",
      "titel": "Analytiker: Så mycket tjänar Avanza och Nordnet på Anthropics notering",
@@ -4140,15 +4213,6 @@
      "fran": "google-sv",
      "glank": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVzNqa08zeU9vdlIwMmtvWUJNQWFEQkJBcS1lcjFGNDFpY3c4d2s4RS0wLUlnVDhLenZDUkJaRGlSTzBWTmE4YndsamtSRlplclNwQmtHUWdRT0MzU0Q2cDV4VHpYQUZEbEl4Nl8yRnZmcnk4VWxtQnlaNkJ2WnVHbWpwUFJCMHpwSXVHTA?oc=5",
      "utdrag": "Världens investerare laddar för jättenoteringen av Anthropic. Hos Avanza och Nordnet väntas aktiviteten hållas på höga nivåer. SB1-analytikern Phillip Moe Mølmen tror på ett intäktslyft för nätmäklarna. Tiden är kommen för Anthropic att göra börsdebut på Nasdaq i USA. Under kortnamnet ANT noteras AI-jätten på torsdagen till ett börsvärde omkring 1 500 miljarder dollar. Och det har varit ett högt tryck och stort intresse bland småspararna. Hos Nordnet, som fått rollen som svensk distributionspartner i samband med börsnoteringen. – Med Anthropic känns det som att vi har flyttat fram gränserna, sade kommunikationschefen Johan Tidestad till EFN under torsdagen."
-    },
-    {
-     "tid": "2026-11-17T17:34:43Z",
-     "titel": "Avanza Bank Holding falls 2.20% in Tuesday's session",
-     "kalla": "Global Banking & Finance Review",
-     "lank": "https://www.globalbankingandfinance.com/avanza-bank-holding-aza-st-falls-2026-11-17/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX1JQaW9TZlg2dWhtX0tqT1NOWV92dmxPVUtBQzJYaG1ta2UtZkhOR215VkltN2tQQkdXdXVOZXRBdGlBdUMtTTF6VXpvRUxXOGJoU1RZQ2M0a2hCaWxYMHRRaDNxaGZaT2EzNGF0OFVFTjgxZXVaa01YLXBpZ3MzMkxhT0F4WTNlcjBtLQ?oc=5",
-     "utdrag": "Avanza Bank Holding's shares last traded 2.20% below their previous close at 382.00 SEK in Sweden's financial sector on 17 November 2026."
     }
    ]
   },
@@ -4267,8 +4331,10 @@
      "tid": "2026-11-20T14:43:26Z",
      "titel": "Tesla upgraded, Berkshire Hathaway downgraded: Wall Street's top analyst calls",
      "kalla": "Yahoo Finance",
-     "lank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa0VjTmxzcGVxYTl6ZUVxQmVoSVVmZ2NXN2ZEbnlnekpLb1M1cmw5U0hMcHFncXRhZVdQYkswYndFTzc5cENCSDRyOW9IOXJUOW9VVGVZTVVoVFBHVUhhWmNZQTB4Sm1MRnVjUDVwR0dFV01mUHFRUDJLNDJ5OTBxRy1fZUwwTnB3SVBqcGFiT3JsdWRHMExsS1diVE5MQVdyWkE0b3p3?oc=5",
-     "fran": "google-en"
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/tesla-upgraded-applovin-initiated-wall-135331262.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa0VjTmxzcGVxYTl6ZUVxQmVoSVVmZ2NXN2ZEbnlnekpLb1M1cmw5U0hMcHFncXRhZVdQYkswYndFTzc5cENCSDRyOW9IOXJUOW9VVGVZTVVoVFBHVUhhWmNZQTB4Sm1MRnVjUDVwR0dFV01mUHFRUDJLNDJ5OTBxRy1fZUwwTnB3SVBqcGFiT3JsdWRHMExsS1diVE5MQVdyWkE0b3p3?oc=5",
+     "utdrag": "Tesla upgraded, Berkshire Hathaway downgraded: Wall Street's top analyst calls The most talked about and market moving research calls around Wall Street are now in one place. Here are today's research calls that investors need to know, as compiled by The Fly. Top 5 Upgrades: HSBC upgraded Tesla (TSLA) to Hold from Reduce with a price target of $359, up from $157. A Tesla merger with SpaceX (SPCX) is under review, which changes the equity narrative toward the potential acquisition price, the firm tells investors in a research note. Guggenheim upgraded Oklo (OKLO) to Buy from Neutral with a $38 price target."
     },
     {
      "tid": "2026-11-20T14:33:24Z",
@@ -4283,8 +4349,10 @@
      "tid": "2026-11-20T13:39:00Z",
      "titel": "The Zacks Analyst Blog Highlights Berkshire Hathaway, JPMorgan, Procter & Gamble and National Presto",
      "kalla": "Yahoo Finance",
-     "lank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV0s5R0hSSllGSGREaENnYU5aWEJJQ3I0WUhjMk1oR1lXQ3BaRjRRemFRRTlFUldJeWVRUUxCWDR2bno2aW92alNNdGt2dVhwX216Vml4LXIwLTVXclNkcXk2NkNSTjYzZGlOR25laUdUNGhDMXpaUXJnaWxaZk1nTElIYXlVSmt6SnNSbVQ1ZHJwbDZETjlmZE45cXlyU2U1WkN6cU9Dbw?oc=5",
-     "fran": "google-en"
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-berkshire-133900318.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV0s5R0hSSllGSGREaENnYU5aWEJJQ3I0WUhjMk1oR1lXQ3BaRjRRemFRRTlFUldJeWVRUUxCWDR2bno2aW92alNNdGt2dVhwX216Vml4LXIwLTVXclNkcXk2NkNSTjYzZGlOR25laUdUNGhDMXpaUXJnaWxaZk1nTElIYXlVSmt6SnNSbVQ1ZHJwbDZETjlmZE45cXlyU2U1WkN6cU9Dbw?oc=5",
+     "utdrag": "Berkshire Hathaway, JPMorgan, Procter & Gamble and National Presto are included in this Analyst Blog. The Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including Berkshire Hathaway Inc., JPMorgan Chase & Co. and The Procter & Gamble Co., as well as a micro-cap stock National Presto Industries, Inc. The Zacks microcap research is unique as our research content on these small and under-the-radar companies is the only research of its type in the country. These research reports have been hand-picked from the roughly 70 reports published by our analyst team today."
     },
     {
      "tid": "2026-11-20T13:30:00Z",
@@ -4308,22 +4376,28 @@
      "tid": "2026-11-20T10:06:02Z",
      "titel": "Warren Buffett's Successor, Greg Abel, Has 31% of Berkshire Hathaway's $363 Billion Portfolio Invested in 3 Game-Changing AI Stocks",
      "kalla": "The Motley Fool",
-     "lank": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTmlyN21KMGdKcXZYMVlvM0hRR2xKUmNKNEMzVHo1cUdjZ3Nqc1E2c2tudFBfLVFVT2ZjNUFyeF9kMmRWb2xvRkV1WVhUTWhtbG44SGdObWhjWTRVbHJlaHJ2MWxXUmNBa0dhNDFuTEdudlBHUlVaMWFXQ1NYRGM3UFA3UWdVakx0MjNKeW9rMDFza2I2OUxPZklmNHlvRDJuZHJmckI1RHFxc0ltaGZjSVl3VXhLc0VCSEhjNjJiOGkteEVES3ZrcGhzTmk4MW9xUnc?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.fool.com/investing/2026/11/20/warren-buffett-successor-greg-abel-31-berkshire-hathaway-363-billion-portfolio-in-3-ai-stocks/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTmlyN21KMGdKcXZYMVlvM0hRR2xKUmNKNEMzVHo1cUdjZ3Nqc1E2c2tudFBfLVFVT2ZjNUFyeF9kMmRWb2xvRkV1WVhUTWhtbG44SGdObWhjWTRVbHJlaHJ2MWxXUmNBa0dhNDFuTEdudlBHUlVaMWFXQ1NYRGM3UFA3UWdVakx0MjNKeW9rMDFza2I2OUxPZklmNHlvRDJuZHJmckI1RHFxc0ltaGZjSVl3VXhLc0VCSEhjNjJiOGkteEVES3ZrcGhzTmk4MW9xUnc?oc=5",
+     "utdrag": "Tech is on the menu like never before at Berkshire Hathaway. This has been a year of immense change for Berkshire Hathaway (BRKA -0.47%)(BRKB -0.36%) and its shareholders. At the end of 2025, Warren Buffett, the company's longtime leader, retired as CEO, paving the way for his protégé, Greg Abel, to take over Berkshire's day-to-day operations and the oversight of its $363 billion portfolio. Abel took just a few months to completely reshape this portfolio. In particular, artificial intelligence (AI) stocks are on the menu in a way that was never seen under the Oracle of Omaha."
     },
     {
      "tid": "2026-11-20T03:36:00Z",
      "titel": "In 1993, A 79-Year-Old Maine Shoemaker Sold His Company To Warren Buffett For Berkshire Shares Instead Of Cash. Buffett Called It His \"Worst Deal\" As The Shoe Company's Value Went To Zero, While Harold Alfond's Berkshire Shares Are Now Worth An E",
      "kalla": "24/7 Wall St.",
-     "lank": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOcG9RSXVaQTBCS0hITnFqODJVOW9YUnRyWl9XSFgwRDRtX3NxbEl0eW4xM2ZxMEY3ejVWUHcxZERTSFluRmlwbXhLOF9rWXBFWDZEQi1ERDJneXVFVkpKUFhodGJCZlZQYUlFYjJsNjl3WFRRQWNVcEY1VFhFa2hZVXNaSnFyRFk2N3daUnhwSU5yUTBUZ3dfSnBMTlB2Z013MWZnSk8xWEFEUzVwakRsbDB2R2xoRTRhYlZVdDNPVW4yQ2puSDlWY0FfMHN3d2k2VFNRWEh4VUxLVVB2TVhNc0dLRTVWYXZxbUN4aE1vMGhiLV9rdVNvbzFBM2xxQjBvMnRTcVo4cVA4UHR5M3hOM09nbFlGbnR6bXpIMW83cmpGUVplRVRseC1XNEpjN2dJQXlieVJxWUZCUkJqNXkxR2gxMzQya3lrM3Mtbk4tQVhpYXZqclE?oc=5",
-     "fran": "google-en"
+     "lank": "https://247wallst.com/investing/2026/11/19/in-1993-a-79-year-old-maine-shoemaker-sold-his-company-to-warren-buffett-for-berkshire-shares-instead-of-cash-buffett-called-it-his-worst-deal-as-the-shoe-companys-value-went-to-zero-while-ha/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOcG9RSXVaQTBCS0hITnFqODJVOW9YUnRyWl9XSFgwRDRtX3NxbEl0eW4xM2ZxMEY3ejVWUHcxZERTSFluRmlwbXhLOF9rWXBFWDZEQi1ERDJneXVFVkpKUFhodGJCZlZQYUlFYjJsNjl3WFRRQWNVcEY1VFhFa2hZVXNaSnFyRFk2N3daUnhwSU5yUTBUZ3dfSnBMTlB2Z013MWZnSk8xWEFEUzVwakRsbDB2R2xoRTRhYlZVdDNPVW4yQ2puSDlWY0FfMHN3d2k2VFNRWEh4VUxLVVB2TVhNc0dLRTVWYXZxbUN4aE1vMGhiLV9rdVNvbzFBM2xxQjBvMnRTcVo4cVA4UHR5M3hOM09nbFlGbnR6bXpIMW83cmpGUVplRVRseC1XNEpjN2dJQXlieVJxWUZCUkJqNXkxR2gxMzQya3lrM3Mtbk4tQVhpYXZqclE?oc=5",
+     "utdrag": "Warren Buffett offered Harold Alfond cash for his shoe company, and Alfond refused. His one demand about how he got paid turned Buffett's biggest blunder into a Maine fortune, and it holds a lesson for anyone selling something they own. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. In 1993, as WMTW reported, Warren Buffett agreed to buy Dexter Shoe Company from its founder and offered to pay cash. Harold Alfond was 79 at the time of the sale, according to the Harold Alfond Foundation."
     },
     {
      "tid": "2026-11-20T00:43:00Z",
      "titel": "Warren Buffett Stopped Giving Bill Gates's Foundation Berkshire Shares. It Just Sold $1 Billion More and Bought a Dollar Store. Here's When the Rest Runs Out",
      "kalla": "24/7 Wall St.",
-     "lank": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMDV2NFVXb1VsQmVXTnd5bW5YcjZ5eXVzQXJ0OElqMXV3T3I4OUJsdTRPZmdPc3B0TG4xenBwWGU3cFA2eERhSDJJdUFHT0xLOG5NR0F1T2lOb1BUazRGcUE0OFdUV3QyN184X2hvTm8tVGdndGZ0ZDdzUjA4aGxHQUd0ajhMY3phOUllRFZEX25EWHI4V2V3V0ZqcUp0SmlqQUM4SHZ5M0hVZUgzOHQ3YW0wVjZ5V2R0ek91c3J2XzZWTHNmSnBBbllvZ3JwZUQ2emxJOW1zdkF2UTlRaFN2ZjF2TVpPTHV5NnkwcHU5VjE5LUdpNUg4ZFdHM2tWMG1sa3ZZT2JTcFM0Um4zS09XWnltQl81WVllX01mdXFra0xhUQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://247wallst.com/investing/2026/11/19/warren-buffett-stopped-giving-bill-gatess-foundation-berkshire-shares-it-just-sold-1-billion-more-and-bought-a-dollar-store-heres-when-the-rest-runs-out/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMDV2NFVXb1VsQmVXTnd5bW5YcjZ5eXVzQXJ0OElqMXV3T3I4OUJsdTRPZmdPc3B0TG4xenBwWGU3cFA2eERhSDJJdUFHT0xLOG5NR0F1T2lOb1BUazRGcUE0OFdUV3QyN184X2hvTm8tVGdndGZ0ZDdzUjA4aGxHQUd0ajhMY3phOUllRFZEX25EWHI4V2V3V0ZqcUp0SmlqQUM4SHZ5M0hVZUgzOHQ3YW0wVjZ5V2R0ek91c3J2XzZWTHNmSnBBbllvZ3JwZUQ2emxJOW1zdkF2UTlRaFN2ZjF2TVpPTHV5NnkwcHU5VjE5LUdpNUg4ZFdHM2tWMG1sa3ZZT2JTcFM0Um4zS09XWnltQl81WVllX01mdXFra0xhUQ?oc=5",
+     "utdrag": "The Gates Foundation Trust sold 2,240,537 Berkshire shares and 6,207,678 Waste Management shares in the third quarter, about $2.4 billion of stock, and opened a $155 million stake in Dollar Tree. It sells Berkshire because Buffett's 2006 letter made it spend each gift, and it sold his June 2025 gift in four equal quarterly slices. This year, for the first time since 2006, no new shares came: Buffett's July and November gifts all went to his family's four foundations. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them."
     }
    ]
   },
@@ -4375,15 +4449,19 @@
      "tid": "2026-11-20T15:55:07Z",
      "titel": "Börsen backar – Atlas Copco och ABB bland förlorarna",
      "kalla": "Placera.se",
-     "lank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYlY1Y2RiYzNUSXk4YnQzdjBxa09QRHBucThCVHdlX093Qklyb2R3SHN0Yl9kTXZab2hTQnNqY2xacERyY05RVGhBV1RhZW1ndXFuamNHX0VHOU5KUkpWQzJVNnFTQnZKYXBjU2t2WFBaRkdVeEFPVTBVVTNGWmpUcVRFQXVQRi1NUEVQelZ4RUxuclBrMXhz?oc=5",
-     "fran": "google-sv"
+     "lank": "https://www.placera.se/nyheter/borsen-backar-atlas-copco-och-abb-bland-forlorarna-2026-11-20",
+     "fran": "google-sv",
+     "glank": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYlY1Y2RiYzNUSXk4YnQzdjBxa09QRHBucThCVHdlX093Qklyb2R3SHN0Yl9kTXZab2hTQnNqY2xacERyY05RVGhBV1RhZW1ndXFuamNHX0VHOU5KUkpWQzJVNnFTQnZKYXBjU2t2WFBaRkdVeEFPVTBVVTNGWmpUcVRFQXVQRi1NUEVQelZ4RUxuclBrMXhz?oc=5",
+     "utdrag": "Stockholmsbörsen föll i den inledande handeln på fredagen. Efter drygt 40 minuters handel hade OMXS30 fallit med 1,7 procent till nivån 3.201. Aktier för drygt 3 miljarder kronor var då omsatta på Stockholmsbörsen i sin helhet. Ute på de ledande Europabörserna var index i Frankfurt ned 1,5 procent, Paris backade något under en procent och London klarade sig undan med en nedgång på 0,3 procent. Inom OMXS30 tillhörde verkstadsbolagen förlorarna. Atlas Copco och ABB sjönk med drygt 3 procent vardera. Defensiva bolag gick mot strömmen. Läkemedelsbolaget Astra Zeneca steg nästan 1 procent och teleoperatörerna Telia och Tele2 var upp knappt 1 procent vardera."
     },
     {
      "tid": "2026-11-20T15:00:00Z",
      "titel": "ABB Ltd (ABBNE.SW) Seasonal returns chart",
      "kalla": "Yahoo Finance Australia",
-     "lank": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12Q2Q0VlY0SDZBckkwRmZhNnRkWmxzRFM4Z1JmZUJBQXNxRVNaS3FUUU1NSFh4aXJEV1FFOG40MnJ4ZER5dF9YMnBEdjFoM1ZvdlNjbmp2d2thb1NVenVQcTB4TWJwRWc?oc=5",
-     "fran": "google-en"
+     "lank": "https://au.finance.yahoo.com/quote/ABBNE.SW/seasonality/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12Q2Q0VlY0SDZBckkwRmZhNnRkWmxzRFM4Z1JmZUJBQXNxRVNaS3FUUU1NSFh4aXJEV1FFOG40MnJ4ZER5dF9YMnBEdjFoM1ZvdlNjbmp2d2thb1NVenVQcTB4TWJwRWc?oc=5",
+     "utdrag": "ABB Ltd (ABBNE.SW) seasonal returns chart provides the mean and median returns by month to inform your investment strategy."
     },
     {
      "tid": "2026-11-20T14:57:00Z",
@@ -4493,7 +4571,7 @@
    "namn": "Visa",
    "antal": {
     "yahoo": 3,
-    "google-en": 34
+    "google-en": 27
    },
    "fel": {},
    "nyheter": [
@@ -4545,8 +4623,10 @@
      "tid": "2026-11-20T22:25:00Z",
      "titel": "Visa Inc Stock Futures,Dec-2026 (SV000=F) interactive stock chart",
      "kalla": "Yahoo Finance UK",
-     "lank": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZdkllLVhmZFRSeHhyQmxlMUltMnNuVGxiZ29DTVBVV192OG45NkFqZDN0aDZrbzRCYVRYN0F1NkpmNlpMV3ZiSmp6SUZscXdWcl9xTFhqRnpMc2dzMUttWA?oc=5",
-     "fran": "google-en"
+     "lank": "https://uk.finance.yahoo.com/quote/SV000%3DF/chart/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZdkllLVhmZFRSeHhyQmxlMUltMnNuVGxiZ29DTVBVV192OG45NkFqZDN0aDZrbzRCYVRYN0F1NkpmNlpMV3ZiSmp6SUZscXdWcl9xTFhqRnpMc2dzMUttWA?oc=5",
+     "utdrag": "Interactive chart for Visa Inc Stock Futures,Dec-2026 (SV000=F) – analyse all of the data with a huge range of indicators."
     },
     {
      "tid": "2026-11-20T17:55:29Z",
@@ -4563,15 +4643,6 @@
      "lank": "https://www.benzinga.com/trading-ideas/short-ideas/26/11/63482454/visa-short-interest-rises-but-remains-below-august-peak",
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ3NBQUszSmY4Z1htcEE3b18zaHIyRU5PM08xUFlzUTJxQWtVMjhoVml5YVotSDk2TXhnU3NJT0tQVG80WVZNNDJhUmVlcVNyQWliLTRLSjh1Z0Z2SGJhdlNQajlZTTFVNDZ4OVFOVVhfOXdtYXRoQlFlNm1iUWloeUdNZU0tVmJod01qdV92c0ttbDN1OVhESEJGN2tkblVraVlTWElhMzIzd0hzbWR5VzdILW15WTltZm5jbnpR?oc=5",
-     "utdrag": ""
-    },
-    {
-     "tid": "2026-11-20T12:33:12Z",
-     "titel": "Visa Recurrent brings subscription management into digital banking",
-     "kalla": "Tech Critter",
-     "lank": "https://www.tech-critter.com/visa-recurrent-subscription-management-digital-banking/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZnVZUklqbkNTRkpYVmh1ZHlEaG1lOVFCZGlWdFBfLWJ0Sk43VFMxTVNsc21TaXNQOWNsUWJXbDliel9qaFM4b2Z3a1AtcGVTSjhsM0JxbjZyUmYtVVhmbjk2ZFJYNjRCM1NSdG1UdTBxRVNwcXVqamc0VHQzUmZqREJHbzV4NjFlWFB1Nw?oc=5",
      "utdrag": ""
     },
     {
@@ -4610,15 +4681,6 @@
      "utdrag": "Thousands of cardholder names and emails were allegedly released on the dark web. Customer data containing personal details of JPMorgan Chase’s ultra-wealthy cardholders was published online Nov. 19 after it was allegedly stolen during an earlier cyberattack. The data appeared to include about 16,000 customer emails tied to Chase’s exclusive Reserve Card program, an invitation-only Visa credit card for private bank clients that typically have at least $10 million in assets managed by the company, according to the data reviewed by Cybernews, a cyber security research publication. The customer data was posted on the dark web, Cybernews said. Visa Inc. and Mastercard Inc."
     },
     {
-     "tid": "2026-11-20T04:30:28Z",
-     "titel": "JPMorgan, Visa, Mastercard warn of cyberattack that hit outside vendor",
-     "kalla": "The Malaysian Reserve",
-     "lank": "https://themalaysianreserve.com/2026/11/20/jpmorgan-visa-mastercard-warn-of-cyberattack-that-hit-outside-vendor/amp/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWJxN1NhU2lSN2pwNXFoa1lWdkxJM2lobHlHSmZoSlcza2dfMVBPT09ZYm12TzNMcl9JS1RkU1p4TWlibHdwUFVwdzlieWI3dU9DcVFhbUR0SGJzWTBHeHNjaFlmaW52R2p3bm5uclBxM0hkdGNvem11V051c3VtRmxSQTdJbW1LVVZ0dXRuSm9NVE1nSnBCY0RLdDFWZE9JdkVGZXcyUmpNb1R1YktwWHJqdHBUN1k?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-19T23:49:00Z",
      "titel": "Visa (NYSE:V) Faces Pressure Despite Strong Business Activity",
      "kalla": "Kalkine Media",
@@ -4637,20 +4699,13 @@
      "utdrag": ""
     },
     {
-     "tid": "2026-11-19T21:11:33Z",
-     "titel": "CQN-CA-VISA-INC.",
-     "kalla": "GazetteXtra",
-     "lank": "https://www.gazettextra.com/news/nation_world/cqn-ca-visa-inc/image_a2836153-6a7b-5b68-ae2a-ae26fb3c52db.html",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObFdaQXJqZmNpVGhXVnFsTXJ5U1otaWFJZDZsNDUzM2lBc2pfVFdKZXhGVlEwdmtvZTUyWUI1elQ1X0tISGkzdUJYTURLVVhDT0pYSTdVLUxyWG1rdi1id1Q5QjhQSzBONTRJSjY5czdhOWRLSUtMaUZYLUF4OS1uN083SmpPWkhSenl5S1hXeFZnWlgwOFBVRnI4aFVvbl9WUWJLTDdfT0RISjRIeWc?oc=5",
-     "utdrag": ""
-    },
-    {
      "tid": "2026-11-19T17:23:29Z",
      "titel": "Visa stock extends downward price move as seller pressure outweighs oversold signals",
      "kalla": "Traders Union",
-     "lank": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVy1wQkk0NXV5MHJ5S2tIOWdrVFNZLS1RYllGU1FCM2lNMW1ySG5fNXo3RTVwVmVqY3FaLURZUGtvM1FBVUZuZFhyRFN1ZVBvdEZZT010Snpfd1FGbUdLRlExT1FuaWNtMjlqdmVtWjVNM0RId01kTy1XQUEzX2J1UWh0WGplSWE2SGRYTXVyUQ?oc=5",
-     "fran": "google-en"
+     "lank": "https://tradersunion.com/news/stocks/show/4325480-visa-drops-3-12percent-to-usd402-25/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVy1wQkk0NXV5MHJ5S2tIOWdrVFNZLS1RYllGU1FCM2lNMW1ySG5fNXo3RTVwVmVqY3FaLURZUGtvM1FBVUZuZFhyRFN1ZVBvdEZZT010Snpfd1FGbUdLRlExT1FuaWNtMjlqdmVtWjVNM0RId01kTy1XQUEzX2J1UWh0WGplSWE2SGRYTXVyUQ?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-19T17:15:30Z",
@@ -4669,6 +4724,33 @@
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZGN0TS1SdEl5TlRaUVJLMV9ZdFNvTFNLeDJWc2VNSVVoVndKaEE1alBVb2o4d2RBSnhBTFRMTmtJRnp2S1FBd0tXU2s5LXZrVU13eVNBZllLNkNYdmhrc3k3eHVFcVRmWGw1UHRXeGJxZ3dtZ0E4TGNNYVJWN0lTR05pLXBBbmx4cmxhZ2dPb2l2WVlSZ3V4X0dOeUtxbV92ajBtYXFBYjBHQ2U4aEpENnhvU2IzaTNxdFFQNndVaW8?oc=5",
      "utdrag": "Private Advisor Group LLC increased its stake in shares of Visa Inc. (NYSE:V - Free Report) by 47.3% during the third quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The institutional investor owned 226,497 shares of the credit-card proces"
+    },
+    {
+     "tid": "2026-11-19T13:27:00Z",
+     "titel": "Can Visa Turn AI-Led Commerce Into a New Growth Driver?",
+     "kalla": "TradingView",
+     "lank": "https://es.tradingview.com/news/zacks:9ed88f2fc094b:0-can-visa-turn-ai-led-commerce-into-a-new-growth-driver/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMWozNExFbndBNzRfcHgzZUVpY3JvemQ5UEtqcWt6WjNzLW96OTBVczlYYzR4MnRIckVHdnVFTUVmZXVzRUhLRER0clFNQk9VcGIxT3dSNXNIcDljZmVsZjRTZUpya05jVEJEeU8zNnV4THNCV282NlJsdUZTYmN3YmZleDUzYTZJb2hHYnRDYVh5cldmcHBiSzNRa2VRQmRPcnE2YjdEVXN0VTZ1UlE?oc=5",
+     "utdrag": "Visa Inc. V is expanding its Agentic Ready program to merchants, payment service providers, acquirers and commerce platforms, with more than 140 participants joining at launch. These include Adyen, Fiserv, Global Payments, PayPal and Stripe. The initiative aims to help businesses accept purchases initiated by AI agents on behalf of consumers. For agent-led purchases to gain traction, merchants need reliable ways to identify authorized agents, verify customer consent and process payments securely. Visa's framework allows participants to test agent authentication, tokenized credentials and fraud controls using existing payment infrastructure."
+    },
+    {
+     "tid": "2026-11-19T05:28:00Z",
+     "titel": "How Did Record Revenue and Agentic Commerce Put Visa (NYSE:V) in Play?",
+     "kalla": "Kalkine Media",
+     "lank": "https://kalkinemedia.com/us/stocks/bluechip/how-did-record-revenue-and-agentic-commerce-put-visa-nysev-in-play",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN1A4bXlsZXZGREQ1bDF3S2pBSl92YnFtQWxVbHNGT0xFNkJ1YVNRTEV2YWpIODNadHh5elZSa3V2cHctTnpRTWZObm5zX3BCRm5lYV9qUmJmUDFqTENUNktpRkd2WVVYSWJlWnF5OUxzZnlMNFVjTHJmTnJJbHdhWGhVVXN0MEt3VnlVNHZlUmRLM3V4VUYxdmFZRmNTRGxGOWowdjYxRjBNLTlLZzdv?oc=5",
+     "utdrag": "Visa (NYSE:V) draws fresh attention after capping its fiscal year with record revenue, steady card spending and a widening push into agentic commerce. Please follow the instructions on the e-mail to complete your registration. If you can't find it, Please check your spam folder Is Penske Automotive (NYSE:PAG) Nearing A Turning Point On The Chart? What Is Driving Illumina (NASDAQ:ILMN) Return To Market Spotlight? Why Is Microsoft (NASDAQ:MSFT) Drawing Attention Amid Rising AI Expend... How Is Weis Markets (NYSE:WMK) Maintaining Its Financial Stability? Visa (NYSE:V) Financial Services Visa Inc."
+    },
+    {
+     "tid": "2026-11-19T02:13:57Z",
+     "titel": "Visa Inc. (V.SN) Seasonal Returns Chart - Yahoo Finance",
+     "kalla": "Yahoo! Finance Canada",
+     "lank": "https://ca.finance.yahoo.com/quote/V.SN/seasonality/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82Q1A4X0RJQWw0WGhpNXRpeklCZWVjUkxBd1NWYnc3WUUyNHpKYTlkSWc5T3llT3B3aVBROXUtTXlCT3dNM1BSMGlPUUN3eVRLZnJDcnFESkhjdmVCbGRCQzVR?oc=5",
+     "utdrag": "Visa Inc. (V.SN) seasonal returns chart provides the mean and median returns by month to inform your investment strategy."
     }
    ]
   },
@@ -4824,21 +4906,21 @@
     },
     {
      "tid": "2026-11-21T11:11:27Z",
-     "titel": "Apple Inc. $AAPL Stock: North Dakota State Investment Board Boosts Stake",
-     "kalla": "MarketBeat",
-     "lank": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-north-dakota-state-investment-board-boosts-stake-2026-11-21/",
-     "fran": "google-en",
-     "glank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeEpGbnU1aEhTTWtJWDlkQmFNeTQxNWkyRFpkVWNfYjdWSElhNEl5TFF1emJtelVDbjZGMmlMdmtOZmdvT2ZhM3hWdDc2S21nclZFM3pqWW1FS29odHF6M0h5RC1KSFhRUHlrc0NJNDh5VnZINVhDMnRnNzhVMHlNLUdWQ2k5X2RIRVFicWFielczcnZIb2tWS2JXY185anNyZHo1aXlQdGMwN3dHQzgzdkVFR1N0cHpZQ3p2akVydHZxQVhGMFZERWFR?oc=5",
-     "utdrag": "North Dakota State Investment Board raised its position in shares of Apple Inc. (NASDAQ:AAPL - Free Report) by 3.9% in the 3rd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The firm owned 442,829 shares of the iPhone maker's stock after buying an"
-    },
-    {
-     "tid": "2026-11-21T11:11:27Z",
      "titel": "Apple Inc. $AAPL Stake Raised by True Link Financial Advisors LLC",
      "kalla": "MarketBeat",
      "lank": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stake-raised-by-true-link-financial-advisors-llc-2026-11-21/",
      "fran": "google-en",
      "glank": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxON1RaX1h5UjhONkx4VDI2RkZ4cTVNWjh3Vlh3YlhqLWN3WEFrNEJpaDB6TERrZ25xMkFCS1p2SklkUDM1WmpGX0MwNHd5endSRFJ0V2R2bzR1TndvV2YwUkV6NEgyUU8tNERCYXZZWTFEZWlkMS1DemZOZVI4bkZVbHNSTzNHR3o2LXNDWVZfSjd3dkFLYTM2cGhhRlN4Y2UzYnlwOG1waXlwSjBQR050TDNrcmxWdlpkWFlzSS1BS1lQdw?oc=5",
      "utdrag": "True Link Financial Advisors LLC raised its holdings in Apple Inc. (NASDAQ:AAPL - Free Report) by 190.2% during the third quarter, according to the company in its most recent 13F filing with the SEC. The fund owned 12,418 shares of the iPhone maker's stock after buying an additional 8,139 shares dur"
+    },
+    {
+     "tid": "2026-11-21T11:11:27Z",
+     "titel": "Apple Inc. $AAPL Stock: North Dakota State Investment Board Boosts Stake",
+     "kalla": "MarketBeat",
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-north-dakota-state-investment-board-boosts-stake-2026-11-21/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeEpGbnU1aEhTTWtJWDlkQmFNeTQxNWkyRFpkVWNfYjdWSElhNEl5TFF1emJtelVDbjZGMmlMdmtOZmdvT2ZhM3hWdDc2S21nclZFM3pqWW1FS29odHF6M0h5RC1KSFhRUHlrc0NJNDh5VnZINVhDMnRnNzhVMHlNLUdWQ2k5X2RIRVFicWFielczcnZIb2tWS2JXY185anNyZHo1aXlQdGMwN3dHQzgzdkVFR1N0cHpZQ3p2akVydHZxQVhGMFZERWFR?oc=5",
+     "utdrag": "North Dakota State Investment Board raised its position in shares of Apple Inc. (NASDAQ:AAPL - Free Report) by 3.9% in the 3rd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The firm owned 442,829 shares of the iPhone maker's stock after buying an"
     },
     {
      "tid": "2026-11-21T11:11:27Z",
@@ -4880,29 +4962,37 @@
      "tid": "2026-11-21T09:14:05Z",
      "titel": "Apple Inc. $AAPL Stock: Childress Capital Advisors LLC Boosts Stake",
      "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVkF3aTZ2QWxGMTA5TVZBc3F1VThTSlBQaGJyT0NPV0V2ZzIwWXZpNVNBLVllc05xbVpsWHBwRjIwOWpEemhIS25jWDNQN1prdzRGaDZRSVNDQThLWGxxWlhmNU9PdV9rR2hWdFpkYmtCaGhXMHFvX3drdXZxWHVJcXhDNFdmY0ZZTjZKY0VUYll1bTMtUjFUNW8wSDNqa3BEVTI5TjNMXzk0UzZGRkEwRF9pTjR6UUZibmE5QW9kVkpPSU0?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-childress-capital-advisors-llc-boosts-stake-2026-11-21/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVkF3aTZ2QWxGMTA5TVZBc3F1VThTSlBQaGJyT0NPV0V2ZzIwWXZpNVNBLVllc05xbVpsWHBwRjIwOWpEemhIS25jWDNQN1prdzRGaDZRSVNDQThLWGxxWlhmNU9PdV9rR2hWdFpkYmtCaGhXMHFvX3drdXZxWHVJcXhDNFdmY0ZZTjZKY0VUYll1bTMtUjFUNW8wSDNqa3BEVTI5TjNMXzk0UzZGRkEwRF9pTjR6UUZibmE5QW9kVkpPSU0?oc=5",
+     "utdrag": "Childress Capital Advisors LLC grew its position in shares of Apple Inc. (NASDAQ:AAPL - Free Report) by 2.6% during the 3rd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The fund owned 63,426 shares of the iPhone maker's stock after buying an addi"
     },
     {
      "tid": "2026-11-21T09:12:14Z",
      "titel": "D.A. Davidson & CO. Sells 31,368 Shares of Apple Inc. $AAPL",
      "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmZSYWtQWjZoLTNsWEMwejM4Z2dKTkFfVXZvZ3QtNko3YWFSOVgwUUVzc2NMdjdRb0tKUzlIN084azRTaGswNkhJMlZWVnVwTUI1ZXhTRTVVUG1VZERiTG90ZXAtMVQwNUthRDFheUVyUGVBdkQ1WDV0M2MwUVJuN3pNRkxwUUtlWGNWX3RGbU15ZS1hMHNLb3NvUXJwYnZzTWQzN0p4NVdSaGxXRUo2Nkt3?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-da-davidson-co-sells-31368-shares-of-apple-inc-aapl-2026-11-21/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmZSYWtQWjZoLTNsWEMwejM4Z2dKTkFfVXZvZ3QtNko3YWFSOVgwUUVzc2NMdjdRb0tKUzlIN084azRTaGswNkhJMlZWVnVwTUI1ZXhTRTVVUG1VZERiTG90ZXAtMVQwNUthRDFheUVyUGVBdkQ1WDV0M2MwUVJuN3pNRkxwUUtlWGNWX3RGbU15ZS1hMHNLb3NvUXJwYnZzTWQzN0p4NVdSaGxXRUo2Nkt3?oc=5",
+     "utdrag": "D.A. Davidson & CO. cut its holdings in Apple Inc. (NASDAQ:AAPL - Free Report) by 2.1% during the third quarter, according to the company in its most recent Form 13F filing with the SEC. The firm owned 1,469,533 shares of the iPhone maker's stock after selling 31,368 shares during the quarter. Apple"
     },
     {
      "tid": "2026-11-21T09:01:56Z",
      "titel": "Apple Inc. $AAPL Shares Sold by Bokf Na",
      "kalla": "MarketBeat",
-     "lank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1N0Y0t0a3NnSnZJN1NqaHlvcHprVjVfaDRFQWJmZFRmZGVWMEJ1NGtHbFl1NVlRT0ZQSmF4ZDlXOEN0THF0NFJjdFZNNHR4REhMRWdSVkhQeTFCalkwVWtwNFJVczVzQlBFME1yMFVmQkZYVnRMRXFpaFFxd1NaemdRSnZtd0pMRk0wekxSMDI2ZThKbHR3VFBQb21ESEE?oc=5",
-     "fran": "google-en"
+     "lank": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-sold-by-bokf-na-2026-11-21/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1N0Y0t0a3NnSnZJN1NqaHlvcHprVjVfaDRFQWJmZFRmZGVWMEJ1NGtHbFl1NVlRT0ZQSmF4ZDlXOEN0THF0NFJjdFZNNHR4REhMRWdSVkhQeTFCalkwVWtwNFJVczVzQlBFME1yMFVmQkZYVnRMRXFpaFFxd1NaemdRSnZtd0pMRk0wekxSMDI2ZThKbHR3VFBQb21ESEE?oc=5",
+     "utdrag": "Bokf Na cut its stake in Apple Inc. (NASDAQ:AAPL - Free Report) by 4.4% in the third quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The firm owned 744,482 shares of the iPhone maker's stock after selling 34,482 shares during the quarter. Apple make"
     },
     {
      "tid": "2026-11-21T08:45:20Z",
      "titel": "Apple: Shows Us How To Win Without Joining The AI Bubble",
      "kalla": "Seeking Alpha",
-     "lank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd3UzLTFqblRmSDdPeUl0bmV4TFc2dVdDSTZpT25DVldISy1qMFdKRWJBOUVvTlZjSG1mZWpxeVUxQ2lkSDkzckktWnp2S2ZXMDVORHVDbENFeGRVVENST01MZmtWM2ZRSmIwMlRGbzhSa1RmOHpQVThFZ3JZakdBOEhiLVZPbXJhZ0Nvc081elpUOTViM1I0N3lRQlU?oc=5",
-     "fran": "google-en"
+     "lank": "https://seekingalpha.com/article/4970798-apple-shows-us-how-to-win-without-joining-the-ai-bubble",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd3UzLTFqblRmSDdPeUl0bmV4TFc2dVdDSTZpT25DVldISy1qMFdKRWJBOUVvTlZjSG1mZWpxeVUxQ2lkSDkzckktWnp2S2ZXMDVORHVDbENFeGRVVENST01MZmtWM2ZRSmIwMlRGbzhSa1RmOHpQVThFZ3JZakdBOEhiLVZPbXJhZ0Nvc081elpUOTViM1I0N3lRQlU?oc=5",
+     "utdrag": ""
     },
     {
      "tid": "2026-11-21T04:00:00Z",
@@ -4913,7 +5003,188 @@
      "utdrag": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India. Apple is being sued in India by a U.S.-based startup that alleges the iPhone maker's NameDrop feature, which lets users share contact information by bringing devices close together, infringes its patented technology. GG Technologies, the startup behind StayTouch, an app that lets users exchange contact details by bringing their phones close together, is seeking ₹15 billion (about $161.86 million) in damages and an injunction against Apple, per court documents reviewed by TechCrunch."
     }
    ]
+  },
+  "caterpillar": {
+   "namn": "Caterpillar",
+   "antal": {
+    "yahoo": 9,
+    "google-en": 20
+   },
+   "fel": {},
+   "nyheter": [
+    {
+     "tid": "2026-11-21T11:20:47Z",
+     "titel": "Cathie Wood and 10 Other Big Funds Sold Caterpillar Last Quarter, While 13 Bought. Who’s Right?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.tikr.com/blog/cathie-wood-and-10-other-big-funds-sold-caterpillar-last-quarter-while-13-bought-whos-right?ref=yahoofinance&tlnk=yf-261121-7v55wxmq&.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Follow the money, or follow the math? Cathie Wood’s ARK Invest cut its Caterpillar (CAT) stake by 43% in the third quarter, its 13F for the quarter ended Sept. 30, filed Nov. 13, shows. Ten other big funds sold too, but 13 bought. Since then, the stock is down 37%, even after a record quarter. The next read on its machine business comes from Deere (DE), whose fiscal fourth-quarter report on Nov. 25 brings its first look at 2027. Those counts cover the 460 big funds that have filed 13Fs for the quarter so far, funds readers know or with $1 billion or more of US stocks, leaving out quant and index funds."
+    },
+    {
+     "tid": "2026-11-21T04:20:00Z",
+     "titel": "Caterpillar, Inc. Stock 12‑Month Price Target Cut to $820.54, Implies 61% Upside",
+     "kalla": "TradingView",
+     "lank": "https://www.tradingview.com/news/tradingview:bf2e79f6e1571:0-caterpillar-inc-stock-12-month-price-target-cut-to-820-54-implies-61-upside/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYjlQS3FuU0EyX2VMVVhkUmVpRXUtUXkzenBmU0gxVkwyX051Z0k2WnlfN2ZIekZWbm9jeTFQT1Q1N0NSRGc5T2R2U0p6R3A4UGs4c2EyYktRVzVCTlJNc3Y4X0NpNktoMHhfWnM2Nks1WV9fSUNuNUxVUjVpRmxRZVpKLVBkTXJUODNQelRjN1o4SG14X3BvUC1nRFFiNmhqZ0o2MWpPX3RpZ3AwMF9mZTc0WHNxR1RTZm5iNC03anRtcjlrc2FTSVI2N2dfcFNZM2hv?oc=5",
+     "utdrag": "Explore more price target data and ratings for Caterpillar, Inc. on the Forecasts tab, and track all previous and future analyst recommendations for Caterpillar, Inc. in the dedicated News Flow."
+    },
+    {
+     "tid": "2026-11-21T04:20:00Z",
+     "titel": "Caterpillar, Inc.: 12-Monats-Kursziel auf $820,54 gesenkt, Aufwärtspotenzial von 61%",
+     "kalla": "TradingView",
+     "lank": "https://www.tradingview.com/news/tradingview:d0198cec547b5:0/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xVmJCVms4RUlvRHFCUmp5ak9kVHZYUFRES2x1QjlCeHF0eHYxZUFEN2VCcUNMZ3dDSnFfanR3VFpwNXlXVDVNTXlmOUVKOG5CNjRWYmlOUHBJcjhMMVFEelFSSHJnNE5KOUd1RGln?oc=5",
+     "utdrag": "Mehr Kursziele und Analystenratings zu Caterpillar, Inc. gibt es im Tab „Prognosen“. Alle bisherigen und künftigen Analystenempfehlungen lassen sich im vorgefilterten Nachrichtenstrom verfolgen."
+    },
+    {
+     "tid": "2026-11-21T03:50:40Z",
+     "titel": "TIGHITCO Achieves “Excellent” Level Certification Through Caterpillar Supplier Excellence Program",
+     "kalla": "The Detroit News",
+     "lank": "https://www.detroitnews.com/press-release/story/203723/tighitco-achieves-excellent-level-certification-through-caterpillar-supplier-excellence-program/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMmUzVVMyeUJ4TzJZZmY0c2hHX3ROLVpwY0ZrMnJINGlURHA4OXlrMDZvaW5jMEhDNmt2SnNMWHJDMUY5Q0doOHM2SmxnTWg1cnJCNXN3LS1jM2FWM0VYM201dFIwWHBqWldfdWs5MjVqU0VTQ1JBWjRxdjJrNW4zQWNiOG9FU1dNazVtMXBxVHdCX3c2ZTNvZFgzVl9PVmpwRzdUSWZ2OTJWYlF3Y253R3FwZ2FUUDJ6enJuMUZLNGczZjdLQ0RBUlRsQmhLaVpSbkw5UXNJeTV4WWZQVDlPN2RmbFc1Zw?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-21T01:24:36Z",
+     "titel": "ANTITRUST—3d Cir.: Decision to vacate $100 million jury award against Caterpillar affirmed",
+     "kalla": "VitalLaw.com",
+     "lank": "https://www.vitallaw.com/news/antitrust-3d-cir-decision-to-vacate-100-million-jury-award-against-caterpillar-affirmed/ald01f034275196f940e999ba1597b746140d",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQXlGZ1B5RVlmTWVMSmVnWHVKcFhvR0V3RFJ4WVp5N2tIMC1sM2REbkJvUkdwdjRPc3A0TE1qN0pMSFc5ZS10RnRNNTNueHdaMFh1eS1EN0hBVUpwYXd3WFNqS1FzbDkwQjBmcHBnQXdxeXZZV3RWTGNpdTNHZkNQOFAtR0NuZVlKSzluNHlhYnVYRDFPZHVERUFuSHRNVXNDaTBfcVRidXBoZUg3bUE4amxOMUctOEdkUXRkMFBudXpZYzdxN291ZmxkOHVZWlNlMDNOdmNHWHZxeDVOUUpiY0FhRDRwRXlhMWZB?oc=5",
+     "utdrag": "The startup heavy construction equipment manufacturer did not provide sufficient evidence of damages for a similar product in a similar market. In an antitrust dispute brought by startup heavy construction equipment manufacturer International Construc ... The startup heavy construction equipment manufacturer did not provide sufficient evidence of damages for a similar product in a similar market. In an antitrust dispute brought by startup heavy construction equipment manufacturer International Construction Products, LLC (ICP) against rival manufacturer Caterpillar Inc., the U.S."
+    },
+    {
+     "tid": "2026-11-20T22:39:23Z",
+     "titel": "Caterpillar Inc (CAT) Shares Fall 5.0% -- GF Value Says Still Ov",
+     "kalla": "GuruFocus",
+     "lank": "https://www.gurufocus.com/news/9213361/caterpillar-inc-cat-shares-fall-50-gf-value-says-still-overvalued",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM01lNEJXb0JWNnByVTlaNkc5QzhMUEtXejZIaWNZM200dHZQRU5ZTXFvcG5Vb05GN1JJN2pyYUJrSGVBYjhfeWZNVFhsc3JCVHh1bjl0MS1QYTRFR2RXdkhOT1FfcTNtVVE2VEhqRG5pUE82dUpnaGY1LUpWTkdzY3JXd2VhVDB4WTlJSUV6NU0zTnNxellNNWFUQjN5MXhsZU8zamg4QQ?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-20T20:52:19Z",
+     "titel": "Caterpillar Inc. (CAT) stock price, news, quote and history",
+     "kalla": "Yahoo Finance UK",
+     "lank": "https://uk.finance.yahoo.com/quote/CAT/latest-news/",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKMl9wREJUckNrNzFocWdsRDZFOVN1dEZZSFJYVkFIX2tPRnJBOFVxR3U1SmZqSnFpTVpWNnEyU3NNSUhoOEZkYkgwcjU3MTRZcFM2LUMxY0U2R0FHd2RzRg?oc=5",
+     "utdrag": "Find the latest Caterpillar Inc. (CAT) stock quote, history, news and other vital information to help you with your stock trading and investing."
+    },
+    {
+     "tid": "2026-11-20T19:15:44Z",
+     "titel": "Caterpillar Inc Stock (CAT) Moved Down by 3.98% on Nov 20: Facts Behind the Movement",
+     "kalla": "TradingKey",
+     "lank": "https://www.tradingkey.com/news/market-movers/262315924-market-movers-cat-20261120",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQW41UkRQQ1VSNnl0bk9DTy0taE15dHhFM091YUtCaVpOVFFYTlZrVnVtUUpvOGt6VTB6STRySXRxZkZhNFN5SFFUQ3BzVVp3RXp0c2RkdV9PYXBhWHVZLU0wX01NQm8xWjdmMUl0RjFvVjFzc1gzSjJpZC13MzJ0N21ydzJhYWtteXc?oc=5",
+     "utdrag": "Caterpillar faced downward pressure due to macroeconomic crosscurrents and slowing industrial demand.Dealers are lowering inventory levels, creating near-term volume headwinds for construction industries.Technical indicators show sell signals with an RSI of 24.851. Caterpillar Inc (CAT) moved down by 3.98%. The Industrial Goods sector is down by 2.79%. The company underperformed the industry. Top 3 stocks by turnover in the sector: Bloom Energy Corp (BE) down 13.89%; General Electric Co (GE) down 1.90%; Caterpillar Inc (CAT) down 4.02%."
+    },
+    {
+     "tid": "2026-11-20T19:08:53Z",
+     "titel": "Caterpillar (CAT) Completes Ultra Low Methane Field Trial For Remote Gas Compression",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/energy/articles/caterpillar-cat-completes-ultra-low-190853765.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Caterpillar (NYSE:CAT) reported a successful field trial of a large horsepower gas compression system with ultra low methane emissions. The trial, conducted with Phoenix Service Partners, targeted remote natural gas compression operations without relying on grid connectivity. Field results indicated materially lower methane and other harmful emissions compared with conventional gas compression setups used in similar locations. Caterpillar's ultra low methane gas compression breakthrough is important, but it is only one part of the broader story for this business. Take a look at 1 warning sign we have identified for Caterpillar."
+    },
+    {
+     "tid": "2026-11-20T16:05:50Z",
+     "titel": "Caterpillar Sinks 11% in a Week to a New 52-Week Low. Is the Selling Overdone?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.tikr.com/blog/caterpillar-sinks-11-in-a-week-to-a-new-52-week-low-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261120-w3r4pmj4&.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Wall Street’s earnings estimates barely flinched. @agphotographer from Getty Images via Canva, @gece33 from Getty Images Signature via Canva Caterpillar (CAT) is down 11% in the past week. It hit a new 52-week low, about half its June high. Vertiv (VRT) and Bloom Energy (BE) went down with it as investors kept selling anything tied to the AI data-center build-out. Caterpillar had no bad news of its own. Management spent the week talking up 2027 and its push into small construction equipment. Deere & Company (DE) will give a fresh read on that market when it reports next week. The selling picked up Monday."
+    },
+    {
+     "tid": "2026-11-20T15:45:59Z",
+     "titel": "Caterpillar’s 35% 3-Month Downturn: This Sell-Side Firm Predicts 90% Returns From Here With Another Close Behind",
+     "kalla": "Yahoo Finance",
+     "lank": "https://247wallst.com/investing/2026/11/20/caterpillars-35-3-month-downturn-this-sell-side-firm-predicts-90-returns-from-here-with-another-close-behind/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Caterpillar posted record backlog and still lost a third of its value in three months while Deere and CNH held firm. Two firms say the damage is overdone, but one number in January could prove them wrong. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. Caterpillar (NYSE:CAT | CAT Price Prediction) currently trades at $537.07, while Wall Street’s average price target sits at $807.26. If analysts are right, that gap implies roughly 50.3% upside. Caterpillar builds the excavators and mining trucks that move earth, plus the turbines and reciprocating engines that power data centers."
+    },
+    {
+     "tid": "2026-11-20T10:26:17Z",
+     "titel": "Caterpillar Has Lost 44% Since June Despite “Strong Order Rates and a Record Backlog”",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.tikr.com/blog/caterpillar-has-lost-44-since-june-despite-strong-order-rates-and-a-record-backlog?ref=yahoofinance&tlnk=yf-261120-qgc2qgx3&.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Caterpillar posted record sales and a $78.1 billion backlog, yet its stock has lost about 44% since June. ewg3D from Getty Images Signature, HAYKIRDI from Getty Images Signature via Canva Caterpillar’s order book has never been bigger. Its stock has rarely taken a harder beating. Caterpillar (CAT) has lost about 44% of its market value since its June 30 peak, a Financial Times analysis found. The slide deepened on November 16 as investors dumped stocks tied to AI data center construction. That makes the contrast with GE Vernova (GEV) hard to ignore. It raised its 2026 guidance on October 28 after orders jumped 96% organically. A day later, Caterpillar simply held its outlook."
+    },
+    {
+     "tid": "2026-11-19T22:39:32Z",
+     "titel": "Caterpillar Inc (CAT) Shares Fall 3.8% -- What GF Score of 94 Te",
+     "kalla": "GuruFocus",
+     "lank": "https://www.gurufocus.com/news/9211088/caterpillar-inc-cat-shares-fall-38-what-gf-score-of-94-tells-investors",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzV1aFJXSWxDSWoyLUYxck5XenZvWEJyVm5WbHo2Tmd3YkVKd1pTOVN3RWVtbTJlaHF5WnhKT1Q0WEk0cUw2ZzNTMDR4NG15enI5VFN2RG1FU2RjQlZmU01BTTFtaG1YREFMa2ZmbVpiMHZJOXdjWnFXTG5kQzZBaFVmRlFaWlVZMXdRa19ORUJYT3djSEY1dWltU2tSVVlSYzNZSkh5Rm5iTzdfX3c?oc=5",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T18:26:59Z",
+     "titel": "Caterpillar CEO Joe Creed joins Walmart board of directors",
+     "kalla": "Yahoo Finance",
+     "lank": "https://www.pjstar.com/story/business/2026/11/19/caterpillar-ceo-joe-creed-joins-walmart-board-of-directors/92859710007/?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": ""
+    },
+    {
+     "tid": "2026-11-19T18:14:00Z",
+     "titel": "Caterpillar (CAT) Isn’t Just a Bulldozer Stock Anymore, and Ken Fisher Knows Why",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-isn-t-just-181400227.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Caterpillar Inc. (NYSE:CAT) landed 8th in our new ranking of the Top 10 Stocks to Buy According to Billionaire Ken Fisher. Ken Fisher has spent more than four decades betting that big, globally dominant companies keep winning, and his latest filing shows he still believes it. His market call heading into the midterms was unambiguous. In an October interview, he said midterm years kick off what he considers the most consistently positive nine-month stretch in U.S. stock market history, because political gridlock blocks controversial legislation. The filing backs that optimism."
+    },
+    {
+     "tid": "2026-11-19T17:15:25Z",
+     "titel": "Caterpillar Inc Stock (CAT) Moved Down by 3.78% on Nov 19: Key Drivers Unveiled",
+     "kalla": "TradingKey",
+     "lank": "https://www.tradingkey.com/news/market-movers/262313615-market-movers-cat-20261119",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc2xYTFJOZTF3OEgwMnE4aDRua0FBRjN6R2JKTC1YMk1VMUp4R013WjBMX0dNdXNqN3o2NkpYekliMkpwbm42S3hQNlBaY0oxZGxaLVRHZjFPRlN4N2lBVlpoeWlkSFZ4cEgyTHVxZVMtTFE4aG9CNDRwbkNJQjZ5MnAxeUl0b19YNnc?oc=5",
+     "utdrag": "Caterpillar faced downward stock pressure from macroeconomic headwinds and cyclical profit-taking.Sluggish global manufacturing and high borrowing costs delayed equipment purchase decisions.Technical indicators show an RSI sell condition and an oversold Williams %R. Caterpillar Inc (CAT) moved down by 3.78%. The Industrial Goods sector is down by 2.05%. The company underperformed the industry. Top 3 stocks by turnover in the sector: Bloom Energy Corp (BE) down 1.46%; Caterpillar Inc (CAT) down 3.75%; Vertiv Holdings Co (VRT) down 4.21%."
+    },
+    {
+     "tid": "2026-11-19T15:14:00Z",
+     "titel": "Caterpillar vs. Deere: Which Heavy Equipment Stock Should You Bet On?",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-vs-deere-heavy-equipment-151400132.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "DE edges out CAT as the better heavy equipment stock, backed by improving earnings prospects, upward 2027 estimate revisions and strong share gains. Caterpillar Inc. CAT and Deere & Company DE are two leading players in the heavy machinery industry. Caterpillar, recognized for its yellow equipment, serves a broad range of end markets including construction, mining, infrastructure, and oil & gas. Deere, best known for its green tractors, dominates the agricultural, forestry and turf equipment markets while expanding its precision agriculture capabilities and construction machinery."
+    },
+    {
+     "tid": "2026-11-19T15:12:00Z",
+     "titel": "Soil Stabilization Materials - Global Strategic Business Report 2026: Capitalize on $8.4B Revenue Surge to 2032 - AB Volvo, Caterpillar, WIRTGEN GROUP, and Carmeuse Group Battle for Share",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/articles/soil-stabilization-materials-global-strategic-151200687.html?.tsrc=rss",
+     "fran": "yahoo",
+     "utdrag": "Dublin, Nov. 19, 2026 (GLOBE NEWSWIRE) -- \"Soil Stabilization Materials - Global Strategic Business Report 2026\" has been added to ResearchAndMarkets.com's offering. The global soil stabilization materials market was valued at US$17.4 billion in 2025 and is projected to reach US$25.8 billion by 2032, expanding at a compound annual growth rate of 5.8%. Market growth is supported by rising infrastructure investment, urbanization, road development and demand for durable construction solutions capable of improving soil performance across challenging environments."
+    },
+    {
+     "tid": "2026-11-19T15:00:00Z",
+     "titel": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Caterpillar Inc. - CAT",
+     "kalla": "PR Newswire",
+     "lank": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-caterpillar-inc---cat-302945286.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcDhpUFB6VW0xSm1tTjItLXZqbEtRd3gyaWtMTHk3QW9EbG5hRHdKdHo1NDdUNkcwekNPSEFyQkdZMk9DZ1hXa2hMczNqclpWd29aUkgxNzdHNkJMVDBoc0VhVV9VSEJncTh3NnBtYUNURU1ZWGlZdWdEcEdyU1JsVk9kRlRxOW4tR1Voa1VndVI4MEEyZmdoQUZURXNLWHpVS1FvUDc5M2k3NC1mTDZPRzFCLXZTZ3c1UkFRU2FIRnFET0djX1REVlNrQjA3Q1JBSEdLd2VxRS1GTXN6WFJaM0V1M2ttV3BlYWs5RElR?oc=5",
+     "utdrag": "NEW YORK, Nov. 19, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Caterpillar Inc. (\"Caterpillar\" or the \"Company\") (NYSE: CAT). Such investors are advised to contact Danielle Peyton at [email protected] or 646-581-9980, ext. 7980. The investigation concerns whether Caterpillar and certain of its officers and/or directors have engaged in securities fraud or other unlawful business practices. On October 29, 2026, Caterpillar reported its financial results for the third quarter ended September 30, 2026."
+    },
+    {
+     "tid": "2026-11-18T20:27:00Z",
+     "titel": "Top Stock Reports for Merck, Caterpillar & Union Pacific",
+     "kalla": "Yahoo Finance",
+     "lank": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-merck-caterpillar-202700360.html",
+     "fran": "google-en",
+     "glank": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY21DbEVHbzhMM2M1azRPVlh6WGtnTE5rYWJJYnRRLWp4U3g0NDZQTDBwUUpBMnlKeDhOd3lEY3BNMVQwWnB5ODVHYUxMRjJtcHBackk2VzdrdzVaalBwWlJvbzd3MWNTcXdyby11dURhN1FTZ2VJT21XYlNKcEVDX3FZa19hTXdvX09vdnc4VUk4MU13UUktRmw4aHZtM1JjdUE?oc=5",
+     "utdrag": "Merck, Caterpillar and Union Pacific benefit from strong demand, strategic growth drivers and solid cash generation, but face key competitive and execution risks. Merck's (MRK) Growth Outlook Stable Despite Keytruda Patent Cliff Caterpillar (CAT) Gains From Strong Demand Amid Cost Pressures Union Pacific Gains From Intermodal Growth Amid Operational Risks IDEXX (IDXX) Banks on CAG Diagnostics Strength, FX Woes Stay The Zacks analyst is impressed with IDEXX's volume-driven CAG Diagnostics growth, supported by strong execution, innovation and global net price realization. Adverse currency effects may hurt growth."
+    }
+   ]
   }
  },
- "googleKvar": 67
+ "googleKvar": 0
 }
