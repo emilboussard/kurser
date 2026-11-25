@@ -11,6 +11,8 @@ Googles samtyckessida på telefonen). Den riktiga adressen står i lank och Goog
 länkar återanvänds från förra nyheter.json; högst MAX_AVKODA nya per körning, nyast först.
 Varje nyhet får fältet utdrag: artikelns första meningar (högst UTDRAG_TECKEN tecken), så att den dagliga körningen
 kan säga vad nyheten handlar om utan att öppna artikeln. "" = sidan gick inte att läsa (betalvägg, blockering).
+Tillfälliga fel (429 = för många frågor, 5xx, ingen kontakt) provas igen efter 10 och 30 s, och källor som ändå
+misslyckades provas en gång till i ett andra varv efter 60 s (högst 4 minuters väntan på omförsök per körning).
 Den dagliga aktiebevakningen läser filen ur sin klon av repot.
 """
 import base64
@@ -19,7 +21,9 @@ import email.utils
 import html
 import json
 import re
+import socket
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -41,6 +45,48 @@ def hamta(url, timeout=15):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "sv-SE,sv;q=0.9,en;q=0.8"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
+
+
+# Tillfälliga fel (sedan 25 nov): Google svarar ibland 429 (för många frågor) från GitHubs datorer, och MFN/Yahoo
+# kan svara 5xx eller inte alls. Då väntar vi och försöker igen i stället för att bolaget står utan nyheter.
+TILLFALLIGA_KODER = {429, 500, 502, 503, 504}
+VANTA = (10, 30)        # sekunder före försök 2 och 3
+MAX_VANTA_TOTALT = 240  # högst 4 minuters väntan per körning (Nyheter har 15 minuters tidsgräns)
+_vantat = [0.0]
+
+
+def tillfalligt_fel(e):
+    kod = getattr(e, "code", None)
+    if kod is not None:
+        return kod in TILLFALLIGA_KODER
+    return isinstance(e, (urllib.error.URLError, socket.timeout, TimeoutError, ConnectionError))
+
+
+def vanta_pa(e, sekunder):
+    """Väntar före ett nytt försök. Sant om det fanns tid kvar i budgeten."""
+    try:
+        ra = int((getattr(e, "headers", None) or {}).get("Retry-After") or 0)
+    except (TypeError, ValueError):
+        ra = 0
+    s = min(max(sekunder, ra), 60)
+    if _vantat[0] + s > MAX_VANTA_TOTALT:
+        return False
+    _vantat[0] += s
+    time.sleep(s)
+    return True
+
+
+def hamta_igen(url, timeout=15):
+    """Som hamta, men försöker upp till två gånger till vid tillfälliga fel."""
+    for i in range(len(VANTA) + 1):
+        try:
+            return hamta(url, timeout)
+        except Exception as e:  # noqa: BLE001
+            if i == len(VANTA) or not tillfalligt_fel(e):
+                raise
+            print("  %s, väntar %d s och försöker igen: %s" % (str(e)[:60], VANTA[i], url[:90]))
+            if not vanta_pa(e, VANTA[i]):
+                raise
 
 
 def iso(dt):
@@ -89,12 +135,12 @@ def tolka_tid(s):
 
 def hamta_mfn(slug):
     """Pressmeddelanden från MFN:s JSON-flöde. Bolagets id (entity_id) står på bolagssidan mfn.se/all/a/<slug>."""
-    sida = hamta(MFN.format(slug=slug)).decode("utf-8", "replace")
+    sida = hamta_igen(MFN.format(slug=slug)).decode("utf-8", "replace")
     m = re.search(r"subscribe-tray-v2-([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", sida) or \
         re.search(r'"entity_id"\s*:\s*"([0-9a-f-]{36})"', sida)
     if not m:
         raise ValueError("hittade inget entity_id på mfn.se/all/a/%s" % slug)
-    flode = json.loads(hamta("https://feed.mfn.se/v1/feed/%s.json?limit=30" % m.group(1)))
+    flode = json.loads(hamta_igen("https://feed.mfn.se/v1/feed/%s.json?limit=30" % m.group(1)))
     per_grupp = {}
     for it in flode.get("items", []):
         c = it.get("content") or {}
@@ -361,33 +407,57 @@ def handlar_om(titel, ord_):
     return any(o.lower() in t for o in ord_)
 
 
+def prova_kalla(r, namn, hamtare, grans):
+    """Hämtar en källa för ett bolag och sparar posterna, eller felet (tillfälliga fel provas igen i andra varvet)."""
+    try:
+        p = [x for x in hamtare() if x["tid"] >= grans and (namn == "mfn" or handlar_om(x["titel"], r["ord"]))]
+    except Exception as e:  # noqa: BLE001
+        r["fel"][namn] = str(e)[:200]
+        if tillfalligt_fel(e):
+            r["tillfalligt"].add(namn)
+        else:
+            r["tillfalligt"].discard(namn)
+        return
+    r["per_kalla"][namn] = p
+    r["fel"].pop(namn, None)
+    r["tillfalligt"].discard(namn)
+
+
 def main():
     bolag = json.load(open("nyhetsbolag.json"))
     bolag.pop("_info", None)
     nu = datetime.datetime.now(datetime.timezone.utc)
     grans = nu - datetime.timedelta(days=DAGAR)
     ut = {"hamtad": iso(nu), "dagar": DAGAR, "kallor": "MFN, Yahoo Finance RSS, Google News RSS", "bolag": {}}
+    res = {}
     for bid, cfg in bolag.items():
-        poster, fel, antal = [], {}, {}
         kallor = []
         if cfg.get("mfn"):
             kallor.append(("mfn", lambda s=cfg["mfn"]: hamta_mfn(s)))
         if cfg.get("yahoo"):
             url = YAHOO.format(s=urllib.parse.quote(cfg["yahoo"]))
-            kallor.append(("yahoo", lambda u=url: las_rss(hamta(u), "yahoo")))
+            kallor.append(("yahoo", lambda u=url: las_rss(hamta_igen(u), "yahoo")))
         for sprak, fras in cfg.get("sok", []):
             q = urllib.parse.quote("%s when:%dd" % (fras, DAGAR))
             url = GOOGLE[sprak].format(q=q)
-            kallor.append(("google-" + sprak, lambda u=url, f="google-" + sprak: las_rss(hamta(u), f)))
-        ord_ = cfg.get("ord") or [cfg.get("namn", bid)]
+            kallor.append(("google-" + sprak, lambda u=url, f="google-" + sprak: las_rss(hamta_igen(u), f)))
+        r = res[bid] = {"cfg": cfg, "ord": cfg.get("ord") or [cfg.get("namn", bid)],
+                        "kallor": kallor, "per_kalla": {}, "fel": {}, "tillfalligt": set()}
         for namn, hamtare in kallor:
-            try:
-                p = [x for x in hamtare() if x["tid"] >= grans and (namn == "mfn" or handlar_om(x["titel"], ord_))]
-                antal[namn] = antal.get(namn, 0) + len(p)
-                poster += p
-            except Exception as e:  # noqa: BLE001
-                fel[namn] = str(e)[:200]
-            time.sleep(0.5)
+            prova_kalla(r, namn, hamtare, grans)
+            time.sleep(1.0 if namn.startswith("google") else 0.5)
+    # Andra varvet: källor som fick tillfälliga fel (t.ex. 429 från Google) provas en gång till efter en paus.
+    kvar = [(r, namn, h) for r in res.values() for namn, h in r["kallor"] if namn in r["tillfalligt"]]
+    if kvar:
+        print("Andra varvet: %d källor provas igen om 60 s" % len(kvar))
+        time.sleep(60)
+        for r, namn, h in kvar:
+            prova_kalla(r, namn, h, grans)
+            time.sleep(2.0)
+    for bid, r in res.items():
+        cfg, fel = r["cfg"], r["fel"]
+        antal = {namn: len(r["per_kalla"][namn]) for namn, _ in r["kallor"] if namn in r["per_kalla"]}
+        poster = [x for namn, _ in r["kallor"] for x in r["per_kalla"].get(namn, [])]
         # Samma nyhet från flera källor: behåll den första (MFN, sedan Yahoo, sedan Google).
         sett, unika = set(), []
         for x in poster:
