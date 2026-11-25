@@ -36,5 +36,6 @@
  "visa": {"namn": "Visa", "sok": [["en", "\"Visa Inc\""]], "yahoo": "V", "mfn": null, "ord": ["Visa"]},
  "sinch": {"namn": "Sinch", "sok": [["sv", "Sinch"], ["en", "\"Sinch AB\""]], "yahoo": "SINCH.ST", "mfn": null, "ord": ["Sinch"]},
  "apple": {"namn": "Apple", "sok": [["en", "\"Apple Inc\""]], "yahoo": "AAPL", "mfn": null, "ord": ["Apple"]},
- "caterpillar": {"namn": "Caterpillar", "sok": [["en", "\"Caterpillar Inc\""]], "yahoo": "CAT", "mfn": null, "ord": ["Caterpillar"]}
+ "caterpillar": {"namn": "Caterpillar", "sok": [["en", "\"Caterpillar Inc\""]], "yahoo": "CAT", "mfn": null, "ord": ["Caterpillar"]},
+ "bank-of-america": {"namn": "Bank of America", "sok": [["en", "\"Bank of America\""]], "yahoo": "BAC", "mfn": null, "ord": ["Bank of America", "BofA"]}
 }
